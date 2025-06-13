@@ -98,6 +98,60 @@ The benchmark system consists of:
 
 The benchmark loads puzzles from the `solutions/` directory and tests each model's ability to solve bracket-based word substitution puzzles. Each puzzle contains nested brackets with clues that need to be solved from the inside out to reveal the final answer.
 
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    Bracket City Benchmark: Visual Guide                    │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+                    ┌─────────────────────────┐
+                    │    Puzzle Loading       │
+                    │                         │
+                    │ • Load from solutions/  │
+                    │ • Parse bracket clues   │
+                    │ • Initialize game state │
+                    └──────────┬──────────────┘
+                               │
+                               ▼
+┌─────────────────┐  ┌─────────────────────────┐  ┌─────────────────────────┐
+│   The Tools     │  │      The Prompt         │  │    The Core Loop        │
+│                 │  │                         │  │                         │
+│ makeGuess       │  │ • System instructions   │  │ 1. Parse puzzle state   │
+│ ┌─────────────┐ │  │ • Tool definitions      │  │ 2. Find innermost clues │
+│ │ clue: str   │ │  │ • Scoring rules         │  │ 3. Call model with tools│
+│ │ guess: str  │ │  │ • Workflow guidance     │  │ 4. Execute tool actions │
+│ └─────────────┘ │  │                         │  │ 5. Update game state    │
+│                 │  │ Context Management:     │  │ 6. Check completion     │
+│ getHint         │  │ • Current puzzle state  │  │ 7. Calculate score      │
+│ ┌─────────────┐ │  │ • Active clues list     │  │                         │
+│ │ clue: str   │ │  │ • Tool call history     │  └─────────┬───────────────┘
+│ └─────────────┘ │  │                         │            │
+│                 │  └─────────────────────────┘            │
+│ revealClue      │                                         │
+│ ┌─────────────┐ │                                         │
+│ │ clue: str   │ │                                         ▼
+│ └─────────────┘ │                               ┌─────────────────────────┐
+│                 │                               │   Result Processing     │
+└─────────────────┘                               │                         │
+                                                  │ • Success rate          │
+                                                  │ • Completion percentage │
+                                                  │ • Score calculation     │
+                                                  │ • Time to solve         │
+                                                  │ • Token usage stats     │
+                                                  │ • Export to JSON/CSV    │
+                                                  └─────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────────────────┐
+│                          Scoring System                                    │
+│                                                                            │
+│ • Start: 100 points                                                        │
+│ • Each incorrect makeGuess: -2 pts                                         │
+│ • Each getHint: -5 pts                                                     │
+│ • Each revealClue: -15 pts                                                 │
+│ • Perfect score (100) + no help = "Puppet Master" rank                     │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
 ## Models Tested
 
 The benchmark currently supports models from multiple providers including:
