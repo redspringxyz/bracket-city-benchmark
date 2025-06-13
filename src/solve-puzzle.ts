@@ -6,17 +6,7 @@ import { z } from "zod";
 import { google } from "@ai-sdk/google";
 import { createOpenRouter } from "@openrouter/ai-sdk-provider";
 import type { GoogleGenerativeAIProviderOptions } from "@ai-sdk/google/internal";
-import {
-  createAnthropic,
-  type AnthropicProviderOptions,
-} from "@ai-sdk/anthropic";
-
-const anthropic = createAnthropic({
-  apiKey: process.env.ANTHROPIC_API_KEY,
-  headers: {
-    "anthropic-beta": "interleaved-thinking-2025-05-14",
-  },
-});
+import { anthropic, type AnthropicProviderOptions } from "@ai-sdk/anthropic";
 
 const openrouter = createOpenRouter({
   apiKey: process.env.OPENROUTER_API_KEY,
