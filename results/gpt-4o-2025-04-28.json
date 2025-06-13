@@ -1,0 +1,220 @@
+{
+  "timestamp": "2025-05-17T17:00:56.344Z",
+  "model": {
+    "name": "gpt-4o",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "April 28, 1789:",
+    "puzzleDate": "2025-04-28",
+    "completionURL": "https://www.youtube.com/watch?v=aFalJyGNGmE",
+    "solutions": {
+      "tree scent and silhouette featured in many cars": "pine",
+      "the first one is the deepest, it is said": "cut",
+      "hunter motivated by a wanted poster": "Bounty",
+      "the most common one is \"123456\"": "password",
+      "humorous name for an enormous dog": "tiny",
+      "\"ABC, it's as easy as ___\"": "123",
+      "\"love __ first sight\"": "At",
+      "\"I'll take __\" you say supine on the waterbed in the showroom": "it",
+      "at 5,400 feet, Siberia's Baikal is the ___ lake in the world": "deepest",
+      "Attila the ___": "hun",
+      "shape you will approximate if you trace a Dorito": "triangle",
+      "not cutting in line is a social ___": "norm",
+      "kind of triangle that can cause acute heartache": "love",
+      "house that you might need a rope ladder and a password to access": "tree"
+    },
+    "initialPuzzle": "mu[humorous name for an e[not [the first one is the [at 5,400 feet, Siberia's Baikal is the ___ lake in the world], it is said]ting in line is a social ___]ous dog] on the HMS [[[\"[kind of [shape you will approximate if you trace a Dor[\"I'll take __\" you say su[[house that you might need a rope ladder and a [the most common one is \"[\"ABC, it's as easy as ___\"]456\"] to access] scent and silhouette featured in many cars] on the waterbed in the showroom]o] that can cause acute heartache] __ first sight\"]tila the ___]ter motivated by a wanted poster]",
+    "puzzleSolution": "mutiny on the HMS Bounty"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 26,
+      "correctGuesses": 4,
+      "totalClues": 14,
+      "hints": 2,
+      "reveals": 1,
+      "stepsTaken": 50,
+      "completionPercentage": 35.714285714285715
+    },
+    "usage": {
+      "promptTokens": 358212,
+      "completionTokens": 5288,
+      "totalTokens": 363500
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 10,
+      "megaPeekPenalty": 15,
+      "wrongGuessPenalty": 44,
+      "totalPenalty": 69,
+      "finalScore": 0,
+      "rank": "Council Member",
+      "nextRankName": "Chief of Police",
+      "pointsToNextRank": 20
+    },
+    "modelGuesses": [
+      {
+        "expression": "at 5,400 feet, Siberia's Baikal is the ___ lake in the world",
+        "guess": "deepest",
+        "success": true,
+        "timestamp": 1747501155483
+      },
+      {
+        "expression": "ABC, it's as easy as ___",
+        "guess": "123",
+        "success": true,
+        "timestamp": 1747501158625
+      },
+      {
+        "expression": "the most common one is \"123456\"",
+        "guess": "password",
+        "success": true,
+        "timestamp": 1747501160423
+      },
+      {
+        "expression": "house that you might need a rope ladder and a password to access",
+        "guess": "treehouse",
+        "success": false,
+        "timestamp": 1747501162348
+      },
+      {
+        "expression": "house that you might need a rope ladder and a password to access",
+        "guess": "treehouse",
+        "success": false,
+        "timestamp": 1747501166031
+      },
+      {
+        "expression": "tree scent and silhouette featured in many cars",
+        "guess": "pine",
+        "success": true,
+        "timestamp": 1747501169554
+      },
+      {
+        "expression": "I'll take __ you say supine on the waterbed in the showroom",
+        "guess": "a nap",
+        "success": false,
+        "timestamp": 1747501170961
+      },
+      {
+        "expression": "I'll take __ you say supine on the waterbed in the showroom",
+        "guess": "a nap",
+        "success": false,
+        "timestamp": 1747501176065
+      },
+      {
+        "expression": "shape you will approximate if you trace a DorI'll take __ you say supine on the waterbed in the showroomo",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747501180106
+      },
+      {
+        "expression": "shape you will approximate if you trace a DorI'll take __ you say supine on the waterbed in the showroomo",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747501184395
+      },
+      {
+        "expression": "shape you will approximate if you trace a DorI'll take __ you say supine on the waterbed in the showroomo",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747501188731
+      },
+      {
+        "expression": "shape you will approximate if you trace a DorI'll take __ you say supine on the waterbed in the showroomo",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747501193232
+      },
+      {
+        "expression": "shape you will approximate if you trace a DorI'll take __ you say supine on the waterbed in the showroomo",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747501197746
+      },
+      {
+        "expression": "shape you will approximate if you trace a DorI'll take __ you say supine on the waterbed in the showroomo",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747501202004
+      },
+      {
+        "expression": "shape you will approximate if you trace a DorI'll take __ you say supine on the waterbed in the showroomo",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747501206847
+      },
+      {
+        "expression": "shape you will approximate if you trace a DorI'll take __ you say supine on the waterbed in the showroomo",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747501211766
+      },
+      {
+        "expression": "shape you will approximate if you trace a DorI'll take __ you say supine on the waterbed in the showroomo",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747501216091
+      },
+      {
+        "expression": "shape you will approximate if you trace a DorI'll take __ you say supine on the waterbed in the showroomo",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747501219312
+      },
+      {
+        "expression": "shape you will approximate if you trace a DorI'll take __ you say supine on the waterbed in the showroomo",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747501224530
+      },
+      {
+        "expression": "shape you will approximate if you trace a DorI'll take __ you say supine on the waterbed in the showroomo",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747501229387
+      },
+      {
+        "expression": "shape you will approximate if you trace a DorI'll take __ you say supine on the waterbed in the showroomo",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747501233495
+      },
+      {
+        "expression": "shape you will approximate if you trace a DorI'll take __ you say supine on the waterbed in the showroomo",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747501238488
+      },
+      {
+        "expression": "shape you will approximate if you trace a DorI'll take __ you say supine on the waterbed in the showroomo",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747501242890
+      },
+      {
+        "expression": "shape you will approximate if you trace a DorI'll take __ you say supine on the waterbed in the showroomo",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747501247676
+      },
+      {
+        "expression": "shape you will approximate if you trace a DorI'll take __ you say supine on the waterbed in the showroomo",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747501250839
+      },
+      {
+        "expression": "shape you will approximate if you trace a DorI'll take __ you say supine on the waterbed in the showroomo",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747501256342
+      }
+    ],
+    "finalText": "It seems I made an error in selecting the innermost clue. Let's try resolving the clue: [kind of [shape you will approximate if you trace a Dor[\"I'll take __\" you say supine on the waterbed in the showroom]o] that can cause acute heartache]. I will make a guess for this clue.",
+    "timeToSolve": 105.008
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "completionText": "April 16, 1917:",
+  "puzzleDate": "2025-04-16",
+  "completionURL": "https://www.theatlantic.com/magazine/archive/1954/10/when-lenin-returned/303867/",
+  "solutions": {
+    "meaning of a gesture in which a person extends one arm forward, presenting an open palm perpendicular to the ground and fingers upright": "stop",
+    "Kennedy ➡️ \"___ bin ein Berliner\"": "ich",
+    "\"I'm the king of the ___!\" you shout moments before falling off the prow of your pedal boat": "world",
+    "twice-imposed punishment for Napoleon": "exile",
+    "the most popular vehicle in the world, briefly": "bike",
+    "a show___ might do an elaborate touchdown dance": "boat",
+    "fancy word for riding a bike": "cycling",
+    "\"nope unintended\", e.g.": "pun",
+    "stop pursuing a subject in conversation": "drop",
+    "the B in FBI": "bureau",
+    "enticing buffet policy: \"all you ___ eat\"": "CAN",
+    "\"a drop __ the bucket\"": "in",
+    "in 🇺🇸 it's a trash CAN, but a recycling ___": "bin",
+    "the formal form of \"ow\"": "ouch",
+    "unit of bureaucracy that you fill out": "form"
+  },
+  "initialPuzzle": "Len[\"a [[meaning of a gesture in which a person extends one arm forward, presenting an open palm perpendicular to the ground and fingers upright] pursuing a subject in conversation] __ the bucket\"] returns from [twice-imposed [\"nope unintended\", e.g.]ishment for Napoleon] in Zur[Kennedy ➡️ \"___ [in 🇺🇸 it's a trash [enticing buffet policy: \"all you ___ eat\"], but a re[fancy word for riding a [the most popular vehicle in the [\"I'm the king of the ___!\" you shout moments before falling off the prow of your pedal [a show___ might do an elaborate t[the formal [unit of [the B in FBI]cracy that you fill out] of \"ow\"]down dance]], briefly]] ___] ein Berliner\"]",
+  "puzzleSolution": "Lenin returns from exile in Zurich"
+}

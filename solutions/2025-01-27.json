@@ -1,0 +1,22 @@
+{
+  "completionText": "January 27, 1973:",
+  "puzzleDate": "2025-01-27",
+  "completionURL": "https://www.youtube.com/watch?v=ftdZ363R9kQ",
+  "solutions": {
+    "hacky ___": "sack",
+    "knock on wood or not walk under a ladder, e.g.": "Superstition",
+    "track that confers an advantage": "inside",
+    "tap or belly, e.g.": "dance",
+    "Holly___": "wood",
+    "kids toys that spin": "tops",
+    "pie and flow, e.g.": "charts",
+    "something you might do to the sack or the road": "hit",
+    "when repeated, a classic joke format": "knock",
+    "one might be inside or dirty": "joke",
+    "bit of a dance": "step",
+    "word after step or corporate": "ladder",
+    "one-hit ___": "Wonder"
+  },
+  "initialPuzzle": "Stevie [one-[something you might do to the [hacky ___] or the road] ___] [kids toys that spin] the [pie and flow, e.g.] with \"[[when repeated, a classic [one might be [track that confers an advantage] or dirty] format] on [Holly___] or not walk under a [word after [bit of a [tap or belly, e.g.]] or corporate], e.g.]\"",
+  "puzzleSolution": "Stevie Wonder tops the charts with \"Superstition\""
+}

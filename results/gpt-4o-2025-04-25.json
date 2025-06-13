@@ -1,0 +1,318 @@
+{
+  "timestamp": "2025-05-17T16:53:00.070Z",
+  "model": {
+    "name": "gpt-4o",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "April 25, 2000:",
+    "puzzleDate": "2025-04-25",
+    "completionURL": "https://www.youtube.com/watch?v=-BNwiqDGz5g",
+    "solutions": {
+      "\"___ off the scent\"": "throw",
+      "🍫 size even smaller than \"fun\"": "bite",
+      "cold ___ (chilly pool at a spa)": "plunge",
+      "something followed by a bloodhound": "scent",
+      "something you reflect on in the bathroom": "mirror",
+      "something you might not choose to die on": "hill",
+      "house with zany mirrors": "fun",
+      "zebra-striped official at a football game, for short": "ref",
+      "night often prescribed by a couple's therapist": "date",
+      "government overthrow that sounds like a dove": "coup",
+      "plunged elegantly into the water": "dove",
+      "game played with cues": "pool",
+      "bite for your 👂 not for your 👄": "sound",
+      "lively and boisterous play session": "romp",
+      "cards that were mostly replaced by teleprompters": "cue",
+      "when repeated, sound associated with 🚂": "choo"
+    },
+    "initialPuzzle": "the perfect [night often prescribed by a [government over[\"___ off the [something followed by a bloodhound]\"] that sounds like a [[cold ___ (c[something you might not [when repeated, [[🍫 size even smaller than \"[house with zany [something you [zebra-striped official at a football game, for short]lect on in the bathroom]s]\"] for your 👂 not for your 👄] associated with 🚂]se to die on]y [game played with [cards that were mostly replaced by telep[lively and boisterous play session]ters]s] at a spa)]d elegantly into the water]]le's therapist] according to Miss Rhode Island",
+    "puzzleSolution": "the perfect date according to Miss Rhode Island"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 42,
+      "correctGuesses": 12,
+      "totalClues": 16,
+      "hints": 7,
+      "reveals": 1,
+      "stepsTaken": 50,
+      "completionPercentage": 81.25
+    },
+    "usage": {
+      "promptTokens": 327363,
+      "completionTokens": 4427,
+      "totalTokens": 331790
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 35,
+      "megaPeekPenalty": 15,
+      "wrongGuessPenalty": 60,
+      "totalPenalty": 110,
+      "finalScore": 0,
+      "rank": "Tourist",
+      "nextRankName": "Commuter",
+      "pointsToNextRank": 11
+    },
+    "modelGuesses": [
+      {
+        "expression": "zebra-striped official at a football game, for short",
+        "guess": "ref",
+        "success": true,
+        "timestamp": 1747500678518
+      },
+      {
+        "expression": "lively and boisterous play session",
+        "guess": "romp",
+        "success": true,
+        "timestamp": 1747500678518
+      },
+      {
+        "expression": "something you reflect on in the bathroom",
+        "guess": "mirror",
+        "success": true,
+        "timestamp": 1747500682877
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "funhouse",
+        "success": false,
+        "timestamp": 1747500684502
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "funnymirror",
+        "success": false,
+        "timestamp": 1747500687969
+      },
+      {
+        "expression": "🍫 size even smaller than \"fun\"",
+        "guess": "bite",
+        "success": true,
+        "timestamp": 1747500695470
+      },
+      {
+        "expression": "bite for your 👂 not for your 👄",
+        "guess": "sound",
+        "success": true,
+        "timestamp": 1747500699463
+      },
+      {
+        "expression": "something you might not [when repeated, sound associated with 🚂]se to die on",
+        "guess": "whistle",
+        "success": false,
+        "timestamp": 1747500701149
+      },
+      {
+        "expression": "sound associated with 🚂",
+        "guess": "choo",
+        "success": true,
+        "timestamp": 1747500703247
+      },
+      {
+        "expression": "something you might not choose to die on",
+        "guess": "hill",
+        "success": true,
+        "timestamp": 1747500705393
+      },
+      {
+        "expression": "something followed by a bloodhound",
+        "guess": "trail",
+        "success": false,
+        "timestamp": 1747500706461
+      },
+      {
+        "expression": "something followed by a bloodhound",
+        "guess": "scent",
+        "success": true,
+        "timestamp": 1747500709717
+      },
+      {
+        "expression": "game played with [cards that were mostly replaced by teleprompters]s",
+        "guess": "bridge",
+        "success": false,
+        "timestamp": 1747500711580
+      },
+      {
+        "expression": "cards that were mostly replaced by teleprompters",
+        "guess": "cue",
+        "success": true,
+        "timestamp": 1747500714257
+      },
+      {
+        "expression": "game played with cues",
+        "guess": "billiards",
+        "success": false,
+        "timestamp": 1747500715898
+      },
+      {
+        "expression": "game played with cues",
+        "guess": "pool",
+        "success": true,
+        "timestamp": 1747500718502
+      },
+      {
+        "expression": "cold ___ (chilly pool at a spa)",
+        "guess": "plunge",
+        "success": true,
+        "timestamp": 1747500719552
+      },
+      {
+        "expression": "government over[\"___ off the scent\"] that sounds like a [plunged elegantly into the water]",
+        "guess": "board",
+        "success": false,
+        "timestamp": 1747500722699
+      },
+      {
+        "expression": "___ off the scent",
+        "guess": "sent",
+        "success": false,
+        "timestamp": 1747500725132
+      },
+      {
+        "expression": "plunged elegantly into the water",
+        "guess": "dove",
+        "success": true,
+        "timestamp": 1747500727373
+      },
+      {
+        "expression": "___ off the scent",
+        "guess": "sent",
+        "success": false,
+        "timestamp": 1747500729298
+      },
+      {
+        "expression": "government over[\"___ off the scent\"] that sounds like a dove",
+        "guess": "parliament",
+        "success": false,
+        "timestamp": 1747500731537
+      },
+      {
+        "expression": "___ off the scent",
+        "guess": "sent",
+        "success": false,
+        "timestamp": 1747500732899
+      },
+      {
+        "expression": "government over[\"___ off the scent\"] that sounds like a dove",
+        "guess": "council",
+        "success": false,
+        "timestamp": 1747500736209
+      },
+      {
+        "expression": "___ off the scent",
+        "guess": "sent",
+        "success": false,
+        "timestamp": 1747500739591
+      },
+      {
+        "expression": "government over[\"___ off the scent\"] that sounds like a dove",
+        "guess": "council",
+        "success": false,
+        "timestamp": 1747500742488
+      },
+      {
+        "expression": "___ off the scent",
+        "guess": "sent",
+        "success": false,
+        "timestamp": 1747500744524
+      },
+      {
+        "expression": "government over[\"___ off the scent\"] that sounds like a dove",
+        "guess": "council",
+        "success": false,
+        "timestamp": 1747500746459
+      },
+      {
+        "expression": "___ off the scent",
+        "guess": "sent",
+        "success": false,
+        "timestamp": 1747500748392
+      },
+      {
+        "expression": "government over[\"___ off the scent\"] that sounds like a dove",
+        "guess": "council",
+        "success": false,
+        "timestamp": 1747500751059
+      },
+      {
+        "expression": "___ off the scent",
+        "guess": "sent",
+        "success": false,
+        "timestamp": 1747500752799
+      },
+      {
+        "expression": "government over[\"___ off the scent\"] that sounds like a dove",
+        "guess": "council",
+        "success": false,
+        "timestamp": 1747500755370
+      },
+      {
+        "expression": "___ off the scent",
+        "guess": "sent",
+        "success": false,
+        "timestamp": 1747500757619
+      },
+      {
+        "expression": "government over[\"___ off the scent\"] that sounds like a dove",
+        "guess": "council",
+        "success": false,
+        "timestamp": 1747500760426
+      },
+      {
+        "expression": "___ off the scent",
+        "guess": "sent",
+        "success": false,
+        "timestamp": 1747500762942
+      },
+      {
+        "expression": "government over[\"___ off the scent\"] that sounds like a dove",
+        "guess": "council",
+        "success": false,
+        "timestamp": 1747500765529
+      },
+      {
+        "expression": "___ off the scent",
+        "guess": "sent",
+        "success": false,
+        "timestamp": 1747500767944
+      },
+      {
+        "expression": "government over[\"___ off the scent\"] that sounds like a dove",
+        "guess": "council",
+        "success": false,
+        "timestamp": 1747500771119
+      },
+      {
+        "expression": "___ off the scent",
+        "guess": "sent",
+        "success": false,
+        "timestamp": 1747500772834
+      },
+      {
+        "expression": "government over[\"___ off the scent\"] that sounds like a dove",
+        "guess": "council",
+        "success": false,
+        "timestamp": 1747500774661
+      },
+      {
+        "expression": "___ off the scent",
+        "guess": "sent",
+        "success": false,
+        "timestamp": 1747500777407
+      },
+      {
+        "expression": "government over[\"___ off the scent\"] that sounds like a dove",
+        "guess": "council",
+        "success": false,
+        "timestamp": 1747500780069
+      }
+    ],
+    "finalText": "It seems I attempted to make a guess for a non-innermost clue again. Let's focus on the innermost clue:\n\n**Clue:** \"government over[\\\"___ off the scent\\\"] that sounds like a dove\"\n\nLet's make a guess for this clue. The likely answer is \"council\".",
+    "timeToSolve": 108.734
+  }
+}

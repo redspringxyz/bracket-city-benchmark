@@ -1,0 +1,276 @@
+{
+  "timestamp": "2025-05-17T17:12:42.239Z",
+  "model": {
+    "name": "gemini-2.5-flash-preview-04-17",
+    "provider": "google.generative-ai"
+  },
+  "puzzle": {
+    "completionText": "April 29, 1968:",
+    "puzzleDate": "2025-04-29",
+    "completionURL": "https://www.youtube.com/watch?v=v9EWBdH4JlE",
+    "solutions": {
+      "the G in GPS": "global",
+      "Juan or Quixote": "don",
+      "it can be long, short, curly, straight, etc.": "Hair",
+      "one of two that don't lie for Shakira": "hip",
+      "\"at the ___\" (in control of a ship)": "helm",
+      "noble title for a bug 🐞": "lady",
+      "word before \"position\" or \"house\" or \"-faced sandwich\"": "open",
+      "expert web developer?": "spider",
+      "the third \"w\" in \"www\"": "web",
+      "the fetal one is sometimes assumed by the overwhelmed": "position",
+      "good card to have up your sleeve": "ace",
+      "first lady": "eve",
+      "\"___ up with a good book\"": "curl",
+      "daddy spider's leg length": "long",
+      "two letters at the beginning of two global conflicts": "ww",
+      "letters at the bottom of a letter": "PS"
+    },
+    "initialPuzzle": "\"[it can be [daddy [expert [the third \"w\" in \"[two letters at the beginning of two [the G in G[letters at the bottom of a letter]] conflicts]w\"] developer?]'s leg length], short, [\"___ up with a good book\"]y, straight, etc.]\" [word before \"[the fetal one is sometimes assumed by the overw[\"at the ___\" (in control of a s[one of two that [Juan or Quixote]'t lie for Shakira])]ed]\" or \"house\" or \"-f[good card to have up your sle[first [noble title for a bug 🐞]]]d sandwich\"]s on Broadway",
+    "puzzleSolution": "\"Hair\" opens on Broadway"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 35,
+      "correctGuesses": 12,
+      "totalClues": 16,
+      "hints": 2,
+      "reveals": 2,
+      "stepsTaken": 40,
+      "completionPercentage": 87.5
+    },
+    "usage": {
+      "promptTokens": 260910,
+      "completionTokens": null,
+      "totalTokens": null
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 10,
+      "megaPeekPenalty": 30,
+      "wrongGuessPenalty": 46,
+      "totalPenalty": 86,
+      "finalScore": 0,
+      "rank": "Commuter",
+      "nextRankName": "Resident",
+      "pointsToNextRank": 7
+    },
+    "modelGuesses": [
+      {
+        "expression": "noble title for a bug 🐞",
+        "guess": "Lady",
+        "success": true,
+        "timestamp": 1747501636301
+      },
+      {
+        "expression": "first lady",
+        "guess": "first lady",
+        "success": false,
+        "timestamp": 1747501641607
+      },
+      {
+        "expression": "first lady",
+        "guess": "eve",
+        "success": true,
+        "timestamp": 1747501646562
+      },
+      {
+        "expression": "good card to have up your sleeve",
+        "guess": "ace",
+        "success": true,
+        "timestamp": 1747501649000
+      },
+      {
+        "expression": "___ up with a good book",
+        "guess": "curled",
+        "success": false,
+        "timestamp": 1747501650448
+      },
+      {
+        "expression": "letters at the bottom of a letter",
+        "guess": "descenders",
+        "success": false,
+        "timestamp": 1747501657186
+      },
+      {
+        "expression": "Juan or Quixote",
+        "guess": "Don",
+        "success": true,
+        "timestamp": 1747501658057
+      },
+      {
+        "expression": "one of two that don't lie for Shakira",
+        "guess": "hips",
+        "success": false,
+        "timestamp": 1747501659623
+      },
+      {
+        "expression": "letters at the bottom of a letter",
+        "guess": "loop",
+        "success": false,
+        "timestamp": 1747501660640
+      },
+      {
+        "expression": "one of two that don't lie for Shakira",
+        "guess": "hip",
+        "success": true,
+        "timestamp": 1747501666249
+      },
+      {
+        "expression": "\"at the ___\" (in control of a ship)",
+        "guess": "helm",
+        "success": true,
+        "timestamp": 1747501667801
+      },
+      {
+        "expression": "the fetal one is sometimes assumed by the overwhelmed",
+        "guess": "position",
+        "success": true,
+        "timestamp": 1747501670600
+      },
+      {
+        "expression": "word before \"position\" or \"house\" or \"-faced sandwich\"",
+        "guess": "open",
+        "success": true,
+        "timestamp": 1747501672144
+      },
+      {
+        "expression": "letters at the bottom of a letter",
+        "guess": "pendent",
+        "success": false,
+        "timestamp": 1747501675577
+      },
+      {
+        "expression": "letters at the bottom of a letter",
+        "guess": "parts",
+        "success": false,
+        "timestamp": 1747501676246
+      },
+      {
+        "expression": "letters at the bottom of a letter",
+        "guess": "points",
+        "success": false,
+        "timestamp": 1747501677104
+      },
+      {
+        "expression": "the G in GPS",
+        "guess": "Global",
+        "success": true,
+        "timestamp": 1747501679260
+      },
+      {
+        "expression": "two letters at the beginning of two global conflicts",
+        "guess": "WW",
+        "success": true,
+        "timestamp": 1747501681459
+      },
+      {
+        "expression": "the third \"w\" in \"www\"",
+        "guess": "w",
+        "success": false,
+        "timestamp": 1747501682816
+      },
+      {
+        "expression": "___ up with a good book",
+        "guess": "curled",
+        "success": false,
+        "timestamp": 1747501683658
+      },
+      {
+        "expression": "the third \"w\" in \"www\"",
+        "guess": "Web",
+        "success": true,
+        "timestamp": 1747501684682
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "guru",
+        "success": false,
+        "timestamp": 1747501688442
+      },
+      {
+        "expression": "___ up with a good book",
+        "guess": "curled",
+        "success": false,
+        "timestamp": 1747501690412
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "master",
+        "success": false,
+        "timestamp": 1747501692640
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "pro",
+        "success": false,
+        "timestamp": 1747501694980
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "specialist",
+        "success": false,
+        "timestamp": 1747501700533
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "senior",
+        "success": false,
+        "timestamp": 1747501703141
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "super",
+        "success": false,
+        "timestamp": 1747501704614
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "star",
+        "success": false,
+        "timestamp": 1747501707506
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "savvy",
+        "success": false,
+        "timestamp": 1747501708341
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "skilled",
+        "success": false,
+        "timestamp": 1747501709371
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "solid",
+        "success": false,
+        "timestamp": 1747501710150
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "seasoned",
+        "success": false,
+        "timestamp": 1747501711660
+      },
+      {
+        "expression": "daddy spider's leg length",
+        "guess": "long",
+        "success": true,
+        "timestamp": 1747501714741
+      },
+      {
+        "expression": "___ up with a good book",
+        "guess": "curled",
+        "success": false,
+        "timestamp": 1747501715844
+      }
+    ],
+    "finalText": "",
+    "timeToSolve": 336.918
+  }
+}

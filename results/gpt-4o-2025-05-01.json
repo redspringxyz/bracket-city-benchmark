@@ -1,0 +1,348 @@
+{
+  "timestamp": "2025-05-17T17:10:02.207Z",
+  "model": {
+    "name": "gpt-4o",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "May 1, 1941:",
+    "puzzleDate": "2025-05-01",
+    "completionURL": "https://www.youtube.com/watch?v=a6d64DuUTw8",
+    "solutions": {
+      "a senior ___ might be entitled to a discount": "Citizen",
+      "kind of order that's hard to carry out": "tall",
+      "consumer commerce complex": "mall",
+      "\"out of ___\" (disappointing sign to encounter on a vending machine)": "order",
+      "Archduke or Viscount or Assistant Manager": "title",
+      "one of two that you might be told to get up before a fight": "duke",
+      "delectable oft-frosted tart": "pop",
+      "tally the number of items in a group": "count",
+      "something to do on the dotted line": "sign",
+      "word after food or pillow ⚔️": "fight",
+      "_-pop (genre originating in 🇰🇷 with devoted fans)": "K",
+      "word after inferiority or Napoleon": "complex",
+      "court in a mall": "food",
+      "short sleep session": "Nap",
+      "\"do you want to get ___bite?!\" (dire warning from your mom on a cold day)": "frost",
+      "final year of high school": "senior"
+    },
+    "initialPuzzle": "\"[a [final year of high school] ___ might be en[Arch[one of two that you might be told to get up before a [word after [court in a [consumer commerce [word after inferiority or [short sleep session]oleon]]] or pillow ⚔️]] or Vis[[kind of [\"out of ___\" (disappointing [something to do on the dotted line] to encounter on a vending machine)] that's hard to carry out]y the number of items in a group] or Assistant Manager]d to a discount] [_-[delectable oft-[\"do you want to get ___bite?!\" (dire warning from your mom on a cold day)]ed tart] (genre originating in 🇰🇷 with devoted fans)]ane\" premieres at the RKO Palace",
+    "puzzleSolution": "\"Citizen Kane\" premieres at the RKO Palace"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 47,
+      "correctGuesses": 0,
+      "totalClues": 16,
+      "hints": 1,
+      "reveals": 0,
+      "stepsTaken": 50,
+      "completionPercentage": 0
+    },
+    "usage": {
+      "promptTokens": 384833,
+      "completionTokens": 3527,
+      "totalTokens": 388360
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 94,
+      "totalPenalty": 99,
+      "finalScore": 0,
+      "rank": "Tourist",
+      "nextRankName": "Commuter",
+      "pointsToNextRank": 10
+    },
+    "modelGuesses": [
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501712791
+      },
+      {
+        "expression": "word after court in a consumer commerce napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501718136
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501721374
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501723004
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501724833
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501726478
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501728062
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501729250
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501730704
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501732461
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501733322
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501734537
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501735338
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501737478
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501739316
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501740141
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501742861
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501744293
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501745751
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501747315
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501749138
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501751000
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501752645
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501755101
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501758315
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501760876
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501762938
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501764798
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501766983
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501769155
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501771883
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501774111
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501776240
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501777929
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501779639
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501781613
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501782635
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501784524
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501786019
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501788331
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501790244
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501792126
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501793475
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501795170
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501797493
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501799675
+      },
+      {
+        "expression": "word after inferiority or napoleon",
+        "guess": "complex",
+        "success": false,
+        "timestamp": 1747501802205
+      }
+    ],
+    "finalText": "It seems I need to focus on the correct innermost clue. Let's try resolving the innermost clue \"[word after inferiority or napoleon]\". I'll make a guess for this clue.",
+    "timeToSolve": 92.884
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "completionText": "January 23, 2003:",
+  "puzzleDate": "2025-01-23",
+  "completionURL": "https://space.physics.uiowa.edu/plasma-wave/pioneer/farewell.html",
+  "solutions": {
+    "pay for dinner, say": "treat",
+    "it can be secondhand and make you cough": "smoke",
+    "Utah basketball team, originally from New Orleans (made more sense)": "jazz",
+    "tosses, with a kick": "boots",
+    "state with strict alcohol laws": "Utah",
+    "walk in formation": "March",
+    "key Rockette skill": "kick",
+    "🐔": "chicken",
+    "weigh station?": "scale",
+    "a chicken might do this in their boots": "quake",
+    "the Richter scale measures it for an earthquake": "magnitude",
+    "having the upper one is an advantage": "hand",
+    "ambulance destination, for short": "er",
+    "jazz legend Davis": "miles",
+    "number celebrated on March 14": "Pi",
+    "fraction of a minute": "second",
+    "nine-zero magnitude": "billion",
+    "daunting end of semester event": "final",
+    "send up a smoke ___": "signal",
+    "the loneliest number, it is said": "one",
+    "what the tower in Pisa does": "leans",
+    "trick __ treat": "Or"
+  },
+  "initialPuzzle": "the [daunting end of semester event] [send up a [it can be [fraction of a minute][having the upper one is an advantage] and make you cough] ___] from [number celebrated on [walk in formation] 14][the loneliest number, it is said][ambulance destination, for short] 10 is received on Earth from 7.5 [nine-zero [the Richter [weigh station?] measures it for an earth[a [🐔] might do this in their [tosses, with a [key Rockette skill]]]]] [[[state with strict alcohol laws] basketball team, originally from New [trick __ [pay for dinner, say]][what the tower in Pisa does] (made more sense)] legend Davis] away",
+  "puzzleSolution": "the final signal from Pioneer 10 is received on Earth from 7.5 billion miles away"
+}

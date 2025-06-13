@@ -1,0 +1,26 @@
+{
+  "completionText": "February 13, 1633:",
+  "puzzleDate": "2025-02-13",
+  "completionURL": "https://en.wikipedia.org/wiki/Galileo_affair",
+  "solutions": {
+    "♀": "female",
+    "fork prong": "tine",
+    "like some fuses and ribs": "short",
+    "kind of lift you drive": "fork",
+    "apparently counting them helps you sleep": "sheep",
+    "seed that's a bagel topping": "Sesame",
+    "home of the Sistine chapel": "Rome",
+    "plugs in": "charges",
+    "sibling, for short": "Sis",
+    "kind of money you need to start a business": "seed",
+    "Sesame or Fleet": "Street",
+    "📍you are ___": "here",
+    "a kid might have an imaginary one": "friend",
+    "sheep's clothing user": "Wolf",
+    "star of \"The Wolf of Wall Street\", informally": "leo",
+    "female friend, with \"pal\"": "Gal",
+    "writing on this might help you see what's coming": "Wall"
+  },
+  "initialPuzzle": "[[♀] [a kid might have an imaginary one], with \"pal\"]i[star of \"The [[apparently counting them helps you sleep]'s clothing user] of [writing on this might help you see what's coming] [[[kind of money you need to start a business] that's a bagel topping] or Fleet]\", informally] arrives in [home of the [sibling, for [like some fuses and ribs]][[kind of lift you drive] prong] chapel] to face [plugs in] of [📍you are ___]sy",
+  "puzzleSolution": "Galileo arrives in Rome to face charges of heresy"
+}

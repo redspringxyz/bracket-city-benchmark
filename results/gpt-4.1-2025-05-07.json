@@ -1,0 +1,194 @@
+{
+  "timestamp": "2025-05-17T16:51:16.225Z",
+  "model": {
+    "name": "gpt-4.1",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "May 7, 1794:",
+    "puzzleDate": "2025-05-07",
+    "completionURL": "https://en.wikipedia.org/wiki/Cult_of_the_Supreme_Being",
+    "solutions": {
+      "unit of purity for gold": "Karat",
+      "\"food ___ thought\"": "for",
+      "___ arts, e.g. Karate, Judo, etc.": "martial",
+      "prospector's glittering goal": "gold",
+      "flash of connection you are looking for on a date": "spark",
+      "🏛️ Court with a 🏀 court on its top floor": "Supreme",
+      "___ biz 🎬": "show",
+      "one of many in the closet of a reformed scoundrel": "skeleton",
+      "___-martial (tribunal for a soldier who steals a tank)": "court",
+      "place to stay with room keys": "hotel",
+      "immersive alternative to a shower": "bath",
+      "expose your nether regions (intentionally or not)": "flash",
+      "tenacious sparkles that can never be fully cleaned up": "glitter",
+      "a bath one might be stolen from a hotel": "Robe",
+      "A major, skeleton, shift, e.g.": "key",
+      "domesticated fish habitat": "tank",
+      "like a flight that takes off and lands in the same country": "domestic",
+      "platform that juts out into the water": "pier"
+    },
+    "initialPuzzle": "[a [immersive alternative to a [___ biz 🎬]er] one might be stolen from a [place to stay with room [A major, [one of many in the closet of a re[\"food ___ thought\"]med scoundrel], shift, e.g.]s]]s[platform that juts out into the water]re establishes the Cult of the [🏛️ Court with a 🏀 [___-[___ arts, e.g. [unit of purity for [prospector's [tenacious [[expose your nether regions (intentionally or not)] of connection you are looking for on a date]les that can never be fully cleaned up]ing goal]]e, Judo, etc.] (tribunal for a soldier who steals a [[like a flight that takes off and lands in the same country]ated fish habitat])] on its top floor] Being",
+    "puzzleSolution": "Robespierre establishes the Cult of the Supreme Being"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 21,
+      "correctGuesses": 18,
+      "totalClues": 18,
+      "hints": 1,
+      "reveals": 0,
+      "stepsTaken": 23,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 67315,
+      "completionTokens": 634,
+      "totalTokens": 67949
+    },
+    "score": 89,
+    "rank": "Power Broker",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 6,
+      "totalPenalty": 11,
+      "finalScore": 89,
+      "rank": "Power Broker",
+      "nextRankName": "Kingmaker",
+      "pointsToNextRank": 2
+    },
+    "modelGuesses": [
+      {
+        "expression": "expose your nether regions (intentionally or not)",
+        "guess": "moon",
+        "success": false,
+        "timestamp": 1747500654008
+      },
+      {
+        "expression": "expose your nether regions (intentionally or not)",
+        "guess": "flash",
+        "success": true,
+        "timestamp": 1747500655491
+      },
+      {
+        "expression": "of connection you are looking for on a date",
+        "guess": "spark",
+        "success": true,
+        "timestamp": 1747500656296
+      },
+      {
+        "expression": "tenacious sparkles that can never be fully cleaned up",
+        "guess": "glitter",
+        "success": true,
+        "timestamp": 1747500657144
+      },
+      {
+        "expression": "prospector's glittering goal",
+        "guess": "gold",
+        "success": true,
+        "timestamp": 1747500657884
+      },
+      {
+        "expression": "unit of purity for gold",
+        "guess": "karat",
+        "success": true,
+        "timestamp": 1747500658614
+      },
+      {
+        "expression": "___ arts, e.g. Karate, Judo, etc.",
+        "guess": "martial",
+        "success": true,
+        "timestamp": 1747500659446
+      },
+      {
+        "expression": "tribunal for a soldier who steals a [[like a flight that takes off and lands in the same country]ated fish habitat]",
+        "guess": "court-martial",
+        "success": false,
+        "timestamp": 1747500660226
+      },
+      {
+        "expression": "like a flight that takes off and lands in the same country",
+        "guess": "domestic",
+        "success": true,
+        "timestamp": 1747500660830
+      },
+      {
+        "expression": "domesticated fish habitat",
+        "guess": "tank",
+        "success": true,
+        "timestamp": 1747500661614
+      },
+      {
+        "expression": "___-martial (tribunal for a soldier who steals a tank)",
+        "guess": "court",
+        "success": true,
+        "timestamp": 1747500662477
+      },
+      {
+        "expression": "platform that juts out into the water",
+        "guess": "pier",
+        "success": true,
+        "timestamp": 1747500663327
+      },
+      {
+        "expression": "food ___ thought",
+        "guess": "for",
+        "success": true,
+        "timestamp": 1747500664286
+      },
+      {
+        "expression": "one of many in the closet of a reformed scoundrel",
+        "guess": "skeleton",
+        "success": true,
+        "timestamp": 1747500665387
+      },
+      {
+        "expression": "A major, skeleton, shift, e.g.",
+        "guess": "key",
+        "success": true,
+        "timestamp": 1747500669129
+      },
+      {
+        "expression": "place to stay with room keys",
+        "guess": "hotel",
+        "success": true,
+        "timestamp": 1747500669855
+      },
+      {
+        "expression": "immersive alternative to a [___ biz 🎬]er",
+        "guess": "theater",
+        "success": false,
+        "timestamp": 1747500670941
+      },
+      {
+        "expression": "___ biz 🎬",
+        "guess": "show",
+        "success": true,
+        "timestamp": 1747500672038
+      },
+      {
+        "expression": "immersive alternative to a shower",
+        "guess": "bath",
+        "success": true,
+        "timestamp": 1747500672867
+      },
+      {
+        "expression": "a bath one might be stolen from a hotel",
+        "guess": "robe",
+        "success": true,
+        "timestamp": 1747500674362
+      },
+      {
+        "expression": "🏛️ Court with a 🏀 court on its top floor",
+        "guess": "Supreme",
+        "success": true,
+        "timestamp": 1747500675338
+      }
+    ],
+    "finalText": "Robespierre establishes the Cult of the Supreme Being",
+    "timeToSolve": 22.888
+  }
+}

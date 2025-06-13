@@ -1,0 +1,28 @@
+{
+  "completionText": "February 21, 1848:",
+  "puzzleDate": "2025-02-21",
+  "completionURL": "https://www.latimes.com/archives/la-xpm-1986-05-29-mn-7905-story.html",
+  "solutions": {
+    "recommendation to someone who posts too much, with \"off\"": "log",
+    "hair color that is actually closer to orange": "red",
+    "Groucho or Harpo": "Marx",
+    "party linked with the color red": "Communist",
+    "statuette prized by actors": "Oscar",
+    "free ___ line": "throw",
+    "Oscar the ___": "Grouch",
+    "demand from a bouncer": "id",
+    "stink to high ___": "heaven",
+    "something to keep your eyes on, with \"the\"": "prize",
+    "you throw a tantrum, you make a ___": "stink",
+    "applies goop, as to one's hair": "gels",
+    "festive event": "party",
+    "🍊": "orange",
+    "👀": "eyes",
+    "they often make a scene": "actors",
+    "instrument apparently popular in heaven": "Harp",
+    "an ideologue might write one": "Manifesto",
+    "line that sometimes recedes": "hair"
+  },
+  "initialPuzzle": "[[[statuette [something to keep your [👀] on, with \"the\"]d by [they often make a scene]] the ___]o or [instrument apparently popular in [[you [free ___ line] a tantrum, you make a ___] to high ___]]o] and En[applies goop, as to one's hair] publish \"The [[festive event] linked with the color [[line that sometimes recedes] color that is actually closer to [🍊]]] [an [demand from a bouncer]eo[recommendation to someone who posts too much, with \"off\"]ue might write one]\"",
+  "puzzleSolution": "Marx and Engels publish \"The Communist Manifesto\""
+}

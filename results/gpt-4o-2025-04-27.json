@@ -1,0 +1,67 @@
+{
+  "timestamp": "2025-05-17T16:54:49.013Z",
+  "model": {
+    "name": "gpt-4o",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "April 27, 2004:",
+    "puzzleDate": "2025-04-27",
+    "completionURL": "https://en.wikipedia.org/wiki/Matilda_(chicken)",
+    "solutions": {
+      "thick japanese noodle": "udon",
+      "reasonably private cabin in a public bathroom": "stall",
+      "generally preferred afterlife destination": "heaven",
+      "a sharply critical remark (emphasis on \"sharp\")": "Barb",
+      "# in 🇺🇸, £ in 🇬🇧": "pound",
+      "informal form of \"hello\"": "hi",
+      "Reverend Lovejoy: \"see you in ___! *long pause* from heaven!\"": "hell",
+      "sweet contraband at some summer camps": "candy",
+      "Barbie's romantic associate": "ken",
+      "two-letter abbreviation for \"pound\" neither of which appear in the word": "lb",
+      "word after rock or marching": "band",
+      "log domicile for Lincoln": "cabin",
+      "\"happily ever ___\"": "after",
+      "something you install on your phone": "app",
+      "\"___y ___\" aka ___ Wahlberg": "mark",
+      "letters between a pseudonym and a real name": "aka",
+      "small capsule-shaped hard candy, with \"tac\"": "tic",
+      "home of sumo wrestling": "japan"
+    },
+    "initialPuzzle": "Matilda is declared the world's oldest c[informal form of \"[Reverend Lovejoy: \"see you in ___! *long pause* from [generally preferred [\"h[something you in[reasonably private [log domicile for Lincoln] in a public bathroom] on your phone]ily ever ___\"]life destination]!\"]o\"]c[[a sharply cri[small capsule-shaped hard [sweet contra[word after rock or marching] at some summer camps], with \"tac\"]al re[\"___y ___\" [letters between a pse[thick [home of sumo wrestling]ese noodle]ym and a real name] ___ Wah[two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word]erg] (emphasis on \"sharp\")]ie's romantic associate]",
+    "puzzleSolution": "Matilda is declared the world's oldest chicken"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 0,
+      "correctGuesses": 0,
+      "totalClues": 18,
+      "hints": 0,
+      "reveals": 0,
+      "stepsTaken": 1,
+      "completionPercentage": 0
+    },
+    "usage": {
+      "promptTokens": 685,
+      "completionTokens": 1350,
+      "totalTokens": 2035
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 0,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 0,
+      "totalPenalty": 0,
+      "finalScore": 0,
+      "rank": "Puppet Master",
+      "nextRankName": null,
+      "pointsToNextRank": 0
+    },
+    "modelGuesses": [],
+    "finalText": "To solve the puzzle, let's identify and resolve the innermost clues first:\n\n1. **[log domicile for Lincoln]**: This refers to \"log cabin,\" as Abraham Lincoln was famously born in a log cabin.\n\n2. **[home of sumo wrestling]**: This is \"Japan,\" as sumo wrestling is a traditional Japanese sport.\n\n3. **[word after rock or marching]**: This is \"band,\" as in \"rock band\" or \"marching band.\"\n\n4. **[two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word]**: This is \"US,\" as \"#\" is a number sign in the US, and \"£\" is the pound sign in the UK. Neither \"U\" nor \"S\" appear in the word \"number\" or \"pound.\"\n\n5. **[thick [home of sumo wrestling]ese noodle]**: This becomes \"thick Japanese noodle,\" which is \"udon.\"\n\n6. **[sweet contra[word after rock or marching] at some summer camps]**: This becomes \"sweet contraband at some summer camps,\" which is \"candy.\"\n\n7. **[letters between a pse[thick [home of sumo wrestling]ese noodle]ym and a real name]**: This becomes \"letters between a pseudonym and a real name,\" which is \"aka.\"\n\nNow, let's resolve these innermost clues:\n\n- [log domicile for Lincoln] = \"cabin\"\n- [home of sumo wrestling] = \"Japan\"\n- [word after rock or marching] = \"band\"\n- [two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word] = \"US\"\n- [thick Japanese noodle] = \"udon\"\n- [sweet contraband at some summer camps] = \"candy\"\n- [letters between a pseudonym and a real name] = \"aka\"\n\nNow, let's update the puzzle with these solutions:\n\nMatilda is declared the world's oldest c[informal form of \"[Reverend Lovejoy: \"see you in ___! *long pause* from [generally preferred [\"h[something you in[reasonably private cabin in a public bathroom] on your phone]ily ever ___\"]life destination]!\"]o\"]c[[a sharply cri[small capsule-shaped hard candy, with \"tac\"]al re[\"___y ___\" aka WahUSerg] (emphasis on \"sharp\")]ie's romantic associate]\n\nNext, let's resolve the next set of innermost clues:\n\n1. **[reasonably private cabin in a public bathroom]**: This is \"stall,\" as a stall is a private space in a public bathroom.\n\n2. **[small capsule-shaped hard candy, with \"tac\"]**: This is \"Tic Tac,\" a brand of small, hard candies.\n\n3. **[\"___y ___\" aka WahUSerg]**: This is \"Yoko Ono,\" as \"Yoko\" fits the pattern \"___y ___\" and \"Ono\" fits the pattern \"aka WahUSerg.\"\n\nLet's update the puzzle with these solutions:\n\nMatilda is declared the world's oldest c[informal form of \"[Reverend Lovejoy: \"see you in ___! *long pause* from [generally preferred [\"h[something you install on your phone]ily ever ___\"]life destination]!\"]o\"]c[[a sharply cri[Tic Tac]al re[\"Yoko Ono\"] (emphasis on \"sharp\")]ie's romantic associate]\n\nNext, let's resolve the next set of innermost clues:\n\n1. **[something you install on your phone]**: This is \"app,\" as apps are installed on phones.\n\nLet's update the puzzle with this solution:\n\nMatilda is declared the world's oldest c[informal form of \"[Reverend Lovejoy: \"see you in ___! *long pause* from [generally preferred [\"happily ever ___\"]life destination]!\"]o\"]c[[a sharply cri[Tic Tac]al re[\"Yoko Ono\"] (emphasis on \"sharp\")]ie's romantic associate]\n\nNext, let's resolve the next set of innermost clues:\n\n1. **[generally preferred [\"happily ever ___\"]life destination]**: This is \"afterlife,\" as \"happily ever after\" is a common phrase, and \"afterlife\" is a life destination.\n\nLet's update the puzzle with this solution:\n\nMatilda is declared the world's oldest c[informal form of \"[Reverend Lovejoy: \"see you in ___! *long pause* from afterlife!\"]o\"]c[[a sharply cri[Tic Tac]al re[\"Yoko Ono\"] (emphasis on \"sharp\")]ie's romantic associate]\n\nNext, let's resolve the next set of innermost clues:\n\n1. **[Reverend Lovejoy: \"see you in ___! *long pause* from afterlife!\"]**: This is \"hell,\" as Reverend Lovejoy from \"The Simpsons\" often says \"see you in hell.\"\n\nLet's update the puzzle with this solution:\n\nMatilda is declared the world's oldest c[informal form of \"hell\"]c[[a sharply cri[Tic Tac]al re[\"Yoko Ono\"] (emphasis on \"sharp\")]ie's romantic associate]\n\nNext, let's resolve the next set of innermost clues:\n\n1. **[informal form of \"hell\"]**: This is \"heck,\" as \"heck\" is an informal way to say \"hell.\"\n\nLet's update the puzzle with this solution:\n\nMatilda is declared the world's oldest check[[a sharply cri[Tic Tac]al re[\"Yoko Ono\"] (emphasis on \"sharp\")]ie's romantic associate]\n\nNext, let's resolve the next set of innermost clues:\n\n1. **[a sharply cri[Tic Tac]al re[\"Yoko Ono\"] (emphasis on \"sharp\")]**: This is \"critic,\" as \"a sharply critical remark\" fits the pattern, and \"Yoko Ono\" is known for being a controversial figure.\n\nLet's update the puzzle with this solution:\n\nMatilda is declared the world's oldest check[critic]ie's romantic associate]\n\nFinally, let's resolve the last clue:\n\n1. **[critic]ie's romantic associate**: This is \"critic,\" as \"critic\" fits the pattern.\n\nLet's update the puzzle with this solution:\n\nMatilda is declared the world's oldest check critic's romantic associate.\n\nThe puzzle is now solved!",
+    "timeToSolve": 13.676
+  }
+}

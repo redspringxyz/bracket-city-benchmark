@@ -1,0 +1,306 @@
+{
+  "timestamp": "2025-05-17T16:58:32.162Z",
+  "model": {
+    "name": "claude-3.7-sonnet-20250219-32k-thinking",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "May 14, 1973:",
+    "puzzleDate": "2025-05-14",
+    "completionURL": "https://www.youtube.com/watch?v=NsW86kNLu1k",
+    "solutions": {
+      "\"___ your eyes and make a wish\"": "close",
+      "something you might clear before speaking": "throat",
+      "\"read the fine ___\"": "print",
+      "___-me-down": "hand",
+      "race that ended on the moon, in a sense": "space",
+      "note many prefer to end on": "high",
+      "handheld glowing object at a rave": "stick",
+      "bad guy ➡️ \"take him ___\" *drags finger across throat*": "out",
+      "one might ring after a concert": "ear",
+      "finger named for its adornment": "ring",
+      "___ball (offer that might provoke outrage)": "low",
+      "word after sticky or ransom": "note",
+      "digit with a print and a nail": "finger",
+      "\"___ cut\" (not a close call)": "clear",
+      "high kind of dive (from a ✈️)": "Sky",
+      "type of walking where you glide backward while appearing to walk forward": "moon"
+    },
+    "initialPuzzle": "[[[word after [[___-me-down]held g[___ball (offer that might provoke [bad guy ➡️ \"take him ___\" *drags finger across [something you might [\"___ cut\" (not a [\"___ your eyes and make a wish\"] call)] before speaking]*]rage)]ing object at a rave]y or ransom] many prefer to end on] kind of dive (from a ✈️)]lab [race that ended on the [type of walking where you glide backward while app[one might [[digit with a [\"read the fine ___\"] and a nail] named for its adornment] after a concert]ing to walk forward], in a sense] station launches",
+    "puzzleSolution": "Skylab space station launches"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 40,
+      "correctGuesses": 7,
+      "totalClues": 16,
+      "hints": 2,
+      "reveals": 1,
+      "stepsTaken": 50,
+      "completionPercentage": 50
+    },
+    "usage": {
+      "promptTokens": 418139,
+      "completionTokens": 34129,
+      "totalTokens": 452268
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 10,
+      "megaPeekPenalty": 15,
+      "wrongGuessPenalty": 66,
+      "totalPenalty": 91,
+      "finalScore": 0,
+      "rank": "Tourist",
+      "nextRankName": "Commuter",
+      "pointsToNextRank": 2
+    },
+    "modelGuesses": [
+      {
+        "expression": "___ your eyes and make a wish",
+        "guess": "close",
+        "success": true,
+        "timestamp": 1747500580411
+      },
+      {
+        "expression": "read the fine ___",
+        "guess": "print",
+        "success": true,
+        "timestamp": 1747500586440
+      },
+      {
+        "expression": "___ cut (not a close call)",
+        "guess": "cold",
+        "success": false,
+        "timestamp": 1747500590581
+      },
+      {
+        "expression": "digit with a print and a nail",
+        "guess": "finger",
+        "success": true,
+        "timestamp": 1747500598005
+      },
+      {
+        "expression": "finger named for its adornment",
+        "guess": "ring",
+        "success": true,
+        "timestamp": 1747500603162
+      },
+      {
+        "expression": "one might ring after a concert",
+        "guess": "encore",
+        "success": false,
+        "timestamp": 1747500607671
+      },
+      {
+        "expression": "one might ring after a concert",
+        "guess": "ears",
+        "success": false,
+        "timestamp": 1747500612330
+      },
+      {
+        "expression": "one might ring after a concert",
+        "guess": "ear",
+        "success": true,
+        "timestamp": 1747500620261
+      },
+      {
+        "expression": "type of walking where you glide backward while appearing to walk forward",
+        "guess": "moonwalk",
+        "success": false,
+        "timestamp": 1747500625946
+      },
+      {
+        "expression": "type of walking where you glide backward while appearing to walk forward",
+        "guess": "mime",
+        "success": false,
+        "timestamp": 1747500634495
+      },
+      {
+        "expression": "type of walking where you glide backward while appearing to walk forward",
+        "guess": "moonwalking",
+        "success": false,
+        "timestamp": 1747500639492
+      },
+      {
+        "expression": "race that ended on the moon, in a sense",
+        "guess": "space",
+        "success": true,
+        "timestamp": 1747500648667
+      },
+      {
+        "expression": "___ cut (not a close call)",
+        "guess": "cold",
+        "success": false,
+        "timestamp": 1747500654035
+      },
+      {
+        "expression": "___ cut (not a close call)",
+        "guess": "cold",
+        "success": false,
+        "timestamp": 1747500662737
+      },
+      {
+        "expression": "___-me-down",
+        "guess": "hand",
+        "success": true,
+        "timestamp": 1747500669408
+      },
+      {
+        "expression": "___ cut (not a close call)",
+        "guess": "cold",
+        "success": false,
+        "timestamp": 1747500674280
+      },
+      {
+        "expression": "___ball (offer that might provoke [bad guy ➡️ \"take him ___\" *drags finger across [something you might [\"___ cut\" (not a close call)] before speaking]*]rage)",
+        "guess": "glow",
+        "success": false,
+        "timestamp": 1747500681508
+      },
+      {
+        "expression": "bad guy ➡️ \"take him ___\" *drags finger across [something you might [\"___ cut\" (not a close call)] before speaking]*",
+        "guess": "down",
+        "success": false,
+        "timestamp": 1747500686527
+      },
+      {
+        "expression": "___ball (offer that might provoke [bad guy ➡️ \"take him ___\" *drags finger across [something you might [\"___ cut\" (not a close call)] before speaking]*]rage)",
+        "guess": "fire",
+        "success": false,
+        "timestamp": 1747500701999
+      },
+      {
+        "expression": "___ cut (not a close call)",
+        "guess": "cold",
+        "success": false,
+        "timestamp": 1747500708678
+      },
+      {
+        "expression": "something you might [\"___ cut\" (not a close call)] before speaking",
+        "guess": "throat",
+        "success": false,
+        "timestamp": 1747500716959
+      },
+      {
+        "expression": "kind of dive (from a ✈️)",
+        "guess": "sky",
+        "success": false,
+        "timestamp": 1747500723088
+      },
+      {
+        "expression": "bad guy ➡️ \"take him ___\" *drags finger across [something you might [\"___ cut\" (not a close call)] before speaking]*",
+        "guess": "out",
+        "success": false,
+        "timestamp": 1747500735810
+      },
+      {
+        "expression": "kind of dive (from a ✈️)",
+        "guess": "sky",
+        "success": false,
+        "timestamp": 1747500744751
+      },
+      {
+        "expression": "kind of dive (from a ✈️)",
+        "guess": "skydive",
+        "success": false,
+        "timestamp": 1747500754124
+      },
+      {
+        "expression": "word after [handheld g[___ball (offer that might provoke [bad guy ➡️ \"take him ___\" *drags finger across [something you might [\"___ cut\" (not a close call)] before speaking]*]rage)]ing object at a rave]y or ransom] many prefer to end on",
+        "guess": "high",
+        "success": false,
+        "timestamp": 1747500761826
+      },
+      {
+        "expression": "word after [handheld g[___ball (offer that might provoke [bad guy ➡️ \"take him ___\" *drags finger across [something you might [\"___ cut\" (not a close call)] before speaking]*]rage)]ing object at a rave]y or ransom",
+        "guess": "note",
+        "success": false,
+        "timestamp": 1747500776077
+      },
+      {
+        "expression": "kind of dive (from a ✈️)",
+        "guess": "sky",
+        "success": false,
+        "timestamp": 1747500819163
+      },
+      {
+        "expression": "kind of dive (from a ✈️)",
+        "guess": "sky",
+        "success": false,
+        "timestamp": 1747500834406
+      },
+      {
+        "expression": "kind of dive (from a ✈️)",
+        "guess": "sky",
+        "success": false,
+        "timestamp": 1747500857545
+      },
+      {
+        "expression": "bad guy ➡️ \"take him ___\" *drags finger across [something you might [\"___ cut\" (not a close call)] before speaking]*",
+        "guess": "out",
+        "success": false,
+        "timestamp": 1747500888316
+      },
+      {
+        "expression": "___ball (offer that might provoke [bad guy ➡️ \"take him ___\" *drags finger across [something you might [\"___ cut\" (not a close call)] before speaking]*]rage)",
+        "guess": "fire",
+        "success": false,
+        "timestamp": 1747500931135
+      },
+      {
+        "expression": "___ cut (not a close call)",
+        "guess": "cold",
+        "success": false,
+        "timestamp": 1747500961796
+      },
+      {
+        "expression": "many prefer to end on",
+        "guess": "high",
+        "success": false,
+        "timestamp": 1747500969481
+      },
+      {
+        "expression": "kind of dive (from a ✈️)",
+        "guess": "sky",
+        "success": false,
+        "timestamp": 1747500985071
+      },
+      {
+        "expression": "word after [handheld g[___ball (offer that might provoke [bad guy ➡️ \"take him ___\" *drags finger across [something you might [\"___ cut\" (not a close call)] before speaking]*]rage)]ing object at a rave]y or ransom",
+        "guess": "last",
+        "success": false,
+        "timestamp": 1747500995358
+      },
+      {
+        "expression": "kind of dive (from a ✈️)",
+        "guess": "high",
+        "success": false,
+        "timestamp": 1747501069088
+      },
+      {
+        "expression": "word after [handheld g[___ball (offer that might provoke [bad guy ➡️ \"take him ___\" *drags finger across [something you might [\"___ cut\" (not a close call)] before speaking]*]rage)]ing object at a rave]y or ransom",
+        "guess": "that",
+        "success": false,
+        "timestamp": 1747501083236
+      },
+      {
+        "expression": "word after [handheld g[___ball (offer that might provoke [bad guy ➡️ \"take him ___\" *drags finger across [something you might [\"___ cut\" (not a close call)] before speaking]*]rage)]ing object at a rave]y or ransom",
+        "guess": "that",
+        "success": false,
+        "timestamp": 1747501091623
+      },
+      {
+        "expression": "kind of dive (from a ✈️)",
+        "guess": "sky",
+        "success": false,
+        "timestamp": 1747501112159
+      }
+    ],
+    "finalText": "Let me try to solve the innermost clue. One of the most common kinds of dives from an airplane is:",
+    "timeToSolve": 542.824
+  }
+}

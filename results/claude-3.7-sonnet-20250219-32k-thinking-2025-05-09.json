@@ -1,0 +1,192 @@
+{
+  "timestamp": "2025-05-17T16:58:23.013Z",
+  "model": {
+    "name": "claude-3.7-sonnet-20250219-32k-thinking",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "May 9, 1671:",
+    "puzzleDate": "2025-05-09",
+    "completionURL": "https://en.wikipedia.org/wiki/Thomas_Blood",
+    "solutions": {
+      "having a stiff upper ___ might suggest a certain stoicism": "lip",
+      "like a trial, hopefully": "fair",
+      "\"___ my lips\"": "read",
+      "cheapest water variety at a restaurant": "tap",
+      "the Prodigal ___ (parable star)": "son",
+      "topper for a king or a tooth": "crown",
+      "nickname for songstress Grande": "ari",
+      "\"___ dare you!\" says the indignant grandee": "how",
+      "dietary staple for vampires": "Blood",
+      "Johnny who performed at Folsom Prison": "cash",
+      "fairy who carries cash": "tooth",
+      "you might ___ the show with your soft shoe routine": "steal",
+      "companion with \"ready\" and \"willing\"": "able",
+      "Cape of Good ⬅️___➡️ for the best": "hope",
+      "famous Canyon": "Grand",
+      "Dracula, e.g.": "vampire"
+    },
+    "initialPuzzle": "Thomas [dietary s[cheapest water v[nickname for songstress [famous Canyon]e]ety at a restaurant]le for [Dracula, e.g.]s] attempts to [you might ___ the s[\"___ dare you!\" says the indignant grandee] with your soft shoe routine] England's [topper for a king or a [[like a trial, [Cape of Good ⬅️___➡️ for the best]fully]y who carries [Johnny who performed at Folsom Pri[the Prodigal ___ (par[companion with \"[\"___ my [having a stiff upper ___ might suggest a certain stoicism]s\"]y\" and \"willing\"] star)]]]] jewels",
+    "puzzleSolution": "Thomas Blood attempts to steal England's crown jewels"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 21,
+      "correctGuesses": 15,
+      "totalClues": 16,
+      "hints": 1,
+      "reveals": 1,
+      "stepsTaken": 24,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 92028,
+      "completionTokens": 7710,
+      "totalTokens": 99738
+    },
+    "score": 68,
+    "rank": "Mayor",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 15,
+      "wrongGuessPenalty": 12,
+      "totalPenalty": 32,
+      "finalScore": 68,
+      "rank": "Mayor",
+      "nextRankName": "Power Broker",
+      "pointsToNextRank": 11
+    },
+    "modelGuesses": [
+      {
+        "expression": "famous Canyon",
+        "guess": "Grand",
+        "success": true,
+        "timestamp": 1747500989800
+      },
+      {
+        "expression": "having a stiff upper ___ might suggest a certain stoicism",
+        "guess": "lip",
+        "success": true,
+        "timestamp": 1747500995569
+      },
+      {
+        "expression": "___ my lips",
+        "guess": "Read",
+        "success": true,
+        "timestamp": 1747501000552
+      },
+      {
+        "expression": "companion with \"ready\" and \"willing\"",
+        "guess": "able",
+        "success": true,
+        "timestamp": 1747501007622
+      },
+      {
+        "expression": "the Prodigal ___ (parable star)",
+        "guess": "Son",
+        "success": true,
+        "timestamp": 1747501012300
+      },
+      {
+        "expression": "Johnny who performed at Folsom Prison",
+        "guess": "Cash",
+        "success": true,
+        "timestamp": 1747501016981
+      },
+      {
+        "expression": "Cape of Good ⬅️___➡️ for the best",
+        "guess": "Hope",
+        "success": true,
+        "timestamp": 1747501021709
+      },
+      {
+        "expression": "like a trial, hopefully",
+        "guess": "fair",
+        "success": true,
+        "timestamp": 1747501024075
+      },
+      {
+        "expression": "nickname for songstress Grande",
+        "guess": "Ari",
+        "success": true,
+        "timestamp": 1747501028804
+      },
+      {
+        "expression": "cheapest water variety at a restaurant",
+        "guess": "tap",
+        "success": true,
+        "timestamp": 1747501032252
+      },
+      {
+        "expression": "Dracula, e.g.",
+        "guess": "vampire",
+        "success": true,
+        "timestamp": 1747501036680
+      },
+      {
+        "expression": "dietary staple for vampires",
+        "guess": "blood",
+        "success": true,
+        "timestamp": 1747501041730
+      },
+      {
+        "expression": "\"___ dare you!\" says the indignant grandee",
+        "guess": "How",
+        "success": true,
+        "timestamp": 1747501046017
+      },
+      {
+        "expression": "you might ___ the show with your soft shoe routine",
+        "guess": "steal",
+        "success": true,
+        "timestamp": 1747501049929
+      },
+      {
+        "expression": "fairy who carries cash",
+        "guess": "crown",
+        "success": false,
+        "timestamp": 1747501054455
+      },
+      {
+        "expression": "fairy who carries cash",
+        "guess": "tooth fairy",
+        "success": false,
+        "timestamp": 1747501061099
+      },
+      {
+        "expression": "fairy who carries cash",
+        "guess": "thief",
+        "success": false,
+        "timestamp": 1747501072810
+      },
+      {
+        "expression": "fairy who carries cash",
+        "guess": "treasurer",
+        "success": false,
+        "timestamp": 1747501077395
+      },
+      {
+        "expression": "fairy who carries cash",
+        "guess": "teller",
+        "success": false,
+        "timestamp": 1747501083424
+      },
+      {
+        "expression": "fairy who carries cash",
+        "guess": "tinkerbell",
+        "success": false,
+        "timestamp": 1747501088961
+      },
+      {
+        "expression": "topper for a king or a tooth",
+        "guess": "crown",
+        "success": true,
+        "timestamp": 1747501099416
+      }
+    ],
+    "finalText": "Thomas Blood attempts to steal England's crown jewels",
+    "timeToSolve": 137.677
+  }
+}

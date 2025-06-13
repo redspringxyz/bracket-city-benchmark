@@ -1,0 +1,208 @@
+{
+  "timestamp": "2025-05-22T17:44:53.054Z",
+  "model": {
+    "name": "claude-4-sonnet-20250514-32k-thinking",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "May 12, 1963:",
+    "puzzleDate": "2025-05-12",
+    "completionURL": "https://www.youtube.com/watch?v=9xVIHwOqgpw",
+    "solutions": {
+      "most famous Sigmund by a lot": "Freud",
+      "scary sounding place for an orchestra": "pit",
+      "container for treasure": "chest",
+      "major for Freud and Skinner fans, briefly": "psych",
+      "psychic power letters": "esp",
+      "company that phased out Saturn and Oldsmobile": "gm",
+      "🍁🍁🍁": "leaves",
+      "like a student who is temporarily barred from school": "suspended",
+      "\"and\" en español": "y",
+      "letters after sex, phys, or Mister": "Ed",
+      "planet between Jupiter and Uranus": "Saturn",
+      "response to an invitation that leaves you wondering if they really want to go": "sure",
+      "___ body president": "student",
+      "a cloud of tiny suspended water droplets": "Mist"
+    },
+    "initialPuzzle": "Bob D[\"and\" en [[major for [most famous Si[company that phased out [planet between Ju[scary sounding place for an or[container for trea[response to an invitation that [🍁🍁🍁] you wondering if they really want to go]]ra]er and Uranus] and Oldsmobile]und by a lot] and Skinner fans, briefly]ic power letters]añol]lan walks out of \"The [letters after sex, phys, or [a cloud of tiny [like a [___ body president] who is temporarily barred from school] water droplets]er] Sullivan Show\"",
+    "puzzleSolution": "Bob Dylan walks out of \"The Ed Sullivan Show\""
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 24,
+      "correctGuesses": 14,
+      "totalClues": 14,
+      "hints": 1,
+      "reveals": 0,
+      "stepsTaken": 26,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 117124,
+      "completionTokens": 7803,
+      "totalTokens": 124927
+    },
+    "score": 75,
+    "rank": "Mayor",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 20,
+      "totalPenalty": 25,
+      "finalScore": 75,
+      "rank": "Mayor",
+      "nextRankName": "Power Broker",
+      "pointsToNextRank": 4
+    },
+    "modelGuesses": [
+      {
+        "expression": "🍁🍁🍁",
+        "guess": "fall",
+        "success": false,
+        "timestamp": 1747935754360
+      },
+      {
+        "expression": "🍁🍁🍁",
+        "guess": "leaves",
+        "success": true,
+        "timestamp": 1747935759109
+      },
+      {
+        "expression": "___ body president",
+        "guess": "student",
+        "success": true,
+        "timestamp": 1747935766084
+      },
+      {
+        "expression": "response to an invitation that leaves you wondering if they really want to go",
+        "guess": "maybe",
+        "success": false,
+        "timestamp": 1747935772335
+      },
+      {
+        "expression": "like a student who is temporarily barred from school",
+        "guess": "suspended",
+        "success": true,
+        "timestamp": 1747935777154
+      },
+      {
+        "expression": "a cloud of tiny suspended water droplets",
+        "guess": "fog",
+        "success": false,
+        "timestamp": 1747935783575
+      },
+      {
+        "expression": "a cloud of tiny suspended water droplets",
+        "guess": "mist",
+        "success": true,
+        "timestamp": 1747935787691
+      },
+      {
+        "expression": "response to an invitation that leaves you wondering if they really want to go",
+        "guess": "we'll see",
+        "success": false,
+        "timestamp": 1747935801300
+      },
+      {
+        "expression": "letters after sex, phys, or Mister",
+        "guess": "ed",
+        "success": true,
+        "timestamp": 1747935806650
+      },
+      {
+        "expression": "response to an invitation that leaves you wondering if they really want to go",
+        "guess": "I'll try",
+        "success": false,
+        "timestamp": 1747935812725
+      },
+      {
+        "expression": "response to an invitation that leaves you wondering if they really want to go",
+        "guess": "perhaps",
+        "success": false,
+        "timestamp": 1747935818327
+      },
+      {
+        "expression": "response to an invitation that leaves you wondering if they really want to go",
+        "guess": "I guess",
+        "success": false,
+        "timestamp": 1747935824426
+      },
+      {
+        "expression": "response to an invitation that leaves you wondering if they really want to go",
+        "guess": "sure, maybe",
+        "success": false,
+        "timestamp": 1747935835527
+      },
+      {
+        "expression": "response to an invitation that leaves you wondering if they really want to go",
+        "guess": "sort of",
+        "success": false,
+        "timestamp": 1747935840322
+      },
+      {
+        "expression": "response to an invitation that leaves you wondering if they really want to go",
+        "guess": "suppose so",
+        "success": false,
+        "timestamp": 1747935846562
+      },
+      {
+        "expression": "response to an invitation that leaves you wondering if they really want to go",
+        "guess": "sure",
+        "success": true,
+        "timestamp": 1747935850560
+      },
+      {
+        "expression": "container for treasure",
+        "guess": "chest",
+        "success": true,
+        "timestamp": 1747935855499
+      },
+      {
+        "expression": "scary sounding place for an orchestra",
+        "guess": "pit",
+        "success": true,
+        "timestamp": 1747935860489
+      },
+      {
+        "expression": "planet between Jupiter and Uranus",
+        "guess": "Saturn",
+        "success": true,
+        "timestamp": 1747935864893
+      },
+      {
+        "expression": "company that phased out Saturn and Oldsmobile",
+        "guess": "GM",
+        "success": true,
+        "timestamp": 1747935869585
+      },
+      {
+        "expression": "most famous Sigmund by a lot",
+        "guess": "Freud",
+        "success": true,
+        "timestamp": 1747935874997
+      },
+      {
+        "expression": "major for Freud and Skinner fans, briefly",
+        "guess": "psych",
+        "success": true,
+        "timestamp": 1747935879737
+      },
+      {
+        "expression": "psychic power letters",
+        "guess": "ESP",
+        "success": true,
+        "timestamp": 1747935883665
+      },
+      {
+        "expression": "\"and\" en español",
+        "guess": "y",
+        "success": true,
+        "timestamp": 1747935887712
+      }
+    ],
+    "finalText": "Bob Dylan walks out of \"The Ed Sullivan Show\"",
+    "timeToSolve": 150.932
+  }
+}

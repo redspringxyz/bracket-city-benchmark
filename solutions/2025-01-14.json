@@ -1,0 +1,26 @@
+{
+  "completionText": "January 14, 1967:",
+  "puzzleDate": "2025-01-14",
+  "completionURL": "https://en.wikipedia.org/wiki/Human_Be-In",
+  "solutions": {
+    "gravy vessels": "boats",
+    "boat that moves other boats": "tug",
+    "imperfections or geological fissures": "faults",
+    "we are all in the same one, ultimately": "boat",
+    "___ tolerance": "zero",
+    "floppy ladder material": "rope",
+    "they might show you to your seat": "ushers",
+    "\"___ Mice and Men\"": "of",
+    "old computer disk type, familiarly": "floppy",
+    "causes strong feelings": "moves",
+    "those in charge, with \"powers that\"": "Be",
+    "sport with faults": "tennis",
+    "ability to handle booze, maybe": "tolerance",
+    "zero in tennis": "Love",
+    "game that uses a rope, with \"tug of\"": "war",
+    "word after super or war": "powers",
+    "building maintenance boss, for short": "super"
+  },
+  "initialPuzzle": "the Human [those in charge, with \\\"[word after [building maintenance boss, for short] or [game that uses a [[old computer disk type, familiarly] ladder material], with \\\"[[we are all in the same one, ultimately] that [causes strong feelings] other [gravy vessels]] [\\\"___ Mice and Men\\\"]\\\"]] that\\\"]-In [they might show you to your seat] in the Summer of [[___ [ability to handle booze, maybe]] in [sport with [imperfections or geological fissures]]]",
+  "puzzleSolution": "the Human Be-In ushers in the Summer of Love"
+}

@@ -1,0 +1,28 @@
+{
+  "completionText": "February 5, 1917:",
+  "puzzleDate": "2025-02-05",
+  "completionURL": "https://2001-2009.state.gov/r/pa/ho/time/wwi/108653.htm",
+  "solutions": {
+    "fun store: \"Toys Я __\"": "US",
+    "many use internal combustion": "engines",
+    "fancy house in Italy, maybe": "Villa",
+    "smoking science fair project, maybe": "volcano",
+    "longest country in the world": "chile",
+    "things for Tots": "Toys",
+    "dried Mexican chile": "ancho",
+    "they get tossed at bad acts": "tomatoes",
+    "fried cylindrical taters": "Tots",
+    "conclusive evidence of guilt, with \"gun\"": "smoking",
+    "home of Florence and Bologna": "Italy",
+    "really really tiny": "microscopic",
+    "founder of modern nursing Nightingale": "Florence",
+    "cold cut with an alt spelling associated with bunk": "Bologna",
+    "the \"kissing disease\", for short": "mono",
+    "superlative for the word pneumonoultramicroscopicsilicovolcanoconiosis": "longest",
+    "kids often debate whether top or bottom is better": "bunk",
+    "engines with ads": "search",
+    "sun-___ tomatoes": "dried"
+  },
+  "initialPuzzle": "[fun store: \"[things for [fried cylindrical taters]] Я __\"] ends [[many use internal combustion] with ads] for P[[sun-___ [they get tossed at bad acts]] Mexican [[superlative for the word pneu[the \"kissing disease\", for short]ultra[really really tiny]silico[[conclusive evidence of guilt, with \"gun\"] science fair project, maybe]coniosis] country in the world]] [fancy house in [home of [founder of modern nursing Nightingale] and [cold cut with an alt spelling associated with [kids often debate whether top or bottom is better]]], maybe]",
+  "puzzleSolution": "US ends search for Pancho Villa"
+}

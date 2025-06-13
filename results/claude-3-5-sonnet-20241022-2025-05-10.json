@@ -1,0 +1,194 @@
+{
+  "timestamp": "2025-05-17T17:09:10.971Z",
+  "model": {
+    "name": "claude-3-5-sonnet-20241022",
+    "provider": "anthropic.messages"
+  },
+  "puzzle": {
+    "completionText": "May 10, 28 BC:",
+    "puzzleDate": "2025-05-10",
+    "completionURL": "https://umbra.nascom.nasa.gov/yohkoh/nuggets/2002/020913/020913.html",
+    "solutions": {
+      "Three Wise ⬅️___➡️ in Black": "men",
+      "\"___ in there!\" says the poster with the dangling cat": "hang",
+      "sheep color for your brother whose \"job\" is trying to get hit by a limousine": "Black",
+      "\"Guinea pig\" is a mis___ (not from Guinea, not a pig)": "nomer",
+      "one might be in the ointment or on the wall": "fly",
+      "\"muscle-___\" adjective for a bodybuilder": "bound",
+      "the original one involved an 🍎": "sin",
+      "\"null and ___\"": "void",
+      "one with porcine features resembles this animal": "pig",
+      "you (ought to) check your blind one when changing lanes": "spot",
+      "to fly this way is to go it alone": "Solo",
+      "alternative to damn, darn, and drat": "dang",
+      "you must avoid biting off more than you can ___": "Chew",
+      "Solo who knows Chewbacca": "Han",
+      "kind of shop for a dented car": "body",
+      "the B in BCC": "blind",
+      "___tails (two gathered and bound hanks of hair emanating from the side of the head)": "pig",
+      "home for a bear or a plasma TV": "den"
+    },
+    "initialPuzzle": "a sun[you (ought to) check your [the B in BCC] one when c[\"___ in there!\" says the poster with the [alternative to damn, darn, and drat]ling cat]ing lanes] is observed by [[to [one might be in the oint[Three Wise ⬅️___➡️ in [sheep color for your brother whose \"job\" is trying to get hit by a limou[the original one involved an 🍎]e]]t or on the wall] this way is to go it alone] who knows [you must a[\"null and ___\"] biting off more than you can ___]bacca] dynasty astro[\"Guinea [___tails (two gathered and [\"muscle-___\" adjective for a [kind of shop for a [home for a bear or a plasma TV]ted car]builder] hanks of hair emanating from the side of the head)]\" is a mis___ (not from Guinea, not a [one with porcine features resembles this animal])]s",
+    "puzzleSolution": "a sunspot is observed by Han dynasty astronomers"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 21,
+      "correctGuesses": 18,
+      "totalClues": 18,
+      "hints": 2,
+      "reveals": 0,
+      "stepsTaken": 24,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 122818,
+      "completionTokens": 2498,
+      "totalTokens": 125316
+    },
+    "score": 84,
+    "rank": "Power Broker",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 10,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 6,
+      "totalPenalty": 16,
+      "finalScore": 84,
+      "rank": "Power Broker",
+      "nextRankName": "Kingmaker",
+      "pointsToNextRank": 7
+    },
+    "modelGuesses": [
+      {
+        "expression": "the original one involved an 🍎",
+        "guess": "sin",
+        "success": true,
+        "timestamp": 1747501700480
+      },
+      {
+        "expression": "home for a bear or a plasma TV",
+        "guess": "mount",
+        "success": false,
+        "timestamp": 1747501702438
+      },
+      {
+        "expression": "home for a bear or a plasma TV",
+        "guess": "den",
+        "success": true,
+        "timestamp": 1747501706593
+      },
+      {
+        "expression": "kind of shop for a dented car",
+        "guess": "body",
+        "success": true,
+        "timestamp": 1747501708744
+      },
+      {
+        "expression": "muscle-___ adjective for a bodybuilder",
+        "guess": "bound",
+        "success": true,
+        "timestamp": 1747501710836
+      },
+      {
+        "expression": "one with porcine features resembles this animal",
+        "guess": "pig",
+        "success": true,
+        "timestamp": 1747501713005
+      },
+      {
+        "expression": "one with porcine features resembles this animal",
+        "guess": "hog",
+        "success": false,
+        "timestamp": 1747501715424
+      },
+      {
+        "expression": "one with porcine features resembles this animal",
+        "guess": "swine",
+        "success": false,
+        "timestamp": 1747501717244
+      },
+      {
+        "expression": "one with porcine features resembles this animal",
+        "guess": "pig",
+        "success": true,
+        "timestamp": 1747501720848
+      },
+      {
+        "expression": "sheep color for your brother whose \\\"job\\\" is trying to get hit by a limousine",
+        "guess": "black",
+        "success": true,
+        "timestamp": 1747501723803
+      },
+      {
+        "expression": "Three Wise ⬅️___➡️ in Black",
+        "guess": "men",
+        "success": true,
+        "timestamp": 1747501726519
+      },
+      {
+        "expression": "one might be in the ointment or on the wall",
+        "guess": "fly",
+        "success": true,
+        "timestamp": 1747501728675
+      },
+      {
+        "expression": "alternative to damn, darn, and drat",
+        "guess": "dang",
+        "success": true,
+        "timestamp": 1747501730726
+      },
+      {
+        "expression": "the B in BCC",
+        "guess": "blind",
+        "success": true,
+        "timestamp": 1747501733540
+      },
+      {
+        "expression": "___ in there!\\\" says the poster with the dangling cat",
+        "guess": "hang",
+        "success": true,
+        "timestamp": 1747501735999
+      },
+      {
+        "expression": "to fly this way is to go it alone",
+        "guess": "solo",
+        "success": true,
+        "timestamp": 1747501738098
+      },
+      {
+        "expression": "null and ___",
+        "guess": "void",
+        "success": true,
+        "timestamp": 1747501740426
+      },
+      {
+        "expression": "biting off more than you can ___",
+        "guess": "chew",
+        "success": true,
+        "timestamp": 1747501742720
+      },
+      {
+        "expression": "Guinea pig\\\" is a mis___ (not from Guinea, not a pig)",
+        "guess": "nomer",
+        "success": true,
+        "timestamp": 1747501745039
+      },
+      {
+        "expression": "you (ought to) check your blind one when changing lanes",
+        "guess": "spot",
+        "success": true,
+        "timestamp": 1747501747366
+      },
+      {
+        "expression": "Solo who knows Chewbacca",
+        "guess": "Han",
+        "success": true,
+        "timestamp": 1747501749452
+      }
+    ],
+    "finalText": "a sunspot is observed by Han dynasty astronomers",
+    "timeToSolve": 53.648
+  }
+}

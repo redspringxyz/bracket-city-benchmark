@@ -1,0 +1,330 @@
+{
+  "timestamp": "2025-05-17T16:55:11.229Z",
+  "model": {
+    "name": "gpt-4.1",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "May 4, 2000:",
+    "puzzleDate": "2025-05-04",
+    "completionURL": "https://en.wikipedia.org/wiki/ILOVEYOU",
+    "solutions": {
+      "sash-wearing city official, maybe": "mayor",
+      "instinctual, impulsive companion of \"ego\" and \"superego\"": "ID",
+      "perform for an audience": "act",
+      "send your social ___ number to mayor@bracket.city": "security",
+      "\"___ the room\" you are told at the funeral, again": "read",
+      "month directly affected by leap years": "February",
+      "the \"VI\" in \"COVID\"": "virus",
+      "security device for your bike or luggage": "lock",
+      "🍌🍌🍌": "bananas",
+      "Atlantic ___ (🎲🎰🎲)": "city",
+      "shape seen everywhere on February 14th": "heart",
+      "six, on a somewhat fancy clock": "VI",
+      "\"The ___\" (this magazine)": "Atlantic",
+      "___ fact, e.g. \"bananas are radioactive\"": "fun",
+      "\"oy ___\" says the exasperated bubbie": "VEY",
+      "heart ___ (it goes up when you are nervous)": "rate"
+    },
+    "initialPuzzle": "the ILO[\"oy ___\" says the exaspe[[shape seen everywhere on [month directly affected by leap years] 14th] ___ (it goes up when you are nervous)]d bubbie]OU computer [the \"[six, on a somewhat fancy c[[send your social ___ number to [sash-wearing [[\"The ___\" (this magazine)] ___ (🎲🎰🎲)] official, maybe]@bracket.city] device for your bike or luggage]]\" in \"COV[instinctual, impulsive companion of \"ego\" and \"superego\"]\"] begins sp[\"___ the room\" you are told at the [___ fact, e.g. \"[🍌🍌🍌] are radio[perform for an audience]ive\"]eral, again]ing",
+    "puzzleSolution": "the ILOVEYOU computer virus begins spreading"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 44,
+      "correctGuesses": 14,
+      "totalClues": 16,
+      "hints": 2,
+      "reveals": 0,
+      "stepsTaken": 50,
+      "completionPercentage": 87.5
+    },
+    "usage": {
+      "promptTokens": 230343,
+      "completionTokens": 1483,
+      "totalTokens": 231826
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 10,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 60,
+      "totalPenalty": 70,
+      "finalScore": 0,
+      "rank": "Resident",
+      "nextRankName": "Council Member",
+      "pointsToNextRank": 1
+    },
+    "modelGuesses": [
+      {
+        "expression": "month directly affected by leap years",
+        "guess": "February",
+        "success": true,
+        "timestamp": 1747500857932
+      },
+      {
+        "expression": "shape seen everywhere on February 14th",
+        "guess": "heart",
+        "success": true,
+        "timestamp": 1747500858559
+      },
+      {
+        "expression": "it goes up when you are nervous",
+        "guess": "rate",
+        "success": true,
+        "timestamp": 1747500859203
+      },
+      {
+        "expression": "instinctual, impulsive companion of \"ego\" and \"superego\"",
+        "guess": "id",
+        "success": true,
+        "timestamp": 1747500859810
+      },
+      {
+        "expression": "\"The ___\" (this magazine)",
+        "guess": "New Yorker",
+        "success": false,
+        "timestamp": 1747500860894
+      },
+      {
+        "expression": "\"The ___\" (this magazine)",
+        "guess": "Atlantic",
+        "success": true,
+        "timestamp": 1747500862376
+      },
+      {
+        "expression": "___ (🎲🎰🎲)",
+        "guess": "roll",
+        "success": false,
+        "timestamp": 1747500863402
+      },
+      {
+        "expression": "___ (🎲🎰🎲)",
+        "guess": "game",
+        "success": false,
+        "timestamp": 1747500864379
+      },
+      {
+        "expression": "sash-wearing [Atlantic ___ (🎲🎰🎲)] official, maybe",
+        "guess": "pageant",
+        "success": false,
+        "timestamp": 1747500865940
+      },
+      {
+        "expression": "Atlantic ___ (🎲🎰🎲)",
+        "guess": "City",
+        "success": true,
+        "timestamp": 1747500866998
+      },
+      {
+        "expression": "send your social ___ number to [sash-wearing city official, maybe]@bracket.city",
+        "guess": "security",
+        "success": false,
+        "timestamp": 1747500867769
+      },
+      {
+        "expression": "sash-wearing city official, maybe",
+        "guess": "mayor",
+        "success": true,
+        "timestamp": 1747500868441
+      },
+      {
+        "expression": "send your social ___ number to mayor@bracket.city",
+        "guess": "security",
+        "success": true,
+        "timestamp": 1747500869202
+      },
+      {
+        "expression": "six, on a somewhat fancy c[security device for your bike or luggage]",
+        "guess": "combination",
+        "success": false,
+        "timestamp": 1747500869998
+      },
+      {
+        "expression": "security device for your bike or luggage",
+        "guess": "lock",
+        "success": true,
+        "timestamp": 1747500870850
+      },
+      {
+        "expression": "six, on a somewhat fancy clock",
+        "guess": "VI",
+        "success": true,
+        "timestamp": 1747500871544
+      },
+      {
+        "expression": "oy ___\" says the exasperated bubbie",
+        "guess": "vey",
+        "success": true,
+        "timestamp": 1747500872918
+      },
+      {
+        "expression": "___ the room\" you are told at the [___ fact, e.g. \"[🍌🍌🍌] are radio[perform for an audience]ive\"]eral, again",
+        "guess": "sweep",
+        "success": false,
+        "timestamp": 1747500873833
+      },
+      {
+        "expression": "perform for an audience",
+        "guess": "act",
+        "success": true,
+        "timestamp": 1747500874881
+      },
+      {
+        "expression": "🍌🍌🍌",
+        "guess": "bananas",
+        "success": true,
+        "timestamp": 1747500875741
+      },
+      {
+        "expression": "___ fact, e.g. \"bananas are radioactive\"",
+        "guess": "fun",
+        "success": true,
+        "timestamp": 1747500877086
+      },
+      {
+        "expression": "___ the room\" you are told at the funeral, again",
+        "guess": "sweep",
+        "success": false,
+        "timestamp": 1747500878027
+      },
+      {
+        "expression": "___ the room",
+        "guess": "spare",
+        "success": false,
+        "timestamp": 1747500879787
+      },
+      {
+        "expression": "___ the room\" you are told at the funeral, again",
+        "guess": "spare",
+        "success": false,
+        "timestamp": 1747500881511
+      },
+      {
+        "expression": "___ the room",
+        "guess": "spread",
+        "success": false,
+        "timestamp": 1747500882520
+      },
+      {
+        "expression": "___ the room\" you are told at the funeral, again",
+        "guess": "spread",
+        "success": false,
+        "timestamp": 1747500883378
+      },
+      {
+        "expression": "___ the room",
+        "guess": "sweep",
+        "success": false,
+        "timestamp": 1747500884627
+      },
+      {
+        "expression": "___ the room you are told at the funeral, again",
+        "guess": "spare",
+        "success": false,
+        "timestamp": 1747500888271
+      },
+      {
+        "expression": "___ the room",
+        "guess": "space",
+        "success": false,
+        "timestamp": 1747500889554
+      },
+      {
+        "expression": "sp[\"___ the room\" you are told at the funeral, again]ing",
+        "guess": "spare",
+        "success": false,
+        "timestamp": 1747500892147
+      },
+      {
+        "expression": "sp[\"___ the room\" you are told at the funeral, again]ing",
+        "guess": "spreading",
+        "success": false,
+        "timestamp": 1747500892981
+      },
+      {
+        "expression": "sp[\"___ the room\" you are told at the funeral, again]ing",
+        "guess": "spreading",
+        "success": false,
+        "timestamp": 1747500893913
+      },
+      {
+        "expression": "sp[\"___ the room\" you are told at the funeral, again]ing",
+        "guess": "spreading",
+        "success": false,
+        "timestamp": 1747500894924
+      },
+      {
+        "expression": "sp[\"___ the room\" you are told at the funeral, again]ing",
+        "guess": "spreading",
+        "success": false,
+        "timestamp": 1747500895936
+      },
+      {
+        "expression": "\"___ the room\" you are told at the funeral, again",
+        "guess": "spare",
+        "success": false,
+        "timestamp": 1747500897650
+      },
+      {
+        "expression": "\"___ the room\" you are told at the funeral, again",
+        "guess": "remake",
+        "success": false,
+        "timestamp": 1747500900698
+      },
+      {
+        "expression": "\"___ the room\" you are told at the funeral, again",
+        "guess": "reenter",
+        "success": false,
+        "timestamp": 1747500901854
+      },
+      {
+        "expression": "\"___ the room\" you are told at the funeral, again",
+        "guess": "rejoin",
+        "success": false,
+        "timestamp": 1747500903509
+      },
+      {
+        "expression": "\"___ the room\" you are told at the funeral, again",
+        "guess": "reenter",
+        "success": false,
+        "timestamp": 1747500904340
+      },
+      {
+        "expression": "\"___ the room\" you are told at the funeral, again",
+        "guess": "rejoin",
+        "success": false,
+        "timestamp": 1747500905578
+      },
+      {
+        "expression": "\"___ the room\" you are told at the funeral, again",
+        "guess": "reenter",
+        "success": false,
+        "timestamp": 1747500907058
+      },
+      {
+        "expression": "\"___ the room\" you are told at the funeral, again",
+        "guess": "reenter",
+        "success": false,
+        "timestamp": 1747500908543
+      },
+      {
+        "expression": "\"___ the room\" you are told at the funeral, again",
+        "guess": "reenter",
+        "success": false,
+        "timestamp": 1747500909931
+      },
+      {
+        "expression": "\"___ the room\" you are told at the funeral, again",
+        "guess": "reenter",
+        "success": false,
+        "timestamp": 1747500911228
+      }
+    ],
+    "finalText": "",
+    "timeToSolve": 53.893
+  }
+}

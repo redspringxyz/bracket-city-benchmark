@@ -1,0 +1,252 @@
+{
+  "timestamp": "2025-06-07T14:33:53.982Z",
+  "model": {
+    "name": "o3-high",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "April 25, 2000:",
+    "puzzleDate": "2025-04-25",
+    "completionURL": "https://www.youtube.com/watch?v=-BNwiqDGz5g",
+    "solutions": {
+      "\"___ off the scent\"": "throw",
+      "🍫 size even smaller than \"fun\"": "bite",
+      "cold ___ (chilly pool at a spa)": "plunge",
+      "something followed by a bloodhound": "scent",
+      "something you reflect on in the bathroom": "mirror",
+      "something you might not choose to die on": "hill",
+      "house with zany mirrors": "fun",
+      "zebra-striped official at a football game, for short": "ref",
+      "night often prescribed by a couple's therapist": "date",
+      "government overthrow that sounds like a dove": "coup",
+      "plunged elegantly into the water": "dove",
+      "game played with cues": "pool",
+      "bite for your 👂 not for your 👄": "sound",
+      "lively and boisterous play session": "romp",
+      "cards that were mostly replaced by teleprompters": "cue",
+      "when repeated, sound associated with 🚂": "choo"
+    },
+    "initialPuzzle": "the perfect [night often prescribed by a [government over[\"___ off the [something followed by a bloodhound]\"] that sounds like a [[cold ___ (c[something you might not [when repeated, [[🍫 size even smaller than \"[house with zany [something you [zebra-striped official at a football game, for short]lect on in the bathroom]s]\"] for your 👂 not for your 👄] associated with 🚂]se to die on]y [game played with [cards that were mostly replaced by telep[lively and boisterous play session]ters]s] at a spa)]d elegantly into the water]]le's therapist] according to Miss Rhode Island",
+    "puzzleSolution": "the perfect date according to Miss Rhode Island"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 31,
+      "correctGuesses": 16,
+      "totalClues": 16,
+      "hints": 2,
+      "reveals": 0,
+      "stepsTaken": 34,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 117700,
+      "completionTokens": 169982,
+      "totalTokens": 287682
+    },
+    "score": 65,
+    "rank": "Chief of Police",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 30,
+      "totalPenalty": 35,
+      "finalScore": 65,
+      "rank": "Chief of Police",
+      "nextRankName": "Mayor",
+      "pointsToNextRank": 3
+    },
+    "modelGuesses": [
+      {
+        "expression": "something followed by a bloodhound",
+        "guess": "scent",
+        "success": true,
+        "timestamp": 1749304411070
+      },
+      {
+        "expression": "zebra-striped official at a football game, for short",
+        "guess": "ref",
+        "success": true,
+        "timestamp": 1749304447658
+      },
+      {
+        "expression": "\"___ off the scent\"",
+        "guess": "throw",
+        "success": true,
+        "timestamp": 1749304549304
+      },
+      {
+        "expression": "lively and boisterous play session",
+        "guess": "romp",
+        "success": true,
+        "timestamp": 1749304612996
+      },
+      {
+        "expression": "something you reflect on in the bathroom",
+        "guess": "mirror",
+        "success": true,
+        "timestamp": 1749304630504
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "funhouse",
+        "success": false,
+        "timestamp": 1749304668397
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "house of mirrors",
+        "success": false,
+        "timestamp": 1749304888329
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "fun house",
+        "success": false,
+        "timestamp": 1749304977728
+      },
+      {
+        "expression": "cards that were mostly replaced by teleprompters",
+        "guess": "cue",
+        "success": true,
+        "timestamp": 1749305210707
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "hall of mirrors",
+        "success": false,
+        "timestamp": 1749305254696
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "mirror maze",
+        "success": false,
+        "timestamp": 1749305402368
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "funhouse",
+        "success": false,
+        "timestamp": 1749305512577
+      },
+      {
+        "expression": "game played with cues",
+        "guess": "pool",
+        "success": true,
+        "timestamp": 1749305614867
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "fun-house",
+        "success": false,
+        "timestamp": 1749305630083
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "Fun House",
+        "success": false,
+        "timestamp": 1749305827657
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "funhouse mirror",
+        "success": false,
+        "timestamp": 1749305949681
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "funny house",
+        "success": false,
+        "timestamp": 1749306055695
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "Funhouse",
+        "success": false,
+        "timestamp": 1749306210055
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "funhouse of mirrors",
+        "success": false,
+        "timestamp": 1749306393354
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "funhouse of mirror",
+        "success": false,
+        "timestamp": 1749306394599
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "fun",
+        "success": true,
+        "timestamp": 1749306513670
+      },
+      {
+        "expression": "🍫 size even smaller than \"fun\"",
+        "guess": "mini",
+        "success": false,
+        "timestamp": 1749306659751
+      },
+      {
+        "expression": "🍫 size even smaller than \"fun\"",
+        "guess": "bite",
+        "success": true,
+        "timestamp": 1749306660773
+      },
+      {
+        "expression": "when repeated, bite for your 👂 not for your 👄",
+        "guess": "sound",
+        "success": true,
+        "timestamp": 1749306662079
+      },
+      {
+        "expression": "sound associated with 🚂",
+        "guess": "choo",
+        "success": true,
+        "timestamp": 1749306663315
+      },
+      {
+        "expression": "something you might not choose to die on",
+        "guess": "hill",
+        "success": true,
+        "timestamp": 1749306664430
+      },
+      {
+        "expression": "cold ___",
+        "guess": "snap",
+        "success": false,
+        "timestamp": 1749306666408
+      },
+      {
+        "expression": "cold ___ (chilly pool at a spa)",
+        "guess": "plunge",
+        "success": true,
+        "timestamp": 1749306726754
+      },
+      {
+        "expression": "plunged elegantly into the water",
+        "guess": "dove",
+        "success": true,
+        "timestamp": 1749306830448
+      },
+      {
+        "expression": "government overthrow that sounds like a dove",
+        "guess": "coup",
+        "success": true,
+        "timestamp": 1749306831675
+      },
+      {
+        "expression": "night often prescribed by a couple's therapist",
+        "guess": "date",
+        "success": true,
+        "timestamp": 1749306832924
+      }
+    ],
+    "finalText": "the perfect date according to Miss Rhode Island",
+    "timeToSolve": 2487.127
+  }
+}

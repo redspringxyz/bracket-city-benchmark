@@ -1,0 +1,306 @@
+{
+  "timestamp": "2025-05-17T17:43:31.302Z",
+  "model": {
+    "name": "qwen3-235b-a22b",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "May 6, 2004:",
+    "puzzleDate": "2025-05-06",
+    "completionURL": "https://www.youtube.com/watch?v=9snbUbbMqbg",
+    "solutions": {
+      "like a square $100 bill, most probably": "fake",
+      "shape embedded down 15 blocks of Hollywood Boulevard": "Star",
+      "something you give before your last day": "notice",
+      "a metric one is 1000 kilograms": "ton",
+      "parental notice issued prior to punishment": "warning",
+      "Clinton who played the saxophone at his inauguration": "bill",
+      "to \"tie up loose ___\" in a movie usually has a murderous connotation": "ends",
+      "Ever___ing Gobstopper (much celebrated Wonka confection)": "last",
+      "row that sometimes gets a splash warning": "Front",
+      "system often celebrated because it makes more sense for water to freeze at 0 than 32": "metric",
+      "mobile ___ (e.g. StarTAC or RAZR)": "phone",
+      "space is the ___ Frontier (says Captain Kirk)": "final",
+      "serious crime explicitly covered by a Commandment": "murder",
+      "one of ten Charlton Heston received in a fake beard": "Commandment",
+      "lightly irritate": "irk",
+      "\"policy ___\" (one with detailed political knowledge)": "Wonk"
+    },
+    "initialPuzzle": "the series [space is the ___ [row that sometimes gets a splash [parental [something you give before your [Ever___ing Gobstopper (much celebrated [\"policy ___\" (one with detailed political knowledge)]a confection)] day] issued prior to punishment]]ier (says Captain K[lightly irritate])]e of \"Fri[to \"tie up loose ___\" in a movie usually has a [serious crime explicitly covered by a [one of ten Charl[a [system often celebrated because it makes more sense for water to freeze at 0 than 32] one is 1000 kilograms] Heston received in a [like a square $100 [Clinton who played the saxo[mobile ___ (e.g. [shape embedded down 15 blocks of Hollywood Boulevard]TAC or RAZR)] at his inauguration], most probably] beard]]ous connotation]\" airs",
+    "puzzleSolution": "the series finale of \"Friends\" airs"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 40,
+      "correctGuesses": 15,
+      "totalClues": 16,
+      "hints": 1,
+      "reveals": 1,
+      "stepsTaken": 43,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 212860,
+      "completionTokens": 78008,
+      "totalTokens": 290868
+    },
+    "score": 30,
+    "rank": "Resident",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 15,
+      "wrongGuessPenalty": 50,
+      "totalPenalty": 70,
+      "finalScore": 30,
+      "rank": "Resident",
+      "nextRankName": "Council Member",
+      "pointsToNextRank": 1
+    },
+    "modelGuesses": [
+      {
+        "expression": "Clinton who played the saxophone",
+        "guess": "Bill",
+        "success": false,
+        "timestamp": 1747501411810
+      },
+      {
+        "expression": "shape embedded down 15 blocks of Hollywood Boulevard",
+        "guess": "star",
+        "success": true,
+        "timestamp": 1747501432332
+      },
+      {
+        "expression": "mobile ___ (e.g. StarTAC or RAZR)",
+        "guess": "phone",
+        "success": true,
+        "timestamp": 1747501450718
+      },
+      {
+        "expression": "Clinton who played the saxophone at his inauguration",
+        "guess": "Bill",
+        "success": true,
+        "timestamp": 1747501554171
+      },
+      {
+        "expression": "system often celebrated because it makes more sense for water to freeze at 0 than 32",
+        "guess": "metric",
+        "success": true,
+        "timestamp": 1747501561814
+      },
+      {
+        "expression": "policy ___",
+        "guess": "wonk",
+        "success": true,
+        "timestamp": 1747501611636
+      },
+      {
+        "expression": "Ever___ing Gobstopper",
+        "guess": "last",
+        "success": true,
+        "timestamp": 1747501625027
+      },
+      {
+        "expression": "tie up loose ___",
+        "guess": "ends",
+        "success": false,
+        "timestamp": 1747501688343
+      },
+      {
+        "expression": "lightly irritate",
+        "guess": "rile",
+        "success": false,
+        "timestamp": 1747501798197
+      },
+      {
+        "expression": "something you give before your last day",
+        "guess": "notice",
+        "success": true,
+        "timestamp": 1747501911928
+      },
+      {
+        "expression": "space is the ___",
+        "guess": "final frontier",
+        "success": false,
+        "timestamp": 1747501965496
+      },
+      {
+        "expression": "lightly irritate",
+        "guess": "irk",
+        "success": true,
+        "timestamp": 1747502086828
+      },
+      {
+        "expression": "a metric one is 1000 kilograms",
+        "guess": "tonne",
+        "success": false,
+        "timestamp": 1747502209185
+      },
+      {
+        "expression": "a metric one is 1000 kilograms",
+        "guess": "ton",
+        "success": true,
+        "timestamp": 1747502230934
+      },
+      {
+        "expression": "tie up loose ___",
+        "guess": "ends",
+        "success": false,
+        "timestamp": 1747502254649
+      },
+      {
+        "expression": "one of ten Charlton Heston received in a bill beard",
+        "guess": "commandment",
+        "success": false,
+        "timestamp": 1747502338385
+      },
+      {
+        "expression": "like a square $100 bill, most probably",
+        "guess": "C-note",
+        "success": false,
+        "timestamp": 1747502354074
+      },
+      {
+        "expression": "like a square $100 bill, most probably",
+        "guess": "tablet",
+        "success": false,
+        "timestamp": 1747502468217
+      },
+      {
+        "expression": "like a square $100 bill, most probably",
+        "guess": "note",
+        "success": false,
+        "timestamp": 1747502517905
+      },
+      {
+        "expression": "space is the ___",
+        "guess": "final",
+        "success": false,
+        "timestamp": 1747502590905
+      },
+      {
+        "expression": "tie up loose ___",
+        "guess": "ends",
+        "success": false,
+        "timestamp": 1747502646360
+      },
+      {
+        "expression": "tie up loose ___",
+        "guess": "ends",
+        "success": false,
+        "timestamp": 1747502646360
+      },
+      {
+        "expression": "space is the ___",
+        "guess": "final frontier",
+        "success": false,
+        "timestamp": 1747502704147
+      },
+      {
+        "expression": "space is the ___",
+        "guess": "final frontier",
+        "success": false,
+        "timestamp": 1747502736178
+      },
+      {
+        "expression": "tie up loose ___",
+        "guess": "ends",
+        "success": false,
+        "timestamp": 1747502751421
+      },
+      {
+        "expression": "one of ten Charlton Heston received in a fake beard",
+        "guess": "commandment",
+        "success": true,
+        "timestamp": 1747502873721
+      },
+      {
+        "expression": "serious crime explicitly covered by a Commandment",
+        "guess": "capital",
+        "success": false,
+        "timestamp": 1747502925870
+      },
+      {
+        "expression": "serious crime explicitly covered by a Commandment",
+        "guess": "murder",
+        "success": true,
+        "timestamp": 1747502944875
+      },
+      {
+        "expression": "row that sometimes gets a splash",
+        "guess": "aisle",
+        "success": false,
+        "timestamp": 1747503079121
+      },
+      {
+        "expression": "space is the ___",
+        "guess": "final frontier",
+        "success": false,
+        "timestamp": 1747503147335
+      },
+      {
+        "expression": "space is the ___",
+        "guess": "final frontier",
+        "success": false,
+        "timestamp": 1747503207033
+      },
+      {
+        "expression": "row that sometimes gets a splash",
+        "guess": "aisle",
+        "success": false,
+        "timestamp": 1747503250439
+      },
+      {
+        "expression": "space is the ___",
+        "guess": "final frontier",
+        "success": false,
+        "timestamp": 1747503285370
+      },
+      {
+        "expression": "row that sometimes gets a splash notice",
+        "guess": "aisle",
+        "success": false,
+        "timestamp": 1747503395661
+      },
+      {
+        "expression": "row that sometimes gets a splash",
+        "guess": "aisle",
+        "success": false,
+        "timestamp": 1747503488579
+      },
+      {
+        "expression": "tie up loose ___",
+        "guess": "ends",
+        "success": true,
+        "timestamp": 1747503581097
+      },
+      {
+        "expression": "parental notice issued prior to punishment",
+        "guess": "warning",
+        "success": true,
+        "timestamp": 1747503616203
+      },
+      {
+        "expression": "row that sometimes gets a splash warning",
+        "guess": "aisle",
+        "success": false,
+        "timestamp": 1747503683289
+      },
+      {
+        "expression": "row that sometimes gets a splash warning",
+        "guess": "front",
+        "success": true,
+        "timestamp": 1747503795525
+      },
+      {
+        "expression": "space is the ___ Frontier (says Captain Kirk)",
+        "guess": "final",
+        "success": true,
+        "timestamp": 1747503802705
+      }
+    ],
+    "finalText": "the series space is the final frontier (says Captain Kirk) of \"Friends\" airs",
+    "timeToSolve": 2479.966
+  }
+}

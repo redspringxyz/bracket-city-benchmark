@@ -1,0 +1,342 @@
+{
+  "timestamp": "2025-05-17T16:53:48.538Z",
+  "model": {
+    "name": "gpt-4.1",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "May 6, 2004:",
+    "puzzleDate": "2025-05-06",
+    "completionURL": "https://www.youtube.com/watch?v=9snbUbbMqbg",
+    "solutions": {
+      "like a square $100 bill, most probably": "fake",
+      "shape embedded down 15 blocks of Hollywood Boulevard": "Star",
+      "something you give before your last day": "notice",
+      "a metric one is 1000 kilograms": "ton",
+      "parental notice issued prior to punishment": "warning",
+      "Clinton who played the saxophone at his inauguration": "bill",
+      "to \"tie up loose ___\" in a movie usually has a murderous connotation": "ends",
+      "Ever___ing Gobstopper (much celebrated Wonka confection)": "last",
+      "row that sometimes gets a splash warning": "Front",
+      "system often celebrated because it makes more sense for water to freeze at 0 than 32": "metric",
+      "mobile ___ (e.g. StarTAC or RAZR)": "phone",
+      "space is the ___ Frontier (says Captain Kirk)": "final",
+      "serious crime explicitly covered by a Commandment": "murder",
+      "one of ten Charlton Heston received in a fake beard": "Commandment",
+      "lightly irritate": "irk",
+      "\"policy ___\" (one with detailed political knowledge)": "Wonk"
+    },
+    "initialPuzzle": "the series [space is the ___ [row that sometimes gets a splash [parental [something you give before your [Ever___ing Gobstopper (much celebrated [\"policy ___\" (one with detailed political knowledge)]a confection)] day] issued prior to punishment]]ier (says Captain K[lightly irritate])]e of \"Fri[to \"tie up loose ___\" in a movie usually has a [serious crime explicitly covered by a [one of ten Charl[a [system often celebrated because it makes more sense for water to freeze at 0 than 32] one is 1000 kilograms] Heston received in a [like a square $100 [Clinton who played the saxo[mobile ___ (e.g. [shape embedded down 15 blocks of Hollywood Boulevard]TAC or RAZR)] at his inauguration], most probably] beard]]ous connotation]\" airs",
+    "puzzleSolution": "the series finale of \"Friends\" airs"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 46,
+      "correctGuesses": 9,
+      "totalClues": 16,
+      "hints": 3,
+      "reveals": 1,
+      "stepsTaken": 50,
+      "completionPercentage": 62.5
+    },
+    "usage": {
+      "promptTokens": 338078,
+      "completionTokens": 1648,
+      "totalTokens": 339726
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 15,
+      "megaPeekPenalty": 15,
+      "wrongGuessPenalty": 74,
+      "totalPenalty": 104,
+      "finalScore": 0,
+      "rank": "Tourist",
+      "nextRankName": "Commuter",
+      "pointsToNextRank": 11
+    },
+    "modelGuesses": [
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500774647
+      },
+      {
+        "expression": "\"policy ___\" (one with detailed political knowledge)",
+        "guess": "wonk",
+        "success": true,
+        "timestamp": 1747500775410
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500776123
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500777147
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500779101
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500779698
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500781649
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500782667
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500783838
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500785106
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500785769
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500786380
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500787142
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500788248
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500789204
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500789888
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500790860
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500791946
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500793736
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500794880
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500795896
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500796994
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500797762
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500798780
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500800142
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500801227
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500802070
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500803055
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500803889
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747500804743
+      },
+      {
+        "expression": "something you give before your last day",
+        "guess": "notice",
+        "success": true,
+        "timestamp": 1747500807748
+      },
+      {
+        "expression": "parental notice issued prior to punishment",
+        "guess": "warning",
+        "success": true,
+        "timestamp": 1747500809268
+      },
+      {
+        "expression": "row that sometimes gets a splash warning",
+        "guess": "front",
+        "success": true,
+        "timestamp": 1747500810638
+      },
+      {
+        "expression": "lightly irritate",
+        "guess": "tickle",
+        "success": false,
+        "timestamp": 1747500812602
+      },
+      {
+        "expression": "lightly irritate",
+        "guess": "itch",
+        "success": false,
+        "timestamp": 1747500814495
+      },
+      {
+        "expression": "lightly irritate",
+        "guess": "irk",
+        "success": true,
+        "timestamp": 1747500815602
+      },
+      {
+        "expression": "space is the ___ Frontier (says Captain Kirk)",
+        "guess": "final",
+        "success": true,
+        "timestamp": 1747500816666
+      },
+      {
+        "expression": "to \"tie up loose ___\" in a movie usually has a [serious crime explicitly covered by a [one of ten Charl[a [system often celebrated because it makes more sense for water to freeze at 0 than 32] one is 1000 kilograms] Heston received in a [like a square $100 [Clinton who played the saxo[mobile ___ (e.g. [shape embedded down 15 blocks of Hollywood Boulevard]TAC or RAZR)] at his inauguration], most probably] beard]]ous connotation]",
+        "guess": "ends",
+        "success": false,
+        "timestamp": 1747500818719
+      },
+      {
+        "expression": "to \"tie up loose ___\" in a movie usually has a [serious crime explicitly covered by a [one of ten Charl[a [system often celebrated because it makes more sense for water to freeze at 0 than 32] one is 1000 kilograms] Heston received in a [like a square $100 [Clinton who played the saxo[mobile ___ (e.g. [shape embedded down 15 blocks of Hollywood Boulevard]TAC or RAZR)] at his inauguration], most probably] beard]]ous connotation]",
+        "guess": "ends",
+        "success": false,
+        "timestamp": 1747500820776
+      },
+      {
+        "expression": "shape embedded down 15 blocks of Hollywood Boulevard",
+        "guess": "star",
+        "success": true,
+        "timestamp": 1747500821954
+      },
+      {
+        "expression": "mobile ___ (e.g. StarTAC or RAZR)",
+        "guess": "phone",
+        "success": true,
+        "timestamp": 1747500823014
+      },
+      {
+        "expression": "Clinton who played the saxophone at his inauguration",
+        "guess": "Bill",
+        "success": true,
+        "timestamp": 1747500823900
+      },
+      {
+        "expression": "like a square $100 bill, most probably",
+        "guess": "crisp",
+        "success": false,
+        "timestamp": 1747500824862
+      },
+      {
+        "expression": "like a square $100 bill, most probably",
+        "guess": "fresh",
+        "success": false,
+        "timestamp": 1747500826807
+      },
+      {
+        "expression": "like a square $100 bill, most probably",
+        "guess": "folded",
+        "success": false,
+        "timestamp": 1747500827702
+      },
+      {
+        "expression": "like a square $100 bill, most probably",
+        "guess": "flat",
+        "success": false,
+        "timestamp": 1747500828536
+      }
+    ],
+    "finalText": "",
+    "timeToSolve": 55.202
+  }
+}

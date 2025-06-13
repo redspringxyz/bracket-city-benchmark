@@ -1,0 +1,25 @@
+{
+  "completionText": "May 11, 330:",
+  "puzzleDate": "2025-05-11",
+  "completionURL": "https://en.wikipedia.org/wiki/New_Rome",
+  "solutions": {
+    "room many CEOs claim to have started in": "Mail",
+    "famous Windows 95 button or an instruction to begin": "start",
+    "glass-half-empty type": "pessimist",
+    "largest asset for Old MacDonald": "farm",
+    "___-com (like \"Notting Hill\" or \"You've Got Mail\")": "Rom",
+    "airline seat preferred by those who can hold it, maybe": "Window",
+    "kind of farm with tiny six-legged animals": "ant",
+    "first name for an \"arrogant duck with a pessimistic attitude and an insecure disposition\" (per Wikipedia)": "Donald",
+    "like a nest recently relieved of teenagers": "empty",
+    "U2 frontman": "bono",
+    "weapon for a halloween prankster (escalation from toilet paper)": "egg",
+    "list usually to the right of pros": "Cons",
+    "___ bono (like free legal work)": "pro",
+    "\"___ naked\" (not quite nude)": "half",
+    "\"___ it\" (usually said rapidly in an effort to avoid an undesirable assignment)": "Not",
+    "kind of egg that you grow to retire": "nest"
+  },
+  "initialPuzzle": "[list usually to the right of [___ [U2 frontman] (like free legal work)]s]tantine changes the name of Byz[kind of [largest asset for Old Mac[first name for an \"arrogant duck with a [glass-[\"___ naked\" (not quite nude)]-[like a [kind of [weapon for a halloween prankster (escalation from toilet paper)] that you grow to retire] recently relieved of teenagers] type]ic attitude and an insecure disposition\" (per Wikipedia)]] with tiny six-legged animals]ium to New [___-com (like \"[\"___ it\" (usually said rapidly in an effort to avoid an undesirable assignment)]ting Hill\" or \"You've Got [room many CEOs claim to have [famous [airline seat preferred by those who can hold it, maybe]s 95 button or an instruction to begin]ed in]\")]e",
+  "puzzleSolution": "Constantine changes the name of Byzantium to New Rome"
+}

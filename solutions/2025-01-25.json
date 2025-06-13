@@ -1,0 +1,28 @@
+{
+  "completionText": "January 25, 1995:",
+  "puzzleDate": "2025-01-25",
+  "completionURL": "https://en.wikipedia.org/wiki/Norwegian_rocket_incident",
+  "solutions": {
+    "like crystal Pepsi": "clear",
+    "1985 sci-fi film \"Back to the ___\"": "future",
+    "ball that can show you the future": "crystal",
+    "leave it running in neutral": "idle",
+    "it counts in horseshoes and hand grenades, it is said": "close",
+    "idle couch-loving people": "loafers",
+    "fancy formal dance": "ball",
+    "weapons with safety pins": "grenades",
+    "sort of finger that can do some damage": "trigger",
+    "inflates, as a bike tire": "pumps",
+    "Oslo native": "Norwegian",
+    "secret ones are good to have in a pinch": "weapons",
+    "be on ___ and needles": "pins",
+    "not for or against": "neutral",
+    "index or middle, e.g.": "finger",
+    "two-fingered attack from a kid, often": "pinch",
+    "Coke rival": "Pepsi",
+    "loafers or pumps, e.g.": "shoes",
+    "kind of lane that's not for cars": "bike"
+  },
+  "initialPuzzle": "[Oslo native] scientists come [it counts in horse[[[leave it running in [not for or against]] couch-loving people] or [inflates, as a [kind of lane that's not for cars] tire], e.g.] and hand [[secret ones are good to have in a [two-fingered attack from a kid, often]] with safety [be on ___ and needles]], it is said] to [sort of [index or middle, e.g.] that can do some damage]ing nu[like [[fancy formal dance] that can show you the [1985 sci-fi film \"Back to the ___\"]] [Coke rival]] war",
+  "puzzleSolution": "Norwegian scientists come close to triggering nuclear war"
+}

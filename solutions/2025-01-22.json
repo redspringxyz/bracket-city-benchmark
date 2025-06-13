@@ -1,0 +1,26 @@
+{
+  "completionText": "January 22, 1506:",
+  "puzzleDate": "2025-01-22",
+  "completionURL": "https://en.wikipedia.org/wiki/Swiss_Guard",
+  "solutions": {
+    "___ on the street": "word",
+    "Wall ___": "street",
+    "___ naked": "Buck",
+    "like some shiny ceramics": "glazed",
+    "word you might shout to call security at a palace": "Guards",
+    "sets a time for": "schedules",
+    "cheese full of holes": "Swiss",
+    "like Caesar's or Buckingham": "palace",
+    "prescription drug dosage units, often": "milligrams",
+    "word photographers sometimes demand to hear": "cheese",
+    "fastener that typically weighs about 32 milligrams": "staple",
+    "org that schedules substances": "DEA",
+    "stereotypically illegible scribble by a doctor": "prescription",
+    "illicitly tamper with": "doctor",
+    "___ bust, typical DEA operation": "drug",
+    "Christmas staple that's often glazed": "ham",
+    "Julius with bangs": "Caesar"
+  },
+  "initialPuzzle": "the first 150 [[[___ on the [Wall ___]] photographers sometimes demand to hear] full of holes] [word you might shout to call security at a [like [Julius with bangs]'s or [___ naked]ing[Christmas [fastener that typically weighs about 32 [[stereotypically illegible scribble by a [illicitly tamper with]] [___ bust, typical [org that [sets a time for] substances] operation] dosage units, often]] that's often [like some shiny ceramics]]]] arrive at the Vatican",
+  "puzzleSolution": "the first 150 Swiss Guards arrive at the Vatican"
+}

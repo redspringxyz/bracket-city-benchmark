@@ -1,0 +1,174 @@
+{
+  "timestamp": "2025-05-17T16:51:10.353Z",
+  "model": {
+    "name": "claude-3-5-sonnet-20241022",
+    "provider": "anthropic.messages"
+  },
+  "puzzle": {
+    "completionText": "May 13, 1861:",
+    "puzzleDate": "2025-05-13",
+    "completionURL": "https://www.smh.com.au/national/nsw/from-the-archives-john-tebbutt-discovers-the-great-comet-of-1861-20190509-p51lnj.html",
+    "solutions": {
+      "syllable following \"cocka\" and \"doodle\"": "doo",
+      "\"___ willy\" (horrible cousin of a noogie or a wedgie 👂)": "Wet",
+      "\"___ on down!\" is the last thing you remember hearing before winning a dishwasher": "Come",
+      "word for a gas + electric car": "hybrid",
+      "suffix you might use standalone when someone offers a description that is pretty close": "ish",
+      "material pulled over some eyes": "wool",
+      "\"___ Theft Auto\"": "grand",
+      "suffix that indicates a hybrid dog breed 🐩": "doodle",
+      "woolly animal herded with a crook": "sheep",
+      "word on a door that opens toward you": "pull",
+      "crenellated turret of chess": "rook",
+      "identity ___ (sinister use for a social security number)": "Theft",
+      "___ laughing matter (serious)": "no",
+      "game with grandmasters": "chess",
+      "\"Home ___\" (1990 movie featuring the Wet Bandits)": "alone",
+      "better than never, it is said": "late"
+    },
+    "initialPuzzle": "[[material [word on a [syllable following \"cocka\" and \"[suffix that indicates a [word for a gas + electric car] dog breed 🐩]\"]r that opens toward you]ed over some eyes]ly animal herded with a c[crenel[better than never, it is said]d turret of [game with [\"___ [identity ___ (sinister use for a social security number)] Auto\"]masters]]] farmer discovers the Great [\"___ on down!\" is the last thing you remember hearing before winning a d[suffix you might use stand[\"Home ___\" (1990 movie featuring the [\"___ willy\" (horrible cousin of a [___ laughing matter (serious)]ogie or a wedgie 👂)] Bandits)] when someone offers a description that is pretty close]washer]t of 1861",
+    "puzzleSolution": "sheep farmer discovers the Great Comet of 1861"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 18,
+      "correctGuesses": 16,
+      "totalClues": 16,
+      "hints": 1,
+      "reveals": 0,
+      "stepsTaken": 20,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 81298,
+      "completionTokens": 1966,
+      "totalTokens": 83264
+    },
+    "score": 91,
+    "rank": "Kingmaker",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 4,
+      "totalPenalty": 9,
+      "finalScore": 91,
+      "rank": "Kingmaker",
+      "nextRankName": "Puppet Master",
+      "pointsToNextRank": 9
+    },
+    "modelGuesses": [
+      {
+        "expression": "word for a gas + electric car",
+        "guess": "hybrid",
+        "success": true,
+        "timestamp": 1747500632343
+      },
+      {
+        "expression": "___ laughing matter (serious)",
+        "guess": "no",
+        "success": true,
+        "timestamp": 1747500634823
+      },
+      {
+        "expression": "identity ___ (sinister use for a social security number)",
+        "guess": "theft",
+        "success": true,
+        "timestamp": 1747500636462
+      },
+      {
+        "expression": "suffix that indicates a hybrid dog breed 🐩",
+        "guess": "poo",
+        "success": false,
+        "timestamp": 1747500639894
+      },
+      {
+        "expression": "suffix that indicates a hybrid dog breed 🐩",
+        "guess": "doodle",
+        "success": true,
+        "timestamp": 1747500643359
+      },
+      {
+        "expression": "syllable following \"cocka\" and \"doodle\"",
+        "guess": "doo",
+        "success": true,
+        "timestamp": 1747500645214
+      },
+      {
+        "expression": "word on a door that opens toward you",
+        "guess": "pull",
+        "success": true,
+        "timestamp": 1747500646975
+      },
+      {
+        "expression": "material pulled over some eyes",
+        "guess": "wool",
+        "success": true,
+        "timestamp": 1747500649627
+      },
+      {
+        "expression": "better than never, it is said",
+        "guess": "late",
+        "success": true,
+        "timestamp": 1747500651386
+      },
+      {
+        "expression": "game with \\\"___ Theft Auto\\\"masters",
+        "guess": "grand",
+        "success": true,
+        "timestamp": 1747500653413
+      },
+      {
+        "expression": "game with grandmasters",
+        "guess": "chess",
+        "success": true,
+        "timestamp": 1747500655437
+      },
+      {
+        "expression": "Home ___ (1990 movie featuring the Wet Bandits)",
+        "guess": "alone",
+        "success": false,
+        "timestamp": 1747500657231
+      },
+      {
+        "expression": "___ willy (horrible cousin of a noogie or a wedgie 👂)",
+        "guess": "wet",
+        "success": true,
+        "timestamp": 1747500659449
+      },
+      {
+        "expression": "Home ___ (1990 movie featuring the Wet Bandits)",
+        "guess": "Alone",
+        "success": true,
+        "timestamp": 1747500661432
+      },
+      {
+        "expression": "suffix you might use standalone when someone offers a description that is pretty close",
+        "guess": "ish",
+        "success": true,
+        "timestamp": 1747500663602
+      },
+      {
+        "expression": "___ on down!",
+        "guess": "come",
+        "success": true,
+        "timestamp": 1747500665325
+      },
+      {
+        "expression": "crenellated turret of chess",
+        "guess": "rook",
+        "success": true,
+        "timestamp": 1747500667111
+      },
+      {
+        "expression": "woolly animal herded with a crook",
+        "guess": "sheep",
+        "success": true,
+        "timestamp": 1747500668879
+      }
+    ],
+    "finalText": "The final solved sentence is:\nsheep farmer discovers the Great Comet of 1861",
+    "timeToSolve": 41.012
+  }
+}

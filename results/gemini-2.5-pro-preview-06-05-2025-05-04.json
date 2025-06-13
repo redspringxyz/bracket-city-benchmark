@@ -1,0 +1,162 @@
+{
+  "timestamp": "2025-06-07T13:04:51.102Z",
+  "model": {
+    "name": "gemini-2.5-pro-preview-06-05",
+    "provider": "google.generative-ai"
+  },
+  "puzzle": {
+    "completionText": "May 4, 2000:",
+    "puzzleDate": "2025-05-04",
+    "completionURL": "https://en.wikipedia.org/wiki/ILOVEYOU",
+    "solutions": {
+      "sash-wearing city official, maybe": "mayor",
+      "instinctual, impulsive companion of \"ego\" and \"superego\"": "ID",
+      "perform for an audience": "act",
+      "send your social ___ number to mayor@bracket.city": "security",
+      "\"___ the room\" you are told at the funeral, again": "read",
+      "month directly affected by leap years": "February",
+      "the \"VI\" in \"COVID\"": "virus",
+      "security device for your bike or luggage": "lock",
+      "🍌🍌🍌": "bananas",
+      "Atlantic ___ (🎲🎰🎲)": "city",
+      "shape seen everywhere on February 14th": "heart",
+      "six, on a somewhat fancy clock": "VI",
+      "\"The ___\" (this magazine)": "Atlantic",
+      "___ fact, e.g. \"bananas are radioactive\"": "fun",
+      "\"oy ___\" says the exasperated bubbie": "VEY",
+      "heart ___ (it goes up when you are nervous)": "rate"
+    },
+    "initialPuzzle": "the ILO[\"oy ___\" says the exaspe[[shape seen everywhere on [month directly affected by leap years] 14th] ___ (it goes up when you are nervous)]d bubbie]OU computer [the \"[six, on a somewhat fancy c[[send your social ___ number to [sash-wearing [[\"The ___\" (this magazine)] ___ (🎲🎰🎲)] official, maybe]@bracket.city] device for your bike or luggage]]\" in \"COV[instinctual, impulsive companion of \"ego\" and \"superego\"]\"] begins sp[\"___ the room\" you are told at the [___ fact, e.g. \"[🍌🍌🍌] are radio[perform for an audience]ive\"]eral, again]ing",
+    "puzzleSolution": "the ILOVEYOU computer virus begins spreading"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 16,
+      "correctGuesses": 16,
+      "totalClues": 16,
+      "hints": 1,
+      "reveals": 0,
+      "stepsTaken": 18,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 48886,
+      "completionTokens": 1151,
+      "totalTokens": 50037
+    },
+    "score": 95,
+    "rank": "Kingmaker",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 0,
+      "totalPenalty": 5,
+      "finalScore": 95,
+      "rank": "Kingmaker",
+      "nextRankName": "Puppet Master",
+      "pointsToNextRank": 5
+    },
+    "modelGuesses": [
+      {
+        "expression": "month directly affected by leap years",
+        "guess": "February",
+        "success": true,
+        "timestamp": 1749300552875
+      },
+      {
+        "expression": "shape seen everywhere on February 14th",
+        "guess": "heart",
+        "success": true,
+        "timestamp": 1749300688553
+      },
+      {
+        "expression": "instinctual, impulsive companion of \"ego\" and \"superego\"",
+        "guess": "id",
+        "success": true,
+        "timestamp": 1749300761666
+      },
+      {
+        "expression": "perform for an audience",
+        "guess": "act",
+        "success": true,
+        "timestamp": 1749300818506
+      },
+      {
+        "expression": "🍌🍌🍌",
+        "guess": "bananas",
+        "success": true,
+        "timestamp": 1749300898194
+      },
+      {
+        "expression": "heart ___ (it goes up when you are nervous)",
+        "guess": "rate",
+        "success": true,
+        "timestamp": 1749300955124
+      },
+      {
+        "expression": "\"The ___\" (this magazine)",
+        "guess": "Atlantic",
+        "success": true,
+        "timestamp": 1749301101323
+      },
+      {
+        "expression": "___ fact, e.g. \"bananas are radioactive\"",
+        "guess": "fun",
+        "success": true,
+        "timestamp": 1749301145108
+      },
+      {
+        "expression": "Atlantic ___ (🎲🎰🎲)",
+        "guess": "City",
+        "success": true,
+        "timestamp": 1749301174405
+      },
+      {
+        "expression": "sash-wearing city official, maybe",
+        "guess": "mayor",
+        "success": true,
+        "timestamp": 1749301210477
+      },
+      {
+        "expression": "send your social ___ number to mayor@bracket.city",
+        "guess": "security",
+        "success": true,
+        "timestamp": 1749301234135
+      },
+      {
+        "expression": "six, on a somewhat fancy c[security device for your bike or luggage]",
+        "guess": "lock",
+        "success": true,
+        "timestamp": 1749301281850
+      },
+      {
+        "expression": "six, on a somewhat fancy clock",
+        "guess": "VI",
+        "success": true,
+        "timestamp": 1749301308484
+      },
+      {
+        "expression": "\"oy ___\" says the exasperated bubbie",
+        "guess": "vey",
+        "success": true,
+        "timestamp": 1749301438626
+      },
+      {
+        "expression": "\"___ the room\" you are told at the funeral, again",
+        "guess": "read",
+        "success": true,
+        "timestamp": 1749301444427
+      },
+      {
+        "expression": "the \"VI\" in \"COVID\"",
+        "guess": "virus",
+        "success": true,
+        "timestamp": 1749301448519
+      }
+    ],
+    "finalText": "the ILOVEYOU computer virus begins spreading",
+    "timeToSolve": 945.289
+  }
+}

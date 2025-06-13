@@ -1,0 +1,142 @@
+{
+  "timestamp": "2025-05-22T19:36:45.517Z",
+  "model": {
+    "name": "o4-mini-medium",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "May 12, 1963:",
+    "puzzleDate": "2025-05-12",
+    "completionURL": "https://www.youtube.com/watch?v=9xVIHwOqgpw",
+    "solutions": {
+      "most famous Sigmund by a lot": "Freud",
+      "scary sounding place for an orchestra": "pit",
+      "container for treasure": "chest",
+      "major for Freud and Skinner fans, briefly": "psych",
+      "psychic power letters": "esp",
+      "company that phased out Saturn and Oldsmobile": "gm",
+      "🍁🍁🍁": "leaves",
+      "like a student who is temporarily barred from school": "suspended",
+      "\"and\" en español": "y",
+      "letters after sex, phys, or Mister": "Ed",
+      "planet between Jupiter and Uranus": "Saturn",
+      "response to an invitation that leaves you wondering if they really want to go": "sure",
+      "___ body president": "student",
+      "a cloud of tiny suspended water droplets": "Mist"
+    },
+    "initialPuzzle": "Bob D[\"and\" en [[major for [most famous Si[company that phased out [planet between Ju[scary sounding place for an or[container for trea[response to an invitation that [🍁🍁🍁] you wondering if they really want to go]]ra]er and Uranus] and Oldsmobile]und by a lot] and Skinner fans, briefly]ic power letters]añol]lan walks out of \"The [letters after sex, phys, or [a cloud of tiny [like a [___ body president] who is temporarily barred from school] water droplets]er] Sullivan Show\"",
+    "puzzleSolution": "Bob Dylan walks out of \"The Ed Sullivan Show\""
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 13,
+      "correctGuesses": 5,
+      "totalClues": 14,
+      "hints": 0,
+      "reveals": 0,
+      "stepsTaken": 14,
+      "completionPercentage": 35.714285714285715
+    },
+    "usage": {
+      "promptTokens": 27060,
+      "completionTokens": 40592,
+      "totalTokens": 67652
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 0,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 16,
+      "totalPenalty": 16,
+      "finalScore": 0,
+      "rank": "Power Broker",
+      "nextRankName": "Kingmaker",
+      "pointsToNextRank": 7
+    },
+    "modelGuesses": [
+      {
+        "expression": "🍁🍁🍁",
+        "guess": "mmm",
+        "success": false,
+        "timestamp": 1747942243534
+      },
+      {
+        "expression": "🍁🍁🍁",
+        "guess": "leaves",
+        "success": true,
+        "timestamp": 1747942261386
+      },
+      {
+        "expression": "___ body president",
+        "guess": "student",
+        "success": true,
+        "timestamp": 1747942270591
+      },
+      {
+        "expression": "a cloud of tiny suspended water droplets",
+        "guess": "mist",
+        "success": false,
+        "timestamp": 1747942287586
+      },
+      {
+        "expression": "a cloud of tiny [like a student who is temporarily barred from school] water droplets",
+        "guess": "mist",
+        "success": false,
+        "timestamp": 1747942340275
+      },
+      {
+        "expression": "like a student who is temporarily barred from school",
+        "guess": "suspended",
+        "success": true,
+        "timestamp": 1747942362759
+      },
+      {
+        "expression": "letters after sex, phys, or [a cloud of tiny suspended water droplets]er",
+        "guess": "ED",
+        "success": false,
+        "timestamp": 1747942399750
+      },
+      {
+        "expression": "response to an invitation that leaves you wondering if they really want to go",
+        "guess": "maybe",
+        "success": false,
+        "timestamp": 1747942423475
+      },
+      {
+        "expression": "letters after sex, phys, or [a cloud of tiny suspended water droplets]er",
+        "guess": "ed",
+        "success": false,
+        "timestamp": 1747942438543
+      },
+      {
+        "expression": "letters after sex, phys, or [a cloud of tiny suspended water droplets]er",
+        "guess": "ed",
+        "success": false,
+        "timestamp": 1747942476925
+      },
+      {
+        "expression": "container for trea[sure]ra",
+        "guess": "chest",
+        "success": false,
+        "timestamp": 1747942521064
+      },
+      {
+        "expression": "a cloud of tiny suspended water droplets",
+        "guess": "mist",
+        "success": true,
+        "timestamp": 1747942555115
+      },
+      {
+        "expression": "letters after sex, phys, or Mister",
+        "guess": "Ed",
+        "success": true,
+        "timestamp": 1747942570262
+      }
+    ],
+    "finalText": "Bob Dylan walks out of \"The Ed Sullivan Show\"",
+    "timeToSolve": 374.679
+  }
+}

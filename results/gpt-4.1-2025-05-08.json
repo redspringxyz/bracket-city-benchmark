@@ -1,0 +1,186 @@
+{
+  "timestamp": "2025-05-17T16:54:14.431Z",
+  "model": {
+    "name": "gpt-4.1",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "May 8, 1950:",
+    "puzzleDate": "2025-05-08",
+    "completionURL": "https://www.youtube.com/watch?v=03AB2sIMRnU",
+    "solutions": {
+      "the A in MoMA": "art",
+      "syllable for hecklers at a performance": "boo",
+      "\"___ my dust!\" you say as you attempt a burnout on your Segway": "eat",
+      "entry in a book for a sorcerer": "spell",
+      "dog tail motion": "wag",
+      "a reprobate might not be welcome in \"___ society\"": "polite",
+      "bunny that fears the vacuum": "dust",
+      "kind of sickness induced by 🚗, 🚢, or ✈️, maybe": "motion",
+      "\"Don't have a ___, man!\" says Bart Simpson following his antics": "cow",
+      "something you (used to) pay someone in a booth on a highway": "Toll",
+      "Bugs might be the most famous one": "bunny",
+      "a smooth transition from one part of a performance to another": "segue",
+      "common misspelling of \"segue\"": "Segway",
+      "more polite name for a fiery abyss of despair": "heck",
+      "kind of wagon that greets newcomers": "welcome",
+      "onomatopoeic cow sound": "moo"
+    },
+    "initialPuzzle": "the [something you (used to) pay someone in a [syllable for [more [a reprobate might not be [kind of [dog tail [kind of sickness induced by 🚗, 🚢, or ✈️, maybe]]on that greets newcomers] in \"___ society\"] name for a fiery abyss of despair]lers at a performance]th on a highway]und Man is discovered in a p[\"___ my [[Bugs might be the most famous one] that fears the vacuum]!\" you say as you attempt a burnout on your [common mis[entry in a book for a sorcerer]ing of \"[a s[onomatopoeic [\"Don't have a ___, man!\" says B[the A in MoMA] Simpson following his antics] sound]th transition from one part of a performance to another]\"]] bog in Denmark",
+    "puzzleSolution": "the Tollund Man is discovered in a peat bog in Denmark"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 20,
+      "correctGuesses": 6,
+      "totalClues": 16,
+      "hints": 0,
+      "reveals": 0,
+      "stepsTaken": 27,
+      "completionPercentage": 37.5
+    },
+    "usage": {
+      "promptTokens": 102159,
+      "completionTokens": 1337,
+      "totalTokens": 103496
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 0,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 28,
+      "totalPenalty": 28,
+      "finalScore": 0,
+      "rank": "Mayor",
+      "nextRankName": "Power Broker",
+      "pointsToNextRank": 7
+    },
+    "modelGuesses": [
+      {
+        "expression": "kind of sickness induced by 🚗, 🚢, or ✈️, maybe",
+        "guess": "motion",
+        "success": true,
+        "timestamp": 1747500822558
+      },
+      {
+        "expression": "dog tail motion",
+        "guess": "wag",
+        "success": true,
+        "timestamp": 1747500823189
+      },
+      {
+        "expression": "kind of wagon that greets newcomers",
+        "guess": "welcome",
+        "success": true,
+        "timestamp": 1747500824496
+      },
+      {
+        "expression": "name for a fiery abyss of despair",
+        "guess": "hell",
+        "success": false,
+        "timestamp": 1747500825618
+      },
+      {
+        "expression": "Bugs might be the most famous one",
+        "guess": "bunny",
+        "success": true,
+        "timestamp": 1747500826642
+      },
+      {
+        "expression": "bunny that fears the vacuum",
+        "guess": "dust",
+        "success": true,
+        "timestamp": 1747500827474
+      },
+      {
+        "expression": "onomatopoeic [\"Don't have a ___, man!\" says B[the A in MoMA] Simpson following his antics] sound",
+        "guess": "cow",
+        "success": false,
+        "timestamp": 1747500828589
+      },
+      {
+        "expression": "entry in a book for a sorcerer",
+        "guess": "spell",
+        "success": true,
+        "timestamp": 1747500829310
+      },
+      {
+        "expression": "onomatopoeic [\"Don't have a ___, man!\" says B[the A in MoMA] Simpson following his antics] sound",
+        "guess": "cowabunga",
+        "success": false,
+        "timestamp": 1747500831230
+      },
+      {
+        "expression": "Don't have a ___, man!\" says B[the A in MoMA] Simpson following his antics",
+        "guess": "cow",
+        "success": false,
+        "timestamp": 1747500832210
+      },
+      {
+        "expression": "a s",
+        "guess": "scene",
+        "success": false,
+        "timestamp": 1747500832920
+      },
+      {
+        "expression": "onomatopoeic [\"Don't have a ___, man!\" says B[the A in MoMA] Simpson following his antics] sound",
+        "guess": "cow",
+        "success": false,
+        "timestamp": 1747500833673
+      },
+      {
+        "expression": "th transition from one part of a performance to another",
+        "guess": "segue",
+        "success": false,
+        "timestamp": 1747500834535
+      },
+      {
+        "expression": "common misspelling of \"[a s[onomatopoeic [\"Don't have a ___, man!\" says B[the A in MoMA] Simpson following his antics] sound]th transition from one part of a performance to another]\"",
+        "guess": "segue",
+        "success": false,
+        "timestamp": 1747500835800
+      },
+      {
+        "expression": "syllable for [more [a reprobate might not be welcome in \"___ society\"] name for a fiery abyss of despair]lers at a performance]th on a highway",
+        "guess": "toll",
+        "success": false,
+        "timestamp": 1747500836606
+      },
+      {
+        "expression": "something you (used to) pay someone in a [syllable for [more [a reprobate might not be welcome in \"___ society\"] name for a fiery abyss of despair]lers at a performance]th on a highway",
+        "guess": "toll",
+        "success": false,
+        "timestamp": 1747500837607
+      },
+      {
+        "expression": "und Man is discovered in a p[\"___ my dust!\" you say as you attempt a burnout on your [common misspelling of \"[a s[onomatopoeic [\"Don't have a ___, man!\" says B[the A in MoMA] Simpson following his antics] sound]th transition from one part of a performance to another]\"]] bog in Denmark",
+        "guess": "peat",
+        "success": false,
+        "timestamp": 1747500839817
+      },
+      {
+        "expression": "syllable for [more [a reprobate might not be welcome in \"___ society\"] name for a fiery abyss of despair]lers at a performance]th on a highway",
+        "guess": "toll",
+        "success": false,
+        "timestamp": 1747500840605
+      },
+      {
+        "expression": "th on a highway",
+        "guess": "toll",
+        "success": false,
+        "timestamp": 1747500846506
+      },
+      {
+        "expression": "lers at a performance",
+        "guess": "heck",
+        "success": false,
+        "timestamp": 1747500847760
+      }
+    ],
+    "finalText": "It appears the puzzle is stuck: all remaining clues are not innermost, so no tool calls are being accepted. The puzzle string is:\n\nthe [something you (used to) pay someone in a [syllable for [more [a reprobate might not be welcome in \"___ society\"] name for a fiery abyss of despair]lers at a performance]th on a highway]und Man is discovered in a p[\"___ my [bunny that fears the vacuum]!\" you say as you attempt a burnout on your [common misspelling of \"[a s[onomatopoeic [\"Don't have a ___, man!\" says B[the A in MoMA] Simpson following his antics] sound]th transition from one part of a performance to another]\"] bog in Denmark\n\nThere are no innermost clues left to solve, but the puzzle is not finished. This may be a formatting or technical issue. Please check the puzzle structure or provide clarification so I can continue solving!",
+    "timeToSolve": 33.095
+  }
+}

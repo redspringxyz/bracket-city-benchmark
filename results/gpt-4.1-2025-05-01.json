@@ -1,0 +1,198 @@
+{
+  "timestamp": "2025-05-17T17:05:18.097Z",
+  "model": {
+    "name": "gpt-4.1",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "May 1, 1941:",
+    "puzzleDate": "2025-05-01",
+    "completionURL": "https://www.youtube.com/watch?v=a6d64DuUTw8",
+    "solutions": {
+      "a senior ___ might be entitled to a discount": "Citizen",
+      "kind of order that's hard to carry out": "tall",
+      "consumer commerce complex": "mall",
+      "\"out of ___\" (disappointing sign to encounter on a vending machine)": "order",
+      "Archduke or Viscount or Assistant Manager": "title",
+      "one of two that you might be told to get up before a fight": "duke",
+      "delectable oft-frosted tart": "pop",
+      "tally the number of items in a group": "count",
+      "something to do on the dotted line": "sign",
+      "word after food or pillow ⚔️": "fight",
+      "_-pop (genre originating in 🇰🇷 with devoted fans)": "K",
+      "word after inferiority or Napoleon": "complex",
+      "court in a mall": "food",
+      "short sleep session": "Nap",
+      "\"do you want to get ___bite?!\" (dire warning from your mom on a cold day)": "frost",
+      "final year of high school": "senior"
+    },
+    "initialPuzzle": "\"[a [final year of high school] ___ might be en[Arch[one of two that you might be told to get up before a [word after [court in a [consumer commerce [word after inferiority or [short sleep session]oleon]]] or pillow ⚔️]] or Vis[[kind of [\"out of ___\" (disappointing [something to do on the dotted line] to encounter on a vending machine)] that's hard to carry out]y the number of items in a group] or Assistant Manager]d to a discount] [_-[delectable oft-[\"do you want to get ___bite?!\" (dire warning from your mom on a cold day)]ed tart] (genre originating in 🇰🇷 with devoted fans)]ane\" premieres at the RKO Palace",
+    "puzzleSolution": "\"Citizen Kane\" premieres at the RKO Palace"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 22,
+      "correctGuesses": 16,
+      "totalClues": 16,
+      "hints": 1,
+      "reveals": 0,
+      "stepsTaken": 24,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 64844,
+      "completionTokens": 679,
+      "totalTokens": 65523
+    },
+    "score": 83,
+    "rank": "Power Broker",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 12,
+      "totalPenalty": 17,
+      "finalScore": 83,
+      "rank": "Power Broker",
+      "nextRankName": "Kingmaker",
+      "pointsToNextRank": 8
+    },
+    "modelGuesses": [
+      {
+        "expression": "final year of high school",
+        "guess": "senior",
+        "success": true,
+        "timestamp": 1747501493953
+      },
+      {
+        "expression": "short sleep session",
+        "guess": "nap",
+        "success": true,
+        "timestamp": 1747501494513
+      },
+      {
+        "expression": "something to do on the dotted line",
+        "guess": "sign",
+        "success": true,
+        "timestamp": 1747501495331
+      },
+      {
+        "expression": "dire warning from your mom on a cold day",
+        "guess": "frost",
+        "success": true,
+        "timestamp": 1747501495985
+      },
+      {
+        "expression": "delectable oft-frosted tart",
+        "guess": "pop",
+        "success": true,
+        "timestamp": 1747501496672
+      },
+      {
+        "expression": "genre originating in 🇰🇷 with devoted fans",
+        "guess": "k",
+        "success": true,
+        "timestamp": 1747501498481
+      },
+      {
+        "expression": "word after inferiority or Napoleon",
+        "guess": "complex",
+        "success": true,
+        "timestamp": 1747501499147
+      },
+      {
+        "expression": "consumer commerce complex",
+        "guess": "mall",
+        "success": true,
+        "timestamp": 1747501499843
+      },
+      {
+        "expression": "court in a mall",
+        "guess": "food",
+        "success": true,
+        "timestamp": 1747501500537
+      },
+      {
+        "expression": "word after food or pillow ⚔️",
+        "guess": "fight",
+        "success": true,
+        "timestamp": 1747501501420
+      },
+      {
+        "expression": "one of two that you might be told to get up before a fight",
+        "guess": "corner",
+        "success": false,
+        "timestamp": 1747501502141
+      },
+      {
+        "expression": "one of two that you might be told to get up before a fight",
+        "guess": "duel",
+        "success": false,
+        "timestamp": 1747501503517
+      },
+      {
+        "expression": "one of two that you might be told to get up before a fight",
+        "guess": "dog",
+        "success": false,
+        "timestamp": 1747501504190
+      },
+      {
+        "expression": "one of two that you might be told to get up before a fight",
+        "guess": "date",
+        "success": false,
+        "timestamp": 1747501504953
+      },
+      {
+        "expression": "one of two that you might be told to get up before a fight",
+        "guess": "duke",
+        "success": true,
+        "timestamp": 1747501505679
+      },
+      {
+        "expression": "kind of [\"out of ___\" (disappointing sign to encounter on a vending machine)] that's hard to carry out",
+        "guess": "stock",
+        "success": false,
+        "timestamp": 1747501506670
+      },
+      {
+        "expression": "\"out of ___\" (disappointing sign to encounter on a vending machine)",
+        "guess": "order",
+        "success": true,
+        "timestamp": 1747501512500
+      },
+      {
+        "expression": "kind of order that's hard to carry out",
+        "guess": "tall",
+        "success": true,
+        "timestamp": 1747501513372
+      },
+      {
+        "expression": "tally the number of items in a group",
+        "guess": "count",
+        "success": true,
+        "timestamp": 1747501514126
+      },
+      {
+        "expression": "a senior ___ might be en[Archduke or Viscount or Assistant Manager]d to a discount",
+        "guess": "citizen",
+        "success": false,
+        "timestamp": 1747501515730
+      },
+      {
+        "expression": "Archduke or Viscount or Assistant Manager",
+        "guess": "title",
+        "success": true,
+        "timestamp": 1747501516443
+      },
+      {
+        "expression": "a senior ___ might be entitled to a discount",
+        "guess": "citizen",
+        "success": true,
+        "timestamp": 1747501517389
+      }
+    ],
+    "finalText": "A senior citizen might be entitled to a discount Kane premieres at the RKO Palace",
+    "timeToSolve": 24.766
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "timestamp": "2025-05-17T17:03:16.760Z",
+  "model": {
+    "name": "claude-3.7-sonnet-20250219-32k-thinking",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "May 1, 1941:",
+    "puzzleDate": "2025-05-01",
+    "completionURL": "https://www.youtube.com/watch?v=a6d64DuUTw8",
+    "solutions": {
+      "a senior ___ might be entitled to a discount": "Citizen",
+      "kind of order that's hard to carry out": "tall",
+      "consumer commerce complex": "mall",
+      "\"out of ___\" (disappointing sign to encounter on a vending machine)": "order",
+      "Archduke or Viscount or Assistant Manager": "title",
+      "one of two that you might be told to get up before a fight": "duke",
+      "delectable oft-frosted tart": "pop",
+      "tally the number of items in a group": "count",
+      "something to do on the dotted line": "sign",
+      "word after food or pillow ⚔️": "fight",
+      "_-pop (genre originating in 🇰🇷 with devoted fans)": "K",
+      "word after inferiority or Napoleon": "complex",
+      "court in a mall": "food",
+      "short sleep session": "Nap",
+      "\"do you want to get ___bite?!\" (dire warning from your mom on a cold day)": "frost",
+      "final year of high school": "senior"
+    },
+    "initialPuzzle": "\"[a [final year of high school] ___ might be en[Arch[one of two that you might be told to get up before a [word after [court in a [consumer commerce [word after inferiority or [short sleep session]oleon]]] or pillow ⚔️]] or Vis[[kind of [\"out of ___\" (disappointing [something to do on the dotted line] to encounter on a vending machine)] that's hard to carry out]y the number of items in a group] or Assistant Manager]d to a discount] [_-[delectable oft-[\"do you want to get ___bite?!\" (dire warning from your mom on a cold day)]ed tart] (genre originating in 🇰🇷 with devoted fans)]ane\" premieres at the RKO Palace",
+    "puzzleSolution": "\"Citizen Kane\" premieres at the RKO Palace"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 19,
+      "correctGuesses": 16,
+      "totalClues": 16,
+      "hints": 1,
+      "reveals": 0,
+      "stepsTaken": 21,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 87401,
+      "completionTokens": 5580,
+      "totalTokens": 92981
+    },
+    "score": 89,
+    "rank": "Power Broker",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 6,
+      "totalPenalty": 11,
+      "finalScore": 89,
+      "rank": "Power Broker",
+      "nextRankName": "Kingmaker",
+      "pointsToNextRank": 2
+    },
+    "modelGuesses": [
+      {
+        "expression": "final year of high school",
+        "guess": "senior",
+        "success": true,
+        "timestamp": 1747501307095
+      },
+      {
+        "expression": "short sleep session",
+        "guess": "nap",
+        "success": true,
+        "timestamp": 1747501312833
+      },
+      {
+        "expression": "word after inferiority or Napoleon",
+        "guess": "complex",
+        "success": true,
+        "timestamp": 1747501315790
+      },
+      {
+        "expression": "consumer commerce complex",
+        "guess": "mall",
+        "success": true,
+        "timestamp": 1747501318256
+      },
+      {
+        "expression": "court in a mall",
+        "guess": "food",
+        "success": true,
+        "timestamp": 1747501322894
+      },
+      {
+        "expression": "word after food or pillow ⚔️",
+        "guess": "fight",
+        "success": true,
+        "timestamp": 1747501329181
+      },
+      {
+        "expression": "one of two that you might be told to get up before a fight",
+        "guess": "dukes",
+        "success": false,
+        "timestamp": 1747501333674
+      },
+      {
+        "expression": "one of two that you might be told to get up before a fight",
+        "guess": "guard",
+        "success": false,
+        "timestamp": 1747501338057
+      },
+      {
+        "expression": "one of two that you might be told to get up before a fight",
+        "guess": "dander",
+        "success": false,
+        "timestamp": 1747501348380
+      },
+      {
+        "expression": "one of two that you might be told to get up before a fight",
+        "guess": "duke",
+        "success": true,
+        "timestamp": 1747501355602
+      },
+      {
+        "expression": "something to do on the dotted line",
+        "guess": "sign",
+        "success": true,
+        "timestamp": 1747501360813
+      },
+      {
+        "expression": "out of ___\" (disappointing sign to encounter on a vending machine)",
+        "guess": "order",
+        "success": true,
+        "timestamp": 1747501364079
+      },
+      {
+        "expression": "kind of order that's hard to carry out",
+        "guess": "tall",
+        "success": true,
+        "timestamp": 1747501368541
+      },
+      {
+        "expression": "tally the number of items in a group",
+        "guess": "count",
+        "success": true,
+        "timestamp": 1747501372669
+      },
+      {
+        "expression": "do you want to get ___bite?!\" (dire warning from your mom on a cold day)",
+        "guess": "frost",
+        "success": true,
+        "timestamp": 1747501376682
+      },
+      {
+        "expression": "delectable oft-frosted tart",
+        "guess": "pop",
+        "success": true,
+        "timestamp": 1747501380867
+      },
+      {
+        "expression": "_-pop (genre originating in 🇰🇷 with devoted fans)",
+        "guess": "K",
+        "success": true,
+        "timestamp": 1747501383672
+      },
+      {
+        "expression": "Archduke or Viscount or Assistant Manager",
+        "guess": "title",
+        "success": true,
+        "timestamp": 1747501388265
+      },
+      {
+        "expression": "a senior ___ might be entitled to a discount",
+        "guess": "citizen",
+        "success": true,
+        "timestamp": 1747501393567
+      }
+    ],
+    "finalText": "\"A senior citizen might be entitled to a discount. 'Citizen Kane' premieres at the RKO Palace.\"",
+    "timeToSolve": 95.424
+  }
+}

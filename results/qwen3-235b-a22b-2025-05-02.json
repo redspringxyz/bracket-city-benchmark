@@ -1,0 +1,222 @@
+{
+  "timestamp": "2025-05-17T17:20:47.434Z",
+  "model": {
+    "name": "qwen3-235b-a22b",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "May 2, 1941:",
+    "puzzleDate": "2025-05-02",
+    "completionURL": "https://www.youtube.com/watch?v=USm4mmYJU6I",
+    "solutions": {
+      "word gleefully hollered by an auctioneer": "sold",
+      "fast-talker with a gavel that's not a judge": "auctioneer",
+      "some believe a groundhog can predict the arrival of this season": "Spring",
+      "sleep___ camp": "away",
+      "Bruce in \"Finding Nemo\" was named after the mechanical ___ used in \"Jaws\"": "Shark",
+      "leader at a pep rally 📣": "Cheer",
+      "Springsteen or Lee": "Bruce",
+      "\"__ ease, soldier\"": "at",
+      "spoiled the ending, with \"away\"": "gave",
+      "Guevara pictured on many dorm room walls": "Che",
+      "a glass one is a liability for a boxer": "Jaw",
+      "something to separate from fiction": "fact",
+      "kind of talk you might give yourself before the big meeting": "pep",
+      "\"the rumor ___\" (metaphorical gossip factory 🏭)": "Mill",
+      "\"enough small ___!\" you bellow as you watch \"Shark Tank\" on your Tivo": "talk",
+      "magnifying ___ (detective's tool not used by too many detectives)": "glass"
+    },
+    "initialPuzzle": "General [\"the rumor ___\" (metaphorical gossip [something to separate from fiction]ory 🏭)]s renames \"[Guevara pictured on many dorm room walls]erio[\"__ ease, [word gleefully hollered by an [fast-talker with a [spoiled the ending, with \"[sleep___ camp]\"]l that's not a judge]]ier\"]s\" to \"[leader at a [kind of [\"enough small ___!\" you bellow as you watch \"[[[some believe a groundhog can predict the arrival of this season]steen or Lee] in \"Finding Nemo\" was named after the mechanical ___ used in \"[a [magnifying ___ (detective's tool not used by too many detectives)] one is a liability for a boxer]s\"] Tank\" on your Tivo] you might give yourself before the big meeting] rally 📣]ios.\"",
+    "puzzleSolution": "General Mills renames \"Cheerioats\" to \"Cheerios.\""
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 26,
+      "correctGuesses": 16,
+      "totalClues": 16,
+      "hints": 0,
+      "reveals": 0,
+      "stepsTaken": 27,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 99264,
+      "completionTokens": 41459,
+      "totalTokens": 140723
+    },
+    "score": 80,
+    "rank": "Power Broker",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 0,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 20,
+      "totalPenalty": 20,
+      "finalScore": 80,
+      "rank": "Power Broker",
+      "nextRankName": "Kingmaker",
+      "pointsToNextRank": 11
+    },
+    "modelGuesses": [
+      {
+        "expression": "something to separate from fiction",
+        "guess": "fact",
+        "success": true,
+        "timestamp": 1747501150456
+      },
+      {
+        "expression": "Guevara pictured on many dorm room walls",
+        "guess": "Che",
+        "success": true,
+        "timestamp": 1747501212723
+      },
+      {
+        "expression": "sleep___ camp",
+        "guess": "away",
+        "success": true,
+        "timestamp": 1747501226562
+      },
+      {
+        "expression": "spoiled the ending, with \"away\"",
+        "guess": "gave",
+        "success": true,
+        "timestamp": 1747501280449
+      },
+      {
+        "expression": "some believe a groundhog can predict the arrival of this season",
+        "guess": "spring",
+        "success": true,
+        "timestamp": 1747501360740
+      },
+      {
+        "expression": "magnifying ___ (detective's tool not used by too many detectives)",
+        "guess": "glass",
+        "success": true,
+        "timestamp": 1747501444141
+      },
+      {
+        "expression": "the rumor ___",
+        "guess": "mill",
+        "success": true,
+        "timestamp": 1747501480811
+      },
+      {
+        "expression": "fast-talker with a gavel that's not a judge",
+        "guess": "auctioneer",
+        "success": true,
+        "timestamp": 1747501510746
+      },
+      {
+        "expression": "word gleefully hollered by an auctioneer",
+        "guess": "Going",
+        "success": false,
+        "timestamp": 1747501518802
+      },
+      {
+        "expression": "word gleefully hollered by an auctioneer",
+        "guess": "Once",
+        "success": false,
+        "timestamp": 1747501525612
+      },
+      {
+        "expression": "word gleefully hollered by an auctioneer",
+        "guess": "Twice",
+        "success": false,
+        "timestamp": 1747501540582
+      },
+      {
+        "expression": "word gleefully hollered by an auctioneer",
+        "guess": "sold",
+        "success": true,
+        "timestamp": 1747501605990
+      },
+      {
+        "expression": "mechanical ___ (detective's tool not used by too many detectives)",
+        "guess": "jaw",
+        "success": true,
+        "timestamp": 1747501777789
+      },
+      {
+        "expression": "__ ease",
+        "guess": "at",
+        "success": true,
+        "timestamp": 1747501835345
+      },
+      {
+        "expression": "Springsteen or Lee",
+        "guess": "Bruce",
+        "success": true,
+        "timestamp": 1747501915195
+      },
+      {
+        "expression": "enough small ___!",
+        "guess": "talk",
+        "success": false,
+        "timestamp": 1747501955833
+      },
+      {
+        "expression": "\"enough small ___!\"",
+        "guess": "talk",
+        "success": false,
+        "timestamp": 1747502006067
+      },
+      {
+        "expression": "\"enough small ___!\"",
+        "guess": "talk",
+        "success": false,
+        "timestamp": 1747502092212
+      },
+      {
+        "expression": "enough small ___!",
+        "guess": "talk",
+        "success": false,
+        "timestamp": 1747502140749
+      },
+      {
+        "expression": "leader at a [kind of [\"enough small ___!\" you bellow as you watch \"[Bruce in \"Finding Nemo\" was named after the mechanical ___ used in \"Jaws\"] Tank\" on your Tivo] you might give yourself before the big meeting] rally 📣",
+        "guess": "Press",
+        "success": false,
+        "timestamp": 1747502222078
+      },
+      {
+        "expression": "mechanical ___ used in \"Jaws\"",
+        "guess": "shark",
+        "success": true,
+        "timestamp": 1747502239473
+      },
+      {
+        "expression": "enough small ___!",
+        "guess": "talk",
+        "success": true,
+        "timestamp": 1747502257180
+      },
+      {
+        "expression": "kind of talk you might give yourself before the big meeting",
+        "guess": "pep",
+        "success": true,
+        "timestamp": 1747502275528
+      },
+      {
+        "expression": "leader at a pep rally 📣",
+        "guess": "Cheerleader",
+        "success": false,
+        "timestamp": 1747502352812
+      },
+      {
+        "expression": "leader at a pep rally 📣",
+        "guess": "Cheer",
+        "success": true,
+        "timestamp": 1747502397917
+      },
+      {
+        "expression": "leader at a pep rally 📣",
+        "guess": "Sparta",
+        "success": false,
+        "timestamp": 1747502431579
+      }
+    ],
+    "finalText": "The final solved sentence is:\n\n**\"General Mills renames Cheerioats to Cheerios.\"** \n\nThis makes sense because \"Cheerioats\" was the original name for the cereal before being renamed to \"Cheerios,\" tying together all the clues related to cheerleading, Shark Tank, and other wordplay elements.",
+    "timeToSolve": 1434.098
+  }
+}

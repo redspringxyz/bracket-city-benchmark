@@ -1,0 +1,218 @@
+{
+  "timestamp": "2025-05-17T17:01:04.204Z",
+  "model": {
+    "name": "grok-3-beta",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "April 26, 1964:",
+    "puzzleDate": "2025-04-26",
+    "completionURL": "https://www.youtube.com/watch?v=1BwQn5xaRdI",
+    "solutions": {
+      "door at which you might wait for the magician to get an autograph": "stage",
+      "food served out of a truck or on a Tuesday": "Taco",
+      "you might go on one at the request of a princess": "quest",
+      "place other than your browser to open a tab": "bar",
+      "something not to let hit you on the way out": "door",
+      "\"___ questions?\"": "any",
+      "suitor/hostage-taker of Beauty in a fairy tale": "beast",
+      "\"__ Quiero Taco Bell\" ➡️ a chihuahua from the 90s": "Yo",
+      "___ mark (much-improved name for a mole)": "Beauty",
+      "sometimes involuntarily applied neckwear in Honolulu": "Lei",
+      "Peach or Leia": "princess",
+      "Yoko who staged \"bed-ins\" with John": "ono",
+      "something yelled by a forgetful actor, maybe": "line",
+      "illicitly imitate, as a signature": "forge",
+      "\"___ wide\" says the dentist": "open",
+      "flossing evangelist, often": "dentist",
+      "\"the ___ of the beast\" (something's essence)": "nature",
+      "lines made at the beach": "Tan"
+    },
+    "initialPuzzle": "Tang[\"___ [you might go on one at the request of a [Peach or [sometimes involuntarily applied neckwear in H[[\"__ Quiero [food served out of a truck or on a Tuesday] Bell\" ➡️ a chihuahua from the 90s]ko who staged \"bed-ins\" with John]lulu]a]]ions?\"]ika and Zanzi[place other than your browser to [\"___ wide\" says the [flossing evangelist, often]] a tab] merge to form [[something yelled by a [illicitly imitate, as a sig[\"the ___ of the [suitor/ho[[something not to let hit you on the way out] at which you might wait for the magician to get an autograph]-taker of [___ mark (much-improved name for a mole)] in a fairy tale]\" (something's essence)]]tful actor, maybe]s made at the beach]zania",
+    "puzzleSolution": "Tanganyika and Zanzibar merge to form Tanzania"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 25,
+      "correctGuesses": 18,
+      "totalClues": 18,
+      "hints": 0,
+      "reveals": 0,
+      "stepsTaken": 27,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 146231,
+      "completionTokens": 4171,
+      "totalTokens": 150402
+    },
+    "score": 86,
+    "rank": "Power Broker",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 0,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 14,
+      "totalPenalty": 14,
+      "finalScore": 86,
+      "rank": "Power Broker",
+      "nextRankName": "Kingmaker",
+      "pointsToNextRank": 5
+    },
+    "modelGuesses": [
+      {
+        "expression": "food served out of a truck or on a Tuesday",
+        "guess": "taco",
+        "success": true,
+        "timestamp": 1747501125030
+      },
+      {
+        "expression": "\"__ Quiero Taco Bell\" ➡️ a chihuahua from the 90s",
+        "guess": "Yo",
+        "success": true,
+        "timestamp": 1747501128009
+      },
+      {
+        "expression": "sometimes involuntarily applied neckwear in Honolulu",
+        "guess": "lei",
+        "success": false,
+        "timestamp": 1747501133881
+      },
+      {
+        "expression": "flossing evangelist, often",
+        "guess": "dentist",
+        "success": true,
+        "timestamp": 1747501139195
+      },
+      {
+        "expression": "\"___ wide\" says the dentist",
+        "guess": "open",
+        "success": true,
+        "timestamp": 1747501141572
+      },
+      {
+        "expression": "place other than your browser to open a tab",
+        "guess": "bar",
+        "success": true,
+        "timestamp": 1747501143729
+      },
+      {
+        "expression": "sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu",
+        "guess": "lei",
+        "success": false,
+        "timestamp": 1747501154358
+      },
+      {
+        "expression": "something not to let hit you on the way out",
+        "guess": "door",
+        "success": true,
+        "timestamp": 1747501157093
+      },
+      {
+        "expression": "___ mark (much-improved name for a mole)",
+        "guess": "beauty",
+        "success": true,
+        "timestamp": 1747501161538
+      },
+      {
+        "expression": "suitor/ho[door at which you might wait for the magician to get an autograph]-taker of Beauty in a fairy tale",
+        "guess": "Beast",
+        "success": false,
+        "timestamp": 1747501166621
+      },
+      {
+        "expression": "s made at the beach",
+        "guess": "castles",
+        "success": false,
+        "timestamp": 1747501187634
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "stage",
+        "success": true,
+        "timestamp": 1747501202247
+      },
+      {
+        "expression": "suitor/hostage-taker of Beauty in a fairy tale",
+        "guess": "Beast",
+        "success": true,
+        "timestamp": 1747501207454
+      },
+      {
+        "expression": "the ___ of the beast (something's essence)",
+        "guess": "heart",
+        "success": false,
+        "timestamp": 1747501213592
+      },
+      {
+        "expression": "\"the ___ of the beast\" (something's essence)",
+        "guess": "heart",
+        "success": false,
+        "timestamp": 1747501216895
+      },
+      {
+        "expression": "\"the ___ of the beast\" (something's essence)",
+        "guess": "nature",
+        "success": true,
+        "timestamp": 1747501221691
+      },
+      {
+        "expression": "illicitly imitate, as a signature",
+        "guess": "forge",
+        "success": true,
+        "timestamp": 1747501225198
+      },
+      {
+        "expression": "something yelled by a forgetful actor, maybe",
+        "guess": "line",
+        "success": true,
+        "timestamp": 1747501230191
+      },
+      {
+        "expression": "lines made at the beach",
+        "guess": "tan",
+        "success": true,
+        "timestamp": 1747501233135
+      },
+      {
+        "expression": "sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu",
+        "guess": "lei",
+        "success": false,
+        "timestamp": 1747501237126
+      },
+      {
+        "expression": "Yoko who staged \"bed-ins\" with John",
+        "guess": "Ono",
+        "success": true,
+        "timestamp": 1747501245053
+      },
+      {
+        "expression": "sometimes involuntarily applied neckwear in Honolulu",
+        "guess": "lei",
+        "success": true,
+        "timestamp": 1747501248463
+      },
+      {
+        "expression": "Peach or Leia",
+        "guess": "Princess",
+        "success": true,
+        "timestamp": 1747501253867
+      },
+      {
+        "expression": "you might go on one at the request of a princess",
+        "guess": "quest",
+        "success": true,
+        "timestamp": 1747501258329
+      },
+      {
+        "expression": "___ questions?",
+        "guess": "any",
+        "success": true,
+        "timestamp": 1747501262316
+      }
+    ],
+    "finalText": "Tanganyika and Zanzibar merge to form Tanzania",
+    "timeToSolve": 142.868
+  }
+}

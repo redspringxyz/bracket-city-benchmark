@@ -1,0 +1,220 @@
+{
+  "timestamp": "2025-05-17T17:23:48.524Z",
+  "model": {
+    "name": "qwen3-235b-a22b",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "May 5, 1921:",
+    "puzzleDate": "2025-05-05",
+    "completionURL": "https://www.youtube.com/watch?v=r6AtDQZ8K28",
+    "solutions": {
+      "service concerned with protecting politicians (and counterfeiting!)": "secret",
+      "response indicated when you keep your shoulders still and rotate your head smoothly side to side, turning your chin about 15 to 30 degrees in each direction": "No",
+      "💩 sample": "stool",
+      "place to sit with stools": "counter",
+      "\"___ the sea!\" sings the delightful cartoon crab": "under",
+      "like cologne but a lot stronger": "Perfume",
+      "word after hermit or before cake 🦀": "crab",
+      "back___ (accumulation of undone work)": "log",
+      "Blanchett whose first name has an uncommon start": "cate",
+      "\"a__!\" you say gleefully having located the missing Mint Milano": "ha",
+      "body part you are often urged to use after having made a mental blunder": "head",
+      "__tied (dangerous state for shoelaces I'm told)": "un",
+      "sillier-sounding word for a recluse": "hermit",
+      "something often kept secret by expecting parents, lest they get pressured out of \"Bort\"": "name"
+    },
+    "initialPuzzle": "[like co[back___ (accumulation of [__tied (dangerous state for shoelaces I'm told)]done work)]ne but a lot stronger] C[\"a__!\" you say gleefully having lo[Blanchett whose first [something often kept [service concerned with protecting politicians (and [place to sit with [💩 sample]s]feiting!)] by expecting parents, lest they get pressured out of \"Bort\"] has an uncommon start]d the missing Mint Milano]nel [response indicated when you keep your shoulders still and rotate your [body part you are often urged to use after having made a mental bl[\"___ the sea!\" sings the delightful cartoon [word after [sillier-sounding word for a recluse] or before cake 🦀]]] smoothly side to side, turning your chin about 15 to 30 degrees in each direction]. 5 is released",
+    "puzzleSolution": "Perfume Chanel No. 5 is released"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 26,
+      "correctGuesses": 13,
+      "totalClues": 14,
+      "hints": 0,
+      "reveals": 1,
+      "stepsTaken": 28,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 101078,
+      "completionTokens": 30740,
+      "totalTokens": 131818
+    },
+    "score": 59,
+    "rank": "Chief of Police",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 0,
+      "megaPeekPenalty": 15,
+      "wrongGuessPenalty": 26,
+      "totalPenalty": 41,
+      "finalScore": 59,
+      "rank": "Chief of Police",
+      "nextRankName": "Mayor",
+      "pointsToNextRank": 9
+    },
+    "modelGuesses": [
+      {
+        "expression": "__tied (dangerous state for shoelaces I'm told)",
+        "guess": "un",
+        "success": true,
+        "timestamp": 1747501664636
+      },
+      {
+        "expression": "💩 sample",
+        "guess": "stool",
+        "success": true,
+        "timestamp": 1747501678384
+      },
+      {
+        "expression": "sillier-sounding word for a recluse",
+        "guess": "hermit",
+        "success": true,
+        "timestamp": 1747501757567
+      },
+      {
+        "expression": "back___ (accumulation of undone work)",
+        "guess": "log",
+        "success": true,
+        "timestamp": 1747501811671
+      },
+      {
+        "expression": "word after hermit or before cake 🦀",
+        "guess": "crab",
+        "success": true,
+        "timestamp": 1747501874355
+      },
+      {
+        "expression": "\"___ the sea!\" sings the delightful cartoon crab",
+        "guess": "Under",
+        "success": true,
+        "timestamp": 1747501915140
+      },
+      {
+        "expression": "body part you are often urged to use after having made a mental blunder",
+        "guess": "head",
+        "success": true,
+        "timestamp": 1747501934112
+      },
+      {
+        "expression": "service concerned with protecting politicians (and stoolfeiting!)",
+        "guess": "Secret Service",
+        "success": false,
+        "timestamp": 1747501958126
+      },
+      {
+        "expression": "response indicated when you keep your shoulders still and rotate your head smoothly side to side, turning your chin about 15 to 30 degrees in each direction",
+        "guess": "no",
+        "success": true,
+        "timestamp": 1747502036823
+      },
+      {
+        "expression": "like cologne but a lot stronger",
+        "guess": "perfume",
+        "success": true,
+        "timestamp": 1747502049698
+      },
+      {
+        "expression": "service concerned with protecting politicians (and stoolfeiting!)",
+        "guess": "Secret Service",
+        "success": false,
+        "timestamp": 1747502086171
+      },
+      {
+        "expression": "service concerned with protecting politicians (and stoolfeiting!)",
+        "guess": "Secret Service",
+        "success": false,
+        "timestamp": 1747502115946
+      },
+      {
+        "expression": "service concerned with protecting politicians (and stoolfeiting!)",
+        "guess": "Secret Service",
+        "success": false,
+        "timestamp": 1747502149387
+      },
+      {
+        "expression": "place to sit with stools",
+        "guess": "bar",
+        "success": false,
+        "timestamp": 1747502223336
+      },
+      {
+        "expression": "place to sit with stools",
+        "guess": "counter",
+        "success": true,
+        "timestamp": 1747502258544
+      },
+      {
+        "expression": "service concerned with protecting politicians (and counterfeiting!)",
+        "guess": "Secret Service",
+        "success": false,
+        "timestamp": 1747502272571
+      },
+      {
+        "expression": "service concerned with protecting politicians (and counterfeiting!)",
+        "guess": "Secret Service",
+        "success": false,
+        "timestamp": 1747502296794
+      },
+      {
+        "expression": "Blanchett whose first [something often kept secret by expecting parents, lest they get pressured out of \"Bort\"] has an uncommon start",
+        "guess": "name",
+        "success": true,
+        "timestamp": 1747502347649
+      },
+      {
+        "expression": "\"a__!\" you say gleefully having lo[Blanchett whose first name has an uncommon start]d the missing Mint Milano",
+        "guess": "aha",
+        "success": false,
+        "timestamp": 1747502386713
+      },
+      {
+        "expression": "Blanchett whose first name has an uncommon start",
+        "guess": "B",
+        "success": false,
+        "timestamp": 1747502424013
+      },
+      {
+        "expression": "Blanchett whose first name has an uncommon start",
+        "guess": "C",
+        "success": false,
+        "timestamp": 1747502471109
+      },
+      {
+        "expression": "Blanchett whose first name has an uncommon start",
+        "guess": "C",
+        "success": false,
+        "timestamp": 1747502509633
+      },
+      {
+        "expression": "Blanchett whose first name has an uncommon start",
+        "guess": "Cate",
+        "success": true,
+        "timestamp": 1747502540162
+      },
+      {
+        "expression": "\"a__!\" you say gleefully having located the missing Mint Milano",
+        "guess": "aha",
+        "success": false,
+        "timestamp": 1747502550980
+      },
+      {
+        "expression": "\"a__!\" you say gleefully having located the missing Mint Milano",
+        "guess": "Aha",
+        "success": false,
+        "timestamp": 1747502564715
+      },
+      {
+        "expression": "\"a__!\" you say gleefully having located the missing Mint Milano",
+        "guess": "ha",
+        "success": true,
+        "timestamp": 1747502604830
+      }
+    ],
+    "finalText": "Perfume Channel No. 5 is released",
+    "timeToSolve": 1009.2
+  }
+}

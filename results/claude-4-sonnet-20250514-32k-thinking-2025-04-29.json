@@ -1,0 +1,186 @@
+{
+  "timestamp": "2025-05-22T17:47:05.097Z",
+  "model": {
+    "name": "claude-4-sonnet-20250514-32k-thinking",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "April 29, 1968:",
+    "puzzleDate": "2025-04-29",
+    "completionURL": "https://www.youtube.com/watch?v=v9EWBdH4JlE",
+    "solutions": {
+      "the G in GPS": "global",
+      "Juan or Quixote": "don",
+      "it can be long, short, curly, straight, etc.": "Hair",
+      "one of two that don't lie for Shakira": "hip",
+      "\"at the ___\" (in control of a ship)": "helm",
+      "noble title for a bug 🐞": "lady",
+      "word before \"position\" or \"house\" or \"-faced sandwich\"": "open",
+      "expert web developer?": "spider",
+      "the third \"w\" in \"www\"": "web",
+      "the fetal one is sometimes assumed by the overwhelmed": "position",
+      "good card to have up your sleeve": "ace",
+      "first lady": "eve",
+      "\"___ up with a good book\"": "curl",
+      "daddy spider's leg length": "long",
+      "two letters at the beginning of two global conflicts": "ww",
+      "letters at the bottom of a letter": "PS"
+    },
+    "initialPuzzle": "\"[it can be [daddy [expert [the third \"w\" in \"[two letters at the beginning of two [the G in G[letters at the bottom of a letter]] conflicts]w\"] developer?]'s leg length], short, [\"___ up with a good book\"]y, straight, etc.]\" [word before \"[the fetal one is sometimes assumed by the overw[\"at the ___\" (in control of a s[one of two that [Juan or Quixote]'t lie for Shakira])]ed]\" or \"house\" or \"-f[good card to have up your sle[first [noble title for a bug 🐞]]]d sandwich\"]s on Broadway",
+    "puzzleSolution": "\"Hair\" opens on Broadway"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 20,
+      "correctGuesses": 16,
+      "totalClues": 16,
+      "hints": 0,
+      "reveals": 0,
+      "stepsTaken": 21,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 81619,
+      "completionTokens": 7415,
+      "totalTokens": 89034
+    },
+    "score": 92,
+    "rank": "Kingmaker",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 0,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 8,
+      "totalPenalty": 8,
+      "finalScore": 92,
+      "rank": "Kingmaker",
+      "nextRankName": "Puppet Master",
+      "pointsToNextRank": 8
+    },
+    "modelGuesses": [
+      {
+        "expression": "Juan or Quixote",
+        "guess": "Don",
+        "success": true,
+        "timestamp": 1747935904681
+      },
+      {
+        "expression": "letters at the bottom of a letter",
+        "guess": "PS",
+        "success": true,
+        "timestamp": 1747935912037
+      },
+      {
+        "expression": "the G in GPS",
+        "guess": "Global",
+        "success": true,
+        "timestamp": 1747935918015
+      },
+      {
+        "expression": "two letters at the beginning of two global conflicts",
+        "guess": "WW",
+        "success": true,
+        "timestamp": 1747935924234
+      },
+      {
+        "expression": "the third \"w\" in \"www\"",
+        "guess": "w",
+        "success": false,
+        "timestamp": 1747935932883
+      },
+      {
+        "expression": "the third \"w\" in \"www\"",
+        "guess": "web",
+        "success": true,
+        "timestamp": 1747935937100
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "coder",
+        "success": false,
+        "timestamp": 1747935943529
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "spider",
+        "success": true,
+        "timestamp": 1747935946938
+      },
+      {
+        "expression": "daddy spider's leg length",
+        "guess": "long",
+        "success": true,
+        "timestamp": 1747935952387
+      },
+      {
+        "expression": "___ up with a good book",
+        "guess": "curl",
+        "success": true,
+        "timestamp": 1747935957843
+      },
+      {
+        "expression": "one of two that don't lie for Shakira",
+        "guess": "hip",
+        "success": true,
+        "timestamp": 1747935963326
+      },
+      {
+        "expression": "\"at the ___\" (in control of a ship)",
+        "guess": "helm",
+        "success": true,
+        "timestamp": 1747935967992
+      },
+      {
+        "expression": "noble title for a bug 🐞",
+        "guess": "lady",
+        "success": true,
+        "timestamp": 1747935973385
+      },
+      {
+        "expression": "good card to have up your sleeve",
+        "guess": "ace",
+        "success": false,
+        "timestamp": 1747935979911
+      },
+      {
+        "expression": "first lady",
+        "guess": "ace",
+        "success": false,
+        "timestamp": 1747935988909
+      },
+      {
+        "expression": "first lady",
+        "guess": "eve",
+        "success": true,
+        "timestamp": 1747935995029
+      },
+      {
+        "expression": "good card to have up your sleeve",
+        "guess": "ace",
+        "success": true,
+        "timestamp": 1747935999589
+      },
+      {
+        "expression": "the fetal one is sometimes assumed by the overwhelmed",
+        "guess": "position",
+        "success": true,
+        "timestamp": 1747936004753
+      },
+      {
+        "expression": "it can be long, short, curly, straight, etc.",
+        "guess": "hair",
+        "success": true,
+        "timestamp": 1747936010104
+      },
+      {
+        "expression": "word before \"position\" or \"house\" or \"-faced sandwich\"",
+        "guess": "open",
+        "success": true,
+        "timestamp": 1747936017827
+      }
+    ],
+    "finalText": "\"Hair\" opens on Broadway",
+    "timeToSolve": 129.075
+  }
+}

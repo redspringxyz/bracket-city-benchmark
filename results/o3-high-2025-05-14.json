@@ -1,0 +1,186 @@
+{
+  "timestamp": "2025-06-07T12:14:43.072Z",
+  "model": {
+    "name": "o3-high",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "May 14, 1973:",
+    "puzzleDate": "2025-05-14",
+    "completionURL": "https://www.youtube.com/watch?v=NsW86kNLu1k",
+    "solutions": {
+      "\"___ your eyes and make a wish\"": "close",
+      "something you might clear before speaking": "throat",
+      "\"read the fine ___\"": "print",
+      "___-me-down": "hand",
+      "race that ended on the moon, in a sense": "space",
+      "note many prefer to end on": "high",
+      "handheld glowing object at a rave": "stick",
+      "bad guy ➡️ \"take him ___\" *drags finger across throat*": "out",
+      "one might ring after a concert": "ear",
+      "finger named for its adornment": "ring",
+      "___ball (offer that might provoke outrage)": "low",
+      "word after sticky or ransom": "note",
+      "digit with a print and a nail": "finger",
+      "\"___ cut\" (not a close call)": "clear",
+      "high kind of dive (from a ✈️)": "Sky",
+      "type of walking where you glide backward while appearing to walk forward": "moon"
+    },
+    "initialPuzzle": "[[[word after [[___-me-down]held g[___ball (offer that might provoke [bad guy ➡️ \"take him ___\" *drags finger across [something you might [\"___ cut\" (not a [\"___ your eyes and make a wish\"] call)] before speaking]*]rage)]ing object at a rave]y or ransom] many prefer to end on] kind of dive (from a ✈️)]lab [race that ended on the [type of walking where you glide backward while app[one might [[digit with a [\"read the fine ___\"] and a nail] named for its adornment] after a concert]ing to walk forward], in a sense] station launches",
+    "puzzleSolution": "Skylab space station launches"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 20,
+      "correctGuesses": 16,
+      "totalClues": 16,
+      "hints": 0,
+      "reveals": 0,
+      "stepsTaken": 21,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 49410,
+      "completionTokens": 38764,
+      "totalTokens": 88174
+    },
+    "score": 92,
+    "rank": "Kingmaker",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 0,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 8,
+      "totalPenalty": 8,
+      "finalScore": 92,
+      "rank": "Kingmaker",
+      "nextRankName": "Puppet Master",
+      "pointsToNextRank": 8
+    },
+    "modelGuesses": [
+      {
+        "expression": "___-me-down",
+        "guess": "hand",
+        "success": true,
+        "timestamp": 1749298031159
+      },
+      {
+        "expression": "\"___ your eyes and make a wish\"",
+        "guess": "close",
+        "success": true,
+        "timestamp": 1749298066836
+      },
+      {
+        "expression": "read the fine ___",
+        "guess": "print",
+        "success": true,
+        "timestamp": 1749298067627
+      },
+      {
+        "expression": "digit with a print and a nail",
+        "guess": "finger",
+        "success": true,
+        "timestamp": 1749298103216
+      },
+      {
+        "expression": "___ cut",
+        "guess": "clear",
+        "success": true,
+        "timestamp": 1749298206839
+      },
+      {
+        "expression": "something you might clear before speaking",
+        "guess": "throat",
+        "success": true,
+        "timestamp": 1749298225644
+      },
+      {
+        "expression": "bad guy ➡️ \"take him ___\" *drags finger across throat*",
+        "guess": "out",
+        "success": true,
+        "timestamp": 1749298226611
+      },
+      {
+        "expression": "___ball (offer that might provoke outrage)",
+        "guess": "low",
+        "success": true,
+        "timestamp": 1749298246597
+      },
+      {
+        "expression": "handheld glowing object at a rave",
+        "guess": "glowstick",
+        "success": false,
+        "timestamp": 1749298247535
+      },
+      {
+        "expression": "handheld glowing object at a rave",
+        "guess": "stick",
+        "success": true,
+        "timestamp": 1749298329584
+      },
+      {
+        "expression": "word after sticky or ransom",
+        "guess": "note",
+        "success": true,
+        "timestamp": 1749298330530
+      },
+      {
+        "expression": "note many prefer to end on",
+        "guess": "high",
+        "success": true,
+        "timestamp": 1749298331444
+      },
+      {
+        "expression": "kind of dive (from a ✈️)",
+        "guess": "skydive",
+        "success": false,
+        "timestamp": 1749298332758
+      },
+      {
+        "expression": "high kind of dive (from a ✈️)",
+        "guess": "sky",
+        "success": true,
+        "timestamp": 1749298394715
+      },
+      {
+        "expression": "finger named for its adornment",
+        "guess": "ring",
+        "success": true,
+        "timestamp": 1749298395557
+      },
+      {
+        "expression": "one might ring after a concert",
+        "guess": "ear",
+        "success": true,
+        "timestamp": 1749298414140
+      },
+      {
+        "expression": "type of walking where you glide backward while appearing to walk forward",
+        "guess": "moonwalk",
+        "success": false,
+        "timestamp": 1749298415041
+      },
+      {
+        "expression": "type of walking where you glide backward while appearing to walk forward",
+        "guess": "moon walk",
+        "success": false,
+        "timestamp": 1749298438034
+      },
+      {
+        "expression": "type of walking where you glide backward while appearing to walk forward",
+        "guess": "moon",
+        "success": true,
+        "timestamp": 1749298479084
+      },
+      {
+        "expression": "race that ended on the moon, in a sense",
+        "guess": "space",
+        "success": true,
+        "timestamp": 1749298481522
+      }
+    ],
+    "finalText": "Skylab space station launches",
+    "timeToSolve": 502.452
+  }
+}

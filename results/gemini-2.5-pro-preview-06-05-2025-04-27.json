@@ -1,0 +1,218 @@
+{
+  "timestamp": "2025-06-07T15:21:40.712Z",
+  "model": {
+    "name": "gemini-2.5-pro-preview-06-05",
+    "provider": "google.generative-ai"
+  },
+  "puzzle": {
+    "completionText": "April 27, 2004:",
+    "puzzleDate": "2025-04-27",
+    "completionURL": "https://en.wikipedia.org/wiki/Matilda_(chicken)",
+    "solutions": {
+      "thick japanese noodle": "udon",
+      "reasonably private cabin in a public bathroom": "stall",
+      "generally preferred afterlife destination": "heaven",
+      "a sharply critical remark (emphasis on \"sharp\")": "Barb",
+      "# in 🇺🇸, £ in 🇬🇧": "pound",
+      "informal form of \"hello\"": "hi",
+      "Reverend Lovejoy: \"see you in ___! *long pause* from heaven!\"": "hell",
+      "sweet contraband at some summer camps": "candy",
+      "Barbie's romantic associate": "ken",
+      "two-letter abbreviation for \"pound\" neither of which appear in the word": "lb",
+      "word after rock or marching": "band",
+      "log domicile for Lincoln": "cabin",
+      "\"happily ever ___\"": "after",
+      "something you install on your phone": "app",
+      "\"___y ___\" aka ___ Wahlberg": "mark",
+      "letters between a pseudonym and a real name": "aka",
+      "small capsule-shaped hard candy, with \"tac\"": "tic",
+      "home of sumo wrestling": "japan"
+    },
+    "initialPuzzle": "Matilda is declared the world's oldest c[informal form of \"[Reverend Lovejoy: \"see you in ___! *long pause* from [generally preferred [\"h[something you in[reasonably private [log domicile for Lincoln] in a public bathroom] on your phone]ily ever ___\"]life destination]!\"]o\"]c[[a sharply cri[small capsule-shaped hard [sweet contra[word after rock or marching] at some summer camps], with \"tac\"]al re[\"___y ___\" [letters between a pse[thick [home of sumo wrestling]ese noodle]ym and a real name] ___ Wah[two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word]erg] (emphasis on \"sharp\")]ie's romantic associate]",
+    "puzzleSolution": "Matilda is declared the world's oldest chicken"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 25,
+      "correctGuesses": 17,
+      "totalClues": 18,
+      "hints": 3,
+      "reveals": 1,
+      "stepsTaken": 30,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 133416,
+      "completionTokens": 1897,
+      "totalTokens": 135313
+    },
+    "score": 54,
+    "rank": "Chief of Police",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 15,
+      "megaPeekPenalty": 15,
+      "wrongGuessPenalty": 16,
+      "totalPenalty": 46,
+      "finalScore": 54,
+      "rank": "Chief of Police",
+      "nextRankName": "Mayor",
+      "pointsToNextRank": 14
+    },
+    "modelGuesses": [
+      {
+        "expression": "log domicile for Lincoln",
+        "guess": "log cabin",
+        "success": false,
+        "timestamp": 1749307582365
+      },
+      {
+        "expression": "word after rock or marching",
+        "guess": "band",
+        "success": true,
+        "timestamp": 1749307691199
+      },
+      {
+        "expression": "home of sumo wrestling",
+        "guess": "Japan",
+        "success": true,
+        "timestamp": 1749307862633
+      },
+      {
+        "expression": "thick japanese noodle",
+        "guess": "udon",
+        "success": true,
+        "timestamp": 1749307954363
+      },
+      {
+        "expression": "# in 🇺🇸, £ in 🇬🇧",
+        "guess": "pound",
+        "success": true,
+        "timestamp": 1749308112418
+      },
+      {
+        "expression": "two-letter abbreviation for \"pound\" neither of which appear in the word",
+        "guess": "lb",
+        "success": true,
+        "timestamp": 1749308214287
+      },
+      {
+        "expression": "letters between a pseudonym and a real name",
+        "guess": "a.k.a.",
+        "success": false,
+        "timestamp": 1749308323127
+      },
+      {
+        "expression": "letters between a pseudonym and a real name",
+        "guess": "y",
+        "success": false,
+        "timestamp": 1749308469884
+      },
+      {
+        "expression": "letters between a pseudonym and a real name",
+        "guess": "aka",
+        "success": true,
+        "timestamp": 1749308595613
+      },
+      {
+        "expression": "\"___y ___\" aka ___ Wahlberg",
+        "guess": "Marky Mark",
+        "success": false,
+        "timestamp": 1749308714020
+      },
+      {
+        "expression": "\"___y ___\" aka ___ Wahlberg",
+        "guess": "Marky Mark",
+        "success": false,
+        "timestamp": 1749308876763
+      },
+      {
+        "expression": "sweet contraband at some summer camps",
+        "guess": "tic tac",
+        "success": false,
+        "timestamp": 1749309046043
+      },
+      {
+        "expression": "log domicile for Lincoln",
+        "guess": "log house",
+        "success": false,
+        "timestamp": 1749309150326
+      },
+      {
+        "expression": "log domicile for Lincoln",
+        "guess": "cabin",
+        "success": true,
+        "timestamp": 1749309295247
+      },
+      {
+        "expression": "reasonably private cabin in a public bathroom",
+        "guess": "stall",
+        "success": true,
+        "timestamp": 1749309384071
+      },
+      {
+        "expression": "something you install on your phone",
+        "guess": "app",
+        "success": true,
+        "timestamp": 1749309457640
+      },
+      {
+        "expression": "happily ever ___",
+        "guess": "after",
+        "success": true,
+        "timestamp": 1749309460743
+      },
+      {
+        "expression": "generally preferred afterlife destination",
+        "guess": "heaven",
+        "success": true,
+        "timestamp": 1749309533282
+      },
+      {
+        "expression": "Reverend Lovejoy: \"see you in ___! *long pause* from heaven!\"",
+        "guess": "hell",
+        "success": true,
+        "timestamp": 1749309540331
+      },
+      {
+        "expression": "informal form of \"hello\"",
+        "guess": "yo",
+        "success": false,
+        "timestamp": 1749309542881
+      },
+      {
+        "expression": "informal form of \"hello\"",
+        "guess": "hi",
+        "success": true,
+        "timestamp": 1749309602621
+      },
+      {
+        "expression": "sweet contraband at some summer camps",
+        "guess": "candy",
+        "success": true,
+        "timestamp": 1749309641745
+      },
+      {
+        "expression": "small capsule-shaped hard candy, with \"tac\"",
+        "guess": "tic",
+        "success": true,
+        "timestamp": 1749309648490
+      },
+      {
+        "expression": "a sharply critical remark (emphasis on \"sharp\")",
+        "guess": "barb",
+        "success": true,
+        "timestamp": 1749309654814
+      },
+      {
+        "expression": "Barbie's romantic associate",
+        "guess": "Ken",
+        "success": true,
+        "timestamp": 1749309660545
+      }
+    ],
+    "finalText": "Matilda is declared the world's oldest chicken.",
+    "timeToSolve": 2127.648
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "timestamp": "2025-05-17T17:26:00.370Z",
+  "model": {
+    "name": "qwen3-235b-a22b",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "April 25, 2000:",
+    "puzzleDate": "2025-04-25",
+    "completionURL": "https://www.youtube.com/watch?v=-BNwiqDGz5g",
+    "solutions": {
+      "\"___ off the scent\"": "throw",
+      "🍫 size even smaller than \"fun\"": "bite",
+      "cold ___ (chilly pool at a spa)": "plunge",
+      "something followed by a bloodhound": "scent",
+      "something you reflect on in the bathroom": "mirror",
+      "something you might not choose to die on": "hill",
+      "house with zany mirrors": "fun",
+      "zebra-striped official at a football game, for short": "ref",
+      "night often prescribed by a couple's therapist": "date",
+      "government overthrow that sounds like a dove": "coup",
+      "plunged elegantly into the water": "dove",
+      "game played with cues": "pool",
+      "bite for your 👂 not for your 👄": "sound",
+      "lively and boisterous play session": "romp",
+      "cards that were mostly replaced by teleprompters": "cue",
+      "when repeated, sound associated with 🚂": "choo"
+    },
+    "initialPuzzle": "the perfect [night often prescribed by a [government over[\"___ off the [something followed by a bloodhound]\"] that sounds like a [[cold ___ (c[something you might not [when repeated, [[🍫 size even smaller than \"[house with zany [something you [zebra-striped official at a football game, for short]lect on in the bathroom]s]\"] for your 👂 not for your 👄] associated with 🚂]se to die on]y [game played with [cards that were mostly replaced by telep[lively and boisterous play session]ters]s] at a spa)]d elegantly into the water]]le's therapist] according to Miss Rhode Island",
+    "puzzleSolution": "the perfect date according to Miss Rhode Island"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 23,
+      "correctGuesses": 8,
+      "totalClues": 16,
+      "hints": 2,
+      "reveals": 1,
+      "stepsTaken": 30,
+      "completionPercentage": 56.25
+    },
+    "usage": {
+      "promptTokens": 110444,
+      "completionTokens": 44051,
+      "totalTokens": 154495
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 10,
+      "megaPeekPenalty": 15,
+      "wrongGuessPenalty": 30,
+      "totalPenalty": 55,
+      "finalScore": 0,
+      "rank": "Council Member",
+      "nextRankName": "Chief of Police",
+      "pointsToNextRank": 6
+    },
+    "modelGuesses": [
+      {
+        "expression": "zebra-striped official at a football game, for short",
+        "guess": "zebra",
+        "success": false,
+        "timestamp": 1747501282562
+      },
+      {
+        "expression": "zebra-striped official at a football game, for short",
+        "guess": "ref",
+        "success": true,
+        "timestamp": 1747501290566
+      },
+      {
+        "expression": "something you reflect on in the bathroom",
+        "guess": "mirror",
+        "success": true,
+        "timestamp": 1747501303358
+      },
+      {
+        "expression": "something followed by a bloodhound",
+        "guess": "trail",
+        "success": false,
+        "timestamp": 1747501322148
+      },
+      {
+        "expression": "something followed by a bloodhound",
+        "guess": "scent",
+        "success": true,
+        "timestamp": 1747501334003
+      },
+      {
+        "expression": "lively and boisterous play session",
+        "guess": "teleplay",
+        "success": false,
+        "timestamp": 1747501376793
+      },
+      {
+        "expression": "lively and boisterous play session",
+        "guess": "romp",
+        "success": true,
+        "timestamp": 1747501419028
+      },
+      {
+        "expression": "___ off the scent",
+        "guess": "red herring",
+        "success": false,
+        "timestamp": 1747501469642
+      },
+      {
+        "expression": "when repeated",
+        "guess": "echo",
+        "success": false,
+        "timestamp": 1747501498437
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "funhouse",
+        "success": false,
+        "timestamp": 1747501622982
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "freakhouse",
+        "success": false,
+        "timestamp": 1747501681506
+      },
+      {
+        "expression": "d elegantly into the water",
+        "guess": "dove",
+        "success": false,
+        "timestamp": 1747501770691
+      },
+      {
+        "expression": "when repeated",
+        "guess": "choo",
+        "success": false,
+        "timestamp": 1747501896873
+      },
+      {
+        "expression": "size even smaller than \"fun\"",
+        "guess": "mini",
+        "success": false,
+        "timestamp": 1747501942457
+      },
+      {
+        "expression": "🍫 size even smaller than \"fun\"",
+        "guess": "mini",
+        "success": false,
+        "timestamp": 1747502206147
+      },
+      {
+        "expression": "🍫 size even smaller than \"fun\"",
+        "guess": "bite",
+        "success": true,
+        "timestamp": 1747502304262
+      },
+      {
+        "expression": "when repeated",
+        "guess": "sound",
+        "success": true,
+        "timestamp": 1747502340025
+      },
+      {
+        "expression": "cold ___",
+        "guess": "case",
+        "success": false,
+        "timestamp": 1747502481255
+      },
+      {
+        "expression": "cold ___",
+        "guess": "shoulder",
+        "success": false,
+        "timestamp": 1747502600602
+      },
+      {
+        "expression": "___ off the scent",
+        "guess": "throw",
+        "success": true,
+        "timestamp": 1747502636289
+      },
+      {
+        "expression": "cold ___",
+        "guess": "shoulder",
+        "success": false,
+        "timestamp": 1747502657852
+      },
+      {
+        "expression": "cold ___",
+        "guess": "shoulder",
+        "success": false,
+        "timestamp": 1747502682705
+      },
+      {
+        "expression": "sound associated with 🚂",
+        "guess": "choo",
+        "success": true,
+        "timestamp": 1747502752253
+      }
+    ],
+    "finalText": "<tool_call>\n{\"name\": \"makeGuess\", \"arguments\": {\"clue\": \"cold ___\", \"guess\": \"front\"}}\n</tool_response>",
+    "timeToSolve": 1549.034
+  }
+}

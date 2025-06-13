@@ -1,0 +1,174 @@
+{
+  "timestamp": "2025-06-07T13:10:40.649Z",
+  "model": {
+    "name": "gemini-2.5-pro-preview-06-05",
+    "provider": "google.generative-ai"
+  },
+  "puzzle": {
+    "completionText": "May 2, 1941:",
+    "puzzleDate": "2025-05-02",
+    "completionURL": "https://www.youtube.com/watch?v=USm4mmYJU6I",
+    "solutions": {
+      "word gleefully hollered by an auctioneer": "sold",
+      "fast-talker with a gavel that's not a judge": "auctioneer",
+      "some believe a groundhog can predict the arrival of this season": "Spring",
+      "sleep___ camp": "away",
+      "Bruce in \"Finding Nemo\" was named after the mechanical ___ used in \"Jaws\"": "Shark",
+      "leader at a pep rally 📣": "Cheer",
+      "Springsteen or Lee": "Bruce",
+      "\"__ ease, soldier\"": "at",
+      "spoiled the ending, with \"away\"": "gave",
+      "Guevara pictured on many dorm room walls": "Che",
+      "a glass one is a liability for a boxer": "Jaw",
+      "something to separate from fiction": "fact",
+      "kind of talk you might give yourself before the big meeting": "pep",
+      "\"the rumor ___\" (metaphorical gossip factory 🏭)": "Mill",
+      "\"enough small ___!\" you bellow as you watch \"Shark Tank\" on your Tivo": "talk",
+      "magnifying ___ (detective's tool not used by too many detectives)": "glass"
+    },
+    "initialPuzzle": "General [\"the rumor ___\" (metaphorical gossip [something to separate from fiction]ory 🏭)]s renames \"[Guevara pictured on many dorm room walls]erio[\"__ ease, [word gleefully hollered by an [fast-talker with a [spoiled the ending, with \"[sleep___ camp]\"]l that's not a judge]]ier\"]s\" to \"[leader at a [kind of [\"enough small ___!\" you bellow as you watch \"[[[some believe a groundhog can predict the arrival of this season]steen or Lee] in \"Finding Nemo\" was named after the mechanical ___ used in \"[a [magnifying ___ (detective's tool not used by too many detectives)] one is a liability for a boxer]s\"] Tank\" on your Tivo] you might give yourself before the big meeting] rally 📣]ios.\"",
+    "puzzleSolution": "General Mills renames \"Cheerioats\" to \"Cheerios.\""
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 18,
+      "correctGuesses": 16,
+      "totalClues": 16,
+      "hints": 1,
+      "reveals": 0,
+      "stepsTaken": 21,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 67721,
+      "completionTokens": 1311,
+      "totalTokens": 69032
+    },
+    "score": 91,
+    "rank": "Kingmaker",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 4,
+      "totalPenalty": 9,
+      "finalScore": 91,
+      "rank": "Kingmaker",
+      "nextRankName": "Puppet Master",
+      "pointsToNextRank": 9
+    },
+    "modelGuesses": [
+      {
+        "expression": "something to separate from fiction",
+        "guess": "fact",
+        "success": true,
+        "timestamp": 1749300866172
+      },
+      {
+        "expression": "sleep___ camp",
+        "guess": "away",
+        "success": true,
+        "timestamp": 1749300944216
+      },
+      {
+        "expression": "Guevara pictured on many dorm room walls",
+        "guess": "Che",
+        "success": true,
+        "timestamp": 1749301039757
+      },
+      {
+        "expression": "some believe a groundhog can predict the arrival of this season",
+        "guess": "spring",
+        "success": true,
+        "timestamp": 1749301099991
+      },
+      {
+        "expression": "magnifying ___ (detective's tool not used by too many detectives)",
+        "guess": "glass",
+        "success": true,
+        "timestamp": 1749301215654
+      },
+      {
+        "expression": "a glass one is a liability for a boxer",
+        "guess": "jaw",
+        "success": true,
+        "timestamp": 1749301278320
+      },
+      {
+        "expression": "Springsteen or Lee",
+        "guess": "Bruce",
+        "success": true,
+        "timestamp": 1749301338143
+      },
+      {
+        "expression": "Bruce in \"Finding Nemo\" was named after the mechanical ___ used in \"Jaws\"",
+        "guess": "shark",
+        "success": true,
+        "timestamp": 1749301412315
+      },
+      {
+        "expression": "enough small ___!\" you bellow as you watch \"Shark Tank\" on your Tivo",
+        "guess": "talk",
+        "success": true,
+        "timestamp": 1749301458727
+      },
+      {
+        "expression": "kind of talk you might give yourself before the big meeting",
+        "guess": "pep",
+        "success": true,
+        "timestamp": 1749301479484
+      },
+      {
+        "expression": "leader at a pep rally 📣",
+        "guess": "cheer",
+        "success": true,
+        "timestamp": 1749301511790
+      },
+      {
+        "expression": "spoiled the ending, with \"away\"",
+        "guess": "give",
+        "success": false,
+        "timestamp": 1749301650354
+      },
+      {
+        "expression": "spoiled the ending, with \"away\"",
+        "guess": "gave",
+        "success": true,
+        "timestamp": 1749301675747
+      },
+      {
+        "expression": "fast-talker with a gavel that's not a judge",
+        "guess": "auctioneer",
+        "success": true,
+        "timestamp": 1749301713228
+      },
+      {
+        "expression": "word gleefully hollered by an auctioneer",
+        "guess": "Sold!",
+        "success": false,
+        "timestamp": 1749301722751
+      },
+      {
+        "expression": "word gleefully hollered by an auctioneer",
+        "guess": "sold",
+        "success": true,
+        "timestamp": 1749301783223
+      },
+      {
+        "expression": "\"__ ease, soldier\"",
+        "guess": "At",
+        "success": true,
+        "timestamp": 1749301789247
+      },
+      {
+        "expression": "\"the rumor ___\" (metaphorical gossip factory 🏭)",
+        "guess": "mill",
+        "success": true,
+        "timestamp": 1749301794347
+      }
+    ],
+    "finalText": "General mills renames \"Cheerioats\" to \"Cheerios.\"",
+    "timeToSolve": 981.134
+  }
+}

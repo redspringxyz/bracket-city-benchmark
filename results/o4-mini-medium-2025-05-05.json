@@ -1,0 +1,82 @@
+{
+  "timestamp": "2025-05-22T21:01:57.461Z",
+  "model": {
+    "name": "o4-mini-medium",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "May 5, 1921:",
+    "puzzleDate": "2025-05-05",
+    "completionURL": "https://www.youtube.com/watch?v=r6AtDQZ8K28",
+    "solutions": {
+      "service concerned with protecting politicians (and counterfeiting!)": "secret",
+      "response indicated when you keep your shoulders still and rotate your head smoothly side to side, turning your chin about 15 to 30 degrees in each direction": "No",
+      "💩 sample": "stool",
+      "place to sit with stools": "counter",
+      "\"___ the sea!\" sings the delightful cartoon crab": "under",
+      "like cologne but a lot stronger": "Perfume",
+      "word after hermit or before cake 🦀": "crab",
+      "back___ (accumulation of undone work)": "log",
+      "Blanchett whose first name has an uncommon start": "cate",
+      "\"a__!\" you say gleefully having located the missing Mint Milano": "ha",
+      "body part you are often urged to use after having made a mental blunder": "head",
+      "__tied (dangerous state for shoelaces I'm told)": "un",
+      "sillier-sounding word for a recluse": "hermit",
+      "something often kept secret by expecting parents, lest they get pressured out of \"Bort\"": "name"
+    },
+    "initialPuzzle": "[like co[back___ (accumulation of [__tied (dangerous state for shoelaces I'm told)]done work)]ne but a lot stronger] C[\"a__!\" you say gleefully having lo[Blanchett whose first [something often kept [service concerned with protecting politicians (and [place to sit with [💩 sample]s]feiting!)] by expecting parents, lest they get pressured out of \"Bort\"] has an uncommon start]d the missing Mint Milano]nel [response indicated when you keep your shoulders still and rotate your [body part you are often urged to use after having made a mental bl[\"___ the sea!\" sings the delightful cartoon [word after [sillier-sounding word for a recluse] or before cake 🦀]]] smoothly side to side, turning your chin about 15 to 30 degrees in each direction]. 5 is released",
+    "puzzleSolution": "Perfume Chanel No. 5 is released"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 3,
+      "correctGuesses": 1,
+      "totalClues": 14,
+      "hints": 1,
+      "reveals": 0,
+      "stepsTaken": 5,
+      "completionPercentage": 7.142857142857142
+    },
+    "usage": {
+      "promptTokens": 6149,
+      "completionTokens": 16812,
+      "totalTokens": 22961
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 4,
+      "totalPenalty": 9,
+      "finalScore": 0,
+      "rank": "Kingmaker",
+      "nextRankName": "Puppet Master",
+      "pointsToNextRank": 9
+    },
+    "modelGuesses": [
+      {
+        "expression": "💩 sample",
+        "guess": "stool",
+        "success": true,
+        "timestamp": 1747947568846
+      },
+      {
+        "expression": "__tied (dangerous state for shoelaces I'm told)",
+        "guess": "untied",
+        "success": false,
+        "timestamp": 1747947585740
+      },
+      {
+        "expression": "place to sit with stools",
+        "guess": "bar",
+        "success": false,
+        "timestamp": 1747947610558
+      }
+    ],
+    "finalText": "Cocaine Chanel No. 5 is released.",
+    "timeToSolve": 161.847
+  }
+}

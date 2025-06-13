@@ -1,0 +1,186 @@
+{
+  "timestamp": "2025-05-17T16:59:48.532Z",
+  "model": {
+    "name": "claude-3.7-sonnet-20250219-32k-thinking",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "May 11, 330:",
+    "puzzleDate": "2025-05-11",
+    "completionURL": "https://en.wikipedia.org/wiki/New_Rome",
+    "solutions": {
+      "room many CEOs claim to have started in": "Mail",
+      "famous Windows 95 button or an instruction to begin": "start",
+      "glass-half-empty type": "pessimist",
+      "largest asset for Old MacDonald": "farm",
+      "___-com (like \"Notting Hill\" or \"You've Got Mail\")": "Rom",
+      "airline seat preferred by those who can hold it, maybe": "Window",
+      "kind of farm with tiny six-legged animals": "ant",
+      "first name for an \"arrogant duck with a pessimistic attitude and an insecure disposition\" (per Wikipedia)": "Donald",
+      "like a nest recently relieved of teenagers": "empty",
+      "U2 frontman": "bono",
+      "weapon for a halloween prankster (escalation from toilet paper)": "egg",
+      "list usually to the right of pros": "Cons",
+      "___ bono (like free legal work)": "pro",
+      "\"___ naked\" (not quite nude)": "half",
+      "\"___ it\" (usually said rapidly in an effort to avoid an undesirable assignment)": "Not",
+      "kind of egg that you grow to retire": "nest"
+    },
+    "initialPuzzle": "[list usually to the right of [___ [U2 frontman] (like free legal work)]s]tantine changes the name of Byz[kind of [largest asset for Old Mac[first name for an \"arrogant duck with a [glass-[\"___ naked\" (not quite nude)]-[like a [kind of [weapon for a halloween prankster (escalation from toilet paper)] that you grow to retire] recently relieved of teenagers] type]ic attitude and an insecure disposition\" (per Wikipedia)]] with tiny six-legged animals]ium to New [___-com (like \"[\"___ it\" (usually said rapidly in an effort to avoid an undesirable assignment)]ting Hill\" or \"You've Got [room many CEOs claim to have [famous [airline seat preferred by those who can hold it, maybe]s 95 button or an instruction to begin]ed in]\")]e",
+    "puzzleSolution": "Constantine changes the name of Byzantium to New Rome"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 20,
+      "correctGuesses": 16,
+      "totalClues": 16,
+      "hints": 1,
+      "reveals": 0,
+      "stepsTaken": 22,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 94759,
+      "completionTokens": 6160,
+      "totalTokens": 100919
+    },
+    "score": 87,
+    "rank": "Power Broker",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 8,
+      "totalPenalty": 13,
+      "finalScore": 87,
+      "rank": "Power Broker",
+      "nextRankName": "Kingmaker",
+      "pointsToNextRank": 4
+    },
+    "modelGuesses": [
+      {
+        "expression": "U2 frontman",
+        "guess": "Bono",
+        "success": true,
+        "timestamp": 1747501093416
+      },
+      {
+        "expression": "\"___ naked\" (not quite nude)",
+        "guess": "half",
+        "success": true,
+        "timestamp": 1747501100149
+      },
+      {
+        "expression": "weapon for a halloween prankster (escalation from toilet paper)",
+        "guess": "egg",
+        "success": true,
+        "timestamp": 1747501104380
+      },
+      {
+        "expression": "kind of egg that you grow to retire",
+        "guess": "nest",
+        "success": true,
+        "timestamp": 1747501107602
+      },
+      {
+        "expression": "like a nest recently relieved of teenagers",
+        "guess": "empty",
+        "success": true,
+        "timestamp": 1747501111702
+      },
+      {
+        "expression": "glass-half-empty type",
+        "guess": "pessimistic",
+        "success": false,
+        "timestamp": 1747501114806
+      },
+      {
+        "expression": "glass-half-empty type",
+        "guess": "cynical",
+        "success": false,
+        "timestamp": 1747501118251
+      },
+      {
+        "expression": "glass-half-empty type",
+        "guess": "pessimist",
+        "success": true,
+        "timestamp": 1747501124125
+      },
+      {
+        "expression": "first name for an \"arrogant duck with a pessimistic attitude and an insecure disposition\" (per Wikipedia)",
+        "guess": "Donald",
+        "success": true,
+        "timestamp": 1747501130995
+      },
+      {
+        "expression": "largest asset for Old MacDonald",
+        "guess": "farm",
+        "success": true,
+        "timestamp": 1747501137887
+      },
+      {
+        "expression": "kind of farm with tiny six-legged animals",
+        "guess": "ant",
+        "success": true,
+        "timestamp": 1747501144945
+      },
+      {
+        "expression": "airline seat preferred by those who can hold it, maybe",
+        "guess": "window",
+        "success": true,
+        "timestamp": 1747501152265
+      },
+      {
+        "expression": "famous Windows 95 button or an instruction to begin",
+        "guess": "Start",
+        "success": true,
+        "timestamp": 1747501156126
+      },
+      {
+        "expression": "room many CEOs claim to have started in",
+        "guess": "garage",
+        "success": false,
+        "timestamp": 1747501160819
+      },
+      {
+        "expression": "room many CEOs claim to have started in",
+        "guess": "basement",
+        "success": false,
+        "timestamp": 1747501163746
+      },
+      {
+        "expression": "room many CEOs claim to have started in",
+        "guess": "mail",
+        "success": true,
+        "timestamp": 1747501168689
+      },
+      {
+        "expression": "\"___ it\" (usually said rapidly in an effort to avoid an undesirable assignment)",
+        "guess": "Not",
+        "success": true,
+        "timestamp": 1747501172230
+      },
+      {
+        "expression": "___-com (like \"Notting Hill\" or \"You've Got Mail\")",
+        "guess": "Rom",
+        "success": true,
+        "timestamp": 1747501177186
+      },
+      {
+        "expression": "___ bono (like free legal work)",
+        "guess": "pro",
+        "success": true,
+        "timestamp": 1747501180593
+      },
+      {
+        "expression": "list usually to the right of pros",
+        "guess": "cons",
+        "success": true,
+        "timestamp": 1747501184837
+      }
+    ],
+    "finalText": "Constantine changes the name of Byzantium to New Rome",
+    "timeToSolve": 103.196
+  }
+}

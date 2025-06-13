@@ -1,0 +1,27 @@
+{
+  "completionText": "February 6, 1971:",
+  "puzzleDate": "2025-02-06",
+  "completionURL": "https://www.youtube.com/watch?v=t_jYOubJmfM",
+  "solutions": {
+    "color of an area where things are not clear": "Gray",
+    "triangular button": "play",
+    "working the night ___": "shift",
+    "\"by the power of Grayskull !\": __-Man": "he",
+    "stick ___, found in older cars": "shift",
+    "display your caboose playfully": "moon",
+    "kind of code usually shown in parentheses": "area",
+    "bar you press with your thumb": "space",
+    "you might join them on campus": "clubs",
+    "touch a beard or a cat in a vaguely villainous way": "stroke",
+    "target stroke count": "par",
+    "person in a spacesuit": "astronaut",
+    "shift 9 and shift 0": "parentheses",
+    "you play it with clubs": "golf",
+    "\"at long ___\"": "last",
+    "prefix with appear or information": "dis",
+    "last car of a train": "caboose",
+    "he said, ___ said": "She"
+  },
+  "initialPuzzle": "[person in a [bar you press with your thumb]suit] Alan [[\"by the power of [color of an [kind of code usually shown in [[working the night ___] 9 and [stick ___, found in older cars] 0]] where things are not clear]skull !\": __-Man] said, ___ said][target [touch a beard or a cat in a vaguely villainous way] count]d hits three [you play it with [you might join them on campus]] balls on the [[prefix with appear or information][triangular button] your [[\"at long ___\"] car of a train] playfully]",
+  "puzzleSolution": "astronaut Alan Shepard hits three golf balls on the moon"
+}

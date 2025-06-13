@@ -1,0 +1,174 @@
+{
+  "timestamp": "2025-05-17T17:02:30.833Z",
+  "model": {
+    "name": "grok-3-beta",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "May 9, 1671:",
+    "puzzleDate": "2025-05-09",
+    "completionURL": "https://en.wikipedia.org/wiki/Thomas_Blood",
+    "solutions": {
+      "having a stiff upper ___ might suggest a certain stoicism": "lip",
+      "like a trial, hopefully": "fair",
+      "\"___ my lips\"": "read",
+      "cheapest water variety at a restaurant": "tap",
+      "the Prodigal ___ (parable star)": "son",
+      "topper for a king or a tooth": "crown",
+      "nickname for songstress Grande": "ari",
+      "\"___ dare you!\" says the indignant grandee": "how",
+      "dietary staple for vampires": "Blood",
+      "Johnny who performed at Folsom Prison": "cash",
+      "fairy who carries cash": "tooth",
+      "you might ___ the show with your soft shoe routine": "steal",
+      "companion with \"ready\" and \"willing\"": "able",
+      "Cape of Good ⬅️___➡️ for the best": "hope",
+      "famous Canyon": "Grand",
+      "Dracula, e.g.": "vampire"
+    },
+    "initialPuzzle": "Thomas [dietary s[cheapest water v[nickname for songstress [famous Canyon]e]ety at a restaurant]le for [Dracula, e.g.]s] attempts to [you might ___ the s[\"___ dare you!\" says the indignant grandee] with your soft shoe routine] England's [topper for a king or a [[like a trial, [Cape of Good ⬅️___➡️ for the best]fully]y who carries [Johnny who performed at Folsom Pri[the Prodigal ___ (par[companion with \"[\"___ my [having a stiff upper ___ might suggest a certain stoicism]s\"]y\" and \"willing\"] star)]]]] jewels",
+    "puzzleSolution": "Thomas Blood attempts to steal England's crown jewels"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 18,
+      "correctGuesses": 11,
+      "totalClues": 16,
+      "hints": 0,
+      "reveals": 0,
+      "stepsTaken": 24,
+      "completionPercentage": 68.75
+    },
+    "usage": {
+      "promptTokens": 103271,
+      "completionTokens": 4185,
+      "totalTokens": 107456
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 0,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 14,
+      "totalPenalty": 14,
+      "finalScore": 0,
+      "rank": "Power Broker",
+      "nextRankName": "Kingmaker",
+      "pointsToNextRank": 5
+    },
+    "modelGuesses": [
+      {
+        "expression": "famous Canyon",
+        "guess": "Grand",
+        "success": true,
+        "timestamp": 1747501224432
+      },
+      {
+        "expression": "having a stiff upper ___ might suggest a certain stoicism",
+        "guess": "lip",
+        "success": true,
+        "timestamp": 1747501226837
+      },
+      {
+        "expression": "Cape of Good ⬅️___➡️ for the best",
+        "guess": "Hope",
+        "success": true,
+        "timestamp": 1747501232190
+      },
+      {
+        "expression": "companion with [\"___ my lips\"]y and \"willing\"",
+        "guess": "read",
+        "success": true,
+        "timestamp": 1747501236830
+      },
+      {
+        "expression": "the Prodigal ___ (par[companion with \"ready\" and \"willing\"] star)",
+        "guess": "Son",
+        "success": false,
+        "timestamp": 1747501243093
+      },
+      {
+        "expression": "nickname for songstress Grande",
+        "guess": "Ari",
+        "success": true,
+        "timestamp": 1747501246895
+      },
+      {
+        "expression": "cheapest water variety at a restaurant",
+        "guess": "tap",
+        "success": true,
+        "timestamp": 1747501249095
+      },
+      {
+        "expression": "Dracula, e.g.",
+        "guess": "vampire",
+        "success": true,
+        "timestamp": 1747501253702
+      },
+      {
+        "expression": "dietary staple for vampires",
+        "guess": "blood",
+        "success": true,
+        "timestamp": 1747501255950
+      },
+      {
+        "expression": "\"___ dare you!\" says the indignant grandee",
+        "guess": "How",
+        "success": true,
+        "timestamp": 1747501258423
+      },
+      {
+        "expression": "you might ___ the show with your soft shoe routine",
+        "guess": "steal",
+        "success": true,
+        "timestamp": 1747501261058
+      },
+      {
+        "expression": "the Prodigal ___ (par[companion with \"ready\" and \"willing\"] star)",
+        "guess": "Son",
+        "success": false,
+        "timestamp": 1747501264086
+      },
+      {
+        "expression": "like a trial, hopefully",
+        "guess": "fair",
+        "success": true,
+        "timestamp": 1747501267624
+      },
+      {
+        "expression": "the Prodigal ___ (par ready star)",
+        "guess": "Son",
+        "success": false,
+        "timestamp": 1747501279165
+      },
+      {
+        "expression": "Johnny who performed at Folsom Pri[the Prodigal ___ (par[companion with \"ready\" and \"willing\"] star)]",
+        "guess": "Cash",
+        "success": false,
+        "timestamp": 1747501292933
+      },
+      {
+        "expression": "topper for a king or a [fairy who carries [Johnny who performed at Folsom Pri[the Prodigal ___ (par[companion with \"ready\" and \"willing\"] star)]]]",
+        "guess": "crown",
+        "success": false,
+        "timestamp": 1747501301563
+      },
+      {
+        "expression": "Johnny who performed at Folsom Pri[the Prodigal ___ (par[companion with \"ready\" and \"willing\"] star)]",
+        "guess": "Cash",
+        "success": false,
+        "timestamp": 1747501322226
+      },
+      {
+        "expression": "topper for a king or a [fairy who carries [Johnny who performed at Folsom Pri[the Prodigal ___ (par[companion with \"ready\" and \"willing\"] star)]]]",
+        "guess": "crown",
+        "success": false,
+        "timestamp": 1747501333123
+      }
+    ],
+    "finalText": "I sincerely apologize for my inability to resolve the puzzle despite numerous attempts. I’ve tried various interpretations of the nested bracket structure, used different tools, and targeted multiple potential clues, but I continue to encounter errors. Given the complexity and my repeated failures to identify the correct active innermost clue, I must acknowledge that I’m unable to proceed further without additional guidance or a possible correction in the puzzle state formatting.\n\nSince I’ve exhausted all possible approaches within the given framework, I will stop here to avoid further incorrect attempts. If there’s an error in the puzzle state or if further clarification can be provided, I’m happy to continue. For now, I cannot make another tool call that would likely result in the same error.\n\nThank you for your patience, and I regret not being able to complete the puzzle resolution.",
+    "timeToSolve": 133.497
+  }
+}

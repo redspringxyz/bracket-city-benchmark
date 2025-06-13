@@ -1,0 +1,368 @@
+{
+  "timestamp": "2025-05-17T16:55:36.869Z",
+  "model": {
+    "name": "gpt-4o",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "April 26, 1964:",
+    "puzzleDate": "2025-04-26",
+    "completionURL": "https://www.youtube.com/watch?v=1BwQn5xaRdI",
+    "solutions": {
+      "door at which you might wait for the magician to get an autograph": "stage",
+      "food served out of a truck or on a Tuesday": "Taco",
+      "you might go on one at the request of a princess": "quest",
+      "place other than your browser to open a tab": "bar",
+      "something not to let hit you on the way out": "door",
+      "\"___ questions?\"": "any",
+      "suitor/hostage-taker of Beauty in a fairy tale": "beast",
+      "\"__ Quiero Taco Bell\" ➡️ a chihuahua from the 90s": "Yo",
+      "___ mark (much-improved name for a mole)": "Beauty",
+      "sometimes involuntarily applied neckwear in Honolulu": "Lei",
+      "Peach or Leia": "princess",
+      "Yoko who staged \"bed-ins\" with John": "ono",
+      "something yelled by a forgetful actor, maybe": "line",
+      "illicitly imitate, as a signature": "forge",
+      "\"___ wide\" says the dentist": "open",
+      "flossing evangelist, often": "dentist",
+      "\"the ___ of the beast\" (something's essence)": "nature",
+      "lines made at the beach": "Tan"
+    },
+    "initialPuzzle": "Tang[\"___ [you might go on one at the request of a [Peach or [sometimes involuntarily applied neckwear in H[[\"__ Quiero [food served out of a truck or on a Tuesday] Bell\" ➡️ a chihuahua from the 90s]ko who staged \"bed-ins\" with John]lulu]a]]ions?\"]ika and Zanzi[place other than your browser to [\"___ wide\" says the [flossing evangelist, often]] a tab] merge to form [[something yelled by a [illicitly imitate, as a sig[\"the ___ of the [suitor/ho[[something not to let hit you on the way out] at which you might wait for the magician to get an autograph]-taker of [___ mark (much-improved name for a mole)] in a fairy tale]\" (something's essence)]]tful actor, maybe]s made at the beach]zania",
+    "puzzleSolution": "Tanganyika and Zanzibar merge to form Tanzania"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 50,
+      "correctGuesses": 6,
+      "totalClues": 18,
+      "hints": 0,
+      "reveals": 0,
+      "stepsTaken": 50,
+      "completionPercentage": 33.33333333333333
+    },
+    "usage": {
+      "promptTokens": 451914,
+      "completionTokens": 5916,
+      "totalTokens": 457830
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 0,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 88,
+      "totalPenalty": 88,
+      "finalScore": 0,
+      "rank": "Commuter",
+      "nextRankName": "Resident",
+      "pointsToNextRank": 9
+    },
+    "modelGuesses": [
+      {
+        "expression": "food served out of a truck or on a Tuesday",
+        "guess": "taco",
+        "success": true,
+        "timestamp": 1747500818365
+      },
+      {
+        "expression": "__ Quiero Taco Bell\" ➡️ a chihuahua from the 90s",
+        "guess": "yo",
+        "success": true,
+        "timestamp": 1747500822611
+      },
+      {
+        "expression": "something not to let hit you on the way out",
+        "guess": "door",
+        "success": true,
+        "timestamp": 1747500826081
+      },
+      {
+        "expression": "___ mark (much-improved name for a mole)",
+        "guess": "beauty",
+        "success": true,
+        "timestamp": 1747500829245
+      },
+      {
+        "expression": "the ___ of the [suitor/ho[door at which you might wait for the magician to get an autograph]-taker of Beauty in a fairy tale]",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747500832179
+      },
+      {
+        "expression": "illicitly imitate, as a sig",
+        "guess": "forge",
+        "success": false,
+        "timestamp": 1747500834324
+      },
+      {
+        "expression": "___ wide\" says the [flossing evangelist, often]",
+        "guess": "open",
+        "success": false,
+        "timestamp": 1747500836423
+      },
+      {
+        "expression": "you might go on one at the request of a [Peach or [sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu]a]",
+        "guess": "diet",
+        "success": false,
+        "timestamp": 1747500838317
+      },
+      {
+        "expression": "sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu",
+        "guess": "lei",
+        "success": false,
+        "timestamp": 1747500839980
+      },
+      {
+        "expression": "Peach or [sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu]",
+        "guess": "apple",
+        "success": false,
+        "timestamp": 1747500842121
+      },
+      {
+        "expression": "flossing evangelist, often",
+        "guess": "dentist",
+        "success": true,
+        "timestamp": 1747500843503
+      },
+      {
+        "expression": "___ wide\" says the dentist",
+        "guess": "open",
+        "success": true,
+        "timestamp": 1747500846292
+      },
+      {
+        "expression": "illicitly imitate, as a sig",
+        "guess": "forge",
+        "success": false,
+        "timestamp": 1747500848765
+      },
+      {
+        "expression": "you might go on one at the request of a [Peach or [sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu]a]",
+        "guess": "diet",
+        "success": false,
+        "timestamp": 1747500850749
+      },
+      {
+        "expression": "Peach or [sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu]",
+        "guess": "apple",
+        "success": false,
+        "timestamp": 1747500852518
+      },
+      {
+        "expression": "sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu",
+        "guess": "lei",
+        "success": false,
+        "timestamp": 1747500855050
+      },
+      {
+        "expression": "illicitly imitate, as a sig",
+        "guess": "forge",
+        "success": false,
+        "timestamp": 1747500856574
+      },
+      {
+        "expression": "the ___ of the [suitor/ho[door at which you might wait for the magician to get an autograph]-taker of Beauty in a fairy tale]",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747500859767
+      },
+      {
+        "expression": "you might go on one at the request of a [Peach or [sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu]a]",
+        "guess": "diet",
+        "success": false,
+        "timestamp": 1747500863052
+      },
+      {
+        "expression": "Peach or [sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu]",
+        "guess": "apple",
+        "success": false,
+        "timestamp": 1747500864881
+      },
+      {
+        "expression": "sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu",
+        "guess": "lei",
+        "success": false,
+        "timestamp": 1747500867681
+      },
+      {
+        "expression": "illicitly imitate, as a sig",
+        "guess": "forge",
+        "success": false,
+        "timestamp": 1747500869569
+      },
+      {
+        "expression": "the ___ of the [suitor/ho[door at which you might wait for the magician to get an autograph]-taker of Beauty in a fairy tale]",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747500871019
+      },
+      {
+        "expression": "you might go on one at the request of a [Peach or [sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu]a]",
+        "guess": "diet",
+        "success": false,
+        "timestamp": 1747500873454
+      },
+      {
+        "expression": "Peach or [sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu]",
+        "guess": "apple",
+        "success": false,
+        "timestamp": 1747500876047
+      },
+      {
+        "expression": "sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu",
+        "guess": "lei",
+        "success": false,
+        "timestamp": 1747500878855
+      },
+      {
+        "expression": "illicitly imitate, as a sig",
+        "guess": "forge",
+        "success": false,
+        "timestamp": 1747500880765
+      },
+      {
+        "expression": "the ___ of the [suitor/ho[door at which you might wait for the magician to get an autograph]-taker of Beauty in a fairy tale]",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747500884308
+      },
+      {
+        "expression": "you might go on one at the request of a [Peach or [sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu]a]",
+        "guess": "diet",
+        "success": false,
+        "timestamp": 1747500887305
+      },
+      {
+        "expression": "Peach or [sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu]",
+        "guess": "apple",
+        "success": false,
+        "timestamp": 1747500890516
+      },
+      {
+        "expression": "sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu",
+        "guess": "lei",
+        "success": false,
+        "timestamp": 1747500892611
+      },
+      {
+        "expression": "illicitly imitate, as a sig",
+        "guess": "forge",
+        "success": false,
+        "timestamp": 1747500894566
+      },
+      {
+        "expression": "the ___ of the [suitor/ho[door at which you might wait for the magician to get an autograph]-taker of Beauty in a fairy tale]",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747500896672
+      },
+      {
+        "expression": "you might go on one at the request of a [Peach or [sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu]a]",
+        "guess": "diet",
+        "success": false,
+        "timestamp": 1747500898649
+      },
+      {
+        "expression": "Peach or [sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu]",
+        "guess": "apple",
+        "success": false,
+        "timestamp": 1747500902719
+      },
+      {
+        "expression": "sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu",
+        "guess": "lei",
+        "success": false,
+        "timestamp": 1747500904747
+      },
+      {
+        "expression": "illicitly imitate, as a sig",
+        "guess": "forge",
+        "success": false,
+        "timestamp": 1747500905661
+      },
+      {
+        "expression": "the ___ of the [suitor/ho[door at which you might wait for the magician to get an autograph]-taker of Beauty in a fairy tale]",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747500910118
+      },
+      {
+        "expression": "you might go on one at the request of a [Peach or [sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu]a]",
+        "guess": "diet",
+        "success": false,
+        "timestamp": 1747500911786
+      },
+      {
+        "expression": "Peach or [sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu]",
+        "guess": "apple",
+        "success": false,
+        "timestamp": 1747500914261
+      },
+      {
+        "expression": "sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu",
+        "guess": "lei",
+        "success": false,
+        "timestamp": 1747500916633
+      },
+      {
+        "expression": "illicitly imitate, as a sig",
+        "guess": "forge",
+        "success": false,
+        "timestamp": 1747500918517
+      },
+      {
+        "expression": "the ___ of the [suitor/ho[door at which you might wait for the magician to get an autograph]-taker of Beauty in a fairy tale]",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747500921656
+      },
+      {
+        "expression": "you might go on one at the request of a [Peach or [sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu]a]",
+        "guess": "diet",
+        "success": false,
+        "timestamp": 1747500924712
+      },
+      {
+        "expression": "Peach or [sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu]",
+        "guess": "apple",
+        "success": false,
+        "timestamp": 1747500926427
+      },
+      {
+        "expression": "sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu",
+        "guess": "lei",
+        "success": false,
+        "timestamp": 1747500928338
+      },
+      {
+        "expression": "illicitly imitate, as a sig",
+        "guess": "forge",
+        "success": false,
+        "timestamp": 1747500930112
+      },
+      {
+        "expression": "the ___ of the [suitor/ho[door at which you might wait for the magician to get an autograph]-taker of Beauty in a fairy tale]",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747500931618
+      },
+      {
+        "expression": "you might go on one at the request of a [Peach or [sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu]a]",
+        "guess": "diet",
+        "success": false,
+        "timestamp": 1747500934043
+      },
+      {
+        "expression": "Peach or [sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu]",
+        "guess": "apple",
+        "success": false,
+        "timestamp": 1747500936867
+      }
+    ],
+    "finalText": "I need to reassess the innermost clues again. Let's address the clue: \"Peach or [sometimes involuntarily applied neckwear in H[Yoko who staged \\\"bed-ins\\\" with John]lulu]\". I will make a guess for this clue.",
+    "timeToSolve": 121.533
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "timestamp": "2025-05-17T17:06:40.311Z",
+  "model": {
+    "name": "qwen3-235b-a22b",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "May 8, 1950:",
+    "puzzleDate": "2025-05-08",
+    "completionURL": "https://www.youtube.com/watch?v=03AB2sIMRnU",
+    "solutions": {
+      "the A in MoMA": "art",
+      "syllable for hecklers at a performance": "boo",
+      "\"___ my dust!\" you say as you attempt a burnout on your Segway": "eat",
+      "entry in a book for a sorcerer": "spell",
+      "dog tail motion": "wag",
+      "a reprobate might not be welcome in \"___ society\"": "polite",
+      "bunny that fears the vacuum": "dust",
+      "kind of sickness induced by 🚗, 🚢, or ✈️, maybe": "motion",
+      "\"Don't have a ___, man!\" says Bart Simpson following his antics": "cow",
+      "something you (used to) pay someone in a booth on a highway": "Toll",
+      "Bugs might be the most famous one": "bunny",
+      "a smooth transition from one part of a performance to another": "segue",
+      "common misspelling of \"segue\"": "Segway",
+      "more polite name for a fiery abyss of despair": "heck",
+      "kind of wagon that greets newcomers": "welcome",
+      "onomatopoeic cow sound": "moo"
+    },
+    "initialPuzzle": "the [something you (used to) pay someone in a [syllable for [more [a reprobate might not be [kind of [dog tail [kind of sickness induced by 🚗, 🚢, or ✈️, maybe]]on that greets newcomers] in \"___ society\"] name for a fiery abyss of despair]lers at a performance]th on a highway]und Man is discovered in a p[\"___ my [[Bugs might be the most famous one] that fears the vacuum]!\" you say as you attempt a burnout on your [common mis[entry in a book for a sorcerer]ing of \"[a s[onomatopoeic [\"Don't have a ___, man!\" says B[the A in MoMA] Simpson following his antics] sound]th transition from one part of a performance to another]\"]] bog in Denmark",
+    "puzzleSolution": "the Tollund Man is discovered in a peat bog in Denmark"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 2,
+      "correctGuesses": 0,
+      "totalClues": 16,
+      "hints": 0,
+      "reveals": 0,
+      "stepsTaken": 3,
+      "completionPercentage": 0
+    },
+    "usage": {
+      "promptTokens": 3774,
+      "completionTokens": 2873,
+      "totalTokens": 6647
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 0,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 4,
+      "totalPenalty": 4,
+      "finalScore": 0,
+      "rank": "Kingmaker",
+      "nextRankName": "Puppet Master",
+      "pointsToNextRank": 4
+    },
+    "modelGuesses": [
+      {
+        "expression": "kind of sickness induced by 🚗, 🚢, or ✈️, maybe",
+        "guess": "motion sickness",
+        "success": false,
+        "timestamp": 1747501572974
+      },
+      {
+        "expression": "kind of sickness induced by 🚗, 🚢, or ✈️, maybe",
+        "guess": "travel sickness",
+        "success": false,
+        "timestamp": 1747501591804
+      }
+    ],
+    "finalText": "<tool_call>\n{\"name\": \"makeGuess\", \"arguments\": {\"clue\": \"kind of sickness induced by 🚗, 🚢, or ✈️, maybe\", \"guess\": \"transport sickness\"}}",
+    "timeToSolve": 52.987
+  }
+}

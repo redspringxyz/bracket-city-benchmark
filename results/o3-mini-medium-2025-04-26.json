@@ -1,0 +1,284 @@
+{
+  "timestamp": "2025-05-17T17:16:25.314Z",
+  "model": {
+    "name": "o3-mini-medium",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "April 26, 1964:",
+    "puzzleDate": "2025-04-26",
+    "completionURL": "https://www.youtube.com/watch?v=1BwQn5xaRdI",
+    "solutions": {
+      "door at which you might wait for the magician to get an autograph": "stage",
+      "food served out of a truck or on a Tuesday": "Taco",
+      "you might go on one at the request of a princess": "quest",
+      "place other than your browser to open a tab": "bar",
+      "something not to let hit you on the way out": "door",
+      "\"___ questions?\"": "any",
+      "suitor/hostage-taker of Beauty in a fairy tale": "beast",
+      "\"__ Quiero Taco Bell\" ➡️ a chihuahua from the 90s": "Yo",
+      "___ mark (much-improved name for a mole)": "Beauty",
+      "sometimes involuntarily applied neckwear in Honolulu": "Lei",
+      "Peach or Leia": "princess",
+      "Yoko who staged \"bed-ins\" with John": "ono",
+      "something yelled by a forgetful actor, maybe": "line",
+      "illicitly imitate, as a signature": "forge",
+      "\"___ wide\" says the dentist": "open",
+      "flossing evangelist, often": "dentist",
+      "\"the ___ of the beast\" (something's essence)": "nature",
+      "lines made at the beach": "Tan"
+    },
+    "initialPuzzle": "Tang[\"___ [you might go on one at the request of a [Peach or [sometimes involuntarily applied neckwear in H[[\"__ Quiero [food served out of a truck or on a Tuesday] Bell\" ➡️ a chihuahua from the 90s]ko who staged \"bed-ins\" with John]lulu]a]]ions?\"]ika and Zanzi[place other than your browser to [\"___ wide\" says the [flossing evangelist, often]] a tab] merge to form [[something yelled by a [illicitly imitate, as a sig[\"the ___ of the [suitor/ho[[something not to let hit you on the way out] at which you might wait for the magician to get an autograph]-taker of [___ mark (much-improved name for a mole)] in a fairy tale]\" (something's essence)]]tful actor, maybe]s made at the beach]zania",
+    "puzzleSolution": "Tanganyika and Zanzibar merge to form Tanzania"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 36,
+      "correctGuesses": 12,
+      "totalClues": 18,
+      "hints": 2,
+      "reveals": 1,
+      "stepsTaken": 50,
+      "completionPercentage": 72.22222222222221
+    },
+    "usage": {
+      "promptTokens": 270694,
+      "completionTokens": 88533,
+      "totalTokens": 359227
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 10,
+      "megaPeekPenalty": 15,
+      "wrongGuessPenalty": 48,
+      "totalPenalty": 73,
+      "finalScore": 0,
+      "rank": "Resident",
+      "nextRankName": "Council Member",
+      "pointsToNextRank": 4
+    },
+    "modelGuesses": [
+      {
+        "expression": "food served out of a truck or on a Tuesday",
+        "guess": "taco",
+        "success": true,
+        "timestamp": 1747501545923
+      },
+      {
+        "expression": "flossing evangelist, often",
+        "guess": "dentist",
+        "success": true,
+        "timestamp": 1747501569047
+      },
+      {
+        "expression": "__ Quiero Taco Bell\" ➡️ a chihuahua from the 90s",
+        "guess": "Yo",
+        "success": true,
+        "timestamp": 1747501579576
+      },
+      {
+        "expression": "Yoko who staged \"bed-ins\" with John",
+        "guess": "Ono",
+        "success": true,
+        "timestamp": 1747501587075
+      },
+      {
+        "expression": "sometimes involuntarily applied neckwear in Honolulu",
+        "guess": "lei",
+        "success": true,
+        "timestamp": 1747501603724
+      },
+      {
+        "expression": "Peach or Leia",
+        "guess": "princess",
+        "success": true,
+        "timestamp": 1747501616279
+      },
+      {
+        "expression": "___ wide",
+        "guess": "open",
+        "success": true,
+        "timestamp": 1747501624478
+      },
+      {
+        "expression": "you might go on one at the request of a princess",
+        "guess": "quest",
+        "success": true,
+        "timestamp": 1747501635906
+      },
+      {
+        "expression": "place other than your browser to open a tab",
+        "guess": "bar",
+        "success": true,
+        "timestamp": 1747501640842
+      },
+      {
+        "expression": "something not to let hit you on the way out",
+        "guess": "door",
+        "success": true,
+        "timestamp": 1747501653298
+      },
+      {
+        "expression": "___ mark (much-improved name for a mole)",
+        "guess": "beauty",
+        "success": true,
+        "timestamp": 1747501663457
+      },
+      {
+        "expression": "suitor/ho[door at which you might wait for the magician to get an autograph]-taker of Beauty in a fairy tale",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747501676111
+      },
+      {
+        "expression": "suitor/ho door-taker of Beauty in a fairy tale",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747501688509
+      },
+      {
+        "expression": "suitor/ho door-taker of Beauty in a fairy tale",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747501697351
+      },
+      {
+        "expression": "suitor/ho door-taker of Beauty in a fairy tale",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747501710470
+      },
+      {
+        "expression": "suitor/ho door-taker of Beauty in a fairy tale",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747501719419
+      },
+      {
+        "expression": "the ___ of the [suitor/ho[door at which you might wait for the magician to get an autograph]-taker of Beauty in a fairy tale]",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747501730848
+      },
+      {
+        "expression": "suitor/ho door-taker of Beauty in a fairy tale",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747501743291
+      },
+      {
+        "expression": "suitor/ho door-taker of Beauty in a fairy tale",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747501752745
+      },
+      {
+        "expression": "the ___ of the beast",
+        "guess": "heart",
+        "success": false,
+        "timestamp": 1747501845860
+      },
+      {
+        "expression": "suitor/ho door-taker of Beauty in a fairy tale",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747501856853
+      },
+      {
+        "expression": "suitor/ho door-taker of Beauty in a fairy tale",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747501876186
+      },
+      {
+        "expression": "suitor/ho door-taker of Beauty in a fairy tale",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747501916132
+      },
+      {
+        "expression": "suitor/ho door-taker of Beauty in a fairy tale",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747501990818
+      },
+      {
+        "expression": "the ___ of the suitor/ho door-taker of Beauty in a fairy tale",
+        "guess": "heart",
+        "success": false,
+        "timestamp": 1747502012350
+      },
+      {
+        "expression": "suitor/ho door-taker of Beauty in a fairy tale",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747502025466
+      },
+      {
+        "expression": "suitor/ho door-taker of Beauty in a fairy tale",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747502042983
+      },
+      {
+        "expression": "suitor/ho[door at which you might wait for the magician to get an autograph]-taker of Beauty in a fairy tale",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747502065185
+      },
+      {
+        "expression": "suitor/ho[door at which you might wait for the magician to get an autograph]-taker of Beauty in a fairy tale",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747502075823
+      },
+      {
+        "expression": "the ___ of the suitor/ho door-taker of Beauty in a fairy tale",
+        "guess": "heart",
+        "success": false,
+        "timestamp": 1747502101477
+      },
+      {
+        "expression": "suitor/ho door-taker of Beauty in a fairy tale",
+        "guess": "beast",
+        "success": false,
+        "timestamp": 1747502123775
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "line",
+        "success": false,
+        "timestamp": 1747502146557
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "queue",
+        "success": false,
+        "timestamp": 1747502155124
+      },
+      {
+        "expression": "suitor/hostage-taker of Beauty in a fairy tale",
+        "guess": "beast",
+        "success": true,
+        "timestamp": 1747502174134
+      },
+      {
+        "expression": "the ___ of the beast",
+        "guess": "heart",
+        "success": false,
+        "timestamp": 1747502177977
+      },
+      {
+        "expression": "the ___ of the beast",
+        "guess": "heart",
+        "success": false,
+        "timestamp": 1747502185312
+      }
+    ],
+    "finalText": "",
+    "timeToSolve": 649.99
+  }
+}

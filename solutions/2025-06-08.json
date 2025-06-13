@@ -1,0 +1,29 @@
+{
+  "completionText": "June 8, 1959:",
+  "puzzleDate": "2025-06-08",
+  "completionURL": "https://en.wikipedia.org/wiki/Rocket_mail",
+  "solutions": {
+    "life ___ death": "after",
+    "risky thing to do with fate": "tempt",
+    "pre is a prefix for before, ___ is a prefix for after": "Post",
+    "steeple location": "church",
+    "two after tic": "toe",
+    "\"__!\" (x3) says Santa Claus 🎄": "ho",
+    "Diego or Juan or Antonio": "San",
+    "honorific for Piggy or Marple": "miss",
+    "\"the ___ is the limit\"": "sky",
+    "some is saturated": "fat",
+    "high (as a price), scary (as a ski run)": "steep",
+    "one of two rolled at a craps table 🎲": "Die",
+    "organ that breaks down alcohol": "liver",
+    "cloak-and-dagger types": "spies",
+    "big instrument in a church": "organ",
+    "good thing to be of the party": "life",
+    "___ Krispies": "rice",
+    "\"one ___ fits all\"": "size",
+    "size for Bo Peep or Boy Blue": "little",
+    "\"little\" animal evoked by a toe, apparently": "Piggy"
+  },
+  "initialPuzzle": "the US [pre is a prefix for before, ___ is a prefix for [[good thing to be of the party] ___ death]]al Service at[ri[\"the ___ is the limit\"] thing to do with [some is saturated]e]s to de[[big instrument in a [[high (as a p[___ Kri[cloak-and-dagger types]]), scary (as a ski run)]le location]] that breaks down alco[\"__!\" (x3) says [[one of two rolled at a craps table 🎲]go or Juan or Antonio]ta Claus 🎄]l] mail by [honorific for [\"[[\"one ___ fits all\"] for Bo Peep or Boy Blue]\" animal evoked by a [two after tic], apparently] or Marple]ile",
+  "puzzleSolution": "the US Postal Service attempts to deliver mail by missile"
+}

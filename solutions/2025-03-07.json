@@ -1,0 +1,28 @@
+{
+  "completionText": "March 7, 1921:",
+  "puzzleDate": "2025-03-07",
+  "completionURL": "https://en.wikipedia.org/wiki/Labin_Republic",
+  "solutions": {
+    "handles you might try to lose": "love",
+    "alternatives to doorknobs": "handles",
+    "nothing to ___, everything to gain": "lose",
+    "when sparks do this, there's chemistry": "fly",
+    "baggage area with a conveyor belt": "claim",
+    "a labyrinth is like one of these but with no dead ends": "maze",
+    "run on the treadmill, e.g.": "exercise",
+    "Venus fly___": "trap",
+    "a villain might have a trap one in their floor": "door",
+    "something you might have to grind": "axe",
+    "pickaxe users": "miners",
+    "kind of rat in a maze": "Lab",
+    "trust ___ (team-building exercise)": "fall",
+    "its peel might cause a pratfall": "Banana",
+    "Banana ___": "Republic",
+    "like a 🐭 but bigger": "rat",
+    "🧠": "brain",
+    "you might play this to avoid detection": "dead",
+    "\"I'd love to ___ your brain\"": "pick"
+  },
+  "initialPuzzle": "striking [[\"I'd [[alternatives to [a villain might have a [Venus [when sparks do this, there's chemistry]___] one in their floor]knobs] you might try to [nothing to ___, everything to gain]] to ___ your [🧠]\"][something you might have to grind] users] pro[baggage area with a conveyor belt] the [kind of [like a 🐭 but bigger] in a [a labyrinth is like one of these but with no [you might play this to avoid detection] ends]]in [[its peel might cause a prat[trust ___ (team-building [run on the treadmill, e.g.])]] ___]",
+  "puzzleSolution": "striking miners proclaim the Labin Republic"
+}

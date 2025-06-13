@@ -1,0 +1,282 @@
+{
+  "timestamp": "2025-05-17T17:04:57.700Z",
+  "model": {
+    "name": "gemini-2.5-flash-preview-04-17",
+    "provider": "google.generative-ai"
+  },
+  "puzzle": {
+    "completionText": "May 11, 330:",
+    "puzzleDate": "2025-05-11",
+    "completionURL": "https://en.wikipedia.org/wiki/New_Rome",
+    "solutions": {
+      "room many CEOs claim to have started in": "Mail",
+      "famous Windows 95 button or an instruction to begin": "start",
+      "glass-half-empty type": "pessimist",
+      "largest asset for Old MacDonald": "farm",
+      "___-com (like \"Notting Hill\" or \"You've Got Mail\")": "Rom",
+      "airline seat preferred by those who can hold it, maybe": "Window",
+      "kind of farm with tiny six-legged animals": "ant",
+      "first name for an \"arrogant duck with a pessimistic attitude and an insecure disposition\" (per Wikipedia)": "Donald",
+      "like a nest recently relieved of teenagers": "empty",
+      "U2 frontman": "bono",
+      "weapon for a halloween prankster (escalation from toilet paper)": "egg",
+      "list usually to the right of pros": "Cons",
+      "___ bono (like free legal work)": "pro",
+      "\"___ naked\" (not quite nude)": "half",
+      "\"___ it\" (usually said rapidly in an effort to avoid an undesirable assignment)": "Not",
+      "kind of egg that you grow to retire": "nest"
+    },
+    "initialPuzzle": "[list usually to the right of [___ [U2 frontman] (like free legal work)]s]tantine changes the name of Byz[kind of [largest asset for Old Mac[first name for an \"arrogant duck with a [glass-[\"___ naked\" (not quite nude)]-[like a [kind of [weapon for a halloween prankster (escalation from toilet paper)] that you grow to retire] recently relieved of teenagers] type]ic attitude and an insecure disposition\" (per Wikipedia)]] with tiny six-legged animals]ium to New [___-com (like \"[\"___ it\" (usually said rapidly in an effort to avoid an undesirable assignment)]ting Hill\" or \"You've Got [room many CEOs claim to have [famous [airline seat preferred by those who can hold it, maybe]s 95 button or an instruction to begin]ed in]\")]e",
+    "puzzleSolution": "Constantine changes the name of Byzantium to New Rome"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 36,
+      "correctGuesses": 16,
+      "totalClues": 16,
+      "hints": 2,
+      "reveals": 0,
+      "stepsTaken": 39,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 286390,
+      "completionTokens": 5312,
+      "totalTokens": 291702
+    },
+    "score": 50,
+    "rank": "Council Member",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 10,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 40,
+      "totalPenalty": 50,
+      "finalScore": 50,
+      "rank": "Council Member",
+      "nextRankName": "Chief of Police",
+      "pointsToNextRank": 1
+    },
+    "modelGuesses": [
+      {
+        "expression": "U2 frontman",
+        "guess": "Bono",
+        "success": true,
+        "timestamp": 1747501364333
+      },
+      {
+        "expression": "\"___ naked\" (not quite nude)",
+        "guess": "barely",
+        "success": false,
+        "timestamp": 1747501367355
+      },
+      {
+        "expression": "weapon for a halloween prankster (escalation from toilet paper)",
+        "guess": "egg",
+        "success": true,
+        "timestamp": 1747501370197
+      },
+      {
+        "expression": "kind of egg that you grow to retire",
+        "guess": "nest",
+        "success": true,
+        "timestamp": 1747501374384
+      },
+      {
+        "expression": "like a nest recently relieved of teenagers",
+        "guess": "empty nest",
+        "success": false,
+        "timestamp": 1747501378057
+      },
+      {
+        "expression": "\"___ it\" (usually said rapidly in an effort to avoid an undesirable assignment)",
+        "guess": "Skip",
+        "success": false,
+        "timestamp": 1747501380590
+      },
+      {
+        "expression": "airline seat preferred by those who can hold it, maybe",
+        "guess": "aisle",
+        "success": false,
+        "timestamp": 1747501382319
+      },
+      {
+        "expression": "\"___ naked\" (not quite nude)",
+        "guess": "bare",
+        "success": false,
+        "timestamp": 1747501386818
+      },
+      {
+        "expression": "___ bono (like free legal work)",
+        "guess": "pro",
+        "success": true,
+        "timestamp": 1747501390360
+      },
+      {
+        "expression": "\"___ naked\" (not quite nude)",
+        "guess": "half",
+        "success": true,
+        "timestamp": 1747501393595
+      },
+      {
+        "expression": "like a nest recently relieved of teenagers",
+        "guess": "empty",
+        "success": true,
+        "timestamp": 1747501395757
+      },
+      {
+        "expression": "first name for an \"arrogant duck with a glass-half-empty typeic attitude and an insecure disposition\" (per Wikipedia)",
+        "guess": "Donald",
+        "success": false,
+        "timestamp": 1747501399520
+      },
+      {
+        "expression": "list usually to the right of pros",
+        "guess": "cons",
+        "success": true,
+        "timestamp": 1747501413019
+      },
+      {
+        "expression": "glass-half-empty type",
+        "guess": "attitude",
+        "success": false,
+        "timestamp": 1747501418918
+      },
+      {
+        "expression": "\"___ it\" (usually said rapidly in an effort to avoid an undesirable assignment)",
+        "guess": "Skip",
+        "success": false,
+        "timestamp": 1747501421635
+      },
+      {
+        "expression": "airline seat preferred by those who can hold it, maybe",
+        "guess": "window",
+        "success": true,
+        "timestamp": 1747501424280
+      },
+      {
+        "expression": "famous Windows 95 button or an instruction to begin",
+        "guess": "Start",
+        "success": true,
+        "timestamp": 1747501425274
+      },
+      {
+        "expression": "room many CEOs claim to have started in",
+        "guess": "garage",
+        "success": false,
+        "timestamp": 1747501427574
+      },
+      {
+        "expression": "\"___ it\" (usually said rapidly in an effort to avoid an undesirable assignment)",
+        "guess": "Forget",
+        "success": false,
+        "timestamp": 1747501430119
+      },
+      {
+        "expression": "room many CEOs claim to have started in",
+        "guess": "dorm room",
+        "success": false,
+        "timestamp": 1747501432578
+      },
+      {
+        "expression": "glass-half-empty type",
+        "guess": "pessimistic",
+        "success": false,
+        "timestamp": 1747501435914
+      },
+      {
+        "expression": "\"___ it\" (usually said rapidly in an effort to avoid an undesirable assignment)",
+        "guess": "Bag",
+        "success": false,
+        "timestamp": 1747501438457
+      },
+      {
+        "expression": "\"___ it\" (usually said rapidly in an effort to avoid an undesirable assignment)",
+        "guess": "Not in",
+        "success": false,
+        "timestamp": 1747501443262
+      },
+      {
+        "expression": "room many CEOs claim to have started in",
+        "guess": "basement",
+        "success": false,
+        "timestamp": 1747501446458
+      },
+      {
+        "expression": "\"___ it\" (usually said rapidly in an effort to avoid an undesirable assignment)",
+        "guess": "Not I",
+        "success": false,
+        "timestamp": 1747501450391
+      },
+      {
+        "expression": "\"___ it\" (usually said rapidly in an effort to avoid an undesirable assignment)",
+        "guess": "Not",
+        "success": true,
+        "timestamp": 1747501456638
+      },
+      {
+        "expression": "room many CEOs claim to have started in",
+        "guess": "Mail",
+        "success": true,
+        "timestamp": 1747501459661
+      },
+      {
+        "expression": "glass-half-empty type",
+        "guess": "pessimistic",
+        "success": false,
+        "timestamp": 1747501465707
+      },
+      {
+        "expression": "___-com (like \"Notting Hill\" or \"You've Got Mail\")",
+        "guess": "dot",
+        "success": false,
+        "timestamp": 1747501469917
+      },
+      {
+        "expression": "___-com (like \"Notting Hill\" or \"You've Got Mail\")",
+        "guess": "Rom",
+        "success": true,
+        "timestamp": 1747501473949
+      },
+      {
+        "expression": "glass-half-empty type",
+        "guess": "pessimistic",
+        "success": false,
+        "timestamp": 1747501478193
+      },
+      {
+        "expression": "glass-half-empty type",
+        "guess": "pessim",
+        "success": false,
+        "timestamp": 1747501485726
+      },
+      {
+        "expression": "glass-half-empty type",
+        "guess": "pessimist",
+        "success": true,
+        "timestamp": 1747501493180
+      },
+      {
+        "expression": "first name for an \"arrogant duck with a pessimistic attitude and an insecure disposition\" (per Wikipedia)",
+        "guess": "Donald",
+        "success": true,
+        "timestamp": 1747501494924
+      },
+      {
+        "expression": "largest asset for Old MacDonald",
+        "guess": "farm",
+        "success": true,
+        "timestamp": 1747501496047
+      },
+      {
+        "expression": "kind of farm with tiny six-legged animals",
+        "guess": "ant",
+        "success": true,
+        "timestamp": 1747501496997
+      }
+    ],
+    "finalText": "Constantine changes the name of Byzantium to New Rome",
+    "timeToSolve": 136.364
+  }
+}

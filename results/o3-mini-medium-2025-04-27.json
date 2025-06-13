@@ -1,0 +1,254 @@
+{
+  "timestamp": "2025-05-17T17:20:50.962Z",
+  "model": {
+    "name": "o3-mini-medium",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "April 27, 2004:",
+    "puzzleDate": "2025-04-27",
+    "completionURL": "https://en.wikipedia.org/wiki/Matilda_(chicken)",
+    "solutions": {
+      "thick japanese noodle": "udon",
+      "reasonably private cabin in a public bathroom": "stall",
+      "generally preferred afterlife destination": "heaven",
+      "a sharply critical remark (emphasis on \"sharp\")": "Barb",
+      "# in 🇺🇸, £ in 🇬🇧": "pound",
+      "informal form of \"hello\"": "hi",
+      "Reverend Lovejoy: \"see you in ___! *long pause* from heaven!\"": "hell",
+      "sweet contraband at some summer camps": "candy",
+      "Barbie's romantic associate": "ken",
+      "two-letter abbreviation for \"pound\" neither of which appear in the word": "lb",
+      "word after rock or marching": "band",
+      "log domicile for Lincoln": "cabin",
+      "\"happily ever ___\"": "after",
+      "something you install on your phone": "app",
+      "\"___y ___\" aka ___ Wahlberg": "mark",
+      "letters between a pseudonym and a real name": "aka",
+      "small capsule-shaped hard candy, with \"tac\"": "tic",
+      "home of sumo wrestling": "japan"
+    },
+    "initialPuzzle": "Matilda is declared the world's oldest c[informal form of \"[Reverend Lovejoy: \"see you in ___! *long pause* from [generally preferred [\"h[something you in[reasonably private [log domicile for Lincoln] in a public bathroom] on your phone]ily ever ___\"]life destination]!\"]o\"]c[[a sharply cri[small capsule-shaped hard [sweet contra[word after rock or marching] at some summer camps], with \"tac\"]al re[\"___y ___\" [letters between a pse[thick [home of sumo wrestling]ese noodle]ym and a real name] ___ Wah[two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word]erg] (emphasis on \"sharp\")]ie's romantic associate]",
+    "puzzleSolution": "Matilda is declared the world's oldest chicken"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 31,
+      "correctGuesses": 8,
+      "totalClues": 18,
+      "hints": 2,
+      "reveals": 1,
+      "stepsTaken": 49,
+      "completionPercentage": 50
+    },
+    "usage": {
+      "promptTokens": 280754,
+      "completionTokens": 125787,
+      "totalTokens": 406541
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 10,
+      "megaPeekPenalty": 15,
+      "wrongGuessPenalty": 46,
+      "totalPenalty": 71,
+      "finalScore": 0,
+      "rank": "Resident",
+      "nextRankName": "Council Member",
+      "pointsToNextRank": 2
+    },
+    "modelGuesses": [
+      {
+        "expression": "log domicile for Lincoln",
+        "guess": "cabin",
+        "success": true,
+        "timestamp": 1747501609142
+      },
+      {
+        "expression": "home of sumo wrestling",
+        "guess": "Japan",
+        "success": true,
+        "timestamp": 1747501626464
+      },
+      {
+        "expression": "thick japanese noodle",
+        "guess": "udon",
+        "success": true,
+        "timestamp": 1747501652708
+      },
+      {
+        "expression": "something you in cabin on your phone",
+        "guess": "app",
+        "success": false,
+        "timestamp": 1747501669692
+      },
+      {
+        "expression": "word after rock or marching",
+        "guess": "band",
+        "success": true,
+        "timestamp": 1747501679057
+      },
+      {
+        "expression": "sweet contraband at some summer camps",
+        "guess": "tic",
+        "success": false,
+        "timestamp": 1747501689529
+      },
+      {
+        "expression": "sweet contraband at some summer camps",
+        "guess": "tic tac",
+        "success": false,
+        "timestamp": 1747501696278
+      },
+      {
+        "expression": "sweet contraband at some summer camps",
+        "guess": "candy",
+        "success": true,
+        "timestamp": 1747501714461
+      },
+      {
+        "expression": "[# in 🇺🇸, £ in 🇬🇧]",
+        "guess": "PS",
+        "success": false,
+        "timestamp": 1747501747921
+      },
+      {
+        "expression": "something you in cabin on your phone",
+        "guess": "app",
+        "success": false,
+        "timestamp": 1747501793779
+      },
+      {
+        "expression": "letters between a pseudonym and a real name",
+        "guess": "AKA",
+        "success": true,
+        "timestamp": 1747501809616
+      },
+      {
+        "expression": "[# in 🇺🇸, £ in 🇬🇧]",
+        "guess": "PS",
+        "success": false,
+        "timestamp": 1747501823408
+      },
+      {
+        "expression": "something you in cabin on your phone",
+        "guess": "app",
+        "success": false,
+        "timestamp": 1747501844131
+      },
+      {
+        "expression": "see you in ___!",
+        "guess": "hell",
+        "success": false,
+        "timestamp": 1747501868257
+      },
+      {
+        "expression": "something you in cabin on your phone",
+        "guess": "app",
+        "success": false,
+        "timestamp": 1747501911306
+      },
+      {
+        "expression": "two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word",
+        "guess": "PS",
+        "success": false,
+        "timestamp": 1747501946406
+      },
+      {
+        "expression": "something you incabin on your phone",
+        "guess": "app",
+        "success": false,
+        "timestamp": 1747501971836
+      },
+      {
+        "expression": "small capsule-shaped hard candy, with \"tac\"",
+        "guess": "tic",
+        "success": true,
+        "timestamp": 1747501993594
+      },
+      {
+        "expression": "___",
+        "guess": "after",
+        "success": false,
+        "timestamp": 1747502070092
+      },
+      {
+        "expression": "something you in cabin on your phone",
+        "guess": "app",
+        "success": false,
+        "timestamp": 1747502085968
+      },
+      {
+        "expression": "two-letter abbreviation for \"pound\" neither of which appear in the word",
+        "guess": "lb",
+        "success": true,
+        "timestamp": 1747502131578
+      },
+      {
+        "expression": "___y ___",
+        "guess": "marky mark",
+        "success": false,
+        "timestamp": 1747502171099
+      },
+      {
+        "expression": "___",
+        "guess": "after",
+        "success": false,
+        "timestamp": 1747502188399
+      },
+      {
+        "expression": "something you in cabin on your phone",
+        "guess": "app",
+        "success": false,
+        "timestamp": 1747502220921
+      },
+      {
+        "expression": "___y ___",
+        "guess": "marky mark",
+        "success": false,
+        "timestamp": 1747502233419
+      },
+      {
+        "expression": "___y ___",
+        "guess": "marky mark",
+        "success": false,
+        "timestamp": 1747502263068
+      },
+      {
+        "expression": "___",
+        "guess": "after",
+        "success": false,
+        "timestamp": 1747502279474
+      },
+      {
+        "expression": "___y ___",
+        "guess": "Marky Mark",
+        "success": false,
+        "timestamp": 1747502286590
+      },
+      {
+        "expression": "something you in cabin on your phone",
+        "guess": "app",
+        "success": false,
+        "timestamp": 1747502325412
+      },
+      {
+        "expression": "___",
+        "guess": "after",
+        "success": false,
+        "timestamp": 1747502367993
+      },
+      {
+        "expression": "see you in ___!",
+        "guess": "heaven",
+        "success": false,
+        "timestamp": 1747502414310
+      }
+    ],
+    "finalText": "Matilda is declared the world's oldest cocktail's romantic associate.",
+    "timeToSolve": 849.638
+  }
+}

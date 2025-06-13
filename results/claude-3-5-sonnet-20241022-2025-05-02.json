@@ -1,0 +1,72 @@
+{
+  "timestamp": "2025-05-17T16:54:57.779Z",
+  "model": {
+    "name": "claude-3-5-sonnet-20241022",
+    "provider": "anthropic.messages"
+  },
+  "puzzle": {
+    "completionText": "May 2, 1941:",
+    "puzzleDate": "2025-05-02",
+    "completionURL": "https://www.youtube.com/watch?v=USm4mmYJU6I",
+    "solutions": {
+      "word gleefully hollered by an auctioneer": "sold",
+      "fast-talker with a gavel that's not a judge": "auctioneer",
+      "some believe a groundhog can predict the arrival of this season": "Spring",
+      "sleep___ camp": "away",
+      "Bruce in \"Finding Nemo\" was named after the mechanical ___ used in \"Jaws\"": "Shark",
+      "leader at a pep rally 📣": "Cheer",
+      "Springsteen or Lee": "Bruce",
+      "\"__ ease, soldier\"": "at",
+      "spoiled the ending, with \"away\"": "gave",
+      "Guevara pictured on many dorm room walls": "Che",
+      "a glass one is a liability for a boxer": "Jaw",
+      "something to separate from fiction": "fact",
+      "kind of talk you might give yourself before the big meeting": "pep",
+      "\"the rumor ___\" (metaphorical gossip factory 🏭)": "Mill",
+      "\"enough small ___!\" you bellow as you watch \"Shark Tank\" on your Tivo": "talk",
+      "magnifying ___ (detective's tool not used by too many detectives)": "glass"
+    },
+    "initialPuzzle": "General [\"the rumor ___\" (metaphorical gossip [something to separate from fiction]ory 🏭)]s renames \"[Guevara pictured on many dorm room walls]erio[\"__ ease, [word gleefully hollered by an [fast-talker with a [spoiled the ending, with \"[sleep___ camp]\"]l that's not a judge]]ier\"]s\" to \"[leader at a [kind of [\"enough small ___!\" you bellow as you watch \"[[[some believe a groundhog can predict the arrival of this season]steen or Lee] in \"Finding Nemo\" was named after the mechanical ___ used in \"[a [magnifying ___ (detective's tool not used by too many detectives)] one is a liability for a boxer]s\"] Tank\" on your Tivo] you might give yourself before the big meeting] rally 📣]ios.\"",
+    "puzzleSolution": "General Mills renames \"Cheerioats\" to \"Cheerios.\""
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 1,
+      "correctGuesses": 1,
+      "totalClues": 16,
+      "hints": 0,
+      "reveals": 0,
+      "stepsTaken": 2,
+      "completionPercentage": 6.25
+    },
+    "usage": {
+      "promptTokens": 2968,
+      "completionTokens": 206,
+      "totalTokens": 3174
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 0,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 0,
+      "totalPenalty": 0,
+      "finalScore": 0,
+      "rank": "Puppet Master",
+      "nextRankName": null,
+      "pointsToNextRank": 0
+    },
+    "modelGuesses": [
+      {
+        "expression": "some believe a groundhog can predict the arrival of this season",
+        "guess": "spring",
+        "success": true,
+        "timestamp": 1747500896836
+      }
+    ],
+    "finalText": "Great! We've resolved one clue. Let's continue with the next innermost bracket in the next turn.",
+    "timeToSolve": 4.443
+  }
+}

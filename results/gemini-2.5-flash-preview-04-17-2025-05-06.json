@@ -1,0 +1,258 @@
+{
+  "timestamp": "2025-05-17T17:03:09.666Z",
+  "model": {
+    "name": "gemini-2.5-flash-preview-04-17",
+    "provider": "google.generative-ai"
+  },
+  "puzzle": {
+    "completionText": "May 6, 2004:",
+    "puzzleDate": "2025-05-06",
+    "completionURL": "https://www.youtube.com/watch?v=9snbUbbMqbg",
+    "solutions": {
+      "like a square $100 bill, most probably": "fake",
+      "shape embedded down 15 blocks of Hollywood Boulevard": "Star",
+      "something you give before your last day": "notice",
+      "a metric one is 1000 kilograms": "ton",
+      "parental notice issued prior to punishment": "warning",
+      "Clinton who played the saxophone at his inauguration": "bill",
+      "to \"tie up loose ___\" in a movie usually has a murderous connotation": "ends",
+      "Ever___ing Gobstopper (much celebrated Wonka confection)": "last",
+      "row that sometimes gets a splash warning": "Front",
+      "system often celebrated because it makes more sense for water to freeze at 0 than 32": "metric",
+      "mobile ___ (e.g. StarTAC or RAZR)": "phone",
+      "space is the ___ Frontier (says Captain Kirk)": "final",
+      "serious crime explicitly covered by a Commandment": "murder",
+      "one of ten Charlton Heston received in a fake beard": "Commandment",
+      "lightly irritate": "irk",
+      "\"policy ___\" (one with detailed political knowledge)": "Wonk"
+    },
+    "initialPuzzle": "the series [space is the ___ [row that sometimes gets a splash [parental [something you give before your [Ever___ing Gobstopper (much celebrated [\"policy ___\" (one with detailed political knowledge)]a confection)] day] issued prior to punishment]]ier (says Captain K[lightly irritate])]e of \"Fri[to \"tie up loose ___\" in a movie usually has a [serious crime explicitly covered by a [one of ten Charl[a [system often celebrated because it makes more sense for water to freeze at 0 than 32] one is 1000 kilograms] Heston received in a [like a square $100 [Clinton who played the saxo[mobile ___ (e.g. [shape embedded down 15 blocks of Hollywood Boulevard]TAC or RAZR)] at his inauguration], most probably] beard]]ous connotation]\" airs",
+    "puzzleSolution": "the series finale of \"Friends\" airs"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 32,
+      "correctGuesses": 12,
+      "totalClues": 16,
+      "hints": 2,
+      "reveals": 0,
+      "stepsTaken": 35,
+      "completionPercentage": 75
+    },
+    "usage": {
+      "promptTokens": 242745,
+      "completionTokens": null,
+      "totalTokens": null
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 10,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 40,
+      "totalPenalty": 50,
+      "finalScore": 0,
+      "rank": "Council Member",
+      "nextRankName": "Chief of Police",
+      "pointsToNextRank": 1
+    },
+    "modelGuesses": [
+      {
+        "expression": "[\"policy ___\" (one with detailed political knowledge)]",
+        "guess": "wonk",
+        "success": true,
+        "timestamp": 1747501046248
+      },
+      {
+        "expression": "[Ever___ing Gobstopper (much celebrated Wonka confection)]",
+        "guess": "Lasting",
+        "success": false,
+        "timestamp": 1747501049518
+      },
+      {
+        "expression": "[lightly irritate]",
+        "guess": "irk",
+        "success": true,
+        "timestamp": 1747501053421
+      },
+      {
+        "expression": "[Ever___ing Gobstopper (much celebrated Wonka confection)]",
+        "guess": "Lasting",
+        "success": false,
+        "timestamp": 1747501055833
+      },
+      {
+        "expression": "[system often celebrated because it makes more sense for water to freeze at 0 than 32]",
+        "guess": "Celsius",
+        "success": false,
+        "timestamp": 1747501059513
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "Lasting",
+        "success": false,
+        "timestamp": 1747501071213
+      },
+      {
+        "expression": "system often celebrated because it makes more sense for water to freeze at 0 than 32",
+        "guess": "Celsius",
+        "success": false,
+        "timestamp": 1747501076245
+      },
+      {
+        "expression": "shape embedded down 15 blocks of Hollywood Boulevard",
+        "guess": "star",
+        "success": true,
+        "timestamp": 1747501079581
+      },
+      {
+        "expression": "mobile ___ (e.g. StarTAC or RAZR)",
+        "guess": "phone",
+        "success": true,
+        "timestamp": 1747501082600
+      },
+      {
+        "expression": "Clinton who played the saxophone at his inauguration",
+        "guess": "Bill",
+        "success": true,
+        "timestamp": 1747501083427
+      },
+      {
+        "expression": "like a square $100 bill, most probably",
+        "guess": "sawbuck",
+        "success": false,
+        "timestamp": 1747501085481
+      },
+      {
+        "expression": "like a square $100 bill, most probably",
+        "guess": "stack",
+        "success": false,
+        "timestamp": 1747501086533
+      },
+      {
+        "expression": "like a square $100 bill, most probably",
+        "guess": "block",
+        "success": false,
+        "timestamp": 1747501089362
+      },
+      {
+        "expression": "like a square $100 bill, most probably",
+        "guess": "face",
+        "success": false,
+        "timestamp": 1747501092940
+      },
+      {
+        "expression": "like a square $100 bill, most probably",
+        "guess": "Franklin",
+        "success": false,
+        "timestamp": 1747501096017
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "Lasting",
+        "success": false,
+        "timestamp": 1747501100732
+      },
+      {
+        "expression": "system often celebrated because it makes more sense for water to freeze at 0 than 32",
+        "guess": "Metric",
+        "success": true,
+        "timestamp": 1747501103467
+      },
+      {
+        "expression": "a metric one is 1000 kilograms",
+        "guess": "tonne",
+        "success": false,
+        "timestamp": 1747501107582
+      },
+      {
+        "expression": "a metric one is 1000 kilograms",
+        "guess": "kiloton",
+        "success": false,
+        "timestamp": 1747501110051
+      },
+      {
+        "expression": "a metric one is 1000 kilograms",
+        "guess": "ton",
+        "success": true,
+        "timestamp": 1747501112606
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747501117057
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "Lasting",
+        "success": false,
+        "timestamp": 1747501119313
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "Everlasting",
+        "success": false,
+        "timestamp": 1747501122360
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "last",
+        "success": true,
+        "timestamp": 1747501132529
+      },
+      {
+        "expression": "something you give before your last day",
+        "guess": "warning",
+        "success": false,
+        "timestamp": 1747501134347
+      },
+      {
+        "expression": "something you give before your last day",
+        "guess": "notice",
+        "success": true,
+        "timestamp": 1747501136053
+      },
+      {
+        "expression": "parental notice issued prior to punishment",
+        "guess": "reprimand",
+        "success": false,
+        "timestamp": 1747501136952
+      },
+      {
+        "expression": "parental notice issued prior to punishment",
+        "guess": "warning",
+        "success": true,
+        "timestamp": 1747501138367
+      },
+      {
+        "expression": "row that sometimes gets a splash warning",
+        "guess": "front",
+        "success": true,
+        "timestamp": 1747501139215
+      },
+      {
+        "expression": "space is the ___ Frontier (says Captain Kirk)",
+        "guess": "final",
+        "success": true,
+        "timestamp": 1747501140120
+      },
+      {
+        "expression": "like a square $100 bill, most probably",
+        "guess": "flat",
+        "success": false,
+        "timestamp": 1747501156775
+      },
+      {
+        "expression": "like a square $100 bill, most probably",
+        "guess": "fold",
+        "success": false,
+        "timestamp": 1747501159551
+      }
+    ],
+    "finalText": "",
+    "timeToSolve": 346.329
+  }
+}

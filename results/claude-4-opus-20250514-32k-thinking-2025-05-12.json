@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-05-22T18:06:27.838Z",
+  "model": {
+    "name": "claude-4-opus-20250514-32k-thinking",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "May 12, 1963:",
+    "puzzleDate": "2025-05-12",
+    "completionURL": "https://www.youtube.com/watch?v=9xVIHwOqgpw",
+    "solutions": {
+      "most famous Sigmund by a lot": "Freud",
+      "scary sounding place for an orchestra": "pit",
+      "container for treasure": "chest",
+      "major for Freud and Skinner fans, briefly": "psych",
+      "psychic power letters": "esp",
+      "company that phased out Saturn and Oldsmobile": "gm",
+      "🍁🍁🍁": "leaves",
+      "like a student who is temporarily barred from school": "suspended",
+      "\"and\" en español": "y",
+      "letters after sex, phys, or Mister": "Ed",
+      "planet between Jupiter and Uranus": "Saturn",
+      "response to an invitation that leaves you wondering if they really want to go": "sure",
+      "___ body president": "student",
+      "a cloud of tiny suspended water droplets": "Mist"
+    },
+    "initialPuzzle": "Bob D[\"and\" en [[major for [most famous Si[company that phased out [planet between Ju[scary sounding place for an or[container for trea[response to an invitation that [🍁🍁🍁] you wondering if they really want to go]]ra]er and Uranus] and Oldsmobile]und by a lot] and Skinner fans, briefly]ic power letters]añol]lan walks out of \"The [letters after sex, phys, or [a cloud of tiny [like a [___ body president] who is temporarily barred from school] water droplets]er] Sullivan Show\"",
+    "puzzleSolution": "Bob Dylan walks out of \"The Ed Sullivan Show\""
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 16,
+      "correctGuesses": 14,
+      "totalClues": 14,
+      "hints": 0,
+      "reveals": 0,
+      "stepsTaken": 17,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 63854,
+      "completionTokens": 6060,
+      "totalTokens": 69914
+    },
+    "score": 96,
+    "rank": "Kingmaker",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 0,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 4,
+      "totalPenalty": 4,
+      "finalScore": 96,
+      "rank": "Kingmaker",
+      "nextRankName": "Puppet Master",
+      "pointsToNextRank": 4
+    },
+    "modelGuesses": [
+      {
+        "expression": "🍁🍁🍁",
+        "guess": "maybe",
+        "success": false,
+        "timestamp": 1747937094169
+      },
+      {
+        "expression": "___ body president",
+        "guess": "student",
+        "success": true,
+        "timestamp": 1747937099120
+      },
+      {
+        "expression": "like a student who is temporarily barred from school",
+        "guess": "suspended",
+        "success": true,
+        "timestamp": 1747937106256
+      },
+      {
+        "expression": "a cloud of tiny suspended water droplets",
+        "guess": "mist",
+        "success": true,
+        "timestamp": 1747937115264
+      },
+      {
+        "expression": "letters after sex, phys, or Mister",
+        "guess": "Mr.",
+        "success": false,
+        "timestamp": 1747937122538
+      },
+      {
+        "expression": "letters after sex, phys, or Mister",
+        "guess": "ed",
+        "success": true,
+        "timestamp": 1747937130480
+      },
+      {
+        "expression": "🍁🍁🍁",
+        "guess": "leaves",
+        "success": true,
+        "timestamp": 1747937139081
+      },
+      {
+        "expression": "response to an invitation that leaves you wondering if they really want to go",
+        "guess": "sure",
+        "success": true,
+        "timestamp": 1747937148543
+      },
+      {
+        "expression": "container for treasure",
+        "guess": "chest",
+        "success": true,
+        "timestamp": 1747937153164
+      },
+      {
+        "expression": "scary sounding place for an orchestra",
+        "guess": "pit",
+        "success": true,
+        "timestamp": 1747937158162
+      },
+      {
+        "expression": "planet between Jupiter and Uranus",
+        "guess": "Saturn",
+        "success": true,
+        "timestamp": 1747937161365
+      },
+      {
+        "expression": "company that phased out Saturn and Oldsmobile",
+        "guess": "GM",
+        "success": true,
+        "timestamp": 1747937166224
+      },
+      {
+        "expression": "most famous Sigmund by a lot",
+        "guess": "Freud",
+        "success": true,
+        "timestamp": 1747937170603
+      },
+      {
+        "expression": "major for Freud and Skinner fans, briefly",
+        "guess": "psych",
+        "success": true,
+        "timestamp": 1747937175157
+      },
+      {
+        "expression": "psychic power letters",
+        "guess": "ESP",
+        "success": true,
+        "timestamp": 1747937178657
+      },
+      {
+        "expression": "\"and\" en español",
+        "guess": "y",
+        "success": true,
+        "timestamp": 1747937183143
+      }
+    ],
+    "finalText": "Bob Dylan walks out of \"The Ed Sullivan Show\"",
+    "timeToSolve": 108.547
+  }
+}

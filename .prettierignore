@@ -1,0 +1,22 @@
+# Dependencies
+node_modules
+.bun
+
+# Build directories
+build
+dist
+
+# Environment files
+.env
+.env.local
+
+# Generated files
+benchmark_results.csv
+benchmark-results.csv
+results/*.json
+
+# Bun lock file
+bun.lockb
+
+# Markdown files
+*.md

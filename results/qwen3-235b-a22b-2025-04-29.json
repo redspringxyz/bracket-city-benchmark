@@ -1,0 +1,318 @@
+{
+  "timestamp": "2025-05-17T17:36:04.474Z",
+  "model": {
+    "name": "qwen3-235b-a22b",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "April 29, 1968:",
+    "puzzleDate": "2025-04-29",
+    "completionURL": "https://www.youtube.com/watch?v=v9EWBdH4JlE",
+    "solutions": {
+      "the G in GPS": "global",
+      "Juan or Quixote": "don",
+      "it can be long, short, curly, straight, etc.": "Hair",
+      "one of two that don't lie for Shakira": "hip",
+      "\"at the ___\" (in control of a ship)": "helm",
+      "noble title for a bug 🐞": "lady",
+      "word before \"position\" or \"house\" or \"-faced sandwich\"": "open",
+      "expert web developer?": "spider",
+      "the third \"w\" in \"www\"": "web",
+      "the fetal one is sometimes assumed by the overwhelmed": "position",
+      "good card to have up your sleeve": "ace",
+      "first lady": "eve",
+      "\"___ up with a good book\"": "curl",
+      "daddy spider's leg length": "long",
+      "two letters at the beginning of two global conflicts": "ww",
+      "letters at the bottom of a letter": "PS"
+    },
+    "initialPuzzle": "\"[it can be [daddy [expert [the third \"w\" in \"[two letters at the beginning of two [the G in G[letters at the bottom of a letter]] conflicts]w\"] developer?]'s leg length], short, [\"___ up with a good book\"]y, straight, etc.]\" [word before \"[the fetal one is sometimes assumed by the overw[\"at the ___\" (in control of a s[one of two that [Juan or Quixote]'t lie for Shakira])]ed]\" or \"house\" or \"-f[good card to have up your sle[first [noble title for a bug 🐞]]]d sandwich\"]s on Broadway",
+    "puzzleSolution": "\"Hair\" opens on Broadway"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 42,
+      "correctGuesses": 11,
+      "totalClues": 16,
+      "hints": 5,
+      "reveals": 2,
+      "stepsTaken": 50,
+      "completionPercentage": 81.25
+    },
+    "usage": {
+      "promptTokens": 258047,
+      "completionTokens": 78162,
+      "totalTokens": 336209
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 25,
+      "megaPeekPenalty": 30,
+      "wrongGuessPenalty": 62,
+      "totalPenalty": 117,
+      "finalScore": 0,
+      "rank": "Tourist",
+      "nextRankName": "Commuter",
+      "pointsToNextRank": 11
+    },
+    "modelGuesses": [
+      {
+        "expression": "letters at the bottom of a letter",
+        "guess": "PS",
+        "success": true,
+        "timestamp": 1747500814056
+      },
+      {
+        "expression": "Juan or Quixote",
+        "guess": "Don",
+        "success": true,
+        "timestamp": 1747500895115
+      },
+      {
+        "expression": "noble title for a bug 🐞",
+        "guess": "Lady",
+        "success": true,
+        "timestamp": 1747501017279
+      },
+      {
+        "expression": "at the ___",
+        "guess": "helm",
+        "success": false,
+        "timestamp": 1747501090928
+      },
+      {
+        "expression": "the third \"w\" in \"[two letters at the beginning of two [the G in GPS] conflicts]w\"",
+        "guess": "web",
+        "success": false,
+        "timestamp": 1747501170672
+      },
+      {
+        "expression": "one of two that don't lie for Shakira",
+        "guess": "Don't",
+        "success": false,
+        "timestamp": 1747501214275
+      },
+      {
+        "expression": "one of two that don't lie for Shakira",
+        "guess": "hips",
+        "success": false,
+        "timestamp": 1747501258002
+      },
+      {
+        "expression": "at the ___",
+        "guess": "helm",
+        "success": true,
+        "timestamp": 1747501290693
+      },
+      {
+        "expression": "___ up with a good book",
+        "guess": "curl",
+        "success": true,
+        "timestamp": 1747501377759
+      },
+      {
+        "expression": "the third \"w\" in \"[two letters at the beginning of two [the G in GPS] conflicts]w\"",
+        "guess": "www",
+        "success": false,
+        "timestamp": 1747501463631
+      },
+      {
+        "expression": "the G in GPS",
+        "guess": "GPS",
+        "success": false,
+        "timestamp": 1747501489864
+      },
+      {
+        "expression": "the G in GPS",
+        "guess": "g",
+        "success": false,
+        "timestamp": 1747501499924
+      },
+      {
+        "expression": "the G in GPS",
+        "guess": "Global",
+        "success": true,
+        "timestamp": 1747501508008
+      },
+      {
+        "expression": "two letters at the beginning of two global conflicts",
+        "guess": "WW",
+        "success": true,
+        "timestamp": 1747501616568
+      },
+      {
+        "expression": "the third \"w\" in \"www\"",
+        "guess": "Web",
+        "success": true,
+        "timestamp": 1747501700123
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "sage",
+        "success": false,
+        "timestamp": 1747501904990
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "star",
+        "success": false,
+        "timestamp": 1747501995330
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "senior",
+        "success": false,
+        "timestamp": 1747502007637
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "sleuth",
+        "success": false,
+        "timestamp": 1747502016704
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "sitemaster",
+        "success": false,
+        "timestamp": 1747502035732
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "specialist",
+        "success": false,
+        "timestamp": 1747502044703
+      },
+      {
+        "expression": "expert web developer?",
+        "guess": "senior",
+        "success": false,
+        "timestamp": 1747502070545
+      },
+      {
+        "expression": "daddy spider's leg length",
+        "guess": "long",
+        "success": true,
+        "timestamp": 1747502175515
+      },
+      {
+        "expression": "it can be long, short, curly, straight, etc.",
+        "guess": "Hair",
+        "success": true,
+        "timestamp": 1747502247472
+      },
+      {
+        "expression": "good card to have up your sle[first lady]",
+        "guess": "ace",
+        "success": false,
+        "timestamp": 1747502392645
+      },
+      {
+        "expression": "the fetal one is sometimes assumed by the overwhelmed",
+        "guess": "position",
+        "success": true,
+        "timestamp": 1747502572931
+      },
+      {
+        "expression": "good card to have up your sle[first lady]",
+        "guess": "trump",
+        "success": false,
+        "timestamp": 1747502613925
+      },
+      {
+        "expression": "good card to have up your sle[first lady]",
+        "guess": "ace",
+        "success": false,
+        "timestamp": 1747502645195
+      },
+      {
+        "expression": "word before \"position\" or \"house\" or \"-faced sandwich\"",
+        "guess": "style",
+        "success": false,
+        "timestamp": 1747502714528
+      },
+      {
+        "expression": "word before \"position\" or \"house\" or \"-faced sandwich\"",
+        "guess": "open",
+        "success": false,
+        "timestamp": 1747502738409
+      },
+      {
+        "expression": "word before \"position\" or \"house\" or \"-faced sandwich\"",
+        "guess": "open",
+        "success": false,
+        "timestamp": 1747502802285
+      },
+      {
+        "expression": "word before \"position\" or \"house\" or \"-faced sandwich\"",
+        "guess": "style",
+        "success": false,
+        "timestamp": 1747502873405
+      },
+      {
+        "expression": "word before \"position\" or \"house\" or \"-faced sandwich\"",
+        "guess": "act",
+        "success": false,
+        "timestamp": 1747503008631
+      },
+      {
+        "expression": "word before \"position\" or \"house\" or \"-faced sandwich\"",
+        "guess": "Open",
+        "success": false,
+        "timestamp": 1747503053959
+      },
+      {
+        "expression": "word before \"position\" or \"house\" or \"-faced sandwich\"",
+        "guess": "open",
+        "success": false,
+        "timestamp": 1747503078276
+      },
+      {
+        "expression": "word before \"position\" or \"house\" or \"-faced sandwich\"",
+        "guess": "open",
+        "success": false,
+        "timestamp": 1747503154362
+      },
+      {
+        "expression": "word before \"position\" or \"house\" or \"-faced sandwich\"",
+        "guess": "open",
+        "success": false,
+        "timestamp": 1747503189377
+      },
+      {
+        "expression": "word before \"position\" or \"house\" or \"-faced sandwich\"",
+        "guess": "open",
+        "success": false,
+        "timestamp": 1747503218656
+      },
+      {
+        "expression": "word before \"position\" or \"house\" or \"-faced sandwich\"",
+        "guess": "open",
+        "success": false,
+        "timestamp": 1747503263298
+      },
+      {
+        "expression": "word before \"position\" or \"house\" or \"-faced sandwich\"",
+        "guess": "cast",
+        "success": false,
+        "timestamp": 1747503283741
+      },
+      {
+        "expression": "word before \"position\" or \"house\" or \"-faced sandwich\"",
+        "guess": "open",
+        "success": false,
+        "timestamp": 1747503324832
+      },
+      {
+        "expression": "word before \"position\" or \"house\" or \"-faced sandwich\"",
+        "guess": "club",
+        "success": false,
+        "timestamp": 1747503364470
+      }
+    ],
+    "finalText": "",
+    "timeToSolve": 2579.138
+  }
+}

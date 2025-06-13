@@ -1,0 +1,192 @@
+{
+  "timestamp": "2025-05-22T19:23:42.288Z",
+  "model": {
+    "name": "o4-mini-medium",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "May 14, 1973:",
+    "puzzleDate": "2025-05-14",
+    "completionURL": "https://www.youtube.com/watch?v=NsW86kNLu1k",
+    "solutions": {
+      "\"___ your eyes and make a wish\"": "close",
+      "something you might clear before speaking": "throat",
+      "\"read the fine ___\"": "print",
+      "___-me-down": "hand",
+      "race that ended on the moon, in a sense": "space",
+      "note many prefer to end on": "high",
+      "handheld glowing object at a rave": "stick",
+      "bad guy ➡️ \"take him ___\" *drags finger across throat*": "out",
+      "one might ring after a concert": "ear",
+      "finger named for its adornment": "ring",
+      "___ball (offer that might provoke outrage)": "low",
+      "word after sticky or ransom": "note",
+      "digit with a print and a nail": "finger",
+      "\"___ cut\" (not a close call)": "clear",
+      "high kind of dive (from a ✈️)": "Sky",
+      "type of walking where you glide backward while appearing to walk forward": "moon"
+    },
+    "initialPuzzle": "[[[word after [[___-me-down]held g[___ball (offer that might provoke [bad guy ➡️ \"take him ___\" *drags finger across [something you might [\"___ cut\" (not a [\"___ your eyes and make a wish\"] call)] before speaking]*]rage)]ing object at a rave]y or ransom] many prefer to end on] kind of dive (from a ✈️)]lab [race that ended on the [type of walking where you glide backward while app[one might [[digit with a [\"read the fine ___\"] and a nail] named for its adornment] after a concert]ing to walk forward], in a sense] station launches",
+    "puzzleSolution": "Skylab space station launches"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 21,
+      "correctGuesses": 11,
+      "totalClues": 16,
+      "hints": 0,
+      "reveals": 0,
+      "stepsTaken": 22,
+      "completionPercentage": 68.75
+    },
+    "usage": {
+      "promptTokens": 58674,
+      "completionTokens": 74499,
+      "totalTokens": 133173
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 0,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 20,
+      "totalPenalty": 20,
+      "finalScore": 0,
+      "rank": "Power Broker",
+      "nextRankName": "Kingmaker",
+      "pointsToNextRank": 11
+    },
+    "modelGuesses": [
+      {
+        "expression": "___ cut (not a [\"close your eyes and make a wish\"] call)",
+        "guess": "cross",
+        "success": false,
+        "timestamp": 1747941178292
+      },
+      {
+        "expression": "___ your eyes and make a wish",
+        "guess": "close",
+        "success": true,
+        "timestamp": 1747941196045
+      },
+      {
+        "expression": "read the fine ___",
+        "guess": "print",
+        "success": true,
+        "timestamp": 1747941209268
+      },
+      {
+        "expression": "take him ___",
+        "guess": "alive",
+        "success": false,
+        "timestamp": 1747941219925
+      },
+      {
+        "expression": "digit with a print and a nail named for its adornment",
+        "guess": "ring finger",
+        "success": false,
+        "timestamp": 1747941241674
+      },
+      {
+        "expression": "___ cut (not a close call)",
+        "guess": "clear",
+        "success": true,
+        "timestamp": 1747941250174
+      },
+      {
+        "expression": "___-me-down",
+        "guess": "hand",
+        "success": true,
+        "timestamp": 1747941262156
+      },
+      {
+        "expression": "something you might clear before speaking",
+        "guess": "throat",
+        "success": true,
+        "timestamp": 1747941270142
+      },
+      {
+        "expression": "take him ___",
+        "guess": "alive",
+        "success": false,
+        "timestamp": 1747941278443
+      },
+      {
+        "expression": "digit with a print and a nail",
+        "guess": "finger",
+        "success": true,
+        "timestamp": 1747941286423
+      },
+      {
+        "expression": "digit with a print and a nail named for its adornment",
+        "guess": "ring",
+        "success": true,
+        "timestamp": 1747941348549
+      },
+      {
+        "expression": "one might ring after a concert",
+        "guess": "ear",
+        "success": true,
+        "timestamp": 1747941436536
+      },
+      {
+        "expression": "take him ___",
+        "guess": "alive",
+        "success": false,
+        "timestamp": 1747941441457
+      },
+      {
+        "expression": "take him ___",
+        "guess": "alive",
+        "success": false,
+        "timestamp": 1747941474033
+      },
+      {
+        "expression": "type of walking where you glide backward while appearing to walk forward",
+        "guess": "moonwalk",
+        "success": false,
+        "timestamp": 1747941494368
+      },
+      {
+        "expression": "bad guy ➡️ \"take him ___\" *drags finger across throat*",
+        "guess": "out",
+        "success": true,
+        "timestamp": 1747941573650
+      },
+      {
+        "expression": "handheld glowing object at a rave",
+        "guess": "glow stick",
+        "success": false,
+        "timestamp": 1747941595778
+      },
+      {
+        "expression": "___ball (offer that might provoke outrage)",
+        "guess": "lowball",
+        "success": false,
+        "timestamp": 1747941619326
+      },
+      {
+        "expression": "handheld glowing object at a rave",
+        "guess": "stick",
+        "success": false,
+        "timestamp": 1747941676030
+      },
+      {
+        "expression": "___ball (offer that might provoke outrage)",
+        "guess": "low",
+        "success": true,
+        "timestamp": 1747941741284
+      },
+      {
+        "expression": "handheld glowing object at a rave",
+        "guess": "stick",
+        "success": true,
+        "timestamp": 1747941794767
+      }
+    ],
+    "finalText": "Skylab space station launches",
+    "timeToSolve": 698.896
+  }
+}

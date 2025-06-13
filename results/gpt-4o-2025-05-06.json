@@ -1,0 +1,270 @@
+{
+  "timestamp": "2025-05-17T16:58:40.528Z",
+  "model": {
+    "name": "gpt-4o",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "May 6, 2004:",
+    "puzzleDate": "2025-05-06",
+    "completionURL": "https://www.youtube.com/watch?v=9snbUbbMqbg",
+    "solutions": {
+      "like a square $100 bill, most probably": "fake",
+      "shape embedded down 15 blocks of Hollywood Boulevard": "Star",
+      "something you give before your last day": "notice",
+      "a metric one is 1000 kilograms": "ton",
+      "parental notice issued prior to punishment": "warning",
+      "Clinton who played the saxophone at his inauguration": "bill",
+      "to \"tie up loose ___\" in a movie usually has a murderous connotation": "ends",
+      "Ever___ing Gobstopper (much celebrated Wonka confection)": "last",
+      "row that sometimes gets a splash warning": "Front",
+      "system often celebrated because it makes more sense for water to freeze at 0 than 32": "metric",
+      "mobile ___ (e.g. StarTAC or RAZR)": "phone",
+      "space is the ___ Frontier (says Captain Kirk)": "final",
+      "serious crime explicitly covered by a Commandment": "murder",
+      "one of ten Charlton Heston received in a fake beard": "Commandment",
+      "lightly irritate": "irk",
+      "\"policy ___\" (one with detailed political knowledge)": "Wonk"
+    },
+    "initialPuzzle": "the series [space is the ___ [row that sometimes gets a splash [parental [something you give before your [Ever___ing Gobstopper (much celebrated [\"policy ___\" (one with detailed political knowledge)]a confection)] day] issued prior to punishment]]ier (says Captain K[lightly irritate])]e of \"Fri[to \"tie up loose ___\" in a movie usually has a [serious crime explicitly covered by a [one of ten Charl[a [system often celebrated because it makes more sense for water to freeze at 0 than 32] one is 1000 kilograms] Heston received in a [like a square $100 [Clinton who played the saxo[mobile ___ (e.g. [shape embedded down 15 blocks of Hollywood Boulevard]TAC or RAZR)] at his inauguration], most probably] beard]]ous connotation]\" airs",
+    "puzzleSolution": "the series finale of \"Friends\" airs"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 34,
+      "correctGuesses": 14,
+      "totalClues": 16,
+      "hints": 6,
+      "reveals": 2,
+      "stepsTaken": 45,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 304181,
+      "completionTokens": 3918,
+      "totalTokens": 308099
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 30,
+      "megaPeekPenalty": 30,
+      "wrongGuessPenalty": 40,
+      "totalPenalty": 100,
+      "finalScore": 0,
+      "rank": "Tourist",
+      "nextRankName": "Commuter",
+      "pointsToNextRank": 11
+    },
+    "modelGuesses": [
+      {
+        "expression": "lightly irritate",
+        "guess": "needle",
+        "success": false,
+        "timestamp": 1747501025042
+      },
+      {
+        "expression": "policy ___ (one with detailed political knowledge)",
+        "guess": "wonk",
+        "success": true,
+        "timestamp": 1747501027429
+      },
+      {
+        "expression": "lightly irritate",
+        "guess": "irk",
+        "success": true,
+        "timestamp": 1747501031232
+      },
+      {
+        "expression": "something you give before your Everlasting Gobstopper (much celebrated Wonka confection) day",
+        "guess": "birthday",
+        "success": false,
+        "timestamp": 1747501033335
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747501035976
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747501040194
+      },
+      {
+        "expression": "shape embedded down 15 blocks of Hollywood Boulevard",
+        "guess": "star",
+        "success": true,
+        "timestamp": 1747501044400
+      },
+      {
+        "expression": "mobile ___ (e.g. StarTAC or RAZR)",
+        "guess": "phone",
+        "success": true,
+        "timestamp": 1747501046647
+      },
+      {
+        "expression": "Ever___ing Gobstopper (much celebrated Wonka confection)",
+        "guess": "lasting",
+        "success": false,
+        "timestamp": 1747501049416
+      },
+      {
+        "expression": "something you give before your Everlasting Gobstopper (much celebrated Wonka confection) day",
+        "guess": "birthday",
+        "success": false,
+        "timestamp": 1747501051842
+      },
+      {
+        "expression": "something you give before your last day",
+        "guess": "will",
+        "success": false,
+        "timestamp": 1747501055905
+      },
+      {
+        "expression": "something you give before your last day",
+        "guess": "notice",
+        "success": true,
+        "timestamp": 1747501060145
+      },
+      {
+        "expression": "row that sometimes gets a splash parental notice issued prior to punishment",
+        "guess": "warning",
+        "success": true,
+        "timestamp": 1747501062430
+      },
+      {
+        "expression": "row that sometimes gets a splash warning",
+        "guess": "headline",
+        "success": false,
+        "timestamp": 1747501063756
+      },
+      {
+        "expression": "row that sometimes gets a splash warning",
+        "guess": "front",
+        "success": true,
+        "timestamp": 1747501067287
+      },
+      {
+        "expression": "space is the ___ Frontier (says Captain Kirk)",
+        "guess": "final",
+        "success": true,
+        "timestamp": 1747501069080
+      },
+      {
+        "expression": "to \"tie up loose ___\" in a movie usually has a serious crime explicitly covered by a [one of ten Charl[a [system often celebrated because it makes more sense for water to freeze at 0 than 32] one is 1000 kilograms] Heston received in a [like a square $100 [Clinton who played the saxophone at his inauguration], most probably] beard]]ous connotation",
+        "guess": "ends",
+        "success": false,
+        "timestamp": 1747501072800
+      },
+      {
+        "expression": "serious crime explicitly covered by a [one of ten Charl[a [system often celebrated because it makes more sense for water to freeze at 0 than 32] one is 1000 kilograms] Heston received in a [like a square $100 [Clinton who played the saxophone at his inauguration], most probably] beard]]ous connotation",
+        "guess": "murder",
+        "success": false,
+        "timestamp": 1747501074843
+      },
+      {
+        "expression": "one of ten Charlton Heston received in a [like a square $100 [Clinton who played the saxophone at his inauguration], most probably] beard",
+        "guess": "commandment",
+        "success": false,
+        "timestamp": 1747501077446
+      },
+      {
+        "expression": "system often celebrated because it makes more sense for water to freeze at 0 than 32",
+        "guess": "celsius",
+        "success": false,
+        "timestamp": 1747501079019
+      },
+      {
+        "expression": "system often celebrated because it makes more sense for water to freeze at 0 than 32",
+        "guess": "metric",
+        "success": true,
+        "timestamp": 1747501083960
+      },
+      {
+        "expression": "one of ten Charlton Heston received in a metric ton",
+        "guess": "commandment",
+        "success": false,
+        "timestamp": 1747501086668
+      },
+      {
+        "expression": "a metric one is 1000 kilograms",
+        "guess": "ton",
+        "success": true,
+        "timestamp": 1747501088779
+      },
+      {
+        "expression": "one of ten Charlton Heston received in a ton",
+        "guess": "commandment",
+        "success": false,
+        "timestamp": 1747501091925
+      },
+      {
+        "expression": "like a square $100 bill",
+        "guess": "note",
+        "success": false,
+        "timestamp": 1747501093888
+      },
+      {
+        "expression": "Clinton who played the saxophone at his inauguration",
+        "guess": "Bill",
+        "success": true,
+        "timestamp": 1747501095685
+      },
+      {
+        "expression": "like a square $100 bill, most probably",
+        "guess": "note",
+        "success": false,
+        "timestamp": 1747501097833
+      },
+      {
+        "expression": "like a square $100 bill, most probably",
+        "guess": "fold",
+        "success": false,
+        "timestamp": 1747501100905
+      },
+      {
+        "expression": "to \"tie up loose ___\" in a movie usually has a serious crime explicitly covered by a [one of ten Charlton Heston received in a fake beard]ous connotation",
+        "guess": "ends",
+        "success": false,
+        "timestamp": 1747501106719
+      },
+      {
+        "expression": "serious crime explicitly covered by a [one of ten Charlton Heston received in a fake beard]ous connotation",
+        "guess": "murder",
+        "success": false,
+        "timestamp": 1747501109754
+      },
+      {
+        "expression": "one of ten Charlton Heston received in a fake beard",
+        "guess": "commandment",
+        "success": true,
+        "timestamp": 1747501111284
+      },
+      {
+        "expression": "to \"tie up loose ___\" in a movie usually has a serious crime explicitly covered by a Commandmentous connotation",
+        "guess": "ends",
+        "success": false,
+        "timestamp": 1747501114517
+      },
+      {
+        "expression": "serious crime explicitly covered by a Commandment",
+        "guess": "murder",
+        "success": true,
+        "timestamp": 1747501117144
+      },
+      {
+        "expression": "to \"tie up loose ___\" in a movie usually has a murderous connotation",
+        "guess": "ends",
+        "success": true,
+        "timestamp": 1747501119278
+      }
+    ],
+    "finalText": "The series finale of \"Frito to tie up loose ends in a movie usually has a murderous connotation\" airs.",
+    "timeToSolve": 101.192
+  }
+}

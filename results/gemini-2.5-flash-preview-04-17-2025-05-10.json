@@ -1,0 +1,242 @@
+{
+  "timestamp": "2025-05-17T17:04:15.376Z",
+  "model": {
+    "name": "gemini-2.5-flash-preview-04-17",
+    "provider": "google.generative-ai"
+  },
+  "puzzle": {
+    "completionText": "May 10, 28 BC:",
+    "puzzleDate": "2025-05-10",
+    "completionURL": "https://umbra.nascom.nasa.gov/yohkoh/nuggets/2002/020913/020913.html",
+    "solutions": {
+      "Three Wise ⬅️___➡️ in Black": "men",
+      "\"___ in there!\" says the poster with the dangling cat": "hang",
+      "sheep color for your brother whose \"job\" is trying to get hit by a limousine": "Black",
+      "\"Guinea pig\" is a mis___ (not from Guinea, not a pig)": "nomer",
+      "one might be in the ointment or on the wall": "fly",
+      "\"muscle-___\" adjective for a bodybuilder": "bound",
+      "the original one involved an 🍎": "sin",
+      "\"null and ___\"": "void",
+      "one with porcine features resembles this animal": "pig",
+      "you (ought to) check your blind one when changing lanes": "spot",
+      "to fly this way is to go it alone": "Solo",
+      "alternative to damn, darn, and drat": "dang",
+      "you must avoid biting off more than you can ___": "Chew",
+      "Solo who knows Chewbacca": "Han",
+      "kind of shop for a dented car": "body",
+      "the B in BCC": "blind",
+      "___tails (two gathered and bound hanks of hair emanating from the side of the head)": "pig",
+      "home for a bear or a plasma TV": "den"
+    },
+    "initialPuzzle": "a sun[you (ought to) check your [the B in BCC] one when c[\"___ in there!\" says the poster with the [alternative to damn, darn, and drat]ling cat]ing lanes] is observed by [[to [one might be in the oint[Three Wise ⬅️___➡️ in [sheep color for your brother whose \"job\" is trying to get hit by a limou[the original one involved an 🍎]e]]t or on the wall] this way is to go it alone] who knows [you must a[\"null and ___\"] biting off more than you can ___]bacca] dynasty astro[\"Guinea [___tails (two gathered and [\"muscle-___\" adjective for a [kind of shop for a [home for a bear or a plasma TV]ted car]builder] hanks of hair emanating from the side of the head)]\" is a mis___ (not from Guinea, not a [one with porcine features resembles this animal])]s",
+    "puzzleSolution": "a sunspot is observed by Han dynasty astronomers"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 29,
+      "correctGuesses": 18,
+      "totalClues": 18,
+      "hints": 2,
+      "reveals": 0,
+      "stepsTaken": 32,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 221208,
+      "completionTokens": 5237,
+      "totalTokens": 226445
+    },
+    "score": 68,
+    "rank": "Mayor",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 10,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 22,
+      "totalPenalty": 32,
+      "finalScore": 68,
+      "rank": "Mayor",
+      "nextRankName": "Power Broker",
+      "pointsToNextRank": 11
+    },
+    "modelGuesses": [
+      {
+        "expression": "the B in BCC",
+        "guess": "Blind",
+        "success": true,
+        "timestamp": 1747501396123
+      },
+      {
+        "expression": "alternative to damn, darn, and drat",
+        "guess": "drat",
+        "success": false,
+        "timestamp": 1747501399779
+      },
+      {
+        "expression": "alternative to damn, darn, and drat",
+        "guess": "blast",
+        "success": false,
+        "timestamp": 1747501402225
+      },
+      {
+        "expression": "alternative to damn, darn, and drat",
+        "guess": "heck",
+        "success": false,
+        "timestamp": 1747501403349
+      },
+      {
+        "expression": "alternative to damn, darn, and drat",
+        "guess": "dang",
+        "success": true,
+        "timestamp": 1747501405361
+      },
+      {
+        "expression": "the original one involved an 🍎",
+        "guess": "Eve",
+        "success": false,
+        "timestamp": 1747501407408
+      },
+      {
+        "expression": "the original one involved an 🍎",
+        "guess": "Macintosh",
+        "success": false,
+        "timestamp": 1747501408587
+      },
+      {
+        "expression": "the original one involved an 🍎",
+        "guess": "Newton",
+        "success": false,
+        "timestamp": 1747501409490
+      },
+      {
+        "expression": "the original one involved an 🍎",
+        "guess": "sin",
+        "success": true,
+        "timestamp": 1747501411613
+      },
+      {
+        "expression": "\"null and ___\"",
+        "guess": "void",
+        "success": true,
+        "timestamp": 1747501413472
+      },
+      {
+        "expression": "home for a bear or a plasma TV",
+        "guess": "den",
+        "success": true,
+        "timestamp": 1747501415292
+      },
+      {
+        "expression": "one with porcine features resembles this animal",
+        "guess": "pig",
+        "success": true,
+        "timestamp": 1747501417010
+      },
+      {
+        "expression": "___ in there!",
+        "guess": "Hang",
+        "success": true,
+        "timestamp": 1747501419288
+      },
+      {
+        "expression": "sheep color for your brother whose \"job\" is trying to get hit by a limousine",
+        "guess": "black",
+        "success": true,
+        "timestamp": 1747501422246
+      },
+      {
+        "expression": "\"muscle-___\" adjective for a [kind of shop for a dented car]builder",
+        "guess": "bound",
+        "success": false,
+        "timestamp": 1747501424630
+      },
+      {
+        "expression": "you must avoid biting off more than you can ___",
+        "guess": "chew",
+        "success": true,
+        "timestamp": 1747501429083
+      },
+      {
+        "expression": "Three Wise ⬅️___➡️ in Black",
+        "guess": "Kings",
+        "success": false,
+        "timestamp": 1747501430620
+      },
+      {
+        "expression": "Three Wise ⬅️___➡️ in Black",
+        "guess": "Men",
+        "success": true,
+        "timestamp": 1747501431553
+      },
+      {
+        "expression": "\"muscle-___\" adjective for a dent builder",
+        "guess": "bound",
+        "success": false,
+        "timestamp": 1747501433966
+      },
+      {
+        "expression": "mis___",
+        "guess": "nomer",
+        "success": false,
+        "timestamp": 1747501436267
+      },
+      {
+        "expression": "___tails (two gathered and [\"muscle-___\" adjective for a [kind of shop for a dented car]builder] hanks of hair emanating from the side of the head)",
+        "guess": "pig",
+        "success": false,
+        "timestamp": 1747501438627
+      },
+      {
+        "expression": "kind of shop for a dented car",
+        "guess": "body",
+        "success": true,
+        "timestamp": 1747501443532
+      },
+      {
+        "expression": "\"muscle-___\" adjective for a bodybuilder",
+        "guess": "bound",
+        "success": true,
+        "timestamp": 1747501445401
+      },
+      {
+        "expression": "___tails (two gathered and bound hanks of hair emanating from the side of the head)",
+        "guess": "pig",
+        "success": true,
+        "timestamp": 1747501446741
+      },
+      {
+        "expression": "mis___",
+        "guess": "nomer",
+        "success": true,
+        "timestamp": 1747501447985
+      },
+      {
+        "expression": "you (ought to) check your blind one when changing lanes",
+        "guess": "spot",
+        "success": true,
+        "timestamp": 1747501449339
+      },
+      {
+        "expression": "to [one might be in the ointment or on the wall] this way is to go it alone",
+        "guess": "fly",
+        "success": true,
+        "timestamp": 1747501451398
+      },
+      {
+        "expression": "to fly this way is to go it alone",
+        "guess": "solo",
+        "success": true,
+        "timestamp": 1747501452397
+      },
+      {
+        "expression": "Solo who knows Chewbacca",
+        "guess": "Han",
+        "success": true,
+        "timestamp": 1747501453593
+      }
+    ],
+    "finalText": "a sunspot is observed by Han dynasty astronomers",
+    "timeToSolve": 64.04
+  }
+}

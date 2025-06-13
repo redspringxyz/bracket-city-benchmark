@@ -1,0 +1,25 @@
+{
+  "completionText": "June 5, 1956:",
+  "puzzleDate": "2025-06-05",
+  "completionURL": "https://www.youtube.com/watch?v=WJnVQDA9rHA",
+  "solutions": {
+    "\"___!\" (command from a cop) 🧊": "freeze",
+    "Vegas impersonator with sideburns and a white jumpsuit": "Elvis",
+    "\"The ___ of the Baskervilles\" 🐕": "Hound",
+    "___ and breakfast": "bed",
+    "___lative for Mario": "super",
+    "name ___ (let it be known that you met Antonio Banderas at a Sizzler)": "drop",
+    "refrain from eating for a period, maybe": "fast",
+    "something you do in sunlight or glory": "Bask",
+    "freezer ___ (terrible fate for improperly sealed ice cream)": "burn",
+    "word after middle or gingerbread": "man",
+    "drops from the sky": "rain",
+    "word after coin or back or kick": "flip",
+    "customer that visits a restaurant a lot": "regular",
+    "switch that you might flip before bed": "light",
+    "bit___ (crypto asset)": "coin",
+    "\"regular\" or \"premium\" or \"super\" fluid, for short": "gas"
+  },
+  "initialPuzzle": "[Ve[\"[customer that visits a restaurant a lot]\" or \"premium\" or \"[___lative for Mario]\" fluid, for short] impersonator with side[[\"___!\" (com[word after middle or gingerbread]d from a cop) 🧊]r ___ (terrible fate for improperly sealed ice cream)]s and a white jumpsuit] performs \"[\"The ___ of the [something you do in sun[switch that you might [word after [bit___ (crypto asset)] or back or kick] before [___ and break[ref[[name ___ (let it be known that you met Antonio Banderas at a Sizzler)]s from the sky] from eating for a period, maybe]]] or glory]ervilles\" 🐕] Dog\" on NBC, scandalizes nation",
+  "puzzleSolution": "Elvis performs \"Hound Dog\" on NBC, scandalizes nation"
+}

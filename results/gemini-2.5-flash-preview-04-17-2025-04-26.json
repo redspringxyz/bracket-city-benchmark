@@ -1,0 +1,356 @@
+{
+  "timestamp": "2025-05-17T16:55:04.402Z",
+  "model": {
+    "name": "gemini-2.5-flash-preview-04-17",
+    "provider": "google.generative-ai"
+  },
+  "puzzle": {
+    "completionText": "April 26, 1964:",
+    "puzzleDate": "2025-04-26",
+    "completionURL": "https://www.youtube.com/watch?v=1BwQn5xaRdI",
+    "solutions": {
+      "door at which you might wait for the magician to get an autograph": "stage",
+      "food served out of a truck or on a Tuesday": "Taco",
+      "you might go on one at the request of a princess": "quest",
+      "place other than your browser to open a tab": "bar",
+      "something not to let hit you on the way out": "door",
+      "\"___ questions?\"": "any",
+      "suitor/hostage-taker of Beauty in a fairy tale": "beast",
+      "\"__ Quiero Taco Bell\" ➡️ a chihuahua from the 90s": "Yo",
+      "___ mark (much-improved name for a mole)": "Beauty",
+      "sometimes involuntarily applied neckwear in Honolulu": "Lei",
+      "Peach or Leia": "princess",
+      "Yoko who staged \"bed-ins\" with John": "ono",
+      "something yelled by a forgetful actor, maybe": "line",
+      "illicitly imitate, as a signature": "forge",
+      "\"___ wide\" says the dentist": "open",
+      "flossing evangelist, often": "dentist",
+      "\"the ___ of the beast\" (something's essence)": "nature",
+      "lines made at the beach": "Tan"
+    },
+    "initialPuzzle": "Tang[\"___ [you might go on one at the request of a [Peach or [sometimes involuntarily applied neckwear in H[[\"__ Quiero [food served out of a truck or on a Tuesday] Bell\" ➡️ a chihuahua from the 90s]ko who staged \"bed-ins\" with John]lulu]a]]ions?\"]ika and Zanzi[place other than your browser to [\"___ wide\" says the [flossing evangelist, often]] a tab] merge to form [[something yelled by a [illicitly imitate, as a sig[\"the ___ of the [suitor/ho[[something not to let hit you on the way out] at which you might wait for the magician to get an autograph]-taker of [___ mark (much-improved name for a mole)] in a fairy tale]\" (something's essence)]]tful actor, maybe]s made at the beach]zania",
+    "puzzleSolution": "Tanganyika and Zanzibar merge to form Tanzania"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 48,
+      "correctGuesses": 16,
+      "totalClues": 18,
+      "hints": 1,
+      "reveals": 1,
+      "stepsTaken": 50,
+      "completionPercentage": 94.44444444444444
+    },
+    "usage": {
+      "promptTokens": 300287,
+      "completionTokens": 1453,
+      "totalTokens": 301740
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 15,
+      "wrongGuessPenalty": 64,
+      "totalPenalty": 84,
+      "finalScore": 0,
+      "rank": "Commuter",
+      "nextRankName": "Resident",
+      "pointsToNextRank": 5
+    },
+    "modelGuesses": [
+      {
+        "expression": "\"__ Quiero [food served out of a truck or on a Tuesday] Bell\" ➡️ a chihuahua from the 90s",
+        "guess": "Yo",
+        "success": false,
+        "timestamp": 1747500746442
+      },
+      {
+        "expression": "food served out of a truck or on a Tuesday",
+        "guess": "Taco",
+        "success": true,
+        "timestamp": 1747500752404
+      },
+      {
+        "expression": "\"__ Quiero Taco Bell\" ➡️ a chihuahua from the 90s",
+        "guess": "Yo",
+        "success": true,
+        "timestamp": 1747500754966
+      },
+      {
+        "expression": "flossing evangelist, often",
+        "guess": "dentist",
+        "success": true,
+        "timestamp": 1747500760556
+      },
+      {
+        "expression": "___ wide\" says the dentist",
+        "guess": "Open",
+        "success": true,
+        "timestamp": 1747500762459
+      },
+      {
+        "expression": "something not to let hit you on the way out",
+        "guess": "door",
+        "success": true,
+        "timestamp": 1747500764358
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "stage door",
+        "success": false,
+        "timestamp": 1747500766049
+      },
+      {
+        "expression": "___ mark (much-improved name for a mole)",
+        "guess": "beauty",
+        "success": true,
+        "timestamp": 1747500769930
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "trap door",
+        "success": false,
+        "timestamp": 1747500773609
+      },
+      {
+        "expression": "place other than your browser to open a tab",
+        "guess": "spreadsheet",
+        "success": false,
+        "timestamp": 1747500777208
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "side door",
+        "success": false,
+        "timestamp": 1747500785005
+      },
+      {
+        "expression": "place other than your browser to open a tab",
+        "guess": "bar",
+        "success": true,
+        "timestamp": 1747500788522
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "secret door",
+        "success": false,
+        "timestamp": 1747500791932
+      },
+      {
+        "expression": "sometimes involuntarily applied neckwear in H[Yoko who staged \"bed-ins\" with John]lulu",
+        "guess": "lei",
+        "success": false,
+        "timestamp": 1747500797480
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "stage door",
+        "success": false,
+        "timestamp": 1747500801573
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "stage door",
+        "success": false,
+        "timestamp": 1747500804828
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "stage door",
+        "success": false,
+        "timestamp": 1747500809532
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "stage door",
+        "success": false,
+        "timestamp": 1747500814452
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "stage door",
+        "success": false,
+        "timestamp": 1747500819656
+      },
+      {
+        "expression": "sometimes involuntarily applied neckwear in Honolulu",
+        "guess": "lei",
+        "success": false,
+        "timestamp": 1747500823646
+      },
+      {
+        "expression": "Yoko who staged \"bed-ins\" with John",
+        "guess": "Ono",
+        "success": true,
+        "timestamp": 1747500826422
+      },
+      {
+        "expression": "sometimes involuntarily applied neckwear in Honolulu",
+        "guess": "lei",
+        "success": true,
+        "timestamp": 1747500829535
+      },
+      {
+        "expression": "Peach or Leia",
+        "guess": "Princess",
+        "success": true,
+        "timestamp": 1747500831825
+      },
+      {
+        "expression": "you might go on one at the request of a princess",
+        "guess": "quest",
+        "success": true,
+        "timestamp": 1747500833780
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "stage door",
+        "success": false,
+        "timestamp": 1747500836640
+      },
+      {
+        "expression": "___ questions?",
+        "guess": "Tangential",
+        "success": false,
+        "timestamp": 1747500839631
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "stage door",
+        "success": false,
+        "timestamp": 1747500842259
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "stage door",
+        "success": false,
+        "timestamp": 1747500842768
+      },
+      {
+        "expression": "___ questions?",
+        "guess": "Tangential",
+        "success": false,
+        "timestamp": 1747500846906
+      },
+      {
+        "expression": "___ questions?",
+        "guess": "ential",
+        "success": false,
+        "timestamp": 1747500851761
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "stage door",
+        "success": false,
+        "timestamp": 1747500854616
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "stage door",
+        "success": false,
+        "timestamp": 1747500857729
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "stage door",
+        "success": false,
+        "timestamp": 1747500861794
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "side stage",
+        "success": false,
+        "timestamp": 1747500864933
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "host",
+        "success": false,
+        "timestamp": 1747500874863
+      },
+      {
+        "expression": "door at which you might wait for the magician to get an autograph",
+        "guess": "stage door",
+        "success": false,
+        "timestamp": 1747500879473
+      },
+      {
+        "expression": "suitor/hostage-taker of Beauty in a fairy tale",
+        "guess": "Beast",
+        "success": true,
+        "timestamp": 1747500884805
+      },
+      {
+        "expression": "\"the ___ of the beast\" (something's essence)",
+        "guess": "nature",
+        "success": true,
+        "timestamp": 1747500887654
+      },
+      {
+        "expression": "illicitly imitate, as a signature",
+        "guess": "forge",
+        "success": true,
+        "timestamp": 1747500890043
+      },
+      {
+        "expression": "___ questions?",
+        "guess": "Tangential",
+        "success": false,
+        "timestamp": 1747500891173
+      },
+      {
+        "expression": "something yelled by a forgetful actor, maybe",
+        "guess": "Line",
+        "success": true,
+        "timestamp": 1747500892673
+      },
+      {
+        "expression": "lines made at the beach",
+        "guess": "tan",
+        "success": true,
+        "timestamp": 1747500893857
+      },
+      {
+        "expression": "___ questions?",
+        "guess": "ential",
+        "success": false,
+        "timestamp": 1747500895392
+      },
+      {
+        "expression": "___ questions?",
+        "guess": "ential",
+        "success": false,
+        "timestamp": 1747500896997
+      },
+      {
+        "expression": "___ questions?",
+        "guess": "ential",
+        "success": false,
+        "timestamp": 1747500899133
+      },
+      {
+        "expression": "___ questions?",
+        "guess": "ential",
+        "success": false,
+        "timestamp": 1747500901451
+      },
+      {
+        "expression": "___ questions?",
+        "guess": "ential",
+        "success": false,
+        "timestamp": 1747500902661
+      },
+      {
+        "expression": "___ questions?",
+        "guess": "ential",
+        "success": false,
+        "timestamp": 1747500904401
+      }
+    ],
+    "finalText": "",
+    "timeToSolve": 161.066
+  }
+}

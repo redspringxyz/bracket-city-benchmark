@@ -1,0 +1,338 @@
+{
+  "timestamp": "2025-05-23T14:36:56.890Z",
+  "model": {
+    "name": "o4-mini-medium",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "April 27, 2004:",
+    "puzzleDate": "2025-04-27",
+    "completionURL": "https://en.wikipedia.org/wiki/Matilda_(chicken)",
+    "solutions": {
+      "thick japanese noodle": "udon",
+      "reasonably private cabin in a public bathroom": "stall",
+      "generally preferred afterlife destination": "heaven",
+      "a sharply critical remark (emphasis on \"sharp\")": "Barb",
+      "# in 🇺🇸, £ in 🇬🇧": "pound",
+      "informal form of \"hello\"": "hi",
+      "Reverend Lovejoy: \"see you in ___! *long pause* from heaven!\"": "hell",
+      "sweet contraband at some summer camps": "candy",
+      "Barbie's romantic associate": "ken",
+      "two-letter abbreviation for \"pound\" neither of which appear in the word": "lb",
+      "word after rock or marching": "band",
+      "log domicile for Lincoln": "cabin",
+      "\"happily ever ___\"": "after",
+      "something you install on your phone": "app",
+      "\"___y ___\" aka ___ Wahlberg": "mark",
+      "letters between a pseudonym and a real name": "aka",
+      "small capsule-shaped hard candy, with \"tac\"": "tic",
+      "home of sumo wrestling": "japan"
+    },
+    "initialPuzzle": "Matilda is declared the world's oldest c[informal form of \"[Reverend Lovejoy: \"see you in ___! *long pause* from [generally preferred [\"h[something you in[reasonably private [log domicile for Lincoln] in a public bathroom] on your phone]ily ever ___\"]life destination]!\"]o\"]c[[a sharply cri[small capsule-shaped hard [sweet contra[word after rock or marching] at some summer camps], with \"tac\"]al re[\"___y ___\" [letters between a pse[thick [home of sumo wrestling]ese noodle]ym and a real name] ___ Wah[two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word]erg] (emphasis on \"sharp\")]ie's romantic associate]",
+    "puzzleSolution": "Matilda is declared the world's oldest chicken"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 45,
+      "correctGuesses": 14,
+      "totalClues": 18,
+      "hints": 1,
+      "reveals": 1,
+      "stepsTaken": 50,
+      "completionPercentage": 83.33333333333334
+    },
+    "usage": {
+      "promptTokens": 270766,
+      "completionTokens": 269941,
+      "totalTokens": 540707
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 15,
+      "wrongGuessPenalty": 62,
+      "totalPenalty": 82,
+      "finalScore": 0,
+      "rank": "Commuter",
+      "nextRankName": "Resident",
+      "pointsToNextRank": 3
+    },
+    "modelGuesses": [
+      {
+        "expression": "log domicile for Lincoln",
+        "guess": "cabin",
+        "success": true,
+        "timestamp": 1748008259583
+      },
+      {
+        "expression": "home of sumo wrestling",
+        "guess": "dohyo",
+        "success": false,
+        "timestamp": 1748008265273
+      },
+      {
+        "expression": "home of sumo wrestling",
+        "guess": "Japan",
+        "success": true,
+        "timestamp": 1748008284991
+      },
+      {
+        "expression": "reasonably private cabin in a public bathroom",
+        "guess": "stall",
+        "success": true,
+        "timestamp": 1748008312288
+      },
+      {
+        "expression": "something you install on your phone",
+        "guess": "app",
+        "success": true,
+        "timestamp": 1748008333184
+      },
+      {
+        "expression": "thick japanese noodle",
+        "guess": "udon",
+        "success": true,
+        "timestamp": 1748008422299
+      },
+      {
+        "expression": "word after rock or marching",
+        "guess": "band",
+        "success": true,
+        "timestamp": 1748008456752
+      },
+      {
+        "expression": "happily ever ___",
+        "guess": "after",
+        "success": true,
+        "timestamp": 1748008485361
+      },
+      {
+        "expression": "generally preferred afterlife destination",
+        "guess": "heaven",
+        "success": true,
+        "timestamp": 1748008506536
+      },
+      {
+        "expression": "sweet contraband at some summer camps",
+        "guess": "tic",
+        "success": false,
+        "timestamp": 1748008528569
+      },
+      {
+        "expression": "sweet contraband at some summer camps",
+        "guess": "tic",
+        "success": false,
+        "timestamp": 1748008551650
+      },
+      {
+        "expression": "Reverend Lovejoy: \"see you in ___! *long pause* from heaven!\"",
+        "guess": "hell",
+        "success": true,
+        "timestamp": 1748008584334
+      },
+      {
+        "expression": "small capsule-shaped hard [sweet contraband at some summer camps], with \"tac\"",
+        "guess": "tictac",
+        "success": false,
+        "timestamp": 1748008614893
+      },
+      {
+        "expression": "sweet contraband at some summer camps",
+        "guess": "tic",
+        "success": false,
+        "timestamp": 1748008707128
+      },
+      {
+        "expression": "small capsule-shaped hard candy, with \"tac\"",
+        "guess": "tic",
+        "success": true,
+        "timestamp": 1748008816928
+      },
+      {
+        "expression": "letters between a pseudonym and a real name",
+        "guess": "aka",
+        "success": true,
+        "timestamp": 1748008863011
+      },
+      {
+        "expression": "___y ___",
+        "guess": "Marky Mark",
+        "success": false,
+        "timestamp": 1748008951147
+      },
+      {
+        "expression": "two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word",
+        "guess": "lb",
+        "success": false,
+        "timestamp": 1748008970608
+      },
+      {
+        "expression": "___",
+        "guess": "Mark",
+        "success": false,
+        "timestamp": 1748009024093
+      },
+      {
+        "expression": "two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word",
+        "guess": "lb",
+        "success": false,
+        "timestamp": 1748009122037
+      },
+      {
+        "expression": "two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word",
+        "guess": "lb",
+        "success": false,
+        "timestamp": 1748009142455
+      },
+      {
+        "expression": "two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word",
+        "guess": "lb",
+        "success": false,
+        "timestamp": 1748009223123
+      },
+      {
+        "expression": "___y ___",
+        "guess": "Marky Mark",
+        "success": false,
+        "timestamp": 1748009246869
+      },
+      {
+        "expression": "\"___y ___\" aka ___ Wah[two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word]erg",
+        "guess": "barb",
+        "success": false,
+        "timestamp": 1748009285022
+      },
+      {
+        "expression": "informal form of \"hello\"",
+        "guess": "hi",
+        "success": true,
+        "timestamp": 1748009298242
+      },
+      {
+        "expression": "two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word",
+        "guess": "lb",
+        "success": false,
+        "timestamp": 1748009462856
+      },
+      {
+        "expression": "a sharply critical re[\"___y ___\" aka ___ Wah[two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word]erg] (emphasis on \"sharp\")",
+        "guess": "remark",
+        "success": false,
+        "timestamp": 1748009487160
+      },
+      {
+        "expression": "two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word",
+        "guess": "lb",
+        "success": false,
+        "timestamp": 1748009517152
+      },
+      {
+        "expression": "\"Marky Mark\" aka Mark Wahlberg",
+        "guess": "Mark",
+        "success": false,
+        "timestamp": 1748009668679
+      },
+      {
+        "expression": "two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word",
+        "guess": "lb",
+        "success": false,
+        "timestamp": 1748009812855
+      },
+      {
+        "expression": "two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word",
+        "guess": "lb",
+        "success": false,
+        "timestamp": 1748009857282
+      },
+      {
+        "expression": "a sharply critical re[\"___y ___\" aka ___ Wah[two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word]erg] (emphasis on \"sharp\")",
+        "guess": "barb",
+        "success": false,
+        "timestamp": 1748009996011
+      },
+      {
+        "expression": "___y ___",
+        "guess": "Marky Mark",
+        "success": false,
+        "timestamp": 1748010061367
+      },
+      {
+        "expression": "a sharply critical re[\"___y ___\" aka ___ Wah[two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word]erg] (emphasis on \"sharp\")]ie's romantic associate",
+        "guess": "Ken",
+        "success": false,
+        "timestamp": 1748010240778
+      },
+      {
+        "expression": "two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word",
+        "guess": "lb",
+        "success": false,
+        "timestamp": 1748010283444
+      },
+      {
+        "expression": "___y ___",
+        "guess": "Marky Mark",
+        "success": false,
+        "timestamp": 1748010401201
+      },
+      {
+        "expression": "two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word",
+        "guess": "lb",
+        "success": false,
+        "timestamp": 1748010484088
+      },
+      {
+        "expression": "two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word",
+        "guess": "lb",
+        "success": false,
+        "timestamp": 1748010584552
+      },
+      {
+        "expression": "___y ___",
+        "guess": "Marky Mark",
+        "success": false,
+        "timestamp": 1748010610240
+      },
+      {
+        "expression": "two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word",
+        "guess": "lb",
+        "success": false,
+        "timestamp": 1748010650294
+      },
+      {
+        "expression": "# in 🇺🇸, £ in 🇬🇧",
+        "guess": "pound",
+        "success": true,
+        "timestamp": 1748010700775
+      },
+      {
+        "expression": "\"___y ___\" aka ___ Wahpounderg",
+        "guess": "Marky Mark aka Mark",
+        "success": false,
+        "timestamp": 1748010788626
+      },
+      {
+        "expression": "two-letter abbreviation for \"pound\" neither of which appear in the word",
+        "guess": "lb",
+        "success": true,
+        "timestamp": 1748010857811
+      },
+      {
+        "expression": "a sharply critical re[\"___y ___\" aka ___ Wahlberg] (emphasis on \"sharp\")ie's romantic associate",
+        "guess": "ken",
+        "success": false,
+        "timestamp": 1748010980858
+      },
+      {
+        "expression": "___y ___",
+        "guess": "Marky Mark",
+        "success": false,
+        "timestamp": 1748011016889
+      }
+    ],
+    "finalText": "",
+    "timeToSolve": 2762.108
+  }
+}

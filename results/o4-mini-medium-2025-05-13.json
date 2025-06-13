@@ -1,0 +1,156 @@
+{
+  "timestamp": "2025-05-22T19:30:30.838Z",
+  "model": {
+    "name": "o4-mini-medium",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "May 13, 1861:",
+    "puzzleDate": "2025-05-13",
+    "completionURL": "https://www.smh.com.au/national/nsw/from-the-archives-john-tebbutt-discovers-the-great-comet-of-1861-20190509-p51lnj.html",
+    "solutions": {
+      "syllable following \"cocka\" and \"doodle\"": "doo",
+      "\"___ willy\" (horrible cousin of a noogie or a wedgie 👂)": "Wet",
+      "\"___ on down!\" is the last thing you remember hearing before winning a dishwasher": "Come",
+      "word for a gas + electric car": "hybrid",
+      "suffix you might use standalone when someone offers a description that is pretty close": "ish",
+      "material pulled over some eyes": "wool",
+      "\"___ Theft Auto\"": "grand",
+      "suffix that indicates a hybrid dog breed 🐩": "doodle",
+      "woolly animal herded with a crook": "sheep",
+      "word on a door that opens toward you": "pull",
+      "crenellated turret of chess": "rook",
+      "identity ___ (sinister use for a social security number)": "Theft",
+      "___ laughing matter (serious)": "no",
+      "game with grandmasters": "chess",
+      "\"Home ___\" (1990 movie featuring the Wet Bandits)": "alone",
+      "better than never, it is said": "late"
+    },
+    "initialPuzzle": "[[material [word on a [syllable following \"cocka\" and \"[suffix that indicates a [word for a gas + electric car] dog breed 🐩]\"]r that opens toward you]ed over some eyes]ly animal herded with a c[crenel[better than never, it is said]d turret of [game with [\"___ [identity ___ (sinister use for a social security number)] Auto\"]masters]]] farmer discovers the Great [\"___ on down!\" is the last thing you remember hearing before winning a d[suffix you might use stand[\"Home ___\" (1990 movie featuring the [\"___ willy\" (horrible cousin of a [___ laughing matter (serious)]ogie or a wedgie 👂)] Bandits)] when someone offers a description that is pretty close]washer]t of 1861",
+    "puzzleSolution": "sheep farmer discovers the Great Comet of 1861"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 15,
+      "correctGuesses": 10,
+      "totalClues": 16,
+      "hints": 0,
+      "reveals": 0,
+      "stepsTaken": 17,
+      "completionPercentage": 62.5
+    },
+    "usage": {
+      "promptTokens": 42475,
+      "completionTokens": 43050,
+      "totalTokens": 85525
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 0,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 10,
+      "totalPenalty": 10,
+      "finalScore": 0,
+      "rank": "Power Broker",
+      "nextRankName": "Kingmaker",
+      "pointsToNextRank": 1
+    },
+    "modelGuesses": [
+      {
+        "expression": "___ willy",
+        "guess": "Wet",
+        "success": false,
+        "timestamp": 1747941843219
+      },
+      {
+        "expression": "___ laughing matter (serious)",
+        "guess": "no",
+        "success": true,
+        "timestamp": 1747941858693
+      },
+      {
+        "expression": "suffix that indicates a [word for a gas + electric car] dog breed 🐩",
+        "guess": "doodle",
+        "success": false,
+        "timestamp": 1747941870183
+      },
+      {
+        "expression": "word for a gas + electric car",
+        "guess": "hybrid",
+        "success": true,
+        "timestamp": 1747941890254
+      },
+      {
+        "expression": "suffix that indicates a hybrid dog breed 🐩",
+        "guess": "doodle",
+        "success": true,
+        "timestamp": 1747941895257
+      },
+      {
+        "expression": "word on a door that opens toward you",
+        "guess": "push",
+        "success": false,
+        "timestamp": 1747941909731
+      },
+      {
+        "expression": "syllable following \"cocka\" and \"doodle\"",
+        "guess": "doo",
+        "success": true,
+        "timestamp": 1747941949769
+      },
+      {
+        "expression": "better than never, it is said",
+        "guess": "late",
+        "success": true,
+        "timestamp": 1747941965634
+      },
+      {
+        "expression": "___ willy",
+        "guess": "wet",
+        "success": true,
+        "timestamp": 1747941978951
+      },
+      {
+        "expression": "word on a door that opens toward you",
+        "guess": "push",
+        "success": false,
+        "timestamp": 1747942006087
+      },
+      {
+        "expression": "identity ___ (sinister use for a social security number)",
+        "guess": "theft",
+        "success": true,
+        "timestamp": 1747942020874
+      },
+      {
+        "expression": "Home ___ (1990 movie featuring the Wet Bandits)",
+        "guess": "Alone",
+        "success": true,
+        "timestamp": 1747942049761
+      },
+      {
+        "expression": "word on a door that opens toward you",
+        "guess": "pull",
+        "success": true,
+        "timestamp": 1747942076212
+      },
+      {
+        "expression": "game with [\"Grand Theft Auto\"] masters",
+        "guess": "chess",
+        "success": false,
+        "timestamp": 1747942119793
+      },
+      {
+        "expression": "suffix you might use standalone when someone offers a description that is pretty close",
+        "guess": "ish",
+        "success": true,
+        "timestamp": 1747942132759
+      }
+    ],
+    "finalText": "Sheep farmer discovers the Great Comet of 1861",
+    "timeToSolve": 408.549
+  }
+}

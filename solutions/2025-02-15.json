@@ -1,0 +1,28 @@
+{
+  "completionText": "February 15, 1950:",
+  "puzzleDate": "2025-02-15",
+  "completionURL": "https://www.youtube.com/watch?v=s50zjVWKiP4",
+  "solutions": {
+    "you are not supposed to look directly at it": "Sun",
+    "🔑🔑🔑": "keys",
+    "The F in JFK": "Fitzgerald",
+    "one of two keys with a little tactile bump on most keyboards": "F",
+    "🏝️": "Island",
+    "Kong who came from Skull Island": "King",
+    "XIV was the \"Sun King\"": "Louis",
+    "type of concrete block": "Cinder",
+    "a speed one is meant to slow you down": "bump",
+    "watch your ___": "step",
+    "alternative to LGA that's also in Queens": "JFK",
+    "pianos that plug in, maybe": "keyboards",
+    "they can be grand or upright": "pianos",
+    "Neil who took a small step": "Armstrong",
+    "a horologist might make one": "watch",
+    "Elizabeth and Latifah, e.g.": "Queens",
+    "💀": "Skull",
+    "\"___ Who's Talking\"": "look",
+    "Fitzgerald who collaborated musically with Louis Armstrong": "ella"
+  },
+  "initialPuzzle": "\"[type of concrete block][[The [one of two [🔑🔑🔑] with a little tactile [a speed one is meant to slow you down] on most [[they can be grand or upright] that plug in, maybe]] in [alternative to LGA that's also in [Elizabeth and Latifah, e.g.]]] who collaborated musically with [XIV was the \"[you are not supposed to [\"___ Who's Talking\"] directly at it] [Kong who came from [💀] [🏝️]]\"] [Neil who took a small [[a horologist might make one] your ___]]]\" opens in theaters",
+  "puzzleSolution": "\"Cinder ella\" opens in theaters"
+}

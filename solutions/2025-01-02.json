@@ -1,0 +1,26 @@
+{
+  "completionText": "January 2, 1870:",
+  "puzzleDate": "2025-01-02",
+  "completionURL": "https://en.wikipedia.org/wiki/Brooklyn_Bridge",
+  "solutions": {
+    "something you might file or try on": "suit",
+    "pirate symbol, sometimes": "skull",
+    "military toilet": "head",
+    "not latter": "former",
+    "DoD headquarters": "pentagon",
+    "card game with a trump suit": "Bridge",
+    "attempt": "try",
+    "nail tool": "file",
+    "Jack who killed Oswald": "ruby",
+    "plate that's an irregular pentagon": "home",
+    "Donald of \"The Apprentice\"": "trump",
+    "like a skull in \"Hamlet\" and Dorothy's ruby slippers": "props",
+    "download illegally": "pirate",
+    "credit ___": "card",
+    "25 cent pieces": "quarters",
+    "former home of the Dodgers": "Brooklyn",
+    "props, so to speak": "credit"
+  },
+  "initialPuzzle": "construction begins on the [[not latter] [plate that's an irregular [DoD [military toilet][25 cent pieces]]] of the Dodgers] [[[[like a [[download illegally] symbol, sometimes] in \\\"Hamlet\\\" and Dorothy's [Jack who killed Oswald] slippers], so to speak] ___] game with a [Donald of \\\"The Apprentice\\\"] [something you might [nail tool] or [attempt] on]]",
+  "puzzleSolution": "construction begins on the Brooklyn Bridge"
+}

@@ -1,0 +1,21 @@
+{
+  "completionText": "February 2, 1887:",
+  "puzzleDate": "2025-02-02",
+  "completionURL": "https://en.wikipedia.org/wiki/Groundhog_Day",
+  "solutions": {
+    "floor that is good to get in on": "ground",
+    "selfishly monopolize a blanket, maybe": "hog",
+    "international ones are said to be lawless": "Waters",
+    "breathes quickly, as a dog": "pants",
+    "embarrassing thing to do to your bed or pants": "wet",
+    "a wet one is a downer": "blanket",
+    "dish used for simple haircuts": "bowl",
+    "totally bowl over": "floor",
+    "up to no ___": "good",
+    "you might take a sick one or have a field one": "day",
+    "a kid at camp might be home___": "sick",
+    "style associated with John Waters": "camp"
+  },
+  "initialPuzzle": "the first ever [[totally [dish used for simple haircuts] over] that is [up to no ___] to get in on][selfishly monopolize a [a [embarrassing thing to do to your bed or [breathes quickly, as a dog]] one is a downer], maybe] [you might take a [a kid at [style associated with John [international ones are said to be lawless]] might be home___] one or have a field one] is observed",
+  "puzzleSolution": "the first ever groundhog day is observed"
+}

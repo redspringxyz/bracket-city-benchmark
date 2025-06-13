@@ -1,0 +1,196 @@
+{
+  "timestamp": "2025-05-22T19:48:08.735Z",
+  "model": {
+    "name": "o3-mini-high",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "May 12, 1963:",
+    "puzzleDate": "2025-05-12",
+    "completionURL": "https://www.youtube.com/watch?v=9xVIHwOqgpw",
+    "solutions": {
+      "most famous Sigmund by a lot": "Freud",
+      "scary sounding place for an orchestra": "pit",
+      "container for treasure": "chest",
+      "major for Freud and Skinner fans, briefly": "psych",
+      "psychic power letters": "esp",
+      "company that phased out Saturn and Oldsmobile": "gm",
+      "🍁🍁🍁": "leaves",
+      "like a student who is temporarily barred from school": "suspended",
+      "\"and\" en español": "y",
+      "letters after sex, phys, or Mister": "Ed",
+      "planet between Jupiter and Uranus": "Saturn",
+      "response to an invitation that leaves you wondering if they really want to go": "sure",
+      "___ body president": "student",
+      "a cloud of tiny suspended water droplets": "Mist"
+    },
+    "initialPuzzle": "Bob D[\"and\" en [[major for [most famous Si[company that phased out [planet between Ju[scary sounding place for an or[container for trea[response to an invitation that [🍁🍁🍁] you wondering if they really want to go]]ra]er and Uranus] and Oldsmobile]und by a lot] and Skinner fans, briefly]ic power letters]añol]lan walks out of \"The [letters after sex, phys, or [a cloud of tiny [like a [___ body president] who is temporarily barred from school] water droplets]er] Sullivan Show\"",
+    "puzzleSolution": "Bob Dylan walks out of \"The Ed Sullivan Show\""
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 22,
+      "correctGuesses": 13,
+      "totalClues": 14,
+      "hints": 4,
+      "reveals": 1,
+      "stepsTaken": 30,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 91556,
+      "completionTokens": 189421,
+      "totalTokens": 280977
+    },
+    "score": 47,
+    "rank": "Council Member",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 20,
+      "megaPeekPenalty": 15,
+      "wrongGuessPenalty": 18,
+      "totalPenalty": 53,
+      "finalScore": 47,
+      "rank": "Council Member",
+      "nextRankName": "Chief of Police",
+      "pointsToNextRank": 4
+    },
+    "modelGuesses": [
+      {
+        "expression": "🍁🍁🍁",
+        "guess": "leaves",
+        "success": true,
+        "timestamp": 1747942091260
+      },
+      {
+        "expression": "___ body president",
+        "guess": "suspended",
+        "success": false,
+        "timestamp": 1747942130948
+      },
+      {
+        "expression": "___ body president",
+        "guess": "suspension",
+        "success": false,
+        "timestamp": 1747942169017
+      },
+      {
+        "expression": "___ body president",
+        "guess": "suspenders",
+        "success": false,
+        "timestamp": 1747942211196
+      },
+      {
+        "expression": "response to an invitation that leaves you wondering if they really want to go",
+        "guess": "RSVP",
+        "success": false,
+        "timestamp": 1747942246421
+      },
+      {
+        "expression": "response to an invitation that leaves you wondering if they really want to go",
+        "guess": "sure",
+        "success": true,
+        "timestamp": 1747942313059
+      },
+      {
+        "expression": "container for treasure",
+        "guess": "chest",
+        "success": true,
+        "timestamp": 1747942339316
+      },
+      {
+        "expression": "scary sounding place for an orchestra",
+        "guess": "pit",
+        "success": true,
+        "timestamp": 1747942537853
+      },
+      {
+        "expression": "planet between Jupiter and Uranus",
+        "guess": "Saturn",
+        "success": true,
+        "timestamp": 1747942558536
+      },
+      {
+        "expression": "company that phased out Saturn and Oldsmobile",
+        "guess": "GM",
+        "success": true,
+        "timestamp": 1747942603417
+      },
+      {
+        "expression": "most famous Sigmund by a lot",
+        "guess": "Freud",
+        "success": true,
+        "timestamp": 1747942725607
+      },
+      {
+        "expression": "major for Freud and Skinner fans, briefly",
+        "guess": "psych",
+        "success": true,
+        "timestamp": 1747942788696
+      },
+      {
+        "expression": "letters after sex, phys, or [a cloud of tiny student water droplets]er",
+        "guess": "late",
+        "success": false,
+        "timestamp": 1747942858406
+      },
+      {
+        "expression": "psychic power letters",
+        "guess": "ESP",
+        "success": true,
+        "timestamp": 1747942901031
+      },
+      {
+        "expression": "\"and\" en español",
+        "guess": "y",
+        "success": true,
+        "timestamp": 1747942953564
+      },
+      {
+        "expression": "a cloud of tiny student water droplets",
+        "guess": "mist",
+        "success": false,
+        "timestamp": 1747943018818
+      },
+      {
+        "expression": "a cloud of tiny student water droplets",
+        "guess": "mist",
+        "success": false,
+        "timestamp": 1747943053956
+      },
+      {
+        "expression": "a cloud of tiny student water droplets",
+        "guess": "mist",
+        "success": false,
+        "timestamp": 1747943099388
+      },
+      {
+        "expression": "like a student who is temporarily barred from school",
+        "guess": "suspended",
+        "success": true,
+        "timestamp": 1747943126786
+      },
+      {
+        "expression": "a cloud of tiny suspended water droplets",
+        "guess": "mist",
+        "success": true,
+        "timestamp": 1747943139852
+      },
+      {
+        "expression": "letters after sex, phys, or Mister",
+        "guess": "late",
+        "success": false,
+        "timestamp": 1747943210831
+      },
+      {
+        "expression": "letters after sex, phys, or Mister",
+        "guess": "ed",
+        "success": true,
+        "timestamp": 1747943276834
+      }
+    ],
+    "finalText": "Bob Dylan walks out of \"The Ed Sullivan Show\"",
+    "timeToSolve": 1519.183
+  }
+}

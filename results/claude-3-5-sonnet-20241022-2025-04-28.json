@@ -1,0 +1,154 @@
+{
+  "timestamp": "2025-05-17T16:53:13.139Z",
+  "model": {
+    "name": "claude-3-5-sonnet-20241022",
+    "provider": "anthropic.messages"
+  },
+  "puzzle": {
+    "completionText": "April 28, 1789:",
+    "puzzleDate": "2025-04-28",
+    "completionURL": "https://www.youtube.com/watch?v=aFalJyGNGmE",
+    "solutions": {
+      "tree scent and silhouette featured in many cars": "pine",
+      "the first one is the deepest, it is said": "cut",
+      "hunter motivated by a wanted poster": "Bounty",
+      "the most common one is \"123456\"": "password",
+      "humorous name for an enormous dog": "tiny",
+      "\"ABC, it's as easy as ___\"": "123",
+      "\"love __ first sight\"": "At",
+      "\"I'll take __\" you say supine on the waterbed in the showroom": "it",
+      "at 5,400 feet, Siberia's Baikal is the ___ lake in the world": "deepest",
+      "Attila the ___": "hun",
+      "shape you will approximate if you trace a Dorito": "triangle",
+      "not cutting in line is a social ___": "norm",
+      "kind of triangle that can cause acute heartache": "love",
+      "house that you might need a rope ladder and a password to access": "tree"
+    },
+    "initialPuzzle": "mu[humorous name for an e[not [the first one is the [at 5,400 feet, Siberia's Baikal is the ___ lake in the world], it is said]ting in line is a social ___]ous dog] on the HMS [[[\"[kind of [shape you will approximate if you trace a Dor[\"I'll take __\" you say su[[house that you might need a rope ladder and a [the most common one is \"[\"ABC, it's as easy as ___\"]456\"] to access] scent and silhouette featured in many cars] on the waterbed in the showroom]o] that can cause acute heartache] __ first sight\"]tila the ___]ter motivated by a wanted poster]",
+    "puzzleSolution": "mutiny on the HMS Bounty"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 15,
+      "correctGuesses": 13,
+      "totalClues": 14,
+      "hints": 1,
+      "reveals": 1,
+      "stepsTaken": 18,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 65278,
+      "completionTokens": 1937,
+      "totalTokens": 67215
+    },
+    "score": 76,
+    "rank": "Mayor",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 15,
+      "wrongGuessPenalty": 4,
+      "totalPenalty": 24,
+      "finalScore": 76,
+      "rank": "Mayor",
+      "nextRankName": "Power Broker",
+      "pointsToNextRank": 3
+    },
+    "modelGuesses": [
+      {
+        "expression": "at 5,400 feet, Siberia's Baikal is the ___ lake in the world",
+        "guess": "deepest",
+        "success": true,
+        "timestamp": 1747500752711
+      },
+      {
+        "expression": "ABC, it's as easy as ___",
+        "guess": "123",
+        "success": true,
+        "timestamp": 1747500755071
+      },
+      {
+        "expression": "the most common one is \"123456\"",
+        "guess": "password",
+        "success": true,
+        "timestamp": 1747500757246
+      },
+      {
+        "expression": "house that you might need a rope ladder and a password to access",
+        "guess": "treehouse",
+        "success": false,
+        "timestamp": 1747500759955
+      },
+      {
+        "expression": "house that you might need a rope ladder and a password to access",
+        "guess": "tree fort",
+        "success": false,
+        "timestamp": 1747500763808
+      },
+      {
+        "expression": "tree scent and silhouette featured in many cars",
+        "guess": "pine",
+        "success": true,
+        "timestamp": 1747500768059
+      },
+      {
+        "expression": "I'll take __\" you say supine on the waterbed in the showroom",
+        "guess": "it",
+        "success": true,
+        "timestamp": 1747500770649
+      },
+      {
+        "expression": "kind of shape you will approximate if you trace a Dorito",
+        "guess": "triangle",
+        "success": true,
+        "timestamp": 1747500772860
+      },
+      {
+        "expression": "kind of triangle that can cause acute heartache",
+        "guess": "love",
+        "success": true,
+        "timestamp": 1747500775922
+      },
+      {
+        "expression": "love __ first sight",
+        "guess": "at",
+        "success": true,
+        "timestamp": 1747500777777
+      },
+      {
+        "expression": "Attila the ___",
+        "guess": "Hun",
+        "success": true,
+        "timestamp": 1747500780663
+      },
+      {
+        "expression": "hunter motivated by a wanted poster",
+        "guess": "bounty",
+        "success": true,
+        "timestamp": 1747500782745
+      },
+      {
+        "expression": "the first one is the deepest, it is said",
+        "guess": "cut",
+        "success": true,
+        "timestamp": 1747500785918
+      },
+      {
+        "expression": "not cutting in line is a social ___",
+        "guess": "norm",
+        "success": true,
+        "timestamp": 1747500790001
+      },
+      {
+        "expression": "humorous name for an enormous dog",
+        "guess": "tiny",
+        "success": true,
+        "timestamp": 1747500791978
+      }
+    ],
+    "finalText": "The final solved sentence is:\nMutiny on the HMS Bounty",
+    "timeToSolve": 43.802
+  }
+}

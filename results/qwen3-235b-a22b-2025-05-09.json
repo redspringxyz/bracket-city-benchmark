@@ -1,0 +1,150 @@
+{
+  "timestamp": "2025-05-17T17:18:09.681Z",
+  "model": {
+    "name": "qwen3-235b-a22b",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "May 9, 1671:",
+    "puzzleDate": "2025-05-09",
+    "completionURL": "https://en.wikipedia.org/wiki/Thomas_Blood",
+    "solutions": {
+      "having a stiff upper ___ might suggest a certain stoicism": "lip",
+      "like a trial, hopefully": "fair",
+      "\"___ my lips\"": "read",
+      "cheapest water variety at a restaurant": "tap",
+      "the Prodigal ___ (parable star)": "son",
+      "topper for a king or a tooth": "crown",
+      "nickname for songstress Grande": "ari",
+      "\"___ dare you!\" says the indignant grandee": "how",
+      "dietary staple for vampires": "Blood",
+      "Johnny who performed at Folsom Prison": "cash",
+      "fairy who carries cash": "tooth",
+      "you might ___ the show with your soft shoe routine": "steal",
+      "companion with \"ready\" and \"willing\"": "able",
+      "Cape of Good ⬅️___➡️ for the best": "hope",
+      "famous Canyon": "Grand",
+      "Dracula, e.g.": "vampire"
+    },
+    "initialPuzzle": "Thomas [dietary s[cheapest water v[nickname for songstress [famous Canyon]e]ety at a restaurant]le for [Dracula, e.g.]s] attempts to [you might ___ the s[\"___ dare you!\" says the indignant grandee] with your soft shoe routine] England's [topper for a king or a [[like a trial, [Cape of Good ⬅️___➡️ for the best]fully]y who carries [Johnny who performed at Folsom Pri[the Prodigal ___ (par[companion with \"[\"___ my [having a stiff upper ___ might suggest a certain stoicism]s\"]y\" and \"willing\"] star)]]]] jewels",
+    "puzzleSolution": "Thomas Blood attempts to steal England's crown jewels"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 14,
+      "correctGuesses": 9,
+      "totalClues": 16,
+      "hints": 1,
+      "reveals": 0,
+      "stepsTaken": 16,
+      "completionPercentage": 56.25
+    },
+    "usage": {
+      "promptTokens": 36681,
+      "completionTokens": 35475,
+      "totalTokens": 72156
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 10,
+      "totalPenalty": 15,
+      "finalScore": 0,
+      "rank": "Power Broker",
+      "nextRankName": "Kingmaker",
+      "pointsToNextRank": 6
+    },
+    "modelGuesses": [
+      {
+        "expression": "Cape of Good ⬅️___➡️ for the best",
+        "guess": "Hope",
+        "success": true,
+        "timestamp": 1747501344378
+      },
+      {
+        "expression": "having a stiff upper ___ might suggest a certain stoicism",
+        "guess": "lip",
+        "success": true,
+        "timestamp": 1747501445739
+      },
+      {
+        "expression": "famous Canyon",
+        "guess": "Grand",
+        "success": true,
+        "timestamp": 1747501472444
+      },
+      {
+        "expression": "nickname for songstress Grande",
+        "guess": "Ari",
+        "success": true,
+        "timestamp": 1747501483038
+      },
+      {
+        "expression": "Dracula, e.g.",
+        "guess": "count",
+        "success": false,
+        "timestamp": 1747501539348
+      },
+      {
+        "expression": "Dracula, e.g.",
+        "guess": "vampire",
+        "success": true,
+        "timestamp": 1747501560006
+      },
+      {
+        "expression": "\"___ dare you!\" says the indignant grandee",
+        "guess": "How",
+        "success": true,
+        "timestamp": 1747501646080
+      },
+      {
+        "expression": "cheapest water variety at a restaurant",
+        "guess": "tap",
+        "success": true,
+        "timestamp": 1747501722893
+      },
+      {
+        "expression": "dietary staple for vampires",
+        "guess": "blood",
+        "success": true,
+        "timestamp": 1747501827617
+      },
+      {
+        "expression": "you might ___ the show with your soft shoe routine",
+        "guess": "steal",
+        "success": true,
+        "timestamp": 1747501915145
+      },
+      {
+        "expression": "___ my lips",
+        "guess": "zip",
+        "success": false,
+        "timestamp": 1747501999659
+      },
+      {
+        "expression": "like a trial, hopefully",
+        "guess": "hopeful",
+        "success": false,
+        "timestamp": 1747502041331
+      },
+      {
+        "expression": "___ my lips",
+        "guess": "seal",
+        "success": false,
+        "timestamp": 1747502072096
+      },
+      {
+        "expression": "the Prodigal ___",
+        "guess": "son",
+        "success": false,
+        "timestamp": 1747502156515
+      }
+    ],
+    "finalText": "<tool_call>\n{\"name\": \"makeGuess\", \"arguments\": {\"clue\": \"like a trial, hopefully\", \"guess\":",
+    "timeToSolve": 1018.345
+  }
+}

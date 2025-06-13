@@ -1,0 +1,24 @@
+{
+  "completionText": "January 21, 1976:",
+  "puzzleDate": "2025-01-21",
+  "completionURL": "https://www.brooklandsmuseum.com/concorde/the-concorde-story/concorde-timeline",
+  "solutions": {
+    "emotionally distant": "cold",
+    "puddle maker": "rain",
+    "most common letter in English": "e",
+    "AirPods conspicuously lack one": "cord",
+    "___ artist": "Con",
+    "computer code error": "bug",
+    "___ humbug": "Bah",
+    "like ___ and carrots": "peas",
+    "homes to peas": "Pods",
+    "ad break": "commercial",
+    "🥕🥕🥕": "carrots",
+    "it's good to catch one": "break",
+    "word before cold or sense": "common",
+    "___ red: a bad situation": "code",
+    "communicate, as grievances": "Air"
+  },
+  "initialPuzzle": "the first two [ad [it's good to catch one]] [___ artist][[communicate, as grievances][homes to [like ___ and [🥕🥕🥕]]] conspicuously lack one][most [word before [emotionally distant] or sense] letter in English] flights arrive in [___ hum[computer [___ red: a bad situation] error]][puddle maker] and Brazil",
+  "puzzleSolution": "the first two commercial Concorde flights arrive in Bahrain and Brazil"
+}

@@ -1,0 +1,26 @@
+{
+  "completionText": "January 26, 1905:",
+  "puzzleDate": "2025-01-26",
+  "completionURL": "https://en.wikipedia.org/wiki/Cullinan_Diamond",
+  "solutions": {
+    "___ pooper": "party",
+    "a crook might have a rap one": "sheet",
+    "something spun out of silk": "web",
+    "the bumper version might have a height requirement": "car",
+    "feathers in a comforter": "down",
+    "a dark one might surprise you": "horse",
+    "type of party you HAVE to be on time for": "surprise",
+    "luxurious sheet material": "silk",
+    "down on a map, usually": "South",
+    "you might find one in the rough": "diamond",
+    "horseplay, with \"house\"": "rough",
+    "a nice zone to be in": "comfort",
+    "one might have acts": "play",
+    "Madagascar's continent": "Africa",
+    "you can pump it or pass it": "gas",
+    "Don Draper was this kind of man": "Mad",
+    "___ wide web": "world"
+  },
+  "initialPuzzle": "[___ wide [something spun out of [luxurious [a crook might have a rap one] material]]]'s largest [you might find one in the [[a dark one might [type of [___ pooper] you HAVE to be on time for] you][one might have acts], with \"house\"]] discovered in [[feathers in a [a nice zone to be in]er] on a map, usually] [[Don Draper was this kind of man]a[you can pump it or pass it][the bumper version might have a height requirement]'s continent]",
+  "puzzleSolution": "world's largest diamond discovered in South Africa"
+}

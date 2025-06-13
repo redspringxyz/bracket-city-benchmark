@@ -1,0 +1,270 @@
+{
+  "timestamp": "2025-05-17T17:29:02.207Z",
+  "model": {
+    "name": "qwen3-235b-a22b",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "May 14, 1973:",
+    "puzzleDate": "2025-05-14",
+    "completionURL": "https://www.youtube.com/watch?v=NsW86kNLu1k",
+    "solutions": {
+      "\"___ your eyes and make a wish\"": "close",
+      "something you might clear before speaking": "throat",
+      "\"read the fine ___\"": "print",
+      "___-me-down": "hand",
+      "race that ended on the moon, in a sense": "space",
+      "note many prefer to end on": "high",
+      "handheld glowing object at a rave": "stick",
+      "bad guy ➡️ \"take him ___\" *drags finger across throat*": "out",
+      "one might ring after a concert": "ear",
+      "finger named for its adornment": "ring",
+      "___ball (offer that might provoke outrage)": "low",
+      "word after sticky or ransom": "note",
+      "digit with a print and a nail": "finger",
+      "\"___ cut\" (not a close call)": "clear",
+      "high kind of dive (from a ✈️)": "Sky",
+      "type of walking where you glide backward while appearing to walk forward": "moon"
+    },
+    "initialPuzzle": "[[[word after [[___-me-down]held g[___ball (offer that might provoke [bad guy ➡️ \"take him ___\" *drags finger across [something you might [\"___ cut\" (not a [\"___ your eyes and make a wish\"] call)] before speaking]*]rage)]ing object at a rave]y or ransom] many prefer to end on] kind of dive (from a ✈️)]lab [race that ended on the [type of walking where you glide backward while app[one might [[digit with a [\"read the fine ___\"] and a nail] named for its adornment] after a concert]ing to walk forward], in a sense] station launches",
+    "puzzleSolution": "Skylab space station launches"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 34,
+      "correctGuesses": 4,
+      "totalClues": 16,
+      "hints": 2,
+      "reveals": 3,
+      "stepsTaken": 44,
+      "completionPercentage": 43.75
+    },
+    "usage": {
+      "promptTokens": 222060,
+      "completionTokens": 76788,
+      "totalTokens": 298848
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 10,
+      "megaPeekPenalty": 45,
+      "wrongGuessPenalty": 60,
+      "totalPenalty": 115,
+      "finalScore": 0,
+      "rank": "Tourist",
+      "nextRankName": "Commuter",
+      "pointsToNextRank": 11
+    },
+    "modelGuesses": [
+      {
+        "expression": "read the fine ___",
+        "guess": "print",
+        "success": true,
+        "timestamp": 1747500628763
+      },
+      {
+        "expression": "___ your eyes and make a wish",
+        "guess": "close",
+        "success": true,
+        "timestamp": 1747500731347
+      },
+      {
+        "expression": "take him ___",
+        "guess": "out",
+        "success": false,
+        "timestamp": 1747500761560
+      },
+      {
+        "expression": "___ cut",
+        "guess": "sleight",
+        "success": false,
+        "timestamp": 1747500858792
+      },
+      {
+        "expression": "digit with a print and a nail",
+        "guess": "thumb",
+        "success": false,
+        "timestamp": 1747500939429
+      },
+      {
+        "expression": "digit with a print and a nail",
+        "guess": "forefinger",
+        "success": false,
+        "timestamp": 1747500993285
+      },
+      {
+        "expression": "digit with a print and a nail",
+        "guess": "finger",
+        "success": true,
+        "timestamp": 1747501001954
+      },
+      {
+        "expression": "finger named for its adornment",
+        "guess": "ring finger",
+        "success": false,
+        "timestamp": 1747501018914
+      },
+      {
+        "expression": "finger named for its adornment",
+        "guess": "ring finger",
+        "success": false,
+        "timestamp": 1747501127178
+      },
+      {
+        "expression": "take him ___",
+        "guess": "out",
+        "success": false,
+        "timestamp": 1747501259254
+      },
+      {
+        "expression": "___-me-down",
+        "guess": "let",
+        "success": false,
+        "timestamp": 1747501353059
+      },
+      {
+        "expression": "take him ___",
+        "guess": "down",
+        "success": false,
+        "timestamp": 1747501416021
+      },
+      {
+        "expression": "___-me-down",
+        "guess": "hand",
+        "success": true,
+        "timestamp": 1747501494327
+      },
+      {
+        "expression": "___ball",
+        "guess": "curveball",
+        "success": false,
+        "timestamp": 1747501546847
+      },
+      {
+        "expression": "one might ring after a concert",
+        "guess": "encore",
+        "success": false,
+        "timestamp": 1747501664544
+      },
+      {
+        "expression": "___ball",
+        "guess": "curveball",
+        "success": false,
+        "timestamp": 1747501705379
+      },
+      {
+        "expression": "one might ring after a concert",
+        "guess": "bell",
+        "success": false,
+        "timestamp": 1747501739800
+      },
+      {
+        "expression": "___ball",
+        "guess": "grenade",
+        "success": false,
+        "timestamp": 1747501830671
+      },
+      {
+        "expression": "___ball",
+        "guess": "curveball",
+        "success": false,
+        "timestamp": 1747501847126
+      },
+      {
+        "expression": "___ball",
+        "guess": "curveball",
+        "success": false,
+        "timestamp": 1747501912980
+      },
+      {
+        "expression": "take him ___",
+        "guess": "out",
+        "success": false,
+        "timestamp": 1747502014386
+      },
+      {
+        "expression": "___ cut",
+        "guess": "sleight",
+        "success": false,
+        "timestamp": 1747502060446
+      },
+      {
+        "expression": "___ cut",
+        "guess": "sleight",
+        "success": false,
+        "timestamp": 1747502122040
+      },
+      {
+        "expression": "___ cut",
+        "guess": "sleight",
+        "success": false,
+        "timestamp": 1747502304888
+      },
+      {
+        "expression": "kind of dive (from a ✈️)",
+        "guess": "skydive",
+        "success": false,
+        "timestamp": 1747502366933
+      },
+      {
+        "expression": "kind of dive (from a ✈️)",
+        "guess": "nosedive",
+        "success": false,
+        "timestamp": 1747502442085
+      },
+      {
+        "expression": "kind of dive (from a ✈️)",
+        "guess": "skydive",
+        "success": false,
+        "timestamp": 1747502524324
+      },
+      {
+        "expression": "___ball",
+        "guess": "curveball",
+        "success": false,
+        "timestamp": 1747502568224
+      },
+      {
+        "expression": "___ cut",
+        "guess": "sleight",
+        "success": false,
+        "timestamp": 1747502650224
+      },
+      {
+        "expression": "___ball",
+        "guess": "curveball",
+        "success": false,
+        "timestamp": 1747502670599
+      },
+      {
+        "expression": "take him ___",
+        "guess": "out",
+        "success": false,
+        "timestamp": 1747502714623
+      },
+      {
+        "expression": "___ cut",
+        "guess": "sleight",
+        "success": false,
+        "timestamp": 1747502829959
+      },
+      {
+        "expression": "___ball",
+        "guess": "snowball",
+        "success": false,
+        "timestamp": 1747502871512
+      },
+      {
+        "expression": "___ball",
+        "guess": "curveball",
+        "success": false,
+        "timestamp": 1747502895992
+      }
+    ],
+    "finalText": "The solved sentence is:\n\n**\"Many prefer to end on a high note, lab station launches.\"**",
+    "timeToSolve": 2372.863
+  }
+}

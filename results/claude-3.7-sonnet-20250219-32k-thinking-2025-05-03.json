@@ -1,0 +1,174 @@
+{
+  "timestamp": "2025-05-17T16:52:53.508Z",
+  "model": {
+    "name": "claude-3.7-sonnet-20250219-32k-thinking",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "May 3, 1978:",
+    "puzzleDate": "2025-05-03",
+    "completionURL": "https://www.templetons.com/brad/spamreact.html",
+    "solutions": {
+      "gold container for a leprechaun 🍀": "pot",
+      "classic gift to a teacher": "Apple",
+      "\"it's a bit of a ___er-upper\" says the broker about the dilapidated shed": "fix",
+      "Mother Teresa's job": "nun",
+      "what fruit does eventually if you leave it out": "rot",
+      "case you use to SHOUT online": "upper",
+      "gelatinous canned mystery meat": "spam",
+      "you might get a ___-out from a friend for your help": "SHOUT",
+      "language shown here ➡️ \"si hoc legere potes, praetor urbis nuntium tuum exspectat\"": "latin",
+      "Apple makes one with a square-ish face": "watch",
+      "\"watch your ___!\" your mom snaps as you swear at the pinball machine": "language",
+      "to move heaven and this is to try very hard": "Earth",
+      "word before Earth, Nature, or Goose": "Mother",
+      "genre for Hercule Poirot and Sherlock Holmes": "mystery",
+      "___fix with -med or -nup or -school": "pre",
+      "we are often encouraged to start with the low-hanging ___": "fruit"
+    },
+    "initialPuzzle": "the first [ge[[\"[[classic gift to a teacher] makes one with a square-ish face] your ___!\" your mom snaps as you swear at the pinball machine] shown here ➡️ \"si hoc legere [gold container for a le[___[\"it's a bit of a ___er-[case you use to [you might get a ___-out from a friend for your help] online]\" says the broker about the dilapidated shed] with -med or -nup or -school]chaun 🍀]es, praetor urbis [[word before [to move heaven and this is to try very hard], Nature, or Goose] Teresa's job]tium tuum exspectat\"]ous canned [genre for Hercule Poi[what [we are often encouraged to start with the low-hanging ___] does eventually if you leave it out] and Sherlock Holmes] meat] email is sent",
+    "puzzleSolution": "the first spam email is sent"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 18,
+      "correctGuesses": 16,
+      "totalClues": 16,
+      "hints": 1,
+      "reveals": 0,
+      "stepsTaken": 20,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 82091,
+      "completionTokens": 4549,
+      "totalTokens": 86640
+    },
+    "score": 91,
+    "rank": "Kingmaker",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 4,
+      "totalPenalty": 9,
+      "finalScore": 91,
+      "rank": "Kingmaker",
+      "nextRankName": "Puppet Master",
+      "pointsToNextRank": 9
+    },
+    "modelGuesses": [
+      {
+        "expression": "classic gift to a teacher",
+        "guess": "apple",
+        "success": true,
+        "timestamp": 1747500695009
+      },
+      {
+        "expression": "Apple makes one with a square-ish face",
+        "guess": "watch",
+        "success": true,
+        "timestamp": 1747500698742
+      },
+      {
+        "expression": "watch your ___!\" your mom snaps as you swear at the pinball machine",
+        "guess": "language",
+        "success": true,
+        "timestamp": 1747500703210
+      },
+      {
+        "expression": "you might get a ___-out from a friend for your help",
+        "guess": "shout",
+        "success": true,
+        "timestamp": 1747500708310
+      },
+      {
+        "expression": "case you use to SHOUT online",
+        "guess": "upper",
+        "success": true,
+        "timestamp": 1747500713625
+      },
+      {
+        "expression": "it's a bit of a ___er-upper\" says the broker about the dilapidated shed",
+        "guess": "fix",
+        "success": true,
+        "timestamp": 1747500718359
+      },
+      {
+        "expression": "fix with -med or -nup or -school",
+        "guess": "pre",
+        "success": true,
+        "timestamp": 1747500725716
+      },
+      {
+        "expression": "gold container for a leprechaun 🍀",
+        "guess": "pot",
+        "success": true,
+        "timestamp": 1747500728844
+      },
+      {
+        "expression": "to move heaven and this is to try very hard",
+        "guess": "earth",
+        "success": true,
+        "timestamp": 1747500734027
+      },
+      {
+        "expression": "word before Earth, Nature, or Goose",
+        "guess": "Mother",
+        "success": true,
+        "timestamp": 1747500736999
+      },
+      {
+        "expression": "Mother Teresa's job",
+        "guess": "nun",
+        "success": true,
+        "timestamp": 1747500740829
+      },
+      {
+        "expression": "we are often encouraged to start with the low-hanging ___",
+        "guess": "fruit",
+        "success": true,
+        "timestamp": 1747500744272
+      },
+      {
+        "expression": "what fruit does eventually if you leave it out",
+        "guess": "rots",
+        "success": false,
+        "timestamp": 1747500748350
+      },
+      {
+        "expression": "what fruit does eventually if you leave it out",
+        "guess": "spoil",
+        "success": false,
+        "timestamp": 1747500751841
+      },
+      {
+        "expression": "what fruit does eventually if you leave it out",
+        "guess": "rot",
+        "success": true,
+        "timestamp": 1747500758820
+      },
+      {
+        "expression": "genre for Hercule Poirot and Sherlock Holmes",
+        "guess": "mystery",
+        "success": true,
+        "timestamp": 1747500762541
+      },
+      {
+        "expression": "language shown here ➡️ \"si hoc legere potes, praetor urbis nuntium tuum exspectat\"",
+        "guess": "Latin",
+        "success": true,
+        "timestamp": 1747500767176
+      },
+      {
+        "expression": "gelatinous canned mystery meat",
+        "guess": "spam",
+        "success": true,
+        "timestamp": 1747500770859
+      }
+    ],
+    "finalText": "the first spam email is sent",
+    "timeToSolve": 84.172
+  }
+}

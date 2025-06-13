@@ -1,0 +1,27 @@
+{
+  "completionText": "January 17, 1966:",
+  "puzzleDate": "2025-01-17",
+  "completionURL": "https://en.wikipedia.org/wiki/1966_Palomares_incident",
+  "solutions": {
+    "the Hindenburg was full of it": "hydrogen",
+    "title for a priest": "father",
+    "reason for being": "purpose",
+    "very bad news on a report card": "F",
+    "like some hair days or apples": "bad",
+    "Nashville genre": "country",
+    "name for rear legs on an animal": "Hind",
+    "F ones might get censored": "bombs",
+    "lozenges": "drops",
+    "\"for the time ___\"": "being",
+    "Tour de ___": "France",
+    "country southwest of France": "Spain",
+    "daddy long ___": "legs",
+    "father, familiary": "daddy",
+    "not against": "for",
+    "not on purpose": "accidentally",
+    "hands sometimes help you tell it": "time",
+    "tattle": "tell"
+  },
+  "initialPuzzle": "US [not on [reason for [\\\"[not against] the [hands sometimes help you [tattle] it] ___\\\"]]] [lozenges] four [the [name for rear [[[title for a priest], familiary] long ___] on an animal]enburg was full of it] [[very [like some hair days or apples] news on a report card] ones might get censored] on [[Nashville genre] southwest of [Tour de ___]]",
+  "puzzleSolution": "US accidentally drops four hydrogen bombs on Spain"
+}

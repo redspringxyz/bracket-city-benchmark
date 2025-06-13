@@ -1,0 +1,228 @@
+{
+  "timestamp": "2025-06-07T14:12:50.531Z",
+  "model": {
+    "name": "gemini-2.5-pro-preview-06-05",
+    "provider": "google.generative-ai"
+  },
+  "puzzle": {
+    "completionText": "April 25, 2000:",
+    "puzzleDate": "2025-04-25",
+    "completionURL": "https://www.youtube.com/watch?v=-BNwiqDGz5g",
+    "solutions": {
+      "\"___ off the scent\"": "throw",
+      "🍫 size even smaller than \"fun\"": "bite",
+      "cold ___ (chilly pool at a spa)": "plunge",
+      "something followed by a bloodhound": "scent",
+      "something you reflect on in the bathroom": "mirror",
+      "something you might not choose to die on": "hill",
+      "house with zany mirrors": "fun",
+      "zebra-striped official at a football game, for short": "ref",
+      "night often prescribed by a couple's therapist": "date",
+      "government overthrow that sounds like a dove": "coup",
+      "plunged elegantly into the water": "dove",
+      "game played with cues": "pool",
+      "bite for your 👂 not for your 👄": "sound",
+      "lively and boisterous play session": "romp",
+      "cards that were mostly replaced by teleprompters": "cue",
+      "when repeated, sound associated with 🚂": "choo"
+    },
+    "initialPuzzle": "the perfect [night often prescribed by a [government over[\"___ off the [something followed by a bloodhound]\"] that sounds like a [[cold ___ (c[something you might not [when repeated, [[🍫 size even smaller than \"[house with zany [something you [zebra-striped official at a football game, for short]lect on in the bathroom]s]\"] for your 👂 not for your 👄] associated with 🚂]se to die on]y [game played with [cards that were mostly replaced by telep[lively and boisterous play session]ters]s] at a spa)]d elegantly into the water]]le's therapist] according to Miss Rhode Island",
+    "puzzleSolution": "the perfect date according to Miss Rhode Island"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 27,
+      "correctGuesses": 10,
+      "totalClues": 16,
+      "hints": 6,
+      "reveals": 6,
+      "stepsTaken": 40,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 213261,
+      "completionTokens": 3015,
+      "totalTokens": 216276
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 30,
+      "megaPeekPenalty": 90,
+      "wrongGuessPenalty": 34,
+      "totalPenalty": 154,
+      "finalScore": 0,
+      "rank": "Tourist",
+      "nextRankName": "Commuter",
+      "pointsToNextRank": 11
+    },
+    "modelGuesses": [
+      {
+        "expression": "zebra-striped official at a football game, for short",
+        "guess": "ref",
+        "success": true,
+        "timestamp": 1749302628810
+      },
+      {
+        "expression": "something you reflect on in the bathroom",
+        "guess": "mirror",
+        "success": true,
+        "timestamp": 1749302786831
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "funhouse",
+        "success": false,
+        "timestamp": 1749302913933
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "madhouse",
+        "success": false,
+        "timestamp": 1749303067999
+      },
+      {
+        "expression": "house with zany mirrors",
+        "guess": "funny farm",
+        "success": false,
+        "timestamp": 1749303283792
+      },
+      {
+        "expression": "🍫 size even smaller than \"fun\"",
+        "guess": "bite-sized",
+        "success": false,
+        "timestamp": 1749303545696
+      },
+      {
+        "expression": "🍫 size even smaller than \"fun\"",
+        "guess": "mini",
+        "success": false,
+        "timestamp": 1749303710147
+      },
+      {
+        "expression": "🍫 size even smaller than \"fun\"",
+        "guess": "bar",
+        "success": false,
+        "timestamp": 1749303907020
+      },
+      {
+        "expression": "when repeated, [bite for your 👂 not for your 👄] associated with 🚂",
+        "guess": "sound bite",
+        "success": false,
+        "timestamp": 1749304130597
+      },
+      {
+        "expression": "bite for your 👂 not for your 👄",
+        "guess": "sound",
+        "success": true,
+        "timestamp": 1749304204978
+      },
+      {
+        "expression": "when repeated, sound associated with 🚂",
+        "guess": "choo choo",
+        "success": false,
+        "timestamp": 1749304270270
+      },
+      {
+        "expression": "when repeated, sound associated with 🚂",
+        "guess": "chug chug",
+        "success": false,
+        "timestamp": 1749304289804
+      },
+      {
+        "expression": "when repeated, sound associated with 🚂",
+        "guess": "clickety-clack",
+        "success": false,
+        "timestamp": 1749304469427
+      },
+      {
+        "expression": "something you might not choose to die on",
+        "guess": "hill",
+        "success": true,
+        "timestamp": 1749304634267
+      },
+      {
+        "expression": "lively and boisterous play session",
+        "guess": "romp",
+        "success": true,
+        "timestamp": 1749304700847
+      },
+      {
+        "expression": "cards that were mostly replaced by teleprompters",
+        "guess": "cue cards",
+        "success": false,
+        "timestamp": 1749304803919
+      },
+      {
+        "expression": "cards that were mostly replaced by teleprompters",
+        "guess": "flash cards",
+        "success": false,
+        "timestamp": 1749304869710
+      },
+      {
+        "expression": "cards that were mostly replaced by teleprompters",
+        "guess": "cards",
+        "success": false,
+        "timestamp": 1749305035641
+      },
+      {
+        "expression": "game played with cues",
+        "guess": "pool",
+        "success": true,
+        "timestamp": 1749305107071
+      },
+      {
+        "expression": "cold ___ (chilly pool at a spa)",
+        "guess": "plunge",
+        "success": true,
+        "timestamp": 1749305121923
+      },
+      {
+        "expression": "plunged elegantly into the water",
+        "guess": "dived",
+        "success": false,
+        "timestamp": 1749305182771
+      },
+      {
+        "expression": "plunged elegantly into the water",
+        "guess": "dove",
+        "success": true,
+        "timestamp": 1749305267300
+      },
+      {
+        "expression": "something followed by a bloodhound",
+        "guess": "scent",
+        "success": true,
+        "timestamp": 1749305327741
+      },
+      {
+        "expression": "\"___ off the scent\"",
+        "guess": "thrown",
+        "success": false,
+        "timestamp": 1749305349978
+      },
+      {
+        "expression": "government overthrow that sounds like a dove",
+        "guess": "coup",
+        "success": true,
+        "timestamp": 1749305442599
+      },
+      {
+        "expression": "night often prescribed by a couple's therapist",
+        "guess": "date night",
+        "success": false,
+        "timestamp": 1749305445673
+      },
+      {
+        "expression": "night often prescribed by a couple's therapist",
+        "guess": "dream",
+        "success": false,
+        "timestamp": 1749305517765
+      }
+    ],
+    "finalText": "the perfect date according to Miss Rhode Island",
+    "timeToSolve": 2952.715
+  }
+}

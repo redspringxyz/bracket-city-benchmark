@@ -1,0 +1,27 @@
+{
+  "completionText": "February 11, 1144:",
+  "puzzleDate": "2025-02-11",
+  "completionURL": "https://en.wikipedia.org/wiki/Liber_de_compositione_alchemiae",
+  "solutions": {
+    "triple ___ (good at three things)": "threat",
+    "letter before Beta": "alpha",
+    "kind of map with an X on it": "treasure",
+    "\"I need to get something off my ___\"": "chest",
+    "\"moth___\": puts in long-term storage (as a battleship)": "balls",
+    "kind of unit where you might keep your old yearbooks": "storage",
+    "\"born on third base and thinks he hit a ___\"": "triple",
+    "classic board game where \"D1\" might be a hit": "battleship",
+    "an American frontier film produced in Europe, a Spaghetti ___": "Western",
+    "bully's threat: \"you're dead ___\"": "meat",
+    "period before the Renaissance": "medieval",
+    "pasta iconically paired with meatballs": "Spaghetti",
+    "treasure chest contents": "gold",
+    "food for carbo-loading": "pasta",
+    "highest level in the NCAA, alphanumerically": "D1",
+    "generation closely associated with flannel shirts": "X",
+    "medieval science concerned with creating gold": "alchemy",
+    "to have foreign-born parents, to be first ___": "generation"
+  },
+  "initialPuzzle": "the birth of [an American frontier film produced in Europe, a [[food for carbo-loading] iconically paired with [bully's [[\"born on third base and thinks he hit a ___\"] ___ (good at three things)]: \"you're dead ___\"][\"moth___\": puts in long-term [kind of unit where you might keep your old yearbooks] (as a [classic board game where \"[highest level in the NCAA, [letter before Beta]numerically]\" might be a hit])]] ___] [[period before the Renaissance] science concerned with creating [[kind of map with an [[to have foreign-born parents, to be first ___] closely associated with flannel shirts] on it] [\"I need to get something off my ___\"] contents]]",
+  "puzzleSolution": "the birth of Western alchemy"
+}

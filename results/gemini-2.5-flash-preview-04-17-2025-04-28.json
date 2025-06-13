@@ -1,0 +1,340 @@
+{
+  "timestamp": "2025-05-17T17:00:49.533Z",
+  "model": {
+    "name": "gemini-2.5-flash-preview-04-17",
+    "provider": "google.generative-ai"
+  },
+  "puzzle": {
+    "completionText": "April 28, 1789:",
+    "puzzleDate": "2025-04-28",
+    "completionURL": "https://www.youtube.com/watch?v=aFalJyGNGmE",
+    "solutions": {
+      "tree scent and silhouette featured in many cars": "pine",
+      "the first one is the deepest, it is said": "cut",
+      "hunter motivated by a wanted poster": "Bounty",
+      "the most common one is \"123456\"": "password",
+      "humorous name for an enormous dog": "tiny",
+      "\"ABC, it's as easy as ___\"": "123",
+      "\"love __ first sight\"": "At",
+      "\"I'll take __\" you say supine on the waterbed in the showroom": "it",
+      "at 5,400 feet, Siberia's Baikal is the ___ lake in the world": "deepest",
+      "Attila the ___": "hun",
+      "shape you will approximate if you trace a Dorito": "triangle",
+      "not cutting in line is a social ___": "norm",
+      "kind of triangle that can cause acute heartache": "love",
+      "house that you might need a rope ladder and a password to access": "tree"
+    },
+    "initialPuzzle": "mu[humorous name for an e[not [the first one is the [at 5,400 feet, Siberia's Baikal is the ___ lake in the world], it is said]ting in line is a social ___]ous dog] on the HMS [[[\"[kind of [shape you will approximate if you trace a Dor[\"I'll take __\" you say su[[house that you might need a rope ladder and a [the most common one is \"[\"ABC, it's as easy as ___\"]456\"] to access] scent and silhouette featured in many cars] on the waterbed in the showroom]o] that can cause acute heartache] __ first sight\"]tila the ___]ter motivated by a wanted poster]",
+    "puzzleSolution": "mutiny on the HMS Bounty"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 46,
+      "correctGuesses": 5,
+      "totalClues": 14,
+      "hints": 2,
+      "reveals": 2,
+      "stepsTaken": 50,
+      "completionPercentage": 50
+    },
+    "usage": {
+      "promptTokens": 414541,
+      "completionTokens": 6480,
+      "totalTokens": 421021
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 10,
+      "megaPeekPenalty": 30,
+      "wrongGuessPenalty": 82,
+      "totalPenalty": 122,
+      "finalScore": 0,
+      "rank": "Tourist",
+      "nextRankName": "Commuter",
+      "pointsToNextRank": 11
+    },
+    "modelGuesses": [
+      {
+        "expression": "at 5,400 feet, Siberia's Baikal is the ___ lake in the world",
+        "guess": "deepest",
+        "success": true,
+        "timestamp": 1747500922368
+      },
+      {
+        "expression": "\"ABC, it's as easy as ___\"",
+        "guess": "123",
+        "success": true,
+        "timestamp": 1747500924898
+      },
+      {
+        "expression": "the first one is the deepest, it is said",
+        "guess": "deepest",
+        "success": false,
+        "timestamp": 1747500949636
+      },
+      {
+        "expression": "the most common one is \"123456\"",
+        "guess": "combination",
+        "success": false,
+        "timestamp": 1747500952177
+      },
+      {
+        "expression": "the first one is the deepest, it is said",
+        "guess": "certainly",
+        "success": false,
+        "timestamp": 1747500954393
+      },
+      {
+        "expression": "the most common one is \"123456\"",
+        "guess": "dial",
+        "success": false,
+        "timestamp": 1747500955413
+      },
+      {
+        "expression": "the most common one is \"123456\"",
+        "guess": "tumbler",
+        "success": false,
+        "timestamp": 1747500958313
+      },
+      {
+        "expression": "the most common one is \"123456\"",
+        "guess": "code",
+        "success": false,
+        "timestamp": 1747500962204
+      },
+      {
+        "expression": "the most common one is \"123456\"",
+        "guess": "password",
+        "success": true,
+        "timestamp": 1747500964919
+      },
+      {
+        "expression": "shape you will approximate if you trace a Dor",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747500969307
+      },
+      {
+        "expression": "tila the ___",
+        "guess": "Hun",
+        "success": false,
+        "timestamp": 1747500974408
+      },
+      {
+        "expression": "o",
+        "guess": "o",
+        "success": false,
+        "timestamp": 1747500981860
+      },
+      {
+        "expression": "house that you might need a rope ladder and a password to access",
+        "guess": "treehouse",
+        "success": false,
+        "timestamp": 1747500995824
+      },
+      {
+        "expression": "scent and silhouette featured in many cars",
+        "guess": "air freshener",
+        "success": false,
+        "timestamp": 1747501003805
+      },
+      {
+        "expression": "that can cause acute heartache",
+        "guess": "love",
+        "success": false,
+        "timestamp": 1747501024232
+      },
+      {
+        "expression": "the first one is the deepest, it is said",
+        "guess": "correctly",
+        "success": false,
+        "timestamp": 1747501041151
+      },
+      {
+        "expression": "\"I'll take __\" you say su",
+        "guess": "you",
+        "success": false,
+        "timestamp": 1747501047407
+      },
+      {
+        "expression": "ting in line is a social ___",
+        "guess": "norm",
+        "success": false,
+        "timestamp": 1747501054620
+      },
+      {
+        "expression": "the first one is the deepest, it is said",
+        "guess": "called",
+        "success": false,
+        "timestamp": 1747501059856
+      },
+      {
+        "expression": "the first one is the deepest, it is said",
+        "guess": "claimed",
+        "success": false,
+        "timestamp": 1747501073554
+      },
+      {
+        "expression": "house that you might need a rope ladder and a password to access",
+        "guess": "clubhouse",
+        "success": false,
+        "timestamp": 1747501079430
+      },
+      {
+        "expression": "tila the ___",
+        "guess": "Hun",
+        "success": false,
+        "timestamp": 1747501092378
+      },
+      {
+        "expression": "house that you might need a rope ladder and a password to access",
+        "guess": "tree fort",
+        "success": false,
+        "timestamp": 1747501095353
+      },
+      {
+        "expression": "the first one is the deepest, it is said",
+        "guess": "considered",
+        "success": false,
+        "timestamp": 1747501100351
+      },
+      {
+        "expression": "the first one is the deepest, it is said",
+        "guess": "confirmed",
+        "success": false,
+        "timestamp": 1747501105288
+      },
+      {
+        "expression": "the first one is the deepest, it is said",
+        "guess": "cited",
+        "success": false,
+        "timestamp": 1747501112219
+      },
+      {
+        "expression": "tila the ___",
+        "guess": "Hun",
+        "success": false,
+        "timestamp": 1747501117280
+      },
+      {
+        "expression": "house that you might need a rope ladder and a password to access",
+        "guess": "tree dwelling",
+        "success": false,
+        "timestamp": 1747501128326
+      },
+      {
+        "expression": "the first one is the deepest, it is said",
+        "guess": "characterized",
+        "success": false,
+        "timestamp": 1747501136101
+      },
+      {
+        "expression": "ting in line is a social ___",
+        "guess": "faux pas",
+        "success": false,
+        "timestamp": 1747501140235
+      },
+      {
+        "expression": "not cutting in line is a social ___",
+        "guess": "no-no",
+        "success": false,
+        "timestamp": 1747501146493
+      },
+      {
+        "expression": "not cutting in line is a social ___",
+        "guess": "convention",
+        "success": false,
+        "timestamp": 1747501152304
+      },
+      {
+        "expression": "not cutting in line is a social ___",
+        "guess": "gaffe",
+        "success": false,
+        "timestamp": 1747501157450
+      },
+      {
+        "expression": "not cutting in line is a social ___",
+        "guess": "rule",
+        "success": false,
+        "timestamp": 1747501164193
+      },
+      {
+        "expression": "not cutting in line is a social ___",
+        "guess": "taboo",
+        "success": false,
+        "timestamp": 1747501169647
+      },
+      {
+        "expression": "tree scent and silhouette featured in many cars",
+        "guess": "pine",
+        "success": true,
+        "timestamp": 1747501180860
+      },
+      {
+        "expression": "lying on the waterbed in the showroom",
+        "guess": "pose",
+        "success": false,
+        "timestamp": 1747501183800
+      },
+      {
+        "expression": "pine on the waterbed in the showroom",
+        "guess": "pine",
+        "success": false,
+        "timestamp": 1747501188446
+      },
+      {
+        "expression": "supine on the waterbed in the showroom",
+        "guess": "lying",
+        "success": false,
+        "timestamp": 1747501202237
+      },
+      {
+        "expression": "o",
+        "guess": "o",
+        "success": false,
+        "timestamp": 1747501205412
+      },
+      {
+        "expression": "that can cause acute heartache",
+        "guess": "love",
+        "success": false,
+        "timestamp": 1747501216680
+      },
+      {
+        "expression": "not cutting in line is a social ___",
+        "guess": "breach",
+        "success": false,
+        "timestamp": 1747501229175
+      },
+      {
+        "expression": "not cutting in line is a social ___",
+        "guess": "violation",
+        "success": false,
+        "timestamp": 1747501234423
+      },
+      {
+        "expression": "shape you will approximate if you trace a Dor",
+        "guess": "circle",
+        "success": false,
+        "timestamp": 1747501239981
+      },
+      {
+        "expression": "not cutting in line is a social ___",
+        "guess": "custom",
+        "success": false,
+        "timestamp": 1747501244678
+      },
+      {
+        "expression": "not cutting in line is a social ___",
+        "guess": "norm",
+        "success": true,
+        "timestamp": 1747501249531
+      }
+    ],
+    "finalText": "Okay, I've made several incorrect guesses and need to be more careful.\n\nBased on the API's responses and the current puzzle state, the active innermost clue seems to be `[not cutting in line is a social ___]`. I will try guessing \"norm\" again, as it fits the context.\n",
+    "timeToSolve": 332.196
+  }
+}

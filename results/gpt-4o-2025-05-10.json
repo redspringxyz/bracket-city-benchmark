@@ -1,0 +1,110 @@
+{
+  "timestamp": "2025-05-17T16:59:17.921Z",
+  "model": {
+    "name": "gpt-4o",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "May 10, 28 BC:",
+    "puzzleDate": "2025-05-10",
+    "completionURL": "https://umbra.nascom.nasa.gov/yohkoh/nuggets/2002/020913/020913.html",
+    "solutions": {
+      "Three Wise ⬅️___➡️ in Black": "men",
+      "\"___ in there!\" says the poster with the dangling cat": "hang",
+      "sheep color for your brother whose \"job\" is trying to get hit by a limousine": "Black",
+      "\"Guinea pig\" is a mis___ (not from Guinea, not a pig)": "nomer",
+      "one might be in the ointment or on the wall": "fly",
+      "\"muscle-___\" adjective for a bodybuilder": "bound",
+      "the original one involved an 🍎": "sin",
+      "\"null and ___\"": "void",
+      "one with porcine features resembles this animal": "pig",
+      "you (ought to) check your blind one when changing lanes": "spot",
+      "to fly this way is to go it alone": "Solo",
+      "alternative to damn, darn, and drat": "dang",
+      "you must avoid biting off more than you can ___": "Chew",
+      "Solo who knows Chewbacca": "Han",
+      "kind of shop for a dented car": "body",
+      "the B in BCC": "blind",
+      "___tails (two gathered and bound hanks of hair emanating from the side of the head)": "pig",
+      "home for a bear or a plasma TV": "den"
+    },
+    "initialPuzzle": "a sun[you (ought to) check your [the B in BCC] one when c[\"___ in there!\" says the poster with the [alternative to damn, darn, and drat]ling cat]ing lanes] is observed by [[to [one might be in the oint[Three Wise ⬅️___➡️ in [sheep color for your brother whose \"job\" is trying to get hit by a limou[the original one involved an 🍎]e]]t or on the wall] this way is to go it alone] who knows [you must a[\"null and ___\"] biting off more than you can ___]bacca] dynasty astro[\"Guinea [___tails (two gathered and [\"muscle-___\" adjective for a [kind of shop for a [home for a bear or a plasma TV]ted car]builder] hanks of hair emanating from the side of the head)]\" is a mis___ (not from Guinea, not a [one with porcine features resembles this animal])]s",
+    "puzzleSolution": "a sunspot is observed by Han dynasty astronomers"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 7,
+      "correctGuesses": 7,
+      "totalClues": 18,
+      "hints": 7,
+      "reveals": 0,
+      "stepsTaken": 50,
+      "completionPercentage": 38.88888888888889
+    },
+    "usage": {
+      "promptTokens": 395652,
+      "completionTokens": 3732,
+      "totalTokens": 399384
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 35,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 0,
+      "totalPenalty": 35,
+      "finalScore": 0,
+      "rank": "Chief of Police",
+      "nextRankName": "Mayor",
+      "pointsToNextRank": 3
+    },
+    "modelGuesses": [
+      {
+        "expression": "the B in BCC",
+        "guess": "blind",
+        "success": true,
+        "timestamp": 1747501066204
+      },
+      {
+        "expression": "alternative to damn, darn, and drat",
+        "guess": "dang",
+        "success": true,
+        "timestamp": 1747501069712
+      },
+      {
+        "expression": "the original one involved an 🍎",
+        "guess": "sin",
+        "success": true,
+        "timestamp": 1747501076247
+      },
+      {
+        "expression": "sheep color for your brother whose \"job\" is trying to get hit by a limousine",
+        "guess": "black",
+        "success": true,
+        "timestamp": 1747501079729
+      },
+      {
+        "expression": "Three Wise ⬅️___➡️ in Black",
+        "guess": "men",
+        "success": true,
+        "timestamp": 1747501082083
+      },
+      {
+        "expression": "home for a bear or a plasma TV",
+        "guess": "den",
+        "success": true,
+        "timestamp": 1747501086863
+      },
+      {
+        "expression": "one with porcine features resembles this animal",
+        "guess": "pig",
+        "success": true,
+        "timestamp": 1747501092124
+      }
+    ],
+    "finalText": "It seems I made an error in identifying the innermost clue. Let's focus on the innermost part: \"biting off more than you can ___\". I'll get a hint for this clue.",
+    "timeToSolve": 96.584
+  }
+}

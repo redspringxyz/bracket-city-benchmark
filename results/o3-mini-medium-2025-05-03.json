@@ -1,0 +1,318 @@
+{
+  "timestamp": "2025-05-17T17:14:29.131Z",
+  "model": {
+    "name": "o3-mini-medium",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "May 3, 1978:",
+    "puzzleDate": "2025-05-03",
+    "completionURL": "https://www.templetons.com/brad/spamreact.html",
+    "solutions": {
+      "gold container for a leprechaun 🍀": "pot",
+      "classic gift to a teacher": "Apple",
+      "\"it's a bit of a ___er-upper\" says the broker about the dilapidated shed": "fix",
+      "Mother Teresa's job": "nun",
+      "what fruit does eventually if you leave it out": "rot",
+      "case you use to SHOUT online": "upper",
+      "gelatinous canned mystery meat": "spam",
+      "you might get a ___-out from a friend for your help": "SHOUT",
+      "language shown here ➡️ \"si hoc legere potes, praetor urbis nuntium tuum exspectat\"": "latin",
+      "Apple makes one with a square-ish face": "watch",
+      "\"watch your ___!\" your mom snaps as you swear at the pinball machine": "language",
+      "to move heaven and this is to try very hard": "Earth",
+      "word before Earth, Nature, or Goose": "Mother",
+      "genre for Hercule Poirot and Sherlock Holmes": "mystery",
+      "___fix with -med or -nup or -school": "pre",
+      "we are often encouraged to start with the low-hanging ___": "fruit"
+    },
+    "initialPuzzle": "the first [ge[[\"[[classic gift to a teacher] makes one with a square-ish face] your ___!\" your mom snaps as you swear at the pinball machine] shown here ➡️ \"si hoc legere [gold container for a le[___[\"it's a bit of a ___er-[case you use to [you might get a ___-out from a friend for your help] online]\" says the broker about the dilapidated shed] with -med or -nup or -school]chaun 🍀]es, praetor urbis [[word before [to move heaven and this is to try very hard], Nature, or Goose] Teresa's job]tium tuum exspectat\"]ous canned [genre for Hercule Poi[what [we are often encouraged to start with the low-hanging ___] does eventually if you leave it out] and Sherlock Holmes] meat] email is sent",
+    "puzzleSolution": "the first spam email is sent"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 42,
+      "correctGuesses": 4,
+      "totalClues": 16,
+      "hints": 2,
+      "reveals": 2,
+      "stepsTaken": 50,
+      "completionPercentage": 37.5
+    },
+    "usage": {
+      "promptTokens": 313481,
+      "completionTokens": 133590,
+      "totalTokens": 447071
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 10,
+      "megaPeekPenalty": 30,
+      "wrongGuessPenalty": 76,
+      "totalPenalty": 116,
+      "finalScore": 0,
+      "rank": "Tourist",
+      "nextRankName": "Commuter",
+      "pointsToNextRank": 11
+    },
+    "modelGuesses": [
+      {
+        "expression": "classic gift to a teacher",
+        "guess": "apple",
+        "success": true,
+        "timestamp": 1747500948493
+      },
+      {
+        "expression": "you might get a ___-out from a friend for your help",
+        "guess": "shout",
+        "success": true,
+        "timestamp": 1747500963302
+      },
+      {
+        "expression": "case you use to SHOUT online",
+        "guess": "caps lock",
+        "success": false,
+        "timestamp": 1747500975824
+      },
+      {
+        "expression": "case you use to SHOUT online",
+        "guess": "all caps",
+        "success": false,
+        "timestamp": 1747500978802
+      },
+      {
+        "expression": "case you use to SHOUT online",
+        "guess": "uppercase",
+        "success": false,
+        "timestamp": 1747500985396
+      },
+      {
+        "expression": "case you use to SHOUT online",
+        "guess": "upper case",
+        "success": false,
+        "timestamp": 1747500998220
+      },
+      {
+        "expression": "we are often encouraged to start with the low-hanging ___",
+        "guess": "fruit",
+        "success": true,
+        "timestamp": 1747501014137
+      },
+      {
+        "expression": "___",
+        "guess": "pot",
+        "success": false,
+        "timestamp": 1747501061912
+      },
+      {
+        "expression": "___",
+        "guess": "pot",
+        "success": false,
+        "timestamp": 1747501086153
+      },
+      {
+        "expression": "___[\"it's a bit of a ___er-upper\" says the broker about the dilapidated shed] with -med or -nup or -school",
+        "guess": "pre",
+        "success": false,
+        "timestamp": 1747501101281
+      },
+      {
+        "expression": "___upper with -med or -nup or -school",
+        "guess": "pre",
+        "success": false,
+        "timestamp": 1747501112748
+      },
+      {
+        "expression": "your ___!",
+        "guess": "mouth",
+        "success": false,
+        "timestamp": 1747501139725
+      },
+      {
+        "expression": "___",
+        "guess": "pre",
+        "success": false,
+        "timestamp": 1747501159859
+      },
+      {
+        "expression": "your ___!",
+        "guess": "mouth",
+        "success": false,
+        "timestamp": 1747501169439
+      },
+      {
+        "expression": "___upper with -med or -nup or -school",
+        "guess": "pre",
+        "success": false,
+        "timestamp": 1747501189341
+      },
+      {
+        "expression": "___",
+        "guess": "prep",
+        "success": false,
+        "timestamp": 1747501217156
+      },
+      {
+        "expression": "___",
+        "guess": "pre",
+        "success": false,
+        "timestamp": 1747501237138
+      },
+      {
+        "expression": "with -med or -nup or -school",
+        "guess": "pre",
+        "success": false,
+        "timestamp": 1747501265265
+      },
+      {
+        "expression": "your ___!",
+        "guess": "mouth",
+        "success": false,
+        "timestamp": 1747501320173
+      },
+      {
+        "expression": "___",
+        "guess": "pre",
+        "success": false,
+        "timestamp": 1747501336321
+      },
+      {
+        "expression": "with -med or -nup or -school",
+        "guess": "pre",
+        "success": false,
+        "timestamp": 1747501368777
+      },
+      {
+        "expression": "word before [to move heaven and this is to try very hard], Nature, or Goose",
+        "guess": "Mother",
+        "success": false,
+        "timestamp": 1747501400305
+      },
+      {
+        "expression": "___",
+        "guess": "pre",
+        "success": false,
+        "timestamp": 1747501421466
+      },
+      {
+        "expression": "___[\"it's a bit of a ___er-upper\" says the broker about the dilapidated shed] with -med or -nup or -school",
+        "guess": "pre",
+        "success": false,
+        "timestamp": 1747501456629
+      },
+      {
+        "expression": "with -med or -nup or -school",
+        "guess": "pre",
+        "success": false,
+        "timestamp": 1747501485791
+      },
+      {
+        "expression": "___upper with -med or -nup or -school",
+        "guess": "pre",
+        "success": false,
+        "timestamp": 1747501508941
+      },
+      {
+        "expression": "___",
+        "guess": "pre",
+        "success": false,
+        "timestamp": 1747501570436
+      },
+      {
+        "expression": "to move heaven and this is to try very hard",
+        "guess": "exert",
+        "success": false,
+        "timestamp": 1747501613018
+      },
+      {
+        "expression": "___",
+        "guess": "pre",
+        "success": false,
+        "timestamp": 1747501626533
+      },
+      {
+        "expression": "___[\"it's a bit of a ___er-upper\" says the broker about the dilapidated shed] with -med or -nup or -school",
+        "guess": "pre",
+        "success": false,
+        "timestamp": 1747501657835
+      },
+      {
+        "expression": "word before Earth, Nature, or Goose",
+        "guess": "Mother",
+        "success": true,
+        "timestamp": 1747501717048
+      },
+      {
+        "expression": "___[upper] with -med or -nup or -school",
+        "guess": "pre",
+        "success": false,
+        "timestamp": 1747501745893
+      },
+      {
+        "expression": "your ___!",
+        "guess": "mouth",
+        "success": false,
+        "timestamp": 1747501756846
+      },
+      {
+        "expression": "___ upper with -med or -nup or -school",
+        "guess": "pre",
+        "success": false,
+        "timestamp": 1747501781979
+      },
+      {
+        "expression": "___",
+        "guess": "pre",
+        "success": false,
+        "timestamp": 1747501799362
+      },
+      {
+        "expression": "___",
+        "guess": "pot",
+        "success": false,
+        "timestamp": 1747501822037
+      },
+      {
+        "expression": "___ upper with -med or -nup or -school",
+        "guess": "pre",
+        "success": false,
+        "timestamp": 1747501839690
+      },
+      {
+        "expression": "genre for Hercule Poi[what fruit does eventually if you leave it out] and Sherlock Holmes",
+        "guess": "mystery",
+        "success": false,
+        "timestamp": 1747501886765
+      },
+      {
+        "expression": "your ___!",
+        "guess": "mouth",
+        "success": false,
+        "timestamp": 1747501901134
+      },
+      {
+        "expression": "genre for Hercule Poi fruit and Sherlock Holmes",
+        "guess": "mystery",
+        "success": false,
+        "timestamp": 1747501927009
+      },
+      {
+        "expression": "genre for Hercule Poi[what fruit does eventually if you leave it out] and Sherlock Holmes",
+        "guess": "mystery",
+        "success": false,
+        "timestamp": 1747501942930
+      },
+      {
+        "expression": "gold container for a le",
+        "guess": "pot",
+        "success": false,
+        "timestamp": 1747502052889
+      }
+    ],
+    "finalText": "",
+    "timeToSolve": 1127.795
+  }
+}

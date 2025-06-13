@@ -1,0 +1,27 @@
+{
+  "completionText": "January 1, 2025:",
+  "puzzleDate": "2025-01-01",
+  "completionURL": "",
+  "solutions": {
+    "Captain from \"20,000 Leagues Under the Sea\"": "Nemo",
+    "Morgan or Crunch": "Captain",
+    "Nader's party": "green",
+    "Spooky Kubrick classic with \"The\"": "shining",
+    "car rental firm with a green logo": "National",
+    "above, in Berlin": "uber",
+    "\"From __ to shining __\"": "Sea",
+    "365 days": "year",
+    "not used": "new",
+    "in good spirits": "happy",
+    "Actor John with a sweet name": "Candy",
+    "composer and songwriter Irving": "Berlin",
+    "Candy bar that's an onomatopoeia": "Crunch",
+    "place to get a drink": "bar",
+    "___fish, like Nemo": "clown",
+    "American and National, for two": "Leagues",
+    "iconic clown with a four-letter name": "bozo",
+    "you might call one with uber": "car"
+  },
+  "initialPuzzle": "[in good spirits] [not used] [365 days] [iconic [___fish, like [[Morgan or [[Actor John with a sweet name] [place to get a drink] that's an onomatopoeia]] from \\\"20,000 [American and [[you might call one with [above, in [composer and songwriter Irving]]] rental firm with a [Nader's party] logo], for two] Under the [\\\"From __ to [Spooky Kubrick classic with \\\"The\\\"] __\\\"]\\\"]] with a four-letter name]",
+  "puzzleSolution": "happy new year bozo"
+}

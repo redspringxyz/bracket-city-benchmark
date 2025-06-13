@@ -1,0 +1,296 @@
+{
+  "timestamp": "2025-05-17T16:59:29.333Z",
+  "model": {
+    "name": "claude-3.7-sonnet-20250219-32k-thinking",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "April 27, 2004:",
+    "puzzleDate": "2025-04-27",
+    "completionURL": "https://en.wikipedia.org/wiki/Matilda_(chicken)",
+    "solutions": {
+      "thick japanese noodle": "udon",
+      "reasonably private cabin in a public bathroom": "stall",
+      "generally preferred afterlife destination": "heaven",
+      "a sharply critical remark (emphasis on \"sharp\")": "Barb",
+      "# in 🇺🇸, £ in 🇬🇧": "pound",
+      "informal form of \"hello\"": "hi",
+      "Reverend Lovejoy: \"see you in ___! *long pause* from heaven!\"": "hell",
+      "sweet contraband at some summer camps": "candy",
+      "Barbie's romantic associate": "ken",
+      "two-letter abbreviation for \"pound\" neither of which appear in the word": "lb",
+      "word after rock or marching": "band",
+      "log domicile for Lincoln": "cabin",
+      "\"happily ever ___\"": "after",
+      "something you install on your phone": "app",
+      "\"___y ___\" aka ___ Wahlberg": "mark",
+      "letters between a pseudonym and a real name": "aka",
+      "small capsule-shaped hard candy, with \"tac\"": "tic",
+      "home of sumo wrestling": "japan"
+    },
+    "initialPuzzle": "Matilda is declared the world's oldest c[informal form of \"[Reverend Lovejoy: \"see you in ___! *long pause* from [generally preferred [\"h[something you in[reasonably private [log domicile for Lincoln] in a public bathroom] on your phone]ily ever ___\"]life destination]!\"]o\"]c[[a sharply cri[small capsule-shaped hard [sweet contra[word after rock or marching] at some summer camps], with \"tac\"]al re[\"___y ___\" [letters between a pse[thick [home of sumo wrestling]ese noodle]ym and a real name] ___ Wah[two-letter abbreviation for \"[# in 🇺🇸, £ in 🇬🇧]\" neither of which appear in the word]erg] (emphasis on \"sharp\")]ie's romantic associate]",
+    "puzzleSolution": "Matilda is declared the world's oldest chicken"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 38,
+      "correctGuesses": 15,
+      "totalClues": 18,
+      "hints": 1,
+      "reveals": 0,
+      "stepsTaken": 50,
+      "completionPercentage": 83.33333333333334
+    },
+    "usage": {
+      "promptTokens": 375465,
+      "completionTokens": 16764,
+      "totalTokens": 392229
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 46,
+      "totalPenalty": 51,
+      "finalScore": 0,
+      "rank": "Council Member",
+      "nextRankName": "Chief of Police",
+      "pointsToNextRank": 2
+    },
+    "modelGuesses": [
+      {
+        "expression": "log domicile for Lincoln",
+        "guess": "cabin",
+        "success": true,
+        "timestamp": 1747500887552
+      },
+      {
+        "expression": "reasonably private cabin in a public bathroom",
+        "guess": "stall",
+        "success": true,
+        "timestamp": 1747500893875
+      },
+      {
+        "expression": "something you install on your phone",
+        "guess": "app",
+        "success": true,
+        "timestamp": 1747500899290
+      },
+      {
+        "expression": "happily ever ___",
+        "guess": "after",
+        "success": true,
+        "timestamp": 1747500905214
+      },
+      {
+        "expression": "generally preferred afterlife destination",
+        "guess": "heaven",
+        "success": true,
+        "timestamp": 1747500911225
+      },
+      {
+        "expression": "word after rock or marching",
+        "guess": "band",
+        "success": true,
+        "timestamp": 1747500917903
+      },
+      {
+        "expression": "home of sumo wrestling",
+        "guess": "Japan",
+        "success": true,
+        "timestamp": 1747500921221
+      },
+      {
+        "expression": "thick japanese noodle",
+        "guess": "udon",
+        "success": true,
+        "timestamp": 1747500926625
+      },
+      {
+        "expression": "# in 🇺🇸, £ in 🇬🇧",
+        "guess": "currency",
+        "success": false,
+        "timestamp": 1747500932478
+      },
+      {
+        "expression": "# in 🇺🇸, £ in 🇬🇧",
+        "guess": "pound",
+        "success": true,
+        "timestamp": 1747500935944
+      },
+      {
+        "expression": "two-letter abbreviation for \"pound\" neither of which appear in the word",
+        "guess": "lb",
+        "success": true,
+        "timestamp": 1747500940779
+      },
+      {
+        "expression": "letters between a pseudonym and a real name",
+        "guess": "AKA",
+        "success": true,
+        "timestamp": 1747500948741
+      },
+      {
+        "expression": "___y ___ aka ___ Wahlberg",
+        "guess": "Marky Mark aka Mark Wahlberg",
+        "success": false,
+        "timestamp": 1747500952928
+      },
+      {
+        "expression": "\\\"___y ___\\\" aka ___ Wahlberg",
+        "guess": "Marky Mark aka Mark",
+        "success": false,
+        "timestamp": 1747500958678
+      },
+      {
+        "expression": "sweet contraband at some summer camps",
+        "guess": "candy",
+        "success": true,
+        "timestamp": 1747500964235
+      },
+      {
+        "expression": "small capsule-shaped hard candy, with \"tac\"",
+        "guess": "Tic Tac",
+        "success": false,
+        "timestamp": 1747500970483
+      },
+      {
+        "expression": "small capsule-shaped hard candy, with \"tac\"",
+        "guess": "tic tac",
+        "success": false,
+        "timestamp": 1747500973336
+      },
+      {
+        "expression": "small capsule-shaped hard candy, with \"tac\"",
+        "guess": "tic",
+        "success": true,
+        "timestamp": 1747500982513
+      },
+      {
+        "expression": "\\\"___y ___\\\" aka ___ Wahlberg",
+        "guess": "Marky Mark aka Mark",
+        "success": false,
+        "timestamp": 1747500986911
+      },
+      {
+        "expression": "\\\"___y ___\\\" aka ___ Wahlberg",
+        "guess": "Marky Mark aka Mark",
+        "success": false,
+        "timestamp": 1747500991604
+      },
+      {
+        "expression": "\\\"___y ___\\\" aka ___ Wahlberg",
+        "guess": "Marky Mark aka Mark",
+        "success": false,
+        "timestamp": 1747500996507
+      },
+      {
+        "expression": "Reverend Lovejoy: \"see you in ___! *long pause* from heaven!\"",
+        "guess": "hell",
+        "success": true,
+        "timestamp": 1747501003096
+      },
+      {
+        "expression": "informal form of \"hello\"",
+        "guess": "hi",
+        "success": true,
+        "timestamp": 1747501014259
+      },
+      {
+        "expression": "\\\"___y ___\\\" aka ___ Wahlberg",
+        "guess": "Marky Mark aka Mark",
+        "success": false,
+        "timestamp": 1747501018892
+      },
+      {
+        "expression": "Marky Mark aka Mark Wahlberg",
+        "guess": "Marky Mark aka Mark Wahlberg",
+        "success": false,
+        "timestamp": 1747501028837
+      },
+      {
+        "expression": "\\\"___y ___\\\" aka ___ Wahlberg",
+        "guess": "Marky Mark aka Mark",
+        "success": false,
+        "timestamp": 1747501034530
+      },
+      {
+        "expression": "\\\"___y ___\\\" aka ___ Wahlberg",
+        "guess": "Marky Mark aka Mark",
+        "success": false,
+        "timestamp": 1747501044276
+      },
+      {
+        "expression": "\\\"___y ___\\\" aka ___ Wahlberg",
+        "guess": "Marky Mark aka Mark",
+        "success": false,
+        "timestamp": 1747501054894
+      },
+      {
+        "expression": "a sharply critical re[\"___y ___\" aka ___ Wahlberg] (emphasis on \"sharp\")",
+        "guess": "critique",
+        "success": false,
+        "timestamp": 1747501078179
+      },
+      {
+        "expression": "\"___y ___\" aka ___ Wahlberg",
+        "guess": "Marky Mark aka Mark",
+        "success": false,
+        "timestamp": 1747501095868
+      },
+      {
+        "expression": "\\\"___y ___\\\" aka ___ Wahlberg",
+        "guess": "Marky Mark aka Mark",
+        "success": false,
+        "timestamp": 1747501100371
+      },
+      {
+        "expression": "\\\"___y ___\\\" aka ___ Wahlberg",
+        "guess": "Marky Mark aka Mark",
+        "success": false,
+        "timestamp": 1747501113830
+      },
+      {
+        "expression": "a sharply critical re[\"___y ___\" aka ___ Wahlberg] (emphasis on \"sharp\")",
+        "guess": "critique",
+        "success": false,
+        "timestamp": 1747501118852
+      },
+      {
+        "expression": "[a sharply critical re[\"___y ___\" aka ___ Wahlberg] (emphasis on \"sharp\")]ie's romantic associate",
+        "guess": "critic",
+        "success": false,
+        "timestamp": 1747501126105
+      },
+      {
+        "expression": "[a sharply critical re[\"___y ___\" aka ___ Wahlberg] (emphasis on \"sharp\")]ie's romantic associate",
+        "guess": "critic",
+        "success": false,
+        "timestamp": 1747501141426
+      },
+      {
+        "expression": "[a sharply critical re[\"___y ___\" aka ___ Wahlberg] (emphasis on \"sharp\")]ie's romantic associate",
+        "guess": "critic",
+        "success": false,
+        "timestamp": 1747501149312
+      },
+      {
+        "expression": "[a sharply critical re[\\\"___y ___\\\" aka ___ Wahlberg] (emphasis on \\\"sharp\\\")]ie's romantic associate",
+        "guess": "critic",
+        "success": false,
+        "timestamp": 1747501156846
+      },
+      {
+        "expression": "\\\"___y ___\\\" aka ___ Wahlberg",
+        "guess": "Marky Mark aka Mark",
+        "success": false,
+        "timestamp": 1747501163232
+      }
+    ],
+    "finalText": "I see I'm having trouble identifying the exact structure of the innermost clue. Let me try again carefully with the correct formatting:",
+    "timeToSolve": 287.996
+  }
+}

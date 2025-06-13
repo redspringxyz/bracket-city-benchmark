@@ -1,0 +1,26 @@
+{
+  "completionText": "January 31, 1990:",
+  "puzzleDate": "2025-01-31",
+  "completionURL": "https://www.youtube.com/watch?v=ckbfS99N6jY",
+  "solutions": {
+    "the B in BC": "before",
+    "tool oft confused with a scythe": "sickle",
+    "sickle's companion on a red flag": "Hammer",
+    "misleading herring": "red",
+    "Cuban or Twain": "mark",
+    "Havana native": "Cuban",
+    "\"it fits like a ___\"": "Glove",
+    "the grim reaper's reaper": "scythe",
+    "performs before the main act": "opens",
+    "not looking great": "grim",
+    "like a question that suggests an answer": "leading",
+    "Hammer or Escher": "Mc",
+    "the U in ACLU": "Union",
+    "mark that can be inverted in Spanish": "question",
+    "Trump or Glover": "Donald",
+    "___ tear (bad news for an athlete)": "ACL",
+    "like some manners or moods": "bad"
+  },
+  "initialPuzzle": "the first [[[tool oft confused with a [the [not looking great] reaper's reaper]]'s companion on a [mis[like a [[[Havana native] or Twain] that can be inverted in Spanish] that suggests an answer] herring] flag] or Escher][Trump or [\\\"it fits like a ___\\\"]r]'s [performs [the B in BC] the main act] in the Soviet [the U in [___ tear ([like some manners or moods] news for an athlete)]U]",
+  "puzzleSolution": "the first McDonald's opens in the Soviet Union"
+}

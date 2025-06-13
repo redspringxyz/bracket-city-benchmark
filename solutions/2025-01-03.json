@@ -1,0 +1,24 @@
+{
+  "completionText": "January 3, 1521:",
+  "puzzleDate": "2025-01-03",
+  "completionURL": "https://www.nls.uk/exhibitions/the-reformation/1521-papal-bull/",
+  "solutions": {
+    "the bishop of Rome": "Pope",
+    "summer zodiac sign": "Leo",
+    "formerly Twitter": "X",
+    "capital of Mississippi": "Jackson",
+    "Lawrence who starred in \"Bad Boys\"": "Martin",
+    "Not a W": "L",
+    "\"___ of Arabia\"": "Lawrence",
+    "not a fighter": "lover",
+    "The L in MLK": "Luther",
+    "piece that only moves diagonally in chess": "bishop",
+    "the only polysyllabic letter in english": "W",
+    "monosyllabic Michael Jackson album": "Bad",
+    "former lover, briefly": "ex",
+    "411 by another name": "information",
+    "conveyed information": "communicated"
+  },
+  "initialPuzzle": "[[\\\"___ of Arabia\\\"] who starred in \\\"[monosyllabic Michael [capital of Mississippi] album] Boys\\\"] [The [Not a [the only polysyllabic letter in english]] in MLK] [former [not a fighter], briefly][conveyed [411 by another name]] by [the [piece that only moves diagonally in chess] of Rome] [summer zodiac sign] [formerly Twitter]",
+  "puzzleSolution": "Martin Luther excommunicated by Pope Leo X"
+}

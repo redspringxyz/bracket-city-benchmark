@@ -1,0 +1,178 @@
+{
+  "timestamp": "2025-05-17T16:58:15.395Z",
+  "model": {
+    "name": "gemini-2.5-flash-preview-04-17",
+    "provider": "google.generative-ai"
+  },
+  "puzzle": {
+    "completionText": "May 5, 1921:",
+    "puzzleDate": "2025-05-05",
+    "completionURL": "https://www.youtube.com/watch?v=r6AtDQZ8K28",
+    "solutions": {
+      "service concerned with protecting politicians (and counterfeiting!)": "secret",
+      "response indicated when you keep your shoulders still and rotate your head smoothly side to side, turning your chin about 15 to 30 degrees in each direction": "No",
+      "💩 sample": "stool",
+      "place to sit with stools": "counter",
+      "\"___ the sea!\" sings the delightful cartoon crab": "under",
+      "like cologne but a lot stronger": "Perfume",
+      "word after hermit or before cake 🦀": "crab",
+      "back___ (accumulation of undone work)": "log",
+      "Blanchett whose first name has an uncommon start": "cate",
+      "\"a__!\" you say gleefully having located the missing Mint Milano": "ha",
+      "body part you are often urged to use after having made a mental blunder": "head",
+      "__tied (dangerous state for shoelaces I'm told)": "un",
+      "sillier-sounding word for a recluse": "hermit",
+      "something often kept secret by expecting parents, lest they get pressured out of \"Bort\"": "name"
+    },
+    "initialPuzzle": "[like co[back___ (accumulation of [__tied (dangerous state for shoelaces I'm told)]done work)]ne but a lot stronger] C[\"a__!\" you say gleefully having lo[Blanchett whose first [something often kept [service concerned with protecting politicians (and [place to sit with [💩 sample]s]feiting!)] by expecting parents, lest they get pressured out of \"Bort\"] has an uncommon start]d the missing Mint Milano]nel [response indicated when you keep your shoulders still and rotate your [body part you are often urged to use after having made a mental bl[\"___ the sea!\" sings the delightful cartoon [word after [sillier-sounding word for a recluse] or before cake 🦀]]] smoothly side to side, turning your chin about 15 to 30 degrees in each direction]. 5 is released",
+    "puzzleSolution": "Perfume Chanel No. 5 is released"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 19,
+      "correctGuesses": 8,
+      "totalClues": 14,
+      "hints": 2,
+      "reveals": 0,
+      "stepsTaken": 22,
+      "completionPercentage": 57.14285714285714
+    },
+    "usage": {
+      "promptTokens": 69218,
+      "completionTokens": null,
+      "totalTokens": null
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 10,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 22,
+      "totalPenalty": 32,
+      "finalScore": 0,
+      "rank": "Mayor",
+      "nextRankName": "Power Broker",
+      "pointsToNextRank": 11
+    },
+    "modelGuesses": [
+      {
+        "expression": "💩 sample",
+        "guess": "stool",
+        "success": true,
+        "timestamp": 1747500811516
+      },
+      {
+        "expression": "__tied (dangerous state for shoelaces I'm told)",
+        "guess": "un",
+        "success": true,
+        "timestamp": 1747500813412
+      },
+      {
+        "expression": "back___ (accumulation of undone work)",
+        "guess": "backlog",
+        "success": false,
+        "timestamp": 1747500817305
+      },
+      {
+        "expression": "place to sit with stools",
+        "guess": "bar",
+        "success": false,
+        "timestamp": 1747500820626
+      },
+      {
+        "expression": "sillier-sounding word for a recluse",
+        "guess": "hermit",
+        "success": true,
+        "timestamp": 1747500822490
+      },
+      {
+        "expression": "word after hermit or before cake 🦀",
+        "guess": "crab",
+        "success": true,
+        "timestamp": 1747500824323
+      },
+      {
+        "expression": "___ the sea!\" sings the delightful cartoon crab",
+        "guess": "Under",
+        "success": true,
+        "timestamp": 1747500826923
+      },
+      {
+        "expression": "body part you are often urged to use after having made a mental blunder",
+        "guess": "head",
+        "success": true,
+        "timestamp": 1747500829769
+      },
+      {
+        "expression": "response indicated when you keep your shoulders still and rotate your head smoothly side to side, turning your chin about 15 to 30 degrees in each direction",
+        "guess": "nope",
+        "success": false,
+        "timestamp": 1747500834048
+      },
+      {
+        "expression": "place to sit with stools",
+        "guess": "counter",
+        "success": true,
+        "timestamp": 1747500838167
+      },
+      {
+        "expression": "back___ (accumulation of undone work)",
+        "guess": "backpay",
+        "success": false,
+        "timestamp": 1747500839763
+      },
+      {
+        "expression": "service concerned with protecting politicians (and counterfeiting!)",
+        "guess": "Secret Service",
+        "success": false,
+        "timestamp": 1747500842462
+      },
+      {
+        "expression": "something often kept by expecting parents, lest they get pressured out of \"Bort\"",
+        "guess": "baby name",
+        "success": false,
+        "timestamp": 1747500844876
+      },
+      {
+        "expression": "response indicated when you keep your shoulders still and rotate your head smoothly side to side, turning your chin about 15 to 30 degrees in each direction",
+        "guess": "no",
+        "success": true,
+        "timestamp": 1747500847409
+      },
+      {
+        "expression": "back___ (accumulation of undone work)",
+        "guess": "backlog",
+        "success": false,
+        "timestamp": 1747500851684
+      },
+      {
+        "expression": "back___ (accumulation of undone work)",
+        "guess": "backload",
+        "success": false,
+        "timestamp": 1747500856067
+      },
+      {
+        "expression": "service concerned with protecting politicians (and counterfeiting!)",
+        "guess": "Treasury",
+        "success": false,
+        "timestamp": 1747500858229
+      },
+      {
+        "expression": "service concerned with protecting politicians (and counterfeiting!)",
+        "guess": "Secret Service",
+        "success": false,
+        "timestamp": 1747500861287
+      },
+      {
+        "expression": "service concerned with protecting politicians (and counterfeiting!)",
+        "guess": "Secret Service",
+        "success": false,
+        "timestamp": 1747500865088
+      }
+    ],
+    "finalText": "",
+    "timeToSolve": 286.059
+  }
+}

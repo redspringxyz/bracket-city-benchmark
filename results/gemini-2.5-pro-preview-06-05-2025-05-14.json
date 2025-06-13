@@ -1,0 +1,180 @@
+{
+  "timestamp": "2025-06-07T12:38:13.427Z",
+  "model": {
+    "name": "gemini-2.5-pro-preview-06-05",
+    "provider": "google.generative-ai"
+  },
+  "puzzle": {
+    "completionText": "May 14, 1973:",
+    "puzzleDate": "2025-05-14",
+    "completionURL": "https://www.youtube.com/watch?v=NsW86kNLu1k",
+    "solutions": {
+      "\"___ your eyes and make a wish\"": "close",
+      "something you might clear before speaking": "throat",
+      "\"read the fine ___\"": "print",
+      "___-me-down": "hand",
+      "race that ended on the moon, in a sense": "space",
+      "note many prefer to end on": "high",
+      "handheld glowing object at a rave": "stick",
+      "bad guy ➡️ \"take him ___\" *drags finger across throat*": "out",
+      "one might ring after a concert": "ear",
+      "finger named for its adornment": "ring",
+      "___ball (offer that might provoke outrage)": "low",
+      "word after sticky or ransom": "note",
+      "digit with a print and a nail": "finger",
+      "\"___ cut\" (not a close call)": "clear",
+      "high kind of dive (from a ✈️)": "Sky",
+      "type of walking where you glide backward while appearing to walk forward": "moon"
+    },
+    "initialPuzzle": "[[[word after [[___-me-down]held g[___ball (offer that might provoke [bad guy ➡️ \"take him ___\" *drags finger across [something you might [\"___ cut\" (not a [\"___ your eyes and make a wish\"] call)] before speaking]*]rage)]ing object at a rave]y or ransom] many prefer to end on] kind of dive (from a ✈️)]lab [race that ended on the [type of walking where you glide backward while app[one might [[digit with a [\"read the fine ___\"] and a nail] named for its adornment] after a concert]ing to walk forward], in a sense] station launches",
+    "puzzleSolution": "Skylab space station launches"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 19,
+      "correctGuesses": 13,
+      "totalClues": 16,
+      "hints": 5,
+      "reveals": 3,
+      "stepsTaken": 28,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 102522,
+      "completionTokens": 1928,
+      "totalTokens": 104450
+    },
+    "score": 23,
+    "rank": "Resident",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 20,
+      "megaPeekPenalty": 45,
+      "wrongGuessPenalty": 12,
+      "totalPenalty": 77,
+      "finalScore": 23,
+      "rank": "Resident",
+      "nextRankName": "Council Member",
+      "pointsToNextRank": 8
+    },
+    "modelGuesses": [
+      {
+        "expression": "___ your eyes and make a wish",
+        "guess": "close",
+        "success": true,
+        "timestamp": 1749298303301
+      },
+      {
+        "expression": "\"___ cut\" (not a close call)",
+        "guess": "clear",
+        "success": true,
+        "timestamp": 1749298436286
+      },
+      {
+        "expression": "something you might clear before speaking",
+        "guess": "throat",
+        "success": true,
+        "timestamp": 1749298511429
+      },
+      {
+        "expression": "bad guy ➡️ \"take him ___\" *drags finger across throat*",
+        "guess": "out",
+        "success": true,
+        "timestamp": 1749298573970
+      },
+      {
+        "expression": "___ball (offer that might provoke outrage)",
+        "guess": "low",
+        "success": true,
+        "timestamp": 1749298667621
+      },
+      {
+        "expression": "\"read the fine ___\"",
+        "guess": "print",
+        "success": true,
+        "timestamp": 1749298739482
+      },
+      {
+        "expression": "___-me-down",
+        "guess": "hand",
+        "success": true,
+        "timestamp": 1749298812222
+      },
+      {
+        "expression": "digit with a print and a nail",
+        "guess": "thumb",
+        "success": false,
+        "timestamp": 1749298902203
+      },
+      {
+        "expression": "digit with a print and a nail",
+        "guess": "ring",
+        "success": false,
+        "timestamp": 1749298970628
+      },
+      {
+        "expression": "handheld glowing object at a rave",
+        "guess": "glowstick",
+        "success": false,
+        "timestamp": 1749299047814
+      },
+      {
+        "expression": "handheld glowing object at a rave",
+        "guess": "strobe",
+        "success": false,
+        "timestamp": 1749299188405
+      },
+      {
+        "expression": "digit with a print and a nail",
+        "guess": "finger",
+        "success": true,
+        "timestamp": 1749299464013
+      },
+      {
+        "expression": "finger named for its adornment",
+        "guess": "ring",
+        "success": true,
+        "timestamp": 1749299497894
+      },
+      {
+        "expression": "one might ring after a concert",
+        "guess": "ears",
+        "success": false,
+        "timestamp": 1749299556346
+      },
+      {
+        "expression": "type of walking where you glide backward while appearing to walk forward",
+        "guess": "moonwalk",
+        "success": false,
+        "timestamp": 1749299713508
+      },
+      {
+        "expression": "word after sticky or ransom",
+        "guess": "note",
+        "success": true,
+        "timestamp": 1749299816217
+      },
+      {
+        "expression": "note many prefer to end on",
+        "guess": "high",
+        "success": true,
+        "timestamp": 1749299827898
+      },
+      {
+        "expression": "high kind of dive (from a ✈️)",
+        "guess": "sky",
+        "success": true,
+        "timestamp": 1749299834237
+      },
+      {
+        "expression": "race that ended on the moon, in a sense",
+        "guess": "space",
+        "success": true,
+        "timestamp": 1749299855844
+      }
+    ],
+    "finalText": "Skylab space station launches",
+    "timeToSolve": 1595.579
+  }
+}

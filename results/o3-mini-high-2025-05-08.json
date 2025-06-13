@@ -1,0 +1,204 @@
+{
+  "timestamp": "2025-05-22T21:10:45.428Z",
+  "model": {
+    "name": "o3-mini-high",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "May 8, 1950:",
+    "puzzleDate": "2025-05-08",
+    "completionURL": "https://www.youtube.com/watch?v=03AB2sIMRnU",
+    "solutions": {
+      "the A in MoMA": "art",
+      "syllable for hecklers at a performance": "boo",
+      "\"___ my dust!\" you say as you attempt a burnout on your Segway": "eat",
+      "entry in a book for a sorcerer": "spell",
+      "dog tail motion": "wag",
+      "a reprobate might not be welcome in \"___ society\"": "polite",
+      "bunny that fears the vacuum": "dust",
+      "kind of sickness induced by 🚗, 🚢, or ✈️, maybe": "motion",
+      "\"Don't have a ___, man!\" says Bart Simpson following his antics": "cow",
+      "something you (used to) pay someone in a booth on a highway": "Toll",
+      "Bugs might be the most famous one": "bunny",
+      "a smooth transition from one part of a performance to another": "segue",
+      "common misspelling of \"segue\"": "Segway",
+      "more polite name for a fiery abyss of despair": "heck",
+      "kind of wagon that greets newcomers": "welcome",
+      "onomatopoeic cow sound": "moo"
+    },
+    "initialPuzzle": "the [something you (used to) pay someone in a [syllable for [more [a reprobate might not be [kind of [dog tail [kind of sickness induced by 🚗, 🚢, or ✈️, maybe]]on that greets newcomers] in \"___ society\"] name for a fiery abyss of despair]lers at a performance]th on a highway]und Man is discovered in a p[\"___ my [[Bugs might be the most famous one] that fears the vacuum]!\" you say as you attempt a burnout on your [common mis[entry in a book for a sorcerer]ing of \"[a s[onomatopoeic [\"Don't have a ___, man!\" says B[the A in MoMA] Simpson following his antics] sound]th transition from one part of a performance to another]\"]] bog in Denmark",
+    "puzzleSolution": "the Tollund Man is discovered in a peat bog in Denmark"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 23,
+      "correctGuesses": 14,
+      "totalClues": 16,
+      "hints": 3,
+      "reveals": 2,
+      "stepsTaken": 29,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 106345,
+      "completionTokens": 164077,
+      "totalTokens": 270422
+    },
+    "score": 37,
+    "rank": "Council Member",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 15,
+      "megaPeekPenalty": 30,
+      "wrongGuessPenalty": 18,
+      "totalPenalty": 63,
+      "finalScore": 37,
+      "rank": "Council Member",
+      "nextRankName": "Chief of Police",
+      "pointsToNextRank": 14
+    },
+    "modelGuesses": [
+      {
+        "expression": "kind of sickness induced by 🚗, 🚢, or ✈️, maybe",
+        "guess": "motion sickness",
+        "success": false,
+        "timestamp": 1747947029593
+      },
+      {
+        "expression": "kind of sickness induced by 🚗, 🚢, or ✈️, maybe",
+        "guess": "kinetosis",
+        "success": false,
+        "timestamp": 1747947064128
+      },
+      {
+        "expression": "kind of sickness induced by 🚗, 🚢, or ✈️, maybe",
+        "guess": "travel sickness",
+        "success": false,
+        "timestamp": 1747947091567
+      },
+      {
+        "expression": "the A in MoMA",
+        "guess": "art",
+        "success": true,
+        "timestamp": 1747947108159
+      },
+      {
+        "expression": "kind of sickness induced by 🚗, 🚢, or ✈️, maybe",
+        "guess": "malaise",
+        "success": false,
+        "timestamp": 1747947175401
+      },
+      {
+        "expression": "\"Don't have a ___, man!\" says Bart Simpson following his antics",
+        "guess": "cow",
+        "success": true,
+        "timestamp": 1747947237542
+      },
+      {
+        "expression": "Bugs might be the most famous one",
+        "guess": "bunny",
+        "success": true,
+        "timestamp": 1747947279421
+      },
+      {
+        "expression": "entry in a book for a sorcerer",
+        "guess": "spell",
+        "success": true,
+        "timestamp": 1747947349023
+      },
+      {
+        "expression": "onomatopoeic cow sound",
+        "guess": "moo",
+        "success": true,
+        "timestamp": 1747947381111
+      },
+      {
+        "expression": "kind of motion on that greets newcomers",
+        "guess": "wave",
+        "success": false,
+        "timestamp": 1747947429974
+      },
+      {
+        "expression": "a smooth transition from one part of a performance to another",
+        "guess": "segue",
+        "success": true,
+        "timestamp": 1747947477009
+      },
+      {
+        "expression": "dog tail motion",
+        "guess": "wag",
+        "success": true,
+        "timestamp": 1747947594856
+      },
+      {
+        "expression": "something you (used to) pay someone",
+        "guess": "tip",
+        "success": false,
+        "timestamp": 1747947681544
+      },
+      {
+        "expression": "kind of wagon that greets newcomers",
+        "guess": "welcome wagon",
+        "success": false,
+        "timestamp": 1747947736110
+      },
+      {
+        "expression": "kind of wagon that greets newcomers",
+        "guess": "welcome",
+        "success": true,
+        "timestamp": 1747947803413
+      },
+      {
+        "expression": "common misspelling of \"segue\"",
+        "guess": "segway",
+        "success": true,
+        "timestamp": 1747947844534
+      },
+      {
+        "expression": "a reprobate might not be welcome in \"___ society\"",
+        "guess": "polite",
+        "success": true,
+        "timestamp": 1747947879123
+      },
+      {
+        "expression": "more polite name for a fiery abyss of despair",
+        "guess": "heck",
+        "success": true,
+        "timestamp": 1747947944650
+      },
+      {
+        "expression": "syllable for hecklers at a performance",
+        "guess": "boo",
+        "success": true,
+        "timestamp": 1747948038698
+      },
+      {
+        "expression": "something you (used to) pay someone in a booth on a highway",
+        "guess": "toll",
+        "success": true,
+        "timestamp": 1747948065741
+      },
+      {
+        "expression": "\"___ my bunny!\" you say as you attempt a burnout on your Segway",
+        "guess": "peat",
+        "success": false,
+        "timestamp": 1747948107285
+      },
+      {
+        "expression": "bunny that fears the vacuum",
+        "guess": "dust bunny",
+        "success": false,
+        "timestamp": 1747948135725
+      },
+      {
+        "expression": "\"___ my dust!\" you say as you attempt a burnout on your Segway",
+        "guess": "eat",
+        "success": true,
+        "timestamp": 1747948222207
+      }
+    ],
+    "finalText": "The Tollund Man is discovered in a peat bog in Denmark.",
+    "timeToSolve": 1241.12
+  }
+}

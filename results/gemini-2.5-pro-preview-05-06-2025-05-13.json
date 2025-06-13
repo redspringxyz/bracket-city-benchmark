@@ -1,0 +1,192 @@
+{
+  "timestamp": "2025-05-17T16:51:51.013Z",
+  "model": {
+    "name": "gemini-2.5-pro-preview-05-06",
+    "provider": "google.generative-ai"
+  },
+  "puzzle": {
+    "completionText": "May 13, 1861:",
+    "puzzleDate": "2025-05-13",
+    "completionURL": "https://www.smh.com.au/national/nsw/from-the-archives-john-tebbutt-discovers-the-great-comet-of-1861-20190509-p51lnj.html",
+    "solutions": {
+      "syllable following \"cocka\" and \"doodle\"": "doo",
+      "\"___ willy\" (horrible cousin of a noogie or a wedgie 👂)": "Wet",
+      "\"___ on down!\" is the last thing you remember hearing before winning a dishwasher": "Come",
+      "word for a gas + electric car": "hybrid",
+      "suffix you might use standalone when someone offers a description that is pretty close": "ish",
+      "material pulled over some eyes": "wool",
+      "\"___ Theft Auto\"": "grand",
+      "suffix that indicates a hybrid dog breed 🐩": "doodle",
+      "woolly animal herded with a crook": "sheep",
+      "word on a door that opens toward you": "pull",
+      "crenellated turret of chess": "rook",
+      "identity ___ (sinister use for a social security number)": "Theft",
+      "___ laughing matter (serious)": "no",
+      "game with grandmasters": "chess",
+      "\"Home ___\" (1990 movie featuring the Wet Bandits)": "alone",
+      "better than never, it is said": "late"
+    },
+    "initialPuzzle": "[[material [word on a [syllable following \"cocka\" and \"[suffix that indicates a [word for a gas + electric car] dog breed 🐩]\"]r that opens toward you]ed over some eyes]ly animal herded with a c[crenel[better than never, it is said]d turret of [game with [\"___ [identity ___ (sinister use for a social security number)] Auto\"]masters]]] farmer discovers the Great [\"___ on down!\" is the last thing you remember hearing before winning a d[suffix you might use stand[\"Home ___\" (1990 movie featuring the [\"___ willy\" (horrible cousin of a [___ laughing matter (serious)]ogie or a wedgie 👂)] Bandits)] when someone offers a description that is pretty close]washer]t of 1861",
+    "puzzleSolution": "sheep farmer discovers the Great Comet of 1861"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 21,
+      "correctGuesses": 12,
+      "totalClues": 16,
+      "hints": 1,
+      "reveals": 0,
+      "stepsTaken": 38,
+      "completionPercentage": 75
+    },
+    "usage": {
+      "promptTokens": 226994,
+      "completionTokens": 3743,
+      "totalTokens": 230737
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 18,
+      "totalPenalty": 23,
+      "finalScore": 0,
+      "rank": "Mayor",
+      "nextRankName": "Power Broker",
+      "pointsToNextRank": 2
+    },
+    "modelGuesses": [
+      {
+        "expression": "word for a gas + electric car",
+        "guess": "hybrid",
+        "success": true,
+        "timestamp": 1747500636528
+      },
+      {
+        "expression": "suffix that indicates a hybrid dog breed 🐩",
+        "guess": "oodle",
+        "success": false,
+        "timestamp": 1747500638381
+      },
+      {
+        "expression": "suffix that indicates a hybrid dog breed 🐩",
+        "guess": "poo",
+        "success": false,
+        "timestamp": 1747500640320
+      },
+      {
+        "expression": "suffix that indicates a hybrid dog breed 🐩",
+        "guess": "doodle",
+        "success": true,
+        "timestamp": 1747500643032
+      },
+      {
+        "expression": "syllable following \"cocka\" and \"doodle\"",
+        "guess": "doo",
+        "success": true,
+        "timestamp": 1747500644884
+      },
+      {
+        "expression": "better than never, it is said",
+        "guess": "late",
+        "success": true,
+        "timestamp": 1747500646772
+      },
+      {
+        "expression": "identity ___ (sinister use for a social security number)",
+        "guess": "theft",
+        "success": true,
+        "timestamp": 1747500648538
+      },
+      {
+        "expression": "___ laughing matter (serious)",
+        "guess": "no",
+        "success": true,
+        "timestamp": 1747500650054
+      },
+      {
+        "expression": "word on a door that opens toward you",
+        "guess": "pull",
+        "success": true,
+        "timestamp": 1747500651875
+      },
+      {
+        "expression": "___ Theft Auto",
+        "guess": "Grand",
+        "success": true,
+        "timestamp": 1747500653768
+      },
+      {
+        "expression": "___ willy\" (horrible cousin of a noogie or a wedgie 👂)",
+        "guess": "atomic",
+        "success": false,
+        "timestamp": 1747500655839
+      },
+      {
+        "expression": "___ willy",
+        "guess": "atomic",
+        "success": false,
+        "timestamp": 1747500657362
+      },
+      {
+        "expression": "material pulled over some eyes",
+        "guess": "wool",
+        "success": true,
+        "timestamp": 1747500667437
+      },
+      {
+        "expression": "game with grandmasters",
+        "guess": "chess",
+        "success": true,
+        "timestamp": 1747500669031
+      },
+      {
+        "expression": "___ willy",
+        "guess": "atomic",
+        "success": false,
+        "timestamp": 1747500670924
+      },
+      {
+        "expression": "crenellated turret of chess",
+        "guess": "rook",
+        "success": true,
+        "timestamp": 1747500672597
+      },
+      {
+        "expression": "___ willy",
+        "guess": "atomic",
+        "success": false,
+        "timestamp": 1747500674436
+      },
+      {
+        "expression": "woolly animal herded with a crook",
+        "guess": "sheep",
+        "success": true,
+        "timestamp": 1747500676440
+      },
+      {
+        "expression": "___ willy",
+        "guess": "atomic",
+        "success": false,
+        "timestamp": 1747500677968
+      },
+      {
+        "expression": "___ willy",
+        "guess": "atomic",
+        "success": false,
+        "timestamp": 1747500679782
+      },
+      {
+        "expression": "___ willy",
+        "guess": "atomic",
+        "success": false,
+        "timestamp": 1747500698886
+      }
+    ],
+    "finalText": "I am unable to solve the puzzle as I cannot identify the active innermost clue. I have tried various portions of the remaining bracketed text, and the system consistently tells me \"No active bracketed clue found\".",
+    "timeToSolve": 81.67
+  }
+}

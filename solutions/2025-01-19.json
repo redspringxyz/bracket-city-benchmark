@@ -1,0 +1,29 @@
+{
+  "completionText": "January 19, 2004:",
+  "puzzleDate": "2025-01-19",
+  "completionURL": "https://en.wikipedia.org/wiki/Dean_scream",
+  "solutions": {
+    "iconic radio personality Stern": "Howard",
+    "become fatigued": "tire",
+    "\"who, me?\"": "Moi",
+    "Des Moines is its capital": "Iowa",
+    "serious or strict, as a disciplinarian": "Stern",
+    "word after drag or drama": "queen",
+    "reminder of an old wound": "Scar",
+    "org named with Greek letters": "frat",
+    "famous old baby Benjamin": "button",
+    "Jafar or Scar, e.g.": "villain",
+    "one could help you change a tire": "jack",
+    "insult: \"you've got a face for ___\"": "radio",
+    "card type for king, queen, or jack": "face",
+    "Burger ___": "king",
+    "like Socrates or Pythagoras": "Greek",
+    "100 dollar bill, familiarly": "Benjamin",
+    "archetypal villain in frat comedy movies": "Dean",
+    "a puff on a cigarette": "drag",
+    "you might find one in a nose or belly button": "piercing",
+    "piercing cries": "screams"
+  },
+  "initialPuzzle": "[iconic [insult: \\\"you've got a [card type for [Burger ___], [word after [a puff on a cigarette] or drama], or [one could help you change a [become fatigued]]] for ___\\\"] personality [serious or strict, as a disciplinarian]] [archetypal [Jafar or [reminder of an old wound], e.g.] in [org named with [like Socrates or Pythagoras] letters] comedy movies] [[you might find one in a nose or belly [famous old baby [100 dollar bill, familiarly]]] cries] in [Des [\\\"who, me?\\\"]nes is its capital]",
+  "puzzleSolution": "Howard Dean screams in Iowa"
+}

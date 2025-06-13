@@ -1,0 +1,23 @@
+{
+  "completionText": "February 3, 1971:",
+  "puzzleDate": "2025-02-03",
+  "completionURL": "https://en.wikipedia.org/wiki/Frank_Serpico",
+  "solutions": {
+    "a high one is a common celebration": "Five",
+    "\"cool\" letter drawn in many notebooks using fourteen lines": "S",
+    "snapshot, for short": "pic",
+    "roundest letter": "o",
+    "when it's thick you aren't too sensitive": "skin",
+    "onlooker's exclamation following an insult: \"oh ___!\"": "snap",
+    "\"let me be ___\"": "Frank",
+    "kind of talk you make": "small",
+    "burrowing animal associated with espionage": "Mole",
+    "totally busted or a small glass": "shot",
+    "like some hopes or heels": "high",
+    "point sometimes called a bang": "exclamation",
+    "some wish to go out with one": "bang",
+    "Moleskine and Five Star products": "notebooks"
+  },
+  "initialPuzzle": "[\"let me be ___\"] [\"cool\" letter drawn in many [[burrowing animal associated with espionage][when it's thick you aren't too sensitive]e and [a [like some hopes or heels] one is a common celebration] Star products] using fourteen lines]er[[onlooker's [point sometimes called a [some wish to go out with one]] following an insult: \"oh ___!\"]shot, for short][roundest letter] is [totally busted or a [kind of talk you make] glass] in Brooklyn",
+  "puzzleSolution": "Frank Serpico is shot in Brooklyn"
+}

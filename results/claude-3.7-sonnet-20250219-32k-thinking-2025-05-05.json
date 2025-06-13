@@ -1,0 +1,268 @@
+{
+  "timestamp": "2025-05-17T16:57:48.188Z",
+  "model": {
+    "name": "claude-3.7-sonnet-20250219-32k-thinking",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "May 5, 1921:",
+    "puzzleDate": "2025-05-05",
+    "completionURL": "https://www.youtube.com/watch?v=r6AtDQZ8K28",
+    "solutions": {
+      "service concerned with protecting politicians (and counterfeiting!)": "secret",
+      "response indicated when you keep your shoulders still and rotate your head smoothly side to side, turning your chin about 15 to 30 degrees in each direction": "No",
+      "💩 sample": "stool",
+      "place to sit with stools": "counter",
+      "\"___ the sea!\" sings the delightful cartoon crab": "under",
+      "like cologne but a lot stronger": "Perfume",
+      "word after hermit or before cake 🦀": "crab",
+      "back___ (accumulation of undone work)": "log",
+      "Blanchett whose first name has an uncommon start": "cate",
+      "\"a__!\" you say gleefully having located the missing Mint Milano": "ha",
+      "body part you are often urged to use after having made a mental blunder": "head",
+      "__tied (dangerous state for shoelaces I'm told)": "un",
+      "sillier-sounding word for a recluse": "hermit",
+      "something often kept secret by expecting parents, lest they get pressured out of \"Bort\"": "name"
+    },
+    "initialPuzzle": "[like co[back___ (accumulation of [__tied (dangerous state for shoelaces I'm told)]done work)]ne but a lot stronger] C[\"a__!\" you say gleefully having lo[Blanchett whose first [something often kept [service concerned with protecting politicians (and [place to sit with [💩 sample]s]feiting!)] by expecting parents, lest they get pressured out of \"Bort\"] has an uncommon start]d the missing Mint Milano]nel [response indicated when you keep your shoulders still and rotate your [body part you are often urged to use after having made a mental bl[\"___ the sea!\" sings the delightful cartoon [word after [sillier-sounding word for a recluse] or before cake 🦀]]] smoothly side to side, turning your chin about 15 to 30 degrees in each direction]. 5 is released",
+    "puzzleSolution": "Perfume Chanel No. 5 is released"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 34,
+      "correctGuesses": 12,
+      "totalClues": 14,
+      "hints": 4,
+      "reveals": 2,
+      "stepsTaken": 41,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 295228,
+      "completionTokens": 10805,
+      "totalTokens": 306033
+    },
+    "score": 6,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 20,
+      "megaPeekPenalty": 30,
+      "wrongGuessPenalty": 44,
+      "totalPenalty": 94,
+      "finalScore": 6,
+      "rank": "Tourist",
+      "nextRankName": "Commuter",
+      "pointsToNextRank": 5
+    },
+    "modelGuesses": [
+      {
+        "expression": "💩 sample",
+        "guess": "stool",
+        "success": true,
+        "timestamp": 1747500862474
+      },
+      {
+        "expression": "place to sit with stools",
+        "guess": "bar",
+        "success": false,
+        "timestamp": 1747500868747
+      },
+      {
+        "expression": "place to sit with stools",
+        "guess": "counter",
+        "success": true,
+        "timestamp": 1747500871803
+      },
+      {
+        "expression": "__tied (dangerous state for shoelaces I'm told)",
+        "guess": "untied",
+        "success": false,
+        "timestamp": 1747500878052
+      },
+      {
+        "expression": "__tied (dangerous state for shoelaces I'm told)",
+        "guess": "knotted",
+        "success": false,
+        "timestamp": 1747500882385
+      },
+      {
+        "expression": "__tied (dangerous state for shoelaces I'm told)",
+        "guess": "untied",
+        "success": false,
+        "timestamp": 1747500891339
+      },
+      {
+        "expression": "__tied (dangerous state for shoelaces I'm told)",
+        "guess": "united",
+        "success": false,
+        "timestamp": 1747500894519
+      },
+      {
+        "expression": "sillier-sounding word for a recluse",
+        "guess": "hermit",
+        "success": true,
+        "timestamp": 1747500904188
+      },
+      {
+        "expression": "word after hermit or before cake 🦀",
+        "guess": "crab",
+        "success": true,
+        "timestamp": 1747500908403
+      },
+      {
+        "expression": "service concerned with protecting politicians (and counterfeiting!)",
+        "guess": "Secret Service",
+        "success": false,
+        "timestamp": 1747500911839
+      },
+      {
+        "expression": "service concerned with protecting politicians (and counterfeiting!)",
+        "guess": "secret service",
+        "success": false,
+        "timestamp": 1747500916002
+      },
+      {
+        "expression": "service concerned with protecting politicians (and counterfeiting!)",
+        "guess": "security",
+        "success": false,
+        "timestamp": 1747500924271
+      },
+      {
+        "expression": "service concerned with protecting politicians (and counterfeiting!)",
+        "guess": "secret",
+        "success": true,
+        "timestamp": 1747500926541
+      },
+      {
+        "expression": "\"___ the sea!\" sings the delightful cartoon crab",
+        "guess": "Under",
+        "success": true,
+        "timestamp": 1747500932750
+      },
+      {
+        "expression": "body part you are often urged to use after having made a mental blunder",
+        "guess": "head",
+        "success": true,
+        "timestamp": 1747500936444
+      },
+      {
+        "expression": "back___ (accumulation of undone work)",
+        "guess": "backlog",
+        "success": false,
+        "timestamp": 1747500942123
+      },
+      {
+        "expression": "back___ (accumulation of undone work)",
+        "guess": "backup",
+        "success": false,
+        "timestamp": 1747500946430
+      },
+      {
+        "expression": "back___ (accumulation of undone work)",
+        "guess": "backlog",
+        "success": false,
+        "timestamp": 1747500954135
+      },
+      {
+        "expression": "back___ (accumulation of undone work)",
+        "guess": "backload",
+        "success": false,
+        "timestamp": 1747500959379
+      },
+      {
+        "expression": "back___ (accumulation of undone work)",
+        "guess": "backlog",
+        "success": false,
+        "timestamp": 1747500966273
+      },
+      {
+        "expression": "back___ (accumulation of undone work)",
+        "guess": "log",
+        "success": true,
+        "timestamp": 1747500971639
+      },
+      {
+        "expression": "something often kept secret by expecting parents, lest they get pressured out of \"Bort\"",
+        "guess": "name",
+        "success": true,
+        "timestamp": 1747500993092
+      },
+      {
+        "expression": "Blanchett whose first name has an uncommon start",
+        "guess": "Cate",
+        "success": true,
+        "timestamp": 1747500997625
+      },
+      {
+        "expression": "like cologne but a lot stronger",
+        "guess": "perfume",
+        "success": true,
+        "timestamp": 1747501000973
+      },
+      {
+        "expression": "\"a__!\" you say gleefully having located the missing Mint Milano",
+        "guess": "aha",
+        "success": false,
+        "timestamp": 1747501006793
+      },
+      {
+        "expression": "\"a__!\" you say gleefully having located the missing Mint Milano",
+        "guess": "ahh",
+        "success": false,
+        "timestamp": 1747501011092
+      },
+      {
+        "expression": "\"a__!\" you say gleefully having located the missing Mint Milano",
+        "guess": "aah",
+        "success": false,
+        "timestamp": 1747501015690
+      },
+      {
+        "expression": "\"a__!\" you say gleefully having located the missing Mint Milano",
+        "guess": "ha!",
+        "success": false,
+        "timestamp": 1747501022351
+      },
+      {
+        "expression": "\"a__!\" you say gleefully having located the missing Mint Milano",
+        "guess": "ha!",
+        "success": false,
+        "timestamp": 1747501035092
+      },
+      {
+        "expression": "\"a__!\" you say gleefully having located the missing Mint Milano",
+        "guess": "hah",
+        "success": false,
+        "timestamp": 1747501040886
+      },
+      {
+        "expression": "\"a__!\" you say gleefully having located the missing Mint Milano",
+        "guess": "aha",
+        "success": false,
+        "timestamp": 1747501046147
+      },
+      {
+        "expression": "\"a__!\" you say gleefully having located the missing Mint Milano",
+        "guess": "hot",
+        "success": false,
+        "timestamp": 1747501051525
+      },
+      {
+        "expression": "\"a__!\" you say gleefully having located the missing Mint Milano",
+        "guess": "ahh!",
+        "success": false,
+        "timestamp": 1747501055945
+      },
+      {
+        "expression": "response indicated when you keep your shoulders still and rotate your head smoothly side to side, turning your chin about 15 to 30 degrees in each direction",
+        "guess": "no",
+        "success": true,
+        "timestamp": 1747501065606
+      }
+    ],
+    "finalText": "Perfume Chanel No. 5 is released",
+    "timeToSolve": 216.852
+  }
+}

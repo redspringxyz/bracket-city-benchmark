@@ -1,0 +1,26 @@
+{
+  "completionText": "January 18, 1990:",
+  "puzzleDate": "2025-01-18",
+  "completionURL": "https://en.wikipedia.org/wiki/Marion_Barry",
+  "solutions": {
+    "title for Quimby or Giuliani": "mayor",
+    "poker variant that might leave you cold": "strip",
+    "a sleazy guy, a ___ball": "slime",
+    "flag color that communicates surrender": "White",
+    "strong attachments": "Bonds",
+    "\"oh ___\" 🙄": "brother",
+    "___ dealer": "drug",
+    "creature with a slime trail": "slug",
+    "color to paint the town": "red",
+    "your dad's brother to you": "uncle",
+    "result of making a bee angry": "sting",
+    "say uncle": "surrender",
+    "spelling contest": "bee",
+    "crooner White or slugger Bonds": "Barry",
+    "casino employee at a table": "dealer",
+    "one of many on the vegas strip": "casino",
+    "a jagged red underline might indicate an issue with this": "spelling"
+  },
+  "initialPuzzle": "DC [title for Quimby or Giuliani] Marion [crooner [flag color that communicates [say [your dad's [\\\"oh ___\\\" 🙄] to you]]] or [creature with a [a sleazy guy, a ___ball] trail]ger [strong attachments]] arrested in [___ [[one of many on the vegas [poker variant that might leave you cold]] employee at a table]] enforcement [result of making a [[a jagged [color to paint the town] underline might indicate an issue with this] contest] angry]",
+  "puzzleSolution": "DC mayor Marion Barry arrested in drug enforcement sting"
+}

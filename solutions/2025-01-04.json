@@ -1,0 +1,26 @@
+{
+  "completionText": "January 4, 2001:",
+  "puzzleDate": "2025-01-04",
+  "completionURL": "https://www.thesmokinggun.com/mugshots/celebrity/b-list/vanilla-ice-01",
+  "solutions": {
+    "not sharp": "flat",
+    "Big ___, served with special sauce": "mac",
+    "price label": "tag",
+    "large area of flat land": "plain",
+    "laser emission": "beam",
+    "place with keys": "Florida",
+    "touchless kind of tag": "laser",
+    "solid water": "Ice",
+    "favor, slangly": "solid",
+    "beam or buttress, e.g.": "support",
+    "political support group": "party",
+    "something planes and punches do": "land",
+    "command and control, on a mac": "keys",
+    "fruit drinks found in bowls": "punches",
+    "___ by the foot": "fruit",
+    "party swag": "favor",
+    "plain, maybe": "Vanilla"
+  },
+  "initialPuzzle": "[[large area of [not sharp] [something planes and [[___ by the foot] drinks found in bowls] do]], maybe] [[[[political [[[touchless kind of [price label]] emission] or buttress, e.g.] group] swag], slangly] water] arrested in [place with [command and control, on a [Big ___, served with special sauce]]]",
+  "puzzleSolution": "Vanilla Ice arrested in Florida"
+}

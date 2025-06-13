@@ -1,0 +1,216 @@
+{
+  "timestamp": "2025-05-22T17:49:29.695Z",
+  "model": {
+    "name": "claude-4-sonnet-20250514-32k-thinking",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "May 1, 1941:",
+    "puzzleDate": "2025-05-01",
+    "completionURL": "https://www.youtube.com/watch?v=a6d64DuUTw8",
+    "solutions": {
+      "a senior ___ might be entitled to a discount": "Citizen",
+      "kind of order that's hard to carry out": "tall",
+      "consumer commerce complex": "mall",
+      "\"out of ___\" (disappointing sign to encounter on a vending machine)": "order",
+      "Archduke or Viscount or Assistant Manager": "title",
+      "one of two that you might be told to get up before a fight": "duke",
+      "delectable oft-frosted tart": "pop",
+      "tally the number of items in a group": "count",
+      "something to do on the dotted line": "sign",
+      "word after food or pillow ⚔️": "fight",
+      "_-pop (genre originating in 🇰🇷 with devoted fans)": "K",
+      "word after inferiority or Napoleon": "complex",
+      "court in a mall": "food",
+      "short sleep session": "Nap",
+      "\"do you want to get ___bite?!\" (dire warning from your mom on a cold day)": "frost",
+      "final year of high school": "senior"
+    },
+    "initialPuzzle": "\"[a [final year of high school] ___ might be en[Arch[one of two that you might be told to get up before a [word after [court in a [consumer commerce [word after inferiority or [short sleep session]oleon]]] or pillow ⚔️]] or Vis[[kind of [\"out of ___\" (disappointing [something to do on the dotted line] to encounter on a vending machine)] that's hard to carry out]y the number of items in a group] or Assistant Manager]d to a discount] [_-[delectable oft-[\"do you want to get ___bite?!\" (dire warning from your mom on a cold day)]ed tart] (genre originating in 🇰🇷 with devoted fans)]ane\" premieres at the RKO Palace",
+    "puzzleSolution": "\"Citizen Kane\" premieres at the RKO Palace"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 25,
+      "correctGuesses": 16,
+      "totalClues": 16,
+      "hints": 1,
+      "reveals": 0,
+      "stepsTaken": 27,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 144216,
+      "completionTokens": 16245,
+      "totalTokens": 160461
+    },
+    "score": 77,
+    "rank": "Mayor",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 18,
+      "totalPenalty": 23,
+      "finalScore": 77,
+      "rank": "Mayor",
+      "nextRankName": "Power Broker",
+      "pointsToNextRank": 2
+    },
+    "modelGuesses": [
+      {
+        "expression": "final year of high school",
+        "guess": "senior",
+        "success": true,
+        "timestamp": 1747935895813
+      },
+      {
+        "expression": "short sleep session",
+        "guess": "nap",
+        "success": true,
+        "timestamp": 1747935901944
+      },
+      {
+        "expression": "word after inferiority or Napoleon",
+        "guess": "complex",
+        "success": true,
+        "timestamp": 1747935913580
+      },
+      {
+        "expression": "consumer commerce complex",
+        "guess": "shopping",
+        "success": false,
+        "timestamp": 1747935920177
+      },
+      {
+        "expression": "consumer commerce complex",
+        "guess": "mall",
+        "success": true,
+        "timestamp": 1747935923055
+      },
+      {
+        "expression": "court in a mall",
+        "guess": "food",
+        "success": true,
+        "timestamp": 1747935929817
+      },
+      {
+        "expression": "word after food or pillow ⚔️",
+        "guess": "fight",
+        "success": true,
+        "timestamp": 1747935937346
+      },
+      {
+        "expression": "one of two that you might be told to get up before a fight",
+        "guess": "arms",
+        "success": false,
+        "timestamp": 1747935944162
+      },
+      {
+        "expression": "one of two that you might be told to get up before a fight",
+        "guess": "dukes",
+        "success": false,
+        "timestamp": 1747935949070
+      },
+      {
+        "expression": "one of two that you might be told to get up before a fight",
+        "guess": "hands",
+        "success": false,
+        "timestamp": 1747935957326
+      },
+      {
+        "expression": "one of two that you might be told to get up before a fight",
+        "guess": "fists",
+        "success": false,
+        "timestamp": 1747935966181
+      },
+      {
+        "expression": "one of two that you might be told to get up before a fight",
+        "guess": "dander",
+        "success": false,
+        "timestamp": 1747935979122
+      },
+      {
+        "expression": "one of two that you might be told to get up before a fight",
+        "guess": "double",
+        "success": false,
+        "timestamp": 1747936023950
+      },
+      {
+        "expression": "one of two that you might be told to get up before a fight",
+        "guess": "defense",
+        "success": false,
+        "timestamp": 1747936039201
+      },
+      {
+        "expression": "one of two that you might be told to get up before a fight",
+        "guess": "dawn",
+        "success": false,
+        "timestamp": 1747936062896
+      },
+      {
+        "expression": "something to do on the dotted line",
+        "guess": "sign",
+        "success": true,
+        "timestamp": 1747936078464
+      },
+      {
+        "expression": "\"out of ___\" (disappointing sign to encounter on a vending machine)",
+        "guess": "order",
+        "success": true,
+        "timestamp": 1747936084813
+      },
+      {
+        "expression": "kind of order that's hard to carry out",
+        "guess": "tall",
+        "success": true,
+        "timestamp": 1747936090989
+      },
+      {
+        "expression": "tally the number of items in a group",
+        "guess": "count",
+        "success": true,
+        "timestamp": 1747936097077
+      },
+      {
+        "expression": "\"do you want to get ___bite?!\" (dire warning from your mom on a cold day)",
+        "guess": "frost",
+        "success": true,
+        "timestamp": 1747936105113
+      },
+      {
+        "expression": "delectable oft-frosted tart",
+        "guess": "pop",
+        "success": true,
+        "timestamp": 1747936113066
+      },
+      {
+        "expression": "_-pop (genre originating in 🇰🇷 with devoted fans)",
+        "guess": "K",
+        "success": true,
+        "timestamp": 1747936117928
+      },
+      {
+        "expression": "one of two that you might be told to get up before a fight",
+        "guess": "duke",
+        "success": true,
+        "timestamp": 1747936143470
+      },
+      {
+        "expression": "Archduke or Viscount or Assistant Manager",
+        "guess": "title",
+        "success": true,
+        "timestamp": 1747936149001
+      },
+      {
+        "expression": "a senior ___ might be entitled to a discount",
+        "guess": "citizen",
+        "success": true,
+        "timestamp": 1747936154319
+      }
+    ],
+    "finalText": "\"Citizen Kane\" premieres at the RKO Palace",
+    "timeToSolve": 287.802
+  }
+}

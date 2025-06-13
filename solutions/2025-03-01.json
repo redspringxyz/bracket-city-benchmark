@@ -1,0 +1,24 @@
+{
+  "completionText": "March 1, 1692:",
+  "puzzleDate": "2025-03-01",
+  "completionURL": "https://en.wikipedia.org/wiki/Salem_witch_trials",
+  "solutions": {
+    "number of millions in a billion": "1000",
+    "retail event featuring bargains": "Sale",
+    "school of hard ___": "knocks",
+    "1000 to Caesar": "m",
+    "game ___ (you lost)": "over",
+    "day observed by children where yes means no": "opposite",
+    "this many seconds is about 34.7 years": "billion",
+    "capital of Ecuador": "quito",
+    "back in the ___": "day",
+    "elevator selection": "floor",
+    "kind of point found in many decks": "bullet",
+    "do this to the bullet and get it over with": "bite",
+    "knocks to the floor": "decks",
+    "mosquito bite feeling": "itch",
+    "the opposite of an L": "w"
+  },
+  "initialPuzzle": "[retail event featuring bargains][[number of millions in a [this many seconds is about 34.7 years]] to Caesar] [the [[back in the ___] observed by children where yes means no] of an L][mos[capital of Ecuador] [do this to the [kind of point found in many [[school of hard ___] to the [elevator selection]]] and get it [game ___ (you lost)] with] feeling] trials begin",
+  "puzzleSolution": "Salem witch trials begin"
+}

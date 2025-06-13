@@ -1,0 +1,30 @@
+{
+  "completionText": "January 10, 49 BC:",
+  "puzzleDate": "2025-01-10",
+  "completionURL": "https://education.nationalgeographic.org/resource/caesar-crosses-rubicon/",
+  "solutions": {
+    "rectangular gamepiece with dots called pips": "Domino",
+    "someone in your phone": "contact",
+    "shorter Morse code signals": "dots",
+    "___ a friend": "phone",
+    "pink and white candy \"Good and ___\"": "plenty",
+    "Domino's order": "pizza",
+    "room in a store or a theater": "dressing",
+    "TikTok's looks like a musical note": "icon",
+    "word with leg or rest": "room",
+    "salad dressing often containing anchovies": "Caesar",
+    "you'll find plenty in a church": "crosses",
+    "rank below pope": "cardinal",
+    "contact sites?": "eyes",
+    "\"look out ___!\"": "below",
+    "relaxation's partner": "rest",
+    "something done to shoulders or eyes": "Rub",
+    "anatomical term for a part of a journey": "leg",
+    "cardinal direction associated with a witch": "West",
+    "\"West Side Story\", e.g.": "musical",
+    "emergency stopping lanes": "shoulders",
+    "polarizing pizza toppings": "anchovies"
+  },
+  "initialPuzzle": "Julius [salad [[word with [anatomical term for a part of a journey] or [relaxation's partner]] in a store or a theater] often containing [polarizing [[rectangular gamepiece with [shorter Morse code signals] called pips]'s order] toppings]] [you'll find [pink and white candy \"Good and ___\"] in a church] the [something done to [emergency stopping lanes] or [[someone in your [___ a friend]] sites?]][TikTok's looks like a [\"[[rank [\"look out ___!\"] pope] direction associated with a witch] Side Story\", e.g.] note]",
+  "puzzleSolution": "Julius Caesar crosses the Rubicon"
+}

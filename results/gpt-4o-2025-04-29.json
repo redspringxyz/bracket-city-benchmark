@@ -1,0 +1,192 @@
+{
+  "timestamp": "2025-05-17T17:10:04.483Z",
+  "model": {
+    "name": "gpt-4o",
+    "provider": "openai.chat"
+  },
+  "puzzle": {
+    "completionText": "April 29, 1968:",
+    "puzzleDate": "2025-04-29",
+    "completionURL": "https://www.youtube.com/watch?v=v9EWBdH4JlE",
+    "solutions": {
+      "the G in GPS": "global",
+      "Juan or Quixote": "don",
+      "it can be long, short, curly, straight, etc.": "Hair",
+      "one of two that don't lie for Shakira": "hip",
+      "\"at the ___\" (in control of a ship)": "helm",
+      "noble title for a bug 🐞": "lady",
+      "word before \"position\" or \"house\" or \"-faced sandwich\"": "open",
+      "expert web developer?": "spider",
+      "the third \"w\" in \"www\"": "web",
+      "the fetal one is sometimes assumed by the overwhelmed": "position",
+      "good card to have up your sleeve": "ace",
+      "first lady": "eve",
+      "\"___ up with a good book\"": "curl",
+      "daddy spider's leg length": "long",
+      "two letters at the beginning of two global conflicts": "ww",
+      "letters at the bottom of a letter": "PS"
+    },
+    "initialPuzzle": "\"[it can be [daddy [expert [the third \"w\" in \"[two letters at the beginning of two [the G in G[letters at the bottom of a letter]] conflicts]w\"] developer?]'s leg length], short, [\"___ up with a good book\"]y, straight, etc.]\" [word before \"[the fetal one is sometimes assumed by the overw[\"at the ___\" (in control of a s[one of two that [Juan or Quixote]'t lie for Shakira])]ed]\" or \"house\" or \"-f[good card to have up your sle[first [noble title for a bug 🐞]]]d sandwich\"]s on Broadway",
+    "puzzleSolution": "\"Hair\" opens on Broadway"
+  },
+  "result": {
+    "success": false,
+    "stats": {
+      "guesses": 21,
+      "correctGuesses": 3,
+      "totalClues": 16,
+      "hints": 5,
+      "reveals": 3,
+      "stepsTaken": 50,
+      "completionPercentage": 37.5
+    },
+    "usage": {
+      "promptTokens": 359629,
+      "completionTokens": 3925,
+      "totalTokens": 363554
+    },
+    "score": 0,
+    "rank": "Tourist",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 25,
+      "megaPeekPenalty": 45,
+      "wrongGuessPenalty": 36,
+      "totalPenalty": 106,
+      "finalScore": 0,
+      "rank": "Tourist",
+      "nextRankName": "Commuter",
+      "pointsToNextRank": 11
+    },
+    "modelGuesses": [
+      {
+        "expression": "noble title for a bug 🐞",
+        "guess": "lord",
+        "success": false,
+        "timestamp": 1747501708166
+      },
+      {
+        "expression": "letters at the bottom of a letter",
+        "guess": "P.S.",
+        "success": false,
+        "timestamp": 1747501717820
+      },
+      {
+        "expression": "good card to have up your sle[first lady]",
+        "guess": "ace",
+        "success": false,
+        "timestamp": 1747501721672
+      },
+      {
+        "expression": "the G in GPS",
+        "guess": "global",
+        "success": true,
+        "timestamp": 1747501744424
+      },
+      {
+        "expression": "two letters at the beginning of two global conflicts",
+        "guess": "WW",
+        "success": true,
+        "timestamp": 1747501747872
+      },
+      {
+        "expression": "the third \"w\" in \"www\"",
+        "guess": "w",
+        "success": false,
+        "timestamp": 1747501751689
+      },
+      {
+        "expression": "daddy [expert web developer?]'s leg length",
+        "guess": "long",
+        "success": false,
+        "timestamp": 1747501768191
+      },
+      {
+        "expression": "___ up with a good book",
+        "guess": "curl",
+        "success": true,
+        "timestamp": 1747501769723
+      },
+      {
+        "expression": "the fetal one is sometimes assumed by the overw[\"at the ___\" (in control of a s[one of two that [Juan or Quixote]'t lie for Shakira])]ed",
+        "guess": "position",
+        "success": false,
+        "timestamp": 1747501774477
+      },
+      {
+        "expression": "at the ___",
+        "guess": "helm",
+        "success": false,
+        "timestamp": 1747501777084
+      },
+      {
+        "expression": "one of two that [Juan or Quixote]'t lie for Shakira",
+        "guess": "hips",
+        "success": false,
+        "timestamp": 1747501780349
+      },
+      {
+        "expression": "good card to have up your sle[first lady]",
+        "guess": "ace",
+        "success": false,
+        "timestamp": 1747501781544
+      },
+      {
+        "expression": "daddy [expert web developer?]'s leg length",
+        "guess": "long",
+        "success": false,
+        "timestamp": 1747501783588
+      },
+      {
+        "expression": "the fetal one is sometimes assumed by the overw[\"at the ___\" (in control of a s[one of two that [Juan or Quixote]'t lie for Shakira])]ed",
+        "guess": "position",
+        "success": false,
+        "timestamp": 1747501786489
+      },
+      {
+        "expression": "at the ___",
+        "guess": "helm",
+        "success": false,
+        "timestamp": 1747501789433
+      },
+      {
+        "expression": "one of two that [Juan or Quixote]'t lie for Shakira",
+        "guess": "hips",
+        "success": false,
+        "timestamp": 1747501791245
+      },
+      {
+        "expression": "good card to have up your sle[first lady]",
+        "guess": "ace",
+        "success": false,
+        "timestamp": 1747501793864
+      },
+      {
+        "expression": "daddy [expert web developer?]'s leg length",
+        "guess": "long",
+        "success": false,
+        "timestamp": 1747501795724
+      },
+      {
+        "expression": "the fetal one is sometimes assumed by the overw[\"at the ___\" (in control of a s[one of two that [Juan or Quixote]'t lie for Shakira])]ed",
+        "guess": "position",
+        "success": false,
+        "timestamp": 1747501799539
+      },
+      {
+        "expression": "at the ___",
+        "guess": "helm",
+        "success": false,
+        "timestamp": 1747501802565
+      },
+      {
+        "expression": "one of two that [Juan or Quixote]'t lie for Shakira",
+        "guess": "hips",
+        "success": false,
+        "timestamp": 1747501804480
+      }
+    ],
+    "finalText": "It seems there is an issue with making guesses for this clue. Let's try resolving the clue \"one of two that [Juan or Quixote]'t lie for Shakira\" by making a guess.",
+    "timeToSolve": 101.16
+  }
+}

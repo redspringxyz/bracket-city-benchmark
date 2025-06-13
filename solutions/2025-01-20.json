@@ -1,0 +1,23 @@
+{
+  "completionText": "January 20, 1971: ",
+  "puzzleDate": "2025-01-20",
+  "completionURL": "https://en.wikipedia.org/wiki/1971_United_Kingdom_postal_workers_strike",
+  "solutions": {
+    "to drive fast: to burn ___": "rubber",
+    "flight training machine, for short": "sim",
+    "olive or motor": "oil",
+    "___ ⬅️ you, maybe ➡️ hard place": "rock",
+    "___ the midnight oil": "burn",
+    "___ Musketeers": "three",
+    "\"sim\" in portuguese or \"sí\" in spanish": "Yes",
+    "grant from a genie": "wish",
+    "time to put both hands up?": "midnight",
+    "word with rubber or aid": "band",
+    "one of three to get you out": "strike",
+    "when things go well, where they fall into": "place",
+    "you might toss a coin into one and make a wish": "well",
+    "word with weight or potty": "training"
+  },
+  "initialPuzzle": "UK [___ ⬅️ you, maybe ➡️ hard [when things go [you might toss a coin into one and make a [grant from a genie]], where they fall into]] [word with [to drive fast: to [___ the [time to put both hands up?] [olive or motor]] ___] or aid] \"[\"[flight [word with weight or potty] machine, for short]\" in portuguese or \"sí\" in spanish]\" benefits from postal [one of [___ Musketeers] to get you out]",
+  "puzzleSolution": "UK rock band \"Yes\" benefits from postal strike"
+}

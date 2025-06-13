@@ -1,0 +1,32 @@
+{
+  "completionText": "January 7, 1979:",
+  "puzzleDate": "2025-01-07",
+  "completionURL": "https://en.wikipedia.org/wiki/Pol_Pot",
+  "solutions": {
+    "something said when done talking on a walkie": "over",
+    "A+ and B-, e.g., for blood": "type",
+    "like a game that was deliberately lost": "thrown",
+    "tremble": "quiver",
+    "DC type, informally": "Pol",
+    "they don't like the sun or garlic": "vampires",
+    "color of bureaucratic tape": "red",
+    "alternative to alternating current, briefly": "DC",
+    "store with a red bullseye logo": "target",
+    "gone missing": "lost",
+    "one in a quiver": "arrow",
+    "___thirsty, like vampires": "blood",
+    "center of a dart board": "bullseye",
+    "bulb in the kitchen": "garlic",
+    "FedEx's has a hidden arrow": "logo",
+    "up-to-date": "current",
+    "\"whacker\" target": "weed",
+    "another word for weed": "Pot",
+    "taking turns": "alternating",
+    "K- and U-, as maneuvers": "turns",
+    "pub projectile": "dart",
+    "capture on cassette": "tape",
+    "use crayons": "color"
+  },
+  "initialPuzzle": "[[alternative to [taking [K- and U-, as maneuvers]] [up-to-date], briefly] [A+ and B-, e.g., for [___thirsty, like [they don't like the sun or [bulb in the kitchen]]]], informally] [another word for [\\\"whacker\\\" [store with a [[use crayons] of bureaucratic [capture on cassette]] [center of a [pub projectile] board] [FedEx's has a hidden [one in a [tremble]]]]]] [something said when done talking on a walkie][like a game that was deliberately [gone missing]]",
+  "puzzleSolution": "Pol Pot overthrown"
+}

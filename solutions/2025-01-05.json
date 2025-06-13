@@ -1,0 +1,26 @@
+{
+  "completionText": "January 5, 1998:",
+  "puzzleDate": "2025-01-05",
+  "completionURL": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue)",
+  "solutions": {
+    "breakfast pastry": "Danish",
+    "Stuart, who slept in a bed made from a matchbox": "Little",
+    "assassin in feudal Japan": "ninja",
+    "John Wilkes Booth, e.g.": "assassin",
+    "\"David\" by Michelangelo, for example": "statue",
+    "muppet who plays the drums": "animal",
+    "___ of Champions": "breakfast",
+    "animal linked with tops worn by Steve Jobs": "turtle",
+    "some are odd": "Jobs",
+    "something you do with a rod": "fish",
+    "some say it's the best defense": "offense",
+    "Danish capital": "Copenhagen",
+    "ninja turtle with nunchucks": "Michelangelo",
+    "Serling or Blagojevich": "rod",
+    "mythological fish lady": "Mermaid",
+    "___ 20": "matchbox",
+    "kind of offense punishable by death": "capital"
+  },
+  "initialPuzzle": "[Stuart, who slept in a bed made from a [___ 20]] [mythological [something you do with a [Serling or Blagojevich]] lady] [\\\"David\\\" by [[[John Wilkes Booth, e.g.] in feudal Japan] [[muppet who plays the drums] linked with tops worn by Steve [some are odd]] with nunchucks], for example] decapitated in [[[___ of Champions] pastry] [kind of [some say it's the best defense] punishable by death]]",
+  "puzzleSolution": "Little Mermaid statue decapitated in Copenhagen"
+}
