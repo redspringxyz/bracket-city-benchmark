@@ -1,6 +1,6 @@
 # Bracket City Benchmark
 
-A benchmark for LLM models based on their ability to solve bracket-based word-substitution puzzles.
+A benchmark for LLM models based on their ability to solve bracket-based word-substitution puzzles from [Bracket City](https://www.theatlantic.com/games/bracket-city/).
 
 ## Getting Started
 
