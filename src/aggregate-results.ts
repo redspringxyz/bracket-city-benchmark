@@ -12,6 +12,7 @@ interface AgentResult {
     stats: {
       completionPercentage: number;
     };
+    timeToSolve: number;
   };
 }
 
@@ -21,6 +22,7 @@ interface ModelStats {
   averageScore: number;
   averageCompletionPercentage: number;
   successRate: number;
+  averageTimePerPuzzle: number;
 }
 
 async function aggregateAgentResults() {
@@ -34,6 +36,7 @@ async function aggregateAgentResults() {
       scores: number[];
       completions: number[];
       successes: boolean[];
+      times: number[];
     }
   >();
 
@@ -50,6 +53,7 @@ async function aggregateAgentResults() {
         scores: [],
         completions: [],
         successes: [],
+        times: [],
       });
     }
 
@@ -57,6 +61,7 @@ async function aggregateAgentResults() {
     stats.scores.push(data.result.score);
     stats.completions.push(data.result.stats.completionPercentage);
     stats.successes.push(data.result.success);
+    stats.times.push(data.result.timeToSolve);
   }
 
   // Calculate averages
@@ -69,6 +74,8 @@ async function aggregateAgentResults() {
       stats.completions.reduce((a, b) => a + b, 0) / stats.completions.length;
     const averageSuccess =
       stats.successes.filter((s) => s).length / stats.successes.length;
+    const averageTime =
+      stats.times.reduce((a, b) => a + b, 0) / stats.times.length;
 
     results.push({
       model,
@@ -77,6 +84,7 @@ async function aggregateAgentResults() {
       averageCompletionPercentage:
         Math.round(averageCompletionPercentage * 100) / 100,
       successRate: Math.round(averageSuccess * 100),
+      averageTimePerPuzzle: Math.round(averageTime * 100) / 100,
     });
   }
 
@@ -92,6 +100,7 @@ async function aggregateAgentResults() {
       { key: "averageScore", header: "Average Score" },
       { key: "averageCompletionPercentage", header: "Average Completion %" },
       { key: "successRate", header: "Average Success Rate" },
+      { key: "averageTimePerPuzzle", header: "Average Time Per Puzzle (s)" },
     ],
   });
 

@@ -1,16 +1,16 @@
-Model,Total Puzzles,Average Score,Average Completion %,Average Success Rate
-o3-high,19,92.11,100,100
-claude-4-opus-20250514-32k-thinking,20,88.9,100,100
-claude-4-sonnet-20250514-32k-thinking,20,85.4,100,100
-claude-3.7-sonnet-20250219-32k-thinking,20,70.75,96.67,90
-gemini-2.5-pro-preview-06-05,20,70.3,100,100
-gemini-2.5-pro-preview-05-06,20,62.8,98.75,95
-gpt-4.1,20,45.75,87.16,65
-grok-3-beta,20,40.25,88.44,70
-claude-3-5-sonnet-20241022,20,39.35,59.37,45
-o3-mini-high,15,39.13,89.44,67
-gemini-2.5-flash-preview-04-17,20,35.85,89.63,60
-o4-mini-medium,17,29.53,82.59,41
-o3-mini-medium,20,25.8,81.99,55
-gpt-4o,20,23.9,64.77,45
-qwen3-235b-a22b,18,20.94,65.45,33
+Model,Total Puzzles,Average Score,Average Completion %,Average Success Rate,Average Time Per Puzzle (s)
+o3-high,19,92.11,100,100,660.41
+claude-4-opus-20250514-32k-thinking,20,88.9,100,100,183.47
+claude-4-sonnet-20250514-32k-thinking,20,85.4,100,100,172.5
+claude-3.7-sonnet-20250219-32k-thinking,20,70.75,96.67,90,152.3
+gemini-2.5-pro-preview-06-05,20,70.3,100,100,1185.29
+gemini-2.5-pro-preview-05-06,20,62.8,98.75,95,61.27
+gpt-4.1,20,45.75,87.16,65,32.8
+grok-3-beta,20,40.25,88.44,70,124.88
+claude-3-5-sonnet-20241022,20,39.35,59.37,45,31.63
+o3-mini-high,15,39.13,89.44,67,1617.94
+gemini-2.5-flash-preview-04-17,20,35.85,89.63,60,140.4
+o4-mini-medium,17,29.53,82.59,41,974.77
+o3-mini-medium,20,25.8,81.99,55,558.54
+gpt-4o,20,23.9,64.77,45,87.37
+qwen3-235b-a22b,18,20.94,65.45,33,1510.99

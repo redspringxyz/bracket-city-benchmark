@@ -6,7 +6,7 @@ A benchmark for LLM models based on their ability to solve bracket-based word-su
 
 Install Bun:
 
-```
+```bash
 curl -fsSL https://bun.sh/install | bash
 ```
 
