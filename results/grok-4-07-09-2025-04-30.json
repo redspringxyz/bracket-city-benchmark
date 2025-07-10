@@ -1,0 +1,182 @@
+{
+  "timestamp": "2025-07-10T14:19:28.476Z",
+  "model": {
+    "name": "grok-4-07-09",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "April 30, 1952:",
+    "puzzleDate": "2025-04-30",
+    "completionURL": "https://www.youtube.com/watch?v=qB7jwxGAkms",
+    "solutions": {
+      "\"high-strung, you know, tightly ___\"": "wound",
+      "word for all of your bones": "skeleton",
+      "\"___ insult to injury\"": "add",
+      "target for sticks and stones": "bones",
+      "step on a ladder": "rung",
+      "a bedtime one should be not scary and sort of boring ideally": "Story",
+      "the term \"couch ___\" apparently derives from \"boob tube(r)\"": "Potato",
+      "cut even shorter than crew": "Buzz",
+      "top without shoulder straps": "tube",
+      "\"___ Story\" featuring Woody and Buzz": "toy",
+      "paternal title for a priest": "father",
+      "\"__. Clean is my father\" says the dashing bald man with an earring": "Mr",
+      "___-blower (exposer of malfeasance)": "whistle",
+      "reminder of a past wound": "scar",
+      "\"___ as a whistle\"": "Clean",
+      "say something like \"I would challenge you to a battle of wits, but I see you are unarmed\"": "insult",
+      "\"___ tock!\" says the impatient guy in a movie": "tick",
+      "skeleton ___ (the bare minimum staffing)": "crew"
+    },
+    "initialPuzzle": "[\"__. [\"___ as a [___-blower (exposer of malfeasance)]\"] is my [paternal title for a priest]\" says the dashing bald man with an earring]. [the term \"couch ___\" apparently derives from \"boob [top without shoulder straps](r)\"] Head becomes the first [\"___ [a bedtime one should be not [reminder of a past [\"high-st[step on a l[\"___ [say something like \"I would challenge you to a battle of wits, but I see you are unarmed\"] to injury\"]er], you know, tightly ___\"]]y and sort of boring ideally]\" featuring Woody and [cut even shorter than [[word for all of your [target for s[\"___ tock!\" says the impatient guy in a movie]s and stones]] ___ (the bare minimum staffing)]]] advertised on television",
+    "puzzleSolution": "Mr. Potato Head becomes the first toy advertised on television"
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 19,
+      "correctGuesses": 18,
+      "totalClues": 18,
+      "hints": 1,
+      "reveals": 0,
+      "stepsTaken": 9,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 95170,
+      "completionTokens": 14448,
+      "totalTokens": 109618
+    },
+    "score": 93,
+    "rank": "Kingmaker",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 5,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 2,
+      "totalPenalty": 7,
+      "finalScore": 93,
+      "rank": "Kingmaker",
+      "nextRankName": "Puppet Master",
+      "pointsToNextRank": 7
+    },
+    "modelGuesses": [
+      {
+        "expression": "___-blower (exposer of malfeasance)",
+        "guess": "whistle",
+        "success": true,
+        "timestamp": 1752156846382
+      },
+      {
+        "expression": "paternal title for a priest",
+        "guess": "father",
+        "success": true,
+        "timestamp": 1752156846382
+      },
+      {
+        "expression": "top without shoulder straps",
+        "guess": "tube",
+        "success": true,
+        "timestamp": 1752156846382
+      },
+      {
+        "expression": "say something like \"I would challenge you to a battle of wits, but I see you are unarmed\"",
+        "guess": "insult",
+        "success": true,
+        "timestamp": 1752156846383
+      },
+      {
+        "expression": "\"___ tock!\" says the impatient guy in a movie",
+        "guess": "tick",
+        "success": true,
+        "timestamp": 1752156846383
+      },
+      {
+        "expression": "___ as a whistle",
+        "guess": "clean",
+        "success": true,
+        "timestamp": 1752156884525
+      },
+      {
+        "expression": "the term \"couch ___\" apparently derives from \"boob tube(r)\"",
+        "guess": "potato",
+        "success": true,
+        "timestamp": 1752156884526
+      },
+      {
+        "expression": "___ insult to injury",
+        "guess": "add",
+        "success": true,
+        "timestamp": 1752156884527
+      },
+      {
+        "expression": "target for sticks and stones",
+        "guess": "bones",
+        "success": true,
+        "timestamp": 1752156884527
+      },
+      {
+        "expression": "step on a ladder",
+        "guess": "rung",
+        "success": true,
+        "timestamp": 1752156934853
+      },
+      {
+        "expression": "word for all of your bones",
+        "guess": "skeleton",
+        "success": true,
+        "timestamp": 1752156934853
+      },
+      {
+        "expression": "skeleton ___ (the bare minimum staffing)",
+        "guess": "crew",
+        "success": true,
+        "timestamp": 1752156974939
+      },
+      {
+        "expression": "high-strung, you know, tightly ___",
+        "guess": "wound",
+        "success": true,
+        "timestamp": 1752156974939
+      },
+      {
+        "expression": "reminder of a past wound",
+        "guess": "scar",
+        "success": true,
+        "timestamp": 1752157006512
+      },
+      {
+        "expression": "cut even shorter than crew",
+        "guess": "buzz",
+        "success": true,
+        "timestamp": 1752157006513
+      },
+      {
+        "expression": "a bedtime one should be not scary and sort of boring ideally",
+        "guess": "story",
+        "success": true,
+        "timestamp": 1752157030259
+      },
+      {
+        "expression": "\"__. Clean is my father\" says the dashing bald man with an earring",
+        "guess": "Mr",
+        "success": true,
+        "timestamp": 1752157053417
+      },
+      {
+        "expression": "\"___ Story\" featuring Woody and Buzz",
+        "guess": "Toy",
+        "success": true,
+        "timestamp": 1752157053417
+      },
+      {
+        "expression": "\"___ Story\" featuring Woody and Buzz",
+        "guess": "Toy",
+        "success": false,
+        "timestamp": 1752157118094
+      }
+    ],
+    "finalText": "Mr. Potato Head becomes the first toy advertised on television",
+    "timeToSolve": 431.329
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "timestamp": "2025-07-10T14:16:26.228Z",
+  "model": {
+    "name": "grok-4-07-09",
+    "provider": "openrouter.chat"
+  },
+  "puzzle": {
+    "completionText": "May 2, 1941:",
+    "puzzleDate": "2025-05-02",
+    "completionURL": "https://www.youtube.com/watch?v=USm4mmYJU6I",
+    "solutions": {
+      "word gleefully hollered by an auctioneer": "sold",
+      "fast-talker with a gavel that's not a judge": "auctioneer",
+      "some believe a groundhog can predict the arrival of this season": "Spring",
+      "sleep___ camp": "away",
+      "Bruce in \"Finding Nemo\" was named after the mechanical ___ used in \"Jaws\"": "Shark",
+      "leader at a pep rally 📣": "Cheer",
+      "Springsteen or Lee": "Bruce",
+      "\"__ ease, soldier\"": "at",
+      "spoiled the ending, with \"away\"": "gave",
+      "Guevara pictured on many dorm room walls": "Che",
+      "a glass one is a liability for a boxer": "Jaw",
+      "something to separate from fiction": "fact",
+      "kind of talk you might give yourself before the big meeting": "pep",
+      "\"the rumor ___\" (metaphorical gossip factory 🏭)": "Mill",
+      "\"enough small ___!\" you bellow as you watch \"Shark Tank\" on your Tivo": "talk",
+      "magnifying ___ (detective's tool not used by too many detectives)": "glass"
+    },
+    "initialPuzzle": "General [\"the rumor ___\" (metaphorical gossip [something to separate from fiction]ory 🏭)]s renames \"[Guevara pictured on many dorm room walls]erio[\"__ ease, [word gleefully hollered by an [fast-talker with a [spoiled the ending, with \"[sleep___ camp]\"]l that's not a judge]]ier\"]s\" to \"[leader at a [kind of [\"enough small ___!\" you bellow as you watch \"[[[some believe a groundhog can predict the arrival of this season]steen or Lee] in \"Finding Nemo\" was named after the mechanical ___ used in \"[a [magnifying ___ (detective's tool not used by too many detectives)] one is a liability for a boxer]s\"] Tank\" on your Tivo] you might give yourself before the big meeting] rally 📣]ios.\"",
+    "puzzleSolution": "General Mills renames \"Cheerioats\" to \"Cheerios.\""
+  },
+  "result": {
+    "success": true,
+    "stats": {
+      "guesses": 18,
+      "correctGuesses": 16,
+      "totalClues": 16,
+      "hints": 2,
+      "reveals": 0,
+      "stepsTaken": 21,
+      "completionPercentage": 100
+    },
+    "usage": {
+      "promptTokens": 144670,
+      "completionTokens": 7766,
+      "totalTokens": 152436
+    },
+    "score": 86,
+    "rank": "Power Broker",
+    "scoreDetails": {
+      "baseScore": 100,
+      "peekPenalty": 10,
+      "megaPeekPenalty": 0,
+      "wrongGuessPenalty": 4,
+      "totalPenalty": 14,
+      "finalScore": 86,
+      "rank": "Power Broker",
+      "nextRankName": "Kingmaker",
+      "pointsToNextRank": 5
+    },
+    "modelGuesses": [
+      {
+        "expression": "something to separate from fiction",
+        "guess": "fact",
+        "success": true,
+        "timestamp": 1752156756705
+      },
+      {
+        "expression": "\"the rumor ___\" (metaphorical gossip factory 🏭)",
+        "guess": "mill",
+        "success": true,
+        "timestamp": 1752156768586
+      },
+      {
+        "expression": "Guevara pictured on many dorm room walls",
+        "guess": "Che",
+        "success": true,
+        "timestamp": 1752156771264
+      },
+      {
+        "expression": "sleep___ camp",
+        "guess": "away",
+        "success": true,
+        "timestamp": 1752156779852
+      },
+      {
+        "expression": "some believe a groundhog can predict the arrival of this season",
+        "guess": "spring",
+        "success": true,
+        "timestamp": 1752156860956
+      },
+      {
+        "expression": "magnifying ___ (detective's tool not used by too many detectives)",
+        "guess": "glass",
+        "success": true,
+        "timestamp": 1752156867333
+      },
+      {
+        "expression": "a glass one is a liability for a boxer",
+        "guess": "jaw",
+        "success": true,
+        "timestamp": 1752156871568
+      },
+      {
+        "expression": "Springsteen or Lee",
+        "guess": "Bruce",
+        "success": true,
+        "timestamp": 1752156876265
+      },
+      {
+        "expression": "Bruce in \"Finding Nemo\" was named after the mechanical ___ used in \"Jaws\"",
+        "guess": "shark",
+        "success": true,
+        "timestamp": 1752156880052
+      },
+      {
+        "expression": "spoiled the ending, with \"away\"",
+        "guess": "gave away",
+        "success": false,
+        "timestamp": 1752156895548
+      },
+      {
+        "expression": "spoiled the ending, with \"away\"",
+        "guess": "gave",
+        "success": true,
+        "timestamp": 1752156915737
+      },
+      {
+        "expression": "fast-talker with a gavel that's not a judge",
+        "guess": "auctioneer",
+        "success": true,
+        "timestamp": 1752156920752
+      },
+      {
+        "expression": "word gleefully hollered by an auctioneer",
+        "guess": "sold",
+        "success": true,
+        "timestamp": 1752156927167
+      },
+      {
+        "expression": "__ ease, soldier",
+        "guess": "at",
+        "success": true,
+        "timestamp": 1752156935356
+      },
+      {
+        "expression": "\"enough small ___!\" you bellow as you watch \"Shark Tank\" on your Tivo",
+        "guess": "talk",
+        "success": true,
+        "timestamp": 1752156943730
+      },
+      {
+        "expression": "kind of talk you might give yourself before the big meeting",
+        "guess": "pep",
+        "success": true,
+        "timestamp": 1752156954824
+      },
+      {
+        "expression": "leader at a pep rally 📣",
+        "guess": "cheerleader",
+        "success": false,
+        "timestamp": 1752156976290
+      },
+      {
+        "expression": "leader at a pep rally 📣",
+        "guess": "Cheer",
+        "success": true,
+        "timestamp": 1752156983259
+      }
+    ],
+    "finalText": "General Mills renames \"Cheerioats\" to \"Cheerios.\"",
+    "timeToSolve": 278.707
+  }
+}

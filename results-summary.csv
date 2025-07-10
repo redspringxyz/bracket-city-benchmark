@@ -1,6 +1,7 @@
 Model,Total Puzzles,Average Score,Average Completion %,Average Success Rate,Average Time Per Puzzle (s)
 o3-high,19,92.11,100,100,660.41
 claude-4-opus-20250514-32k-thinking,20,88.9,100,100,183.47
+grok-4-07-09,20,86.15,98.61,95,309.49
 claude-4-sonnet-20250514-32k-thinking,20,85.4,100,100,172.5
 claude-3.7-sonnet-20250219-32k-thinking,20,70.75,96.67,90,152.3
 gemini-2.5-pro-preview-06-05,20,70.3,100,100,1185.29
